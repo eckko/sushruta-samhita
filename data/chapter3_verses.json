@@ -1,0 +1,8337 @@
+[
+ {
+  "n": "1",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "athāto'dhyayanasaṃpradānīyamadhyāyaṃ",
+      "words": [
+       {
+        "w": "atha",
+        "gloss": "now",
+        "gram": "ind."
+       },
+       {
+        "w": "ataḥ",
+        "gloss": "therefore",
+        "gram": "ind."
+       },
+       {
+        "w": "adhyayana-saṃpradānīyam",
+        "gloss": "title: giving over of study",
+        "gram": "m. acc. sg. tat-puruṣa (title, agrees with adhyāyam)"
+       },
+       {
+        "w": "adhyāyam",
+        "gloss": "chapter",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "vyākhyāsyāmaḥ",
+      "words": [
+       {
+        "w": "vyākhyāsyāmaḥ",
+        "gloss": "we shall expound",
+        "gram": "1 pl. fut. vi-ā-√khyā"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "अब इसलिए हम अध्ययन-सम्प्रदानीय नामक अध्याय की व्याख्या करेंगे।",
+  "english": "Now, therefore, we shall expound the chapter called Adhyayanasaṃpradānīya (the giving over of study).",
+  "text_flags": [],
+  "notes": "Standard opening formula (athāto ...). Chapter title read as adhyayana-saṃpradānīya, 'to do with handing over study'.",
+  "confidence": "high",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.3.1"
+  ],
+  "lines_deva": [
+   "अथातोऽध्ययनसंप्रदानीयमध्यायं व्याख्यास्यामः ॥"
+  ],
+  "lines_iast": [
+   "athāto'dhyayanasaṃpradānīyamadhyāyaṃ vyākhyāsyāmaḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "2",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "yathovāca",
+      "words": [
+       {
+        "w": "yathā",
+        "gloss": "as",
+        "gram": "ind."
+       },
+       {
+        "w": "uvāca",
+        "gloss": "said",
+        "gram": "3 sg. pf. √vac"
+       }
+      ]
+     },
+     {
+      "src": "bhagavān",
+      "words": [
+       {
+        "w": "bhagavān",
+        "gloss": "revered",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "dhanvantariḥ",
+      "words": [
+       {
+        "w": "dhanvantariḥ",
+        "gloss": "Dhanvantari",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "जैसा भगवान् धन्वन्तरि ने कहा।",
+  "english": "As the revered Dhanvantari said.",
+  "text_flags": [],
+  "notes": "Formula linking to the next unit; the sentence is not complete in itself.",
+  "confidence": "high",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.3.2"
+  ],
+  "lines_deva": [
+   "यथोवाच भगवान् धन्वन्तरिः ॥"
+  ],
+  "lines_iast": [
+   "yathovāca bhagavān dhanvantariḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "3",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "prāgabhihitaṃ",
+      "words": [
+       {
+        "w": "prāk",
+        "gloss": "earlier",
+        "gram": "ind."
+       },
+       {
+        "w": "abhihitam",
+        "gloss": "stated",
+        "gram": "n. nom. sg. pp. abhi-√dhā"
+       }
+      ]
+     },
+     {
+      "src": "saviṃśamadhyāyaśataṃ",
+      "words": [
+       {
+        "w": "sa-viṃśam",
+        "gloss": "with twenty added",
+        "gram": "n. nom. sg. bahuvrīhi"
+       },
+       {
+        "w": "adhyāya-śatam",
+        "gloss": "hundred chapters",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "pañcasu",
+      "words": [
+       {
+        "w": "pañcasu",
+        "gloss": "in five",
+        "gram": "loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "sthāneṣu",
+      "words": [
+       {
+        "w": "sthāneṣu",
+        "gloss": "sections",
+        "gram": "n. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "tatra",
+      "words": [
+       {
+        "w": "tatra",
+        "gloss": "among them",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "sūtrasthānamadhyāyāḥ",
+      "words": [
+       {
+        "w": "sūtra-sthānam",
+        "gloss": "Sūtrasthāna",
+        "gram": "n. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "adhyāyāḥ",
+        "gloss": "chapters",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "ṣaṭcatvāriṃśat",
+      "words": [
+       {
+        "w": "ṣaṭcatvāriṃśat",
+        "gloss": "forty-six",
+        "gram": "numeral"
+       }
+      ]
+     },
+     {
+      "src": "ṣoḍśa",
+      "words": [
+       {
+        "w": "ṣoḍaśa",
+        "gloss": "sixteen",
+        "gram": "numeral"
+       }
+      ]
+     },
+     {
+      "src": "nidānāni",
+      "words": [
+       {
+        "w": "nidānāni",
+        "gloss": "Nidānas",
+        "gram": "n. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "daśa",
+      "words": [
+       {
+        "w": "daśa",
+        "gloss": "ten",
+        "gram": "numeral"
+       }
+      ]
+     },
+     {
+      "src": "śārīrāṇi",
+      "words": [
+       {
+        "w": "śārīrāṇi",
+        "gloss": "Śārīras",
+        "gram": "n. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "catvāriṃśaccikitsitāni",
+      "words": [
+       {
+        "w": "catvāriṃśat",
+        "gloss": "forty",
+        "gram": "numeral"
+       },
+       {
+        "w": "cikitsitāni",
+        "gloss": "Cikitsitas",
+        "gram": "n. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "aṣṭau",
+      "words": [
+       {
+        "w": "aṣṭau",
+        "gloss": "eight",
+        "gram": "numeral"
+       }
+      ]
+     },
+     {
+      "src": "kalpāḥ",
+      "words": [
+       {
+        "w": "kalpāḥ",
+        "gloss": "Kalpas",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "taduttaraṃ",
+      "words": [
+       {
+        "w": "tat",
+        "gloss": "that (first member of tad-uttaram, 'what follows that')",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "uttaram",
+        "gloss": "Uttara",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "ṣaṭsāṣṭiḥ",
+      "words": [
+       {
+        "w": "ṣaṭ-ṣaṣṭiḥ",
+        "gloss": "sixty-six",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "पहले कहे गए एक सौ बीस अध्याय पाँच स्थानों में हैं। उनमें सूत्रस्थान के अध्याय छियालीस हैं, निदान सोलह, शारीर दस, चिकित्सित चालीस, कल्प आठ, और उसके बाद उत्तर के छियासठ।",
+  "english": "The one hundred and twenty chapters stated earlier are in five sections (sthāna). Among them: the Sūtrasthāna has forty-six chapters, the Nidānas are sixteen, the Śārīras ten, the Cikitsitas forty, the Kalpas eight; and after that the Uttara has sixty-six.",
+  "text_flags": [
+   {
+    "src": "ṣoḍśa",
+    "suggest": "ṣoḍaśa",
+    "why": "misspelling: the numeral is ṣoḍaśa 'sixteen' (cf. ṣoḍaśa in unit 14)"
+   },
+   {
+    "src": "ṣaṭsāṣṭiḥ",
+    "suggest": "ṣaṭṣaṣṭiḥ",
+    "why": "'sixty-six' is ṣaṭ-ṣaṣṭiḥ; sāṣṭi is not a numeral (possible misprint)"
+   }
+  ],
+  "notes": "Prose. Arithmetic: 46+16+10+40+8 = 120 (the 'hundred with twenty'), plus 66 Uttara = 186. The grammar of 'sūtrasthānamadhyāyāḥ ṣaṭcatvāriṃśat' is loose (neuter sthānam beside adhyāyāḥ); read as 'the Sūtrasthāna: forty-six chapters'. Likewise 'taduttaram' read as 'then the Uttara'.",
+  "confidence": "medium",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.3.3"
+  ],
+  "lines_deva": [
+   "प्रागभिहितं सविंशमध्यायशतं पञ्चसु स्थानेषु ।",
+   "तत्र सूत्रस्थानमध्यायाः षट्चत्वारिंशत् षोड्श निदानानि दश शारीराणि चत्वारिंशच्चिकित्सितानि अष्टौ कल्पाः तदुत्तरं षट्साष्टिः ॥"
+  ],
+  "lines_iast": [
+   "prāgabhihitaṃ saviṃśamadhyāyaśataṃ pañcasu sthāneṣu |",
+   "tatra sūtrasthānamadhyāyāḥ ṣaṭcatvāriṃśat ṣoḍśa nidānāni daśa śārīrāṇi catvāriṃśaccikitsitāni aṣṭau kalpāḥ taduttaraṃ ṣaṭsāṣṭiḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "4",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "vedotpattiḥ",
+      "words": [
+       {
+        "w": "veda-utpattiḥ",
+        "gloss": "origin of the Veda",
+        "gram": "f. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "śiṣyanayastathāadhyayanadānikaḥ",
+      "words": [
+       {
+        "w": "śiṣya-nayaḥ",
+        "gloss": "leading of the pupil",
+        "gram": "m. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       },
+       {
+        "w": "adhyayana-dānikaḥ",
+        "gloss": "concerning giving of study",
+        "gram": "m. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "prabhāṣaṇāgraharaṇāvṛtucaryātha",
+      "words": [
+       {
+        "w": "prabhāṣaṇa-agraharaṇa-ṛtu-caryā",
+        "gloss": "speech, first-taking, season regimen",
+        "gram": "f. dvandva of three titles (compound-final stem form)"
+       },
+       {
+        "w": "atha",
+        "gloss": "then",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "yāntrikaḥ",
+      "words": [
+       {
+        "w": "yāntrikaḥ",
+        "gloss": "concerning instruments",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "वेद की उत्पत्ति, शिष्य का नयन, तथा अध्ययन-दान सम्बन्धी अध्याय; प्रभाषण, अग्र का हरण, ऋतुचर्या, और फिर यन्त्र सम्बन्धी अध्याय।",
+  "english": "The origin of the Veda; the leading of the pupil; likewise the one concerned with giving study; speech, agraharaṇa (taking the first or foremost; title word), the regimen of the seasons, and then the one concerned with instruments.",
+  "text_flags": [
+   {
+    "src": "śiṣyanayastathāadhyayanadānikaḥ",
+    "suggest": "śiṣyanayastathādhyayanadānikaḥ",
+    "why": "possible: tathā+adhyayana is left unjoined in the print (tathā-a...), giving 17 syllables; the normal sandhi tathādhyayana gives the 16 an anuṣṭubh line needs"
+   }
+  ],
+  "notes": "List of Sūtrasthāna chapter titles. 'prabhāṣaṇāgraharaṇāvṛtucaryā': ā+ṛ would normally give -ār-; the printed -āvṛ- fits the 16 syllables, so it is kept and read as prabhāṣaṇa, agraharaṇa, ṛtucaryā (possible misprint or irregular junction). 'agraharaṇa' read literally as 'taking the first/foremost'; no word for 'portion' is in the text.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.4ab",
+   "Su.1.3.4cd"
+  ],
+  "lines_deva": [
+   "वेदोत्पत्तिः शिष्यनयस्तथाअध्ययनदानिकः ।",
+   "प्रभाषणाग्रहरणावृतुचर्याथ यान्त्रिकः ॥"
+  ],
+  "lines_iast": [
+   "vedotpattiḥ śiṣyanayastathāadhyayanadānikaḥ |",
+   "prabhāṣaṇāgraharaṇāvṛtucaryātha yāntrikaḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "5",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "śastrāvacāaraṇaṃ",
+      "words": [
+       {
+        "w": "śastra-avacāraṇam",
+        "gloss": "use of instruments",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "yogyā",
+      "words": [
+       {
+        "w": "yogyā",
+        "gloss": "practice",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "viśikhā",
+      "words": [
+       {
+        "w": "viśikhā",
+        "gloss": "viśikhā",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "kṣārakalpanam",
+      "words": [
+       {
+        "w": "kṣāra-kalpanam",
+        "gloss": "preparing of alkali",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "agnikarmajalaukākhyāvadhyāyau",
+      "words": [
+       {
+        "w": "agni-karma-jalaukā-ākhyau",
+        "gloss": "named fire-work and leech",
+        "gram": "m. nom. du. bahuvrīhi"
+       },
+       {
+        "w": "adhyāyau",
+        "gloss": "two chapters",
+        "gram": "m. nom. du."
+       }
+      ]
+     },
+     {
+      "src": "raktavarṇanam",
+      "words": [
+       {
+        "w": "rakta-varṇanam",
+        "gloss": "description of blood",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "शस्त्रों का प्रयोग, योग्या, विशिखा, क्षार की रचना; अग्निकर्म और जलौका नामक दो अध्याय, और रक्त का वर्णन।",
+  "english": "The use of instruments; yogyā (practice); viśikhā; the preparation of alkali (kṣāra); the two chapters named agnikarma (work with fire) and jalaukā (leech); and the description of blood.",
+  "text_flags": [
+   {
+    "src": "śastrāvacāaraṇaṃ",
+    "suggest": "śastrāvacāraṇaṃ",
+    "why": "extra a: śastra+avacāraṇa gives -āvacāra-; the printed -cāa- gives 17 syllables, the corrected form 16"
+   }
+  ],
+  "notes": "Chapter titles. 'yogyā' and 'viśikhā' are title words (cf. yogyāsūtrīya, viśikhānupraveśanīya); kept as names, yogyā glossed literally. 'ākhyau adhyāyau' is correct sandhi (ākhyāvadhyāyau).",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.5ab",
+   "Su.1.3.5cd"
+  ],
+  "lines_deva": [
+   "शस्त्रावचाअरणं योग्या विशिखा क्षारकल्पनम् ।",
+   "अग्निकर्मजलौकाख्यावध्यायौ रक्तवर्णनम् ॥"
+  ],
+  "lines_iast": [
+   "śastrāvacāaraṇaṃ yogyā viśikhā kṣārakalpanam |",
+   "agnikarmajalaukākhyāvadhyāyau raktavarṇanam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "6",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "doṣadhātumalādyānāṃ",
+      "words": [
+       {
+        "w": "doṣa-dhātu-mala-ādyānām",
+        "gloss": "of doṣa, dhātu, mala and the rest",
+        "gram": "gen. pl. dvandva"
+       }
+      ]
+     },
+     {
+      "src": "vijñānādhyāya",
+      "words": [
+       {
+        "w": "vijñāna-adhyāyaḥ",
+        "gloss": "chapter on knowledge",
+        "gram": "m. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "eva",
+      "words": [
+       {
+        "w": "eva",
+        "gloss": "indeed",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "karṇavyadhāmapakvaiṣāvālepo",
+      "words": [
+       {
+        "w": "karṇa-vyadha-āmapakva-eṣā",
+        "gloss": "ear piercing, search for unripe and ripe",
+        "gram": "f. nom. sg. dvandva"
+       },
+       {
+        "w": "vā",
+        "gloss": "or",
+        "gram": "ind."
+       },
+       {
+        "w": "ālepaḥ",
+        "gloss": "application",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "vraṇyupāsanam",
+      "words": [
+       {
+        "w": "vraṇi-upāsanam",
+        "gloss": "attending the wounded",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "दोष, धातु, मल आदि के विज्ञान का अध्याय; कर्णव्यध, आम और पक्व की खोज, लेप पाठ अनिश्चित, और व्रणी की सेवा।",
+  "english": "The chapter on knowledge of the doṣas, dhātus, malas and the rest; ear-piercing; the search for the unripe and the ripe; the application (reading uncertain); and attending on the wounded.",
+  "text_flags": [],
+  "notes": "Chapter titles. The junction -ṣāvālepo is unclear: read here as eṣā + vā + ālepaḥ ('vā' as a filler 'or'), alternatively a compressed vraṇālepa. 'mala' = waste matter. The line's sense is not firm.",
+  "confidence": "low",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.6ab",
+   "Su.1.3.6cd"
+  ],
+  "lines_deva": [
+   "दोषधातुमलाद्यानां विज्ञानाध्याय एव च ।",
+   "कर्णव्यधामपक्वैषावालेपो व्रण्युपासनम् ॥"
+  ],
+  "lines_iast": [
+   "doṣadhātumalādyānāṃ vijñānādhyāya eva ca |",
+   "karṇavyadhāmapakvaiṣāvālepo vraṇyupāsanam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "7",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "hitāhito",
+      "words": [
+       {
+        "w": "hita-ahitaḥ",
+        "gloss": "beneficial and harmful",
+        "gram": "m. nom. sg. dvandva"
+       }
+      ]
+     },
+     {
+      "src": "vraṇapraśno",
+      "words": [
+       {
+        "w": "vraṇa-praśnaḥ",
+        "gloss": "question about wounds",
+        "gram": "m. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "vraṇāsrāvaśca",
+      "words": [
+       {
+        "w": "vraṇa-āsrāvaḥ",
+        "gloss": "wound discharge",
+        "gram": "m. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "yaḥ",
+      "words": [
+       {
+        "w": "yaḥ",
+        "gloss": "which",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "pṛthak",
+      "words": [
+       {
+        "w": "pṛthak",
+        "gloss": "separately",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "kṛtyākṛtyavidhirvyādhisamuddeśīya",
+      "words": [
+       {
+        "w": "kṛtya-akṛtya-vidhiḥ",
+        "gloss": "rule of what to do and not do",
+        "gram": "m. nom. sg. dvandva"
+       },
+       {
+        "w": "vyādhi-samuddeśīyaḥ",
+        "gloss": "summary of diseases",
+        "gram": "m. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "eva",
+      "words": [
+       {
+        "w": "eva",
+        "gloss": "indeed",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "हित और अहित, व्रण-सम्बन्धी प्रश्न, और जो व्रण-स्राव है वह अलग; करने और न करने योग्य का विधान, और रोगों का संक्षिप्त उद्देश।",
+  "english": "What is beneficial and harmful; the question about wounds; and the one on wound-discharge, which is separate; the rule of what is to be done and not done; and the summary of diseases.",
+  "text_flags": [],
+  "notes": "Chapter titles (hitāhitīya, vraṇapraśna, vraṇāsrāva-, kṛtyākṛtyavidhi, vyādhisamuddeśīya). 'yaḥ pṛthak' attached to vraṇāsrāva: read as 'the one on discharge, which is distinct'.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.7ab",
+   "Su.1.3.7cd"
+  ],
+  "lines_deva": [
+   "हिताहितो व्रणप्रश्नो व्रणास्रावश्च यः पृथक् ।",
+   "कृत्याकृत्यविधिर्व्याधिसमुद्देशीय एव च ॥"
+  ],
+  "lines_iast": [
+   "hitāhito vraṇapraśno vraṇāsrāvaśca yaḥ pṛthak |",
+   "kṛtyākṛtyavidhirvyādhisamuddeśīya eva ca ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "8",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "viniścayaḥ",
+      "words": [
+       {
+        "w": "viniścayaḥ",
+        "gloss": "determination",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "śastravidhau",
+      "words": [
+       {
+        "w": "śastra-vidhau",
+        "gloss": "in the rule of instruments",
+        "gram": "m. loc. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "pranaṣṭajñānikastathā",
+      "words": [
+       {
+        "w": "pranaṣṭa-jñānikaḥ",
+        "gloss": "concerning knowledge of the lost",
+        "gram": "m. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "śalyoddhṛtirvraṇajñānaṃ",
+      "words": [
+       {
+        "w": "śalya-uddhṛtiḥ",
+        "gloss": "extraction of the foreign body",
+        "gram": "f. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "vraṇa-jñānam",
+        "gloss": "knowledge of wounds",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "dūtasvapnanidarśanam",
+      "words": [
+       {
+        "w": "dūta-svapna-nidarśanam",
+        "gloss": "indication of messenger and dream",
+        "gram": "n. nom. sg. dvandva"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "शस्त्र-विधि में निश्चय; इसी प्रकार प्रनष्ट के ज्ञान से सम्बन्धित अध्याय; शल्य का निकालना, व्रण का ज्ञान, और दूत तथा स्वप्न का निदर्शन।",
+  "english": "The determination in the rule of instruments; likewise the one on knowing what is lost; the extraction of the foreign body (śalya); knowledge of wounds; and the indication of the messenger and of the dream.",
+  "text_flags": [
+   {
+    "src": "pranaṣṭajñānikastathā",
+    "suggest": "praṇaṣṭajñānikastathā",
+    "why": "possible: pra+naṣṭa becomes praṇaṣṭa by the rule of n after r; spelling only, no effect on metre"
+   }
+  ],
+  "notes": "Chapter titles. 'dūtasvapnanidarśana' is rendered literally ('indication' of messenger and dream); the omen sense is not stated in the unit. 'śastravidhau' follows 'viniścayaḥ' loosely: possibly 'determination (of the use) of instruments'.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.8ab",
+   "Su.1.3.8cd"
+  ],
+  "lines_deva": [
+   "विनिश्चयः शस्त्रविधौ प्रनष्टज्ञानिकस्तथा ।",
+   "शल्योद्धृतिर्व्रणज्ञानं दूतस्वप्ननिदर्शनम् ॥"
+  ],
+  "lines_iast": [
+   "viniścayaḥ śastravidhau pranaṣṭajñānikastathā |",
+   "śalyoddhṛtirvraṇajñānaṃ dūtasvapnanidarśanam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "9",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "pañcendriyaṃ",
+      "words": [
+       {
+        "w": "pañca-indriyam",
+        "gloss": "the five senses",
+        "gram": "n. nom. sg. dvigu"
+       }
+      ]
+     },
+     {
+      "src": "tathā",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "chāyā",
+      "words": [
+       {
+        "w": "chāyā",
+        "gloss": "shadow",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "svabhāvādvaikṛtaṃ",
+      "words": [
+       {
+        "w": "svabhāvāt",
+        "gloss": "from the natural state",
+        "gram": "m. abl. sg."
+       },
+       {
+        "w": "vaikṛtam",
+        "gloss": "deviation",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "tathā",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "vāraṇo",
+      "words": [
+       {
+        "w": "vāraṇaḥ",
+        "gloss": "warding off",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "yuktasenīya",
+      "words": [
+       {
+        "w": "yuktasenīyaḥ",
+        "gloss": "Yuktasenīya (title)",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "āturakramabhūnikau",
+      "words": [
+       {
+        "w": "ātura-krama-bhūnikau",
+        "gloss": "patient's course and bhūnika",
+        "gram": "m. nom. du. dvandva"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "पाँच इन्द्रियाँ, तथा छाया, तथा स्वभाव से विकार; वारण, युक्तसेनीय, और रोगी का क्रम तथा भूनिक नामक दो अध्याय।",
+  "english": "The five senses; likewise shadow (chāyā); likewise deviation from the natural state; the warding off; the Yuktasenīya; and the two, the patient's course and the bhūnika.",
+  "text_flags": [
+   {
+    "src": "āturakramabhūnikau",
+    "suggest": "āturakramabhūmikau",
+    "why": "possible: bhūnika is not a known word; bhūmika(ā) 'ground, stage' is possible (n and m look alike in the scan); the dual ending -au shows two titles"
+   }
+  ],
+  "notes": "Chapter titles; this unit is the least certain of the chunk. 'vāraṇa' is rendered 'warding off' (could be a title meaning prevention); 'yuktasenīya' kept as the title (not translated; sense unclear). 'tathā chāyā' is printed as two words without the doubling of ch.",
+  "confidence": "low",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.9ab",
+   "Su.1.3.9cd"
+  ],
+  "lines_deva": [
+   "पञ्चेन्द्रियं तथा छाया स्वभावाद्वैकृतं तथा ।",
+   "वारणो युक्तसेनीय आतुरक्रमभूनिकौ ॥"
+  ],
+  "lines_iast": [
+   "pañcendriyaṃ tathā chāyā svabhāvādvaikṛtaṃ tathā |",
+   "vāraṇo yuktasenīya āturakramabhūnikau ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "10",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "miśrakākhyo",
+      "words": [
+       {
+        "w": "miśraka-ākhyaḥ",
+        "gloss": "called miśraka (mixed)",
+        "gram": "m. nom. sg. bahuvrīhi"
+       }
+      ]
+     },
+     {
+      "src": "dravyagaṇaḥ",
+      "words": [
+       {
+        "w": "dravya-gaṇaḥ",
+        "gloss": "group of substances",
+        "gram": "m. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "saṃśuddhau",
+      "words": [
+       {
+        "w": "saṃśuddhau",
+        "gloss": "in purification",
+        "gram": "f. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "śamane",
+      "words": [
+       {
+        "w": "śamane",
+        "gloss": "in pacification",
+        "gram": "n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "yaḥ",
+      "words": [
+       {
+        "w": "yaḥ",
+        "gloss": "which",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "dravyādīnāṃ",
+      "words": [
+       {
+        "w": "dravya-ādīnām",
+        "gloss": "of substances and the rest",
+        "gram": "gen. pl. bahuvrīhi"
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "vijñānaṃ",
+      "words": [
+       {
+        "w": "vijñānam",
+        "gloss": "knowledge",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "viśeṣo",
+      "words": [
+       {
+        "w": "viśeṣaḥ",
+        "gloss": "special matter",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "dravyago'paraḥ",
+      "words": [
+       {
+        "w": "dravya-gaḥ",
+        "gloss": "concerning substances",
+        "gram": "m. nom. sg. upapada"
+       },
+       {
+        "w": "aparaḥ",
+        "gloss": "other",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "मिश्रक नामक द्रव्यों का समूह, जो संशुद्धि और शमन में है; और द्रव्य आदि का ज्ञान; तथा द्रव्य-सम्बन्धी दूसरा विशेष अध्याय।",
+  "english": "The group of substances called miśraka (mixed), which is in purification and in pacification; and the knowledge of substances and the rest; and the other, the special one concerning substances.",
+  "text_flags": [],
+  "notes": "Chapter titles. 'dravyago'paraḥ' read as dravya-gaḥ aparaḥ ('another one dealing with substances').",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.10ab",
+   "Su.1.3.10cd"
+  ],
+  "lines_deva": [
+   "मिश्रकाख्यो द्रव्यगणः संशुद्धौ शमने च यः ।",
+   "द्रव्यादीनां च विज्ञानं विशेषो द्रव्यगोऽपरः ॥"
+  ],
+  "lines_iast": [
+   "miśrakākhyo dravyagaṇaḥ saṃśuddhau śamane ca yaḥ |",
+   "dravyādīnāṃ ca vijñānaṃ viśeṣo dravyago'paraḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "11",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "rasajñānaṃ",
+      "words": [
+       {
+        "w": "rasa-jñānam",
+        "gloss": "knowledge of tastes",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "vamanārthamadhyāyo",
+      "words": [
+       {
+        "w": "vamana-artham",
+        "gloss": "for vomiting",
+        "gram": "ind. (adv.)"
+       },
+       {
+        "w": "adhyāyaḥ",
+        "gloss": "chapter",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "recanāya",
+      "words": [
+       {
+        "w": "recanāya",
+        "gloss": "for purging",
+        "gram": "n. dat. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "dravaddravyavidhistadvadannapānavidhistathā",
+      "words": [
+       {
+        "w": "dravat-dravya-vidhiḥ",
+        "gloss": "rule of liquid substances",
+        "gram": "m. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "tadvat",
+        "gloss": "in the same way",
+        "gram": "ind."
+       },
+       {
+        "w": "anna-pāna-vidhiḥ",
+        "gloss": "rule of food and drink",
+        "gram": "m. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "रसों का ज्ञान; वमन के लिए अध्याय और विरेचन के लिए भी; बहने वाले द्रव्यों का विधान, वैसे ही अन्न और पान का विधान।",
+  "english": "Knowledge of the tastes; a chapter for the purpose of emesis (vamana) and one for purging (recana); the rule for liquid substances, and likewise the rule for food and drink.",
+  "text_flags": [],
+  "notes": "Chapter titles. 'vamanārtham adhyāyaḥ recanāya ca': one noun 'adhyāyaḥ' serves for both, 'a chapter for emesis and (one) for purging'.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.11ab",
+   "Su.1.3.11cd"
+  ],
+  "lines_deva": [
+   "रसज्ञानं वमनार्थमध्यायो रेचनाय च ।",
+   "द्रवद्द्रव्यविधिस्तद्वदन्नपानविधिस्तथा ॥"
+  ],
+  "lines_iast": [
+   "rasajñānaṃ vamanārthamadhyāyo recanāya ca |",
+   "dravaddravyavidhistadvadannapānavidhistathā ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "12",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "sūcanāt",
+      "words": [
+       {
+        "w": "sūcanāt",
+        "gloss": "because of indicating",
+        "gram": "n. abl. sg."
+       }
+      ]
+     },
+     {
+      "src": "sūtraṇāccaiva",
+      "words": [
+       {
+        "w": "sūtraṇāt",
+        "gloss": "because of stringing together",
+        "gram": "n. abl. sg."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "eva",
+        "gloss": "indeed",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "savanāccārthasantateḥ",
+      "words": [
+       {
+        "w": "savanāt",
+        "gloss": "because of bringing forth",
+        "gram": "n. abl. sg."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "artha-santateḥ",
+        "gloss": "of the continuity of meaning",
+        "gram": "f. gen. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "ṣaṭcatvāriṃśadadhyāyaṃ",
+      "words": [
+       {
+        "w": "ṣaṭcatvāriṃśat-adhyāyam",
+        "gloss": "having forty-six chapters",
+        "gram": "n. acc. sg. bahuvrīhi"
+       }
+      ]
+     },
+     {
+      "src": "sūtrasthānaṃ",
+      "words": [
+       {
+        "w": "sūtra-sthānam",
+        "gloss": "Sūtrasthāna",
+        "gram": "n. acc. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "pracakṣate",
+      "words": [
+       {
+        "w": "pracakṣate",
+        "gloss": "they call",
+        "gram": "3 pl. pres. mid. pra-√cakṣ"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "अर्थ की निरन्तरता को सूचित करने, सूत्र में पिरोने और उत्पन्न करने के कारण छियालीस अध्यायों वाले स्थान को वे सूत्रस्थान कहते हैं।",
+  "english": "Because it indicates, strings together and brings forth the continuity of meaning, they call the section of forty-six chapters the Sūtrasthāna.",
+  "text_flags": [],
+  "notes": "Gives the reason for the name: sūcana (indicating), sūtraṇa (stringing), savana (bringing forth, from √sū). 'artha-santateḥ' is taken with all three nouns (gen. 'of the continuity of meaning'); it could also be read as an ablative with savanāt.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.12ab",
+   "Su.1.3.12cd"
+  ],
+  "lines_deva": [
+   "सूचनात् सूत्रणाच्चैव सवनाच्चार्थसन्ततेः ।",
+   "षट्चत्वारिंशदध्यायं सूत्रस्थानं प्रचक्षते ॥"
+  ],
+  "lines_iast": [
+   "sūcanāt sūtraṇāccaiva savanāccārthasantateḥ |",
+   "ṣaṭcatvāriṃśadadhyāyaṃ sūtrasthānaṃ pracakṣate ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "13",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "vātavyādhikamarśāṃsi",
+      "words": [
+       {
+        "w": "vāta-vyādhikam",
+        "gloss": "on the vāta ailments",
+        "gram": "n. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "arśāṃsi",
+        "gloss": "arśas",
+        "gram": "n. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "sāśmariśca",
+      "words": [
+       {
+        "w": "sa-aśmariḥ",
+        "gloss": "together with stone (aśmarī)",
+        "gram": "m. nom. sg. bahuvrīhi"
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "bhagandaraḥ",
+      "words": [
+       {
+        "w": "bhagandaraḥ",
+        "gloss": "bhagandara",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "kuṣṭhamehodarā",
+      "words": [
+       {
+        "w": "kuṣṭha-meha-udarāḥ",
+        "gloss": "kuṣṭha, meha and udara",
+        "gram": "m. nom. pl. dvandva"
+       }
+      ]
+     },
+     {
+      "src": "mūḍho",
+      "words": [
+       {
+        "w": "mūḍhaḥ",
+        "gloss": "the misplaced one",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "vidradhiḥ",
+      "words": [
+       {
+        "w": "vidradhiḥ",
+        "gloss": "vidradhi",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "parisarpaṇam",
+      "words": [
+       {
+        "w": "parisarpaṇam",
+        "gloss": "creeping around",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "वातव्याधि सम्बन्धी, अर्श, अश्मरी, जो छपे पाठ में साश्मरिः है, और भगन्दर; कुष्ठ, मेह और उदर; मूढ, विद्रधि, और परिसर्पण।",
+  "english": "The one on the vāta ailments; arśas; aśmarī (stone; printed sāśmariḥ), and bhagandara; kuṣṭha, meha and udara; the misplaced one (mūḍha); vidradhi; and parisarpaṇa (creeping around).",
+  "text_flags": [],
+  "notes": "Names of Nidāna chapters; disease names are kept in Sanskrit. 'sāśmariḥ' is read as aśmarī, a title of its own (a metrical form), so that the unit's titles count correctly; the reading 'with aśmarī' is not used; aśmarī means 'stone'. 'mūḍha' stands for mūḍhagarbha (the misplaced embryo), as unit 20 shows. 'parisarpaṇa' is the creeping condition, called visarpa in unit 20.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.13ab",
+   "Su.1.3.13cd"
+  ],
+  "lines_deva": [
+   "वातव्याधिकमर्शांसि साश्मरिश्च भगन्दरः ।",
+   "कुष्ठमेहोदरा मूढो विद्रधिः परिसर्पणम् ॥"
+  ],
+  "lines_iast": [
+   "vātavyādhikamarśāṃsi sāśmariśca bhagandaraḥ |",
+   "kuṣṭhamehodarā mūḍho vidradhiḥ parisarpaṇam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "14",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "granthivṛddhikṣudraśūkabhaknāśca",
+      "words": [
+       {
+        "w": "granthi-vṛddhi-kṣudra-śūka-bhagnāḥ",
+        "gloss": "granthi, vṛddhi, small ones, śūka, fractures",
+        "gram": "m. nom. pl. dvandva"
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "mukharogikam",
+      "words": [
+       {
+        "w": "mukha-rogikam",
+        "gloss": "on mouth ailments",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "hetulakṣaṇanirdeśānnidānānīti",
+      "words": [
+       {
+        "w": "hetu-lakṣaṇa-nirdeśāt",
+        "gloss": "because of indicating cause and signs",
+        "gram": "m. abl. sg. tat-puruṣa"
+       },
+       {
+        "w": "nidānāni",
+        "gloss": "Nidānas",
+        "gram": "n. nom. pl."
+       },
+       {
+        "w": "iti",
+        "gloss": "thus",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ṣoḍaśa",
+      "words": [
+       {
+        "w": "ṣoḍaśa",
+        "gloss": "sixteen",
+        "gram": "numeral"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "ग्रन्थि, वृद्धि, क्षुद्र, शूक और भग्न, और मुख-रोग सम्बन्धी; हेतु और लक्षण के निर्देश के कारण ये निदान सोलह हैं।",
+  "english": "Granthi, vṛddhi, the small ones (kṣudra), śūka and fractures, and the one on mouth ailments: these are the sixteen Nidānas, because they indicate cause and signs.",
+  "text_flags": [
+   {
+    "src": "granthivṛddhikṣudraśūkabhaknāśca",
+    "suggest": "granthivṛddhikṣudraśūkabhagnāśca",
+    "why": "bhakna is not a word; bhagnāḥ 'fractures' (Devanagari ग/क are alike); unit 18 has bhagnānām"
+   }
+  ],
+  "notes": "Last six Nidāna titles; 10 (unit 13) + 6 = 16. 'kṣudra' is taken as the 'small (ailments)' title; 'śūka' as in 'śūkadoṣa' (unit 21).",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.14ab",
+   "Su.1.3.14cd"
+  ],
+  "lines_deva": [
+   "ग्रन्थिवृद्धिक्षुद्रशूकभक्नाश्च मुखरोगिकम् ।",
+   "हेतुलक्षणनिर्देशान्निदानानीति षोडश ॥"
+  ],
+  "lines_iast": [
+   "granthivṛddhikṣudraśūkabhaknāśca mukharogikam |",
+   "hetulakṣaṇanirdeśānnidānānīti ṣoḍaśa ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "15",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "bhūtacintā",
+      "words": [
+       {
+        "w": "bhūta-cintā",
+        "gloss": "thinking on beings",
+        "gram": "f. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "rajaḥśuddhirgarbhāvakrāntireva",
+      "words": [
+       {
+        "w": "rajaḥ-śuddhiḥ",
+        "gloss": "purification of the menstrual flow",
+        "gram": "f. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "garbha-avakrāntiḥ",
+        "gloss": "entry of the embryo",
+        "gram": "f. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "eva",
+        "gloss": "indeed",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "vyākaraṇaṃ",
+      "words": [
+       {
+        "w": "vyākaraṇam",
+        "gloss": "exposition",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "garbhasya",
+      "words": [
+       {
+        "w": "garbhasya",
+        "gloss": "of the embryo",
+        "gram": "m. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "śarīrasya",
+      "words": [
+       {
+        "w": "śarīrasya",
+        "gloss": "of the body",
+        "gram": "n. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "yatsmṛtam",
+      "words": [
+       {
+        "w": "yat",
+        "gloss": "which",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "smṛtam",
+        "gloss": "remembered",
+        "gram": "n. nom. sg. pp. √smṛ"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "भूतों का चिन्तन, रज की शुद्धि, और गर्भ का अवक्रमण; तथा गर्भ और शरीर का जो व्याकरण माना गया है वह।",
+  "english": "Thinking on beings; the purification of the menstrual flow (rajas); the entry of the embryo; and the exposition of the embryo and of the body, which is handed down.",
+  "text_flags": [],
+  "notes": "Śārīra chapter titles. 'rajaḥśuddhi' is rendered literally. The sentence runs on into the next unit.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.15ab",
+   "Su.1.3.15cd"
+  ],
+  "lines_deva": [
+   "भूतचिन्ता रजःशुद्धिर्गर्भावक्रान्तिरेव च ।",
+   "व्याकरणं च गर्भस्य शरीरस्य च यत्स्मृतम् ॥"
+  ],
+  "lines_iast": [
+   "bhūtacintā rajaḥśuddhirgarbhāvakrāntireva ca |",
+   "vyākaraṇaṃ ca garbhasya śarīrasya ca yatsmṛtam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "16",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "pratyekaṃ",
+      "words": [
+       {
+        "w": "pratyekam",
+        "gloss": "each",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "marmanirdeśaḥ",
+      "words": [
+       {
+        "w": "marma-nirdeśaḥ",
+        "gloss": "indication of marma points",
+        "gram": "m. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "sirāvarṇanameva",
+      "words": [
+       {
+        "w": "sirā-varṇanam",
+        "gloss": "description of the sirās",
+        "gram": "n. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "eva",
+        "gloss": "indeed",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "sirāvyadho",
+      "words": [
+       {
+        "w": "sirā-vyadhaḥ",
+        "gloss": "piercing of the sirās",
+        "gram": "m. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "dhamanīnāṃ",
+      "words": [
+       {
+        "w": "dhamanīnām",
+        "gloss": "of the dhamanīs",
+        "gram": "f. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "garbhiṇyā",
+      "words": [
+       {
+        "w": "garbhiṇyāḥ",
+        "gloss": "of the pregnant woman",
+        "gram": "f. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "vyākṛtistathā",
+      "words": [
+       {
+        "w": "vyākṛtiḥ",
+        "gloss": "exposition",
+        "gram": "f. nom. sg."
+       },
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "एक-एक करके मर्मों का निर्देश, सिराओं का वर्णन, सिरा का वेध, धमनियों का, तथा गर्भिणी का व्याख्यान।",
+  "english": "The indication of the marma points one by one; the description of the sirās; the piercing of the sirās; of the dhamanīs; and likewise the exposition of the pregnant woman.",
+  "text_flags": [],
+  "notes": "Śārīra chapter titles; units 15 and 16 together give the ten. 'dhamanīnām' stands alone: read with 'vyākṛtiḥ' (exposition of the dhamanīs) as well as 'garbhiṇyā vyākṛtiḥ' (exposition of the pregnant woman). 'pratyekam' is read as 'one by one', not as a title word. sirā, dhamanī, marma are kept as technical terms (vessel or channel types, vital points).",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.16ab",
+   "Su.1.3.16cd"
+  ],
+  "lines_deva": [
+   "प्रत्येकं मर्मनिर्देशः सिरावर्णनमेव च ।",
+   "सिराव्यधो धमनीनां गर्भिण्या व्याकृतिस्तथा ॥"
+  ],
+  "lines_iast": [
+   "pratyekaṃ marmanirdeśaḥ sirāvarṇanameva ca |",
+   "sirāvyadho dhamanīnāṃ garbhiṇyā vyākṛtistathā ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "17",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "nirdiṣṭāni",
+      "words": [
+       {
+        "w": "nirdiṣṭāni",
+        "gloss": "indicated",
+        "gram": "n. nom. pl. pp. nir-√diś"
+       }
+      ]
+     },
+     {
+      "src": "daśaitāni",
+      "words": [
+       {
+        "w": "daśa",
+        "gloss": "ten",
+        "gram": "numeral"
+       },
+       {
+        "w": "etāni",
+        "gloss": "these",
+        "gram": "n. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "śārīrāṇi",
+      "words": [
+       {
+        "w": "śārīrāṇi",
+        "gloss": "Śārīras",
+        "gram": "n. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "maharṣiṇā",
+      "words": [
+       {
+        "w": "mahā-ṛṣiṇā",
+        "gloss": "by the great sage",
+        "gram": "m. inst. sg. karmadhāraya"
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "vijñānārthaṃ",
+      "words": [
+       {
+        "w": "vijñāna-artham",
+        "gloss": "for knowledge",
+        "gram": "ind. (adv.) tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "śarīrasya",
+      "words": [
+       {
+        "w": "śarīrasya",
+        "gloss": "of the body",
+        "gram": "n. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "bhiṣajāṃ",
+      "words": [
+       {
+        "w": "bhiṣajām",
+        "gloss": "of physicians",
+        "gram": "m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "yogināmapi",
+      "words": [
+       {
+        "w": "yoginām",
+        "gloss": "of yogins",
+        "gram": "m. gen. pl."
+       },
+       {
+        "w": "api",
+        "gloss": "also",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "ये दस शारीर अध्याय महर्षि ने शरीर के ज्ञान के लिए, वैद्यों के लिए और योगियों के लिए भी बताए हैं।",
+  "english": "These ten Śārīra chapters were indicated by the great sage for the knowledge of the body, for physicians and also for yogins.",
+  "text_flags": [],
+  "notes": "'bhiṣajāṃ yogināmapi' is a genitive plural; read as 'for physicians and also for yogins' (dative sense). The great sage is not named here.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.17ab",
+   "Su.1.3.17cd"
+  ],
+  "lines_deva": [
+   "निर्दिष्टानि दशैतानि शारीराणि महर्षिणा ।",
+   "विज्ञानार्थं शरीरस्य भिषजां योगिनामपि ॥"
+  ],
+  "lines_iast": [
+   "nirdiṣṭāni daśaitāni śārīrāṇi maharṣiṇā |",
+   "vijñānārthaṃ śarīrasya bhiṣajāṃ yogināmapi ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "18",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "dvivraṇīyo",
+      "words": [
+       {
+        "w": "dvivraṇīyaḥ",
+        "gloss": "Dvivraṇīya (title)",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "vraṇaḥ",
+      "words": [
+       {
+        "w": "vraṇaḥ",
+        "gloss": "wound",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "sadyo",
+      "words": [
+       {
+        "w": "sadyaḥ",
+        "gloss": "fresh",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "bhagnānāṃ",
+      "words": [
+       {
+        "w": "bhagnānām",
+        "gloss": "of the broken",
+        "gram": "m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "vātarogikam",
+      "words": [
+       {
+        "w": "vāta-rogikam",
+        "gloss": "on vāta ailments",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "mahāvātikamarśāṃsi",
+      "words": [
+       {
+        "w": "mahā-vātikam",
+        "gloss": "on the great vāta ailments",
+        "gram": "n. nom. sg. karmadhāraya"
+       },
+       {
+        "w": "arśāṃsi",
+        "gloss": "arśas",
+        "gram": "n. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "sāśmariśca",
+      "words": [
+       {
+        "w": "sa-aśmariḥ",
+        "gloss": "together with stone (aśmarī)",
+        "gram": "m. nom. sg. bahuvrīhi"
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "bhagandaraḥ",
+      "words": [
+       {
+        "w": "bhagandaraḥ",
+        "gloss": "bhagandara",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "द्विव्रणीय; ताजा व्रण; भग्नों का; वातरोग सम्बन्धी; महावात सम्बन्धी; अर्श, अश्मरी, जो छपे पाठ में साश्मरिः है, और भगन्दर।",
+  "english": "The Dvivraṇīya; the fresh wound; that of the broken; the one on vāta ailments; the one on the great vāta ailments; arśas; aśmarī (stone; printed sāśmariḥ), and bhagandara.",
+  "text_flags": [],
+  "notes": "Cikitsita chapter titles (first eight of forty). 'vraṇaḥ sadyaḥ' read as 'the fresh wound' (sadyovraṇa); 'bhagnānām' as 'of the fractured', with the chapter implied.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.18ab",
+   "Su.1.3.18cd"
+  ],
+  "lines_deva": [
+   "द्विव्रणीयो व्रणः सद्यो भग्नानां वातरोगिकम् ।",
+   "महावातिकमर्शांसि साश्मरिश्च भगन्दरः ॥"
+  ],
+  "lines_iast": [
+   "dvivraṇīyo vraṇaḥ sadyo bhagnānāṃ vātarogikam |",
+   "mahāvātikamarśāṃsi sāśmariśca bhagandaraḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "19",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "kuṣṭhānāṃ",
+      "words": [
+       {
+        "w": "kuṣṭhānām",
+        "gloss": "of kuṣṭhas",
+        "gram": "n. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "mahatāṃ",
+      "words": [
+       {
+        "w": "mahatām",
+        "gloss": "of the great",
+        "gram": "n. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "cāpi",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "api",
+        "gloss": "also",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "maihikaṃ",
+      "words": [
+       {
+        "w": "maihikam",
+        "gloss": "relating to meha",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "paiḍakaṃ",
+      "words": [
+       {
+        "w": "paiḍakam",
+        "gloss": "relating to piḍakā",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "tathā",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "makhumehacikitsā",
+      "words": [
+       {
+        "w": "madhu-meha-cikitsā",
+        "gloss": "treatment of madhumeha",
+        "gram": "f. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "tathā",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "codariṇāmapi",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "udariṇām",
+        "gloss": "of those with udara",
+        "gram": "m. gen. pl."
+       },
+       {
+        "w": "api",
+        "gloss": "also",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "बड़े कुष्ठों का भी, मेह सम्बन्धी, पिडका सम्बन्धी, तथा मधुमेह की चिकित्सा, और उदर वाले रोगियों की भी।",
+  "english": "Also of the great kuṣṭhas; that relating to meha and that relating to piḍakā; likewise the treatment of madhumeha, and also of those with udara.",
+  "text_flags": [
+   {
+    "src": "makhumehacikitsā",
+    "suggest": "madhumehacikitsā",
+    "why": "makhu is not a word; madhumeha is the known disease name (Devanagari ख/ध alike); metre unchanged"
+   }
+  ],
+  "notes": "Cikitsita chapter titles. 'kuṣṭhānāṃ mahatām' is the 'great (major) kuṣṭhas'. Piḍakā is kept as a disease name.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.19ab",
+   "Su.1.3.19cd"
+  ],
+  "lines_deva": [
+   "कुष्ठानां महतां चापि मैहिकं पैडकं तथा ।",
+   "मखुमेहचिकित्सा च तथा चोदरिणामपि ॥"
+  ],
+  "lines_iast": [
+   "kuṣṭhānāṃ mahatāṃ cāpi maihikaṃ paiḍakaṃ tathā |",
+   "makhumehacikitsā ca tathā codariṇāmapi ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "20",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "mūḍhagarbhacikitsā",
+      "words": [
+       {
+        "w": "mūḍha-garbha-cikitsā",
+        "gloss": "treatment of the misplaced embryo",
+        "gram": "f. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "vidradhīnāṃ",
+      "words": [
+       {
+        "w": "vidradhīnām",
+        "gloss": "of vidradhis",
+        "gram": "m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "visarpiṇām",
+      "words": [
+       {
+        "w": "visarpiṇām",
+        "gloss": "of those with visarpa",
+        "gram": "m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "granthivṛddhyupadaṃśānāṃ",
+      "words": [
+       {
+        "w": "granthi-vṛddhi-upadaṃśānām",
+        "gloss": "of granthi, vṛddhi and upadaṃśa",
+        "gram": "m. gen. pl. dvandva"
+       }
+      ]
+     },
+     {
+      "src": "tathā",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kṣudrarogikam",
+      "words": [
+       {
+        "w": "kṣudra-rogikam",
+        "gloss": "on small ailments",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "मूढ गर्भ की चिकित्सा, और विद्रधियों तथा विसर्प वालों की; ग्रन्थि, वृद्धि और उपदंश की, तथा क्षुद्र रोगों सम्बन्धी अध्याय।",
+  "english": "The treatment of the misplaced embryo; and of vidradhis and of those with visarpa; of granthi, vṛddhi and upadaṃśa; and likewise the one on the small ailments.",
+  "text_flags": [],
+  "notes": "Cikitsita chapter titles; the word 'cikitsā' is carried over to the genitives. 'mūḍhagarbha' is read as 'the embryo that is misplaced'. 'visarpiṇām' corresponds to the 'parisarpaṇa' of unit 13.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.20ab",
+   "Su.1.3.20cd"
+  ],
+  "lines_deva": [
+   "मूढगर्भचिकित्सा च विद्रधीनां विसर्पिणाम् ।",
+   "ग्रन्थिवृद्ध्युपदंशानां तथा च क्षुद्ररोगिकम् ॥"
+  ],
+  "lines_iast": [
+   "mūḍhagarbhacikitsā ca vidradhīnāṃ visarpiṇām |",
+   "granthivṛddhyupadaṃśānāṃ tathā ca kṣudrarogikam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "21",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "śūkadoṣacikitsā",
+      "words": [
+       {
+        "w": "śūka-doṣa-cikitsā",
+        "gloss": "treatment of śūka defects",
+        "gram": "f. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "tathā",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "mukharogiṇām",
+      "words": [
+       {
+        "w": "mukha-rogiṇām",
+        "gloss": "of those with mouth ailments",
+        "gram": "m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "śophasyānāgatānāṃ",
+      "words": [
+       {
+        "w": "śophasya",
+        "gloss": "of swelling",
+        "gram": "m. gen. sg."
+       },
+       {
+        "w": "anāgatānām",
+        "gloss": "of those not yet come",
+        "gram": "n. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "niṣedho",
+      "words": [
+       {
+        "w": "niṣedhaḥ",
+        "gloss": "prevention",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "miśrakaṃ",
+      "words": [
+       {
+        "w": "miśrakam",
+        "gloss": "miscellaneous",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "tathā",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "शूक के दोषों की चिकित्सा, और मुख-रोग वालों की भी; सूजन का तथा अनागत रोगों का निषेध, और मिश्रक अध्याय।",
+  "english": "The treatment of the śūka defects, and likewise of those with mouth ailments; the prevention of swelling and of those (ailments) not yet come; and likewise the miscellaneous one.",
+  "text_flags": [],
+  "notes": "Cikitsita chapter titles. 'śophasya anāgatānāṃ ca niṣedhaḥ': the plural 'anāgatānām' does not agree with the singular 'śophasya'; read as prevention of swelling and of the 'not-yet-arrived' (ailments). 'miśraka' as 'miscellaneous' follows the title.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.21ab",
+   "Su.1.3.21cd"
+  ],
+  "lines_deva": [
+   "शूकदोषचिकित्सा च तथा च मुखरोगिणाम् ।",
+   "शोफस्यानागतानां च निषेधो मिश्रकं तथा ॥"
+  ],
+  "lines_iast": [
+   "śūkadoṣacikitsā ca tathā ca mukharogiṇām |",
+   "śophasyānāgatānāṃ ca niṣedho miśrakaṃ tathā ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "22",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "vājīkaraṃ",
+      "words": [
+       {
+        "w": "vājīkaraṃ",
+        "gloss": "making virile",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "yat",
+      "words": [
+       {
+        "w": "yat",
+        "gloss": "which",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "kṣīṇe",
+      "words": [
+       {
+        "w": "kṣīṇe",
+        "gloss": "for the wasted",
+        "gram": "m. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "sarvābādhaśamo'pi",
+      "words": [
+       {
+        "w": "sarva-ābādha-śamaḥ",
+        "gloss": "pacification of all afflictions",
+        "gram": "m. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "api",
+        "gloss": "also",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "medhāyuṣkaraṇaṃ",
+      "words": [
+       {
+        "w": "medhā-āyuṣ-karaṇam",
+        "gloss": "making of intellect and life",
+        "gram": "n. nom. sg. dvandva"
+       }
+      ]
+     },
+     {
+      "src": "cāpi",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "api",
+        "gloss": "also",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "svabhāvavyādhivāraṇam",
+      "words": [
+       {
+        "w": "svabhāva-vyādhi-vāraṇam",
+        "gloss": "warding off natural disease",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "वाजीकरण, जो क्षीण के लिए है; सब पीड़ाओं का शमन भी; मेधा और आयु का करना भी; और स्वाभाविक रोगों का निवारण।",
+  "english": "The vājīkara (making virile), which is for the wasted; also the pacification of all afflictions; the making of intellect and life-span; and the warding off of natural disease.",
+  "text_flags": [],
+  "notes": "Chapter titles. 'svabhāvavyādhi' is rendered literally as 'natural disease' (disease of the natural state); the exact sense of svabhāva here is not settled by the unit itself.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.22ab",
+   "Su.1.3.22cd"
+  ],
+  "lines_deva": [
+   "वाजीकरं च यत् क्षीणे सर्वाबाधशमोऽपि च ।",
+   "मेधायुष्करणं चापि स्वभावव्याधिवारणम् ॥"
+  ],
+  "lines_iast": [
+   "vājīkaraṃ ca yat kṣīṇe sarvābādhaśamo'pi ca |",
+   "medhāyuṣkaraṇaṃ cāpi svabhāvavyādhivāraṇam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "23",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "nivṛttasaṃtāpakaraṃ",
+      "words": [
+       {
+        "w": "nivṛtta-saṃtāpa-karam",
+        "gloss": "causing the end of distress",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "kīrtitaṃ",
+      "words": [
+       {
+        "w": "kīrtitam",
+        "gloss": "declared",
+        "gram": "n. nom. sg. pp. √kīrt"
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "rasāyanam",
+      "words": [
+       {
+        "w": "rasāyanam",
+        "gloss": "rasāyana",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "snehopayaugikaḥ",
+      "words": [
+       {
+        "w": "sneha-upayaugikaḥ",
+        "gloss": "relating to the use of oil",
+        "gram": "m. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "svedo",
+      "words": [
+       {
+        "w": "svedaḥ",
+        "gloss": "sweating",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "vamane",
+      "words": [
+       {
+        "w": "vamane",
+        "gloss": "in emesis",
+        "gram": "n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "virecane",
+      "words": [
+       {
+        "w": "virecane",
+        "gloss": "in purging",
+        "gram": "n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "संताप को निवृत्त करने वाला रसायन कहा गया है; स्नेह के प्रयोग सम्बन्धी, स्वेद, तथा वमन और विरेचन में।",
+  "english": "The rasāyana, said to bring distress (saṃtāpa) to an end; the one on the use of oil (sneha); sweating (sveda); and, in emesis and in purging (completed in the next unit).",
+  "text_flags": [],
+  "notes": "Chapter titles. 'nivṛttasaṃtāpakara' could also mean 'making one whose distress has ended'; the plain reading is kept. The words 'vamane ca virecane' are completed in the next unit ('tayoḥ vyāpad-cikitsā').",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.23ab",
+   "Su.1.3.23cd"
+  ],
+  "lines_deva": [
+   "निवृत्तसंतापकरं कीर्तितं च रसायनम् ।",
+   "स्नेहोपयौगिकः स्वेदो वमने च विरेचने ॥"
+  ],
+  "lines_iast": [
+   "nivṛttasaṃtāpakaraṃ kīrtitaṃ ca rasāyanam |",
+   "snehopayaugikaḥ svedo vamane ca virecane ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "24",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "tayorvyāpaccikitsā",
+      "words": [
+       {
+        "w": "tayoḥ",
+        "gloss": "of those two",
+        "gram": "n. gen. du."
+       },
+       {
+        "w": "vyāpad-cikitsā",
+        "gloss": "treatment of mishaps",
+        "gram": "f. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "netrabastivibhāgikaḥ",
+      "words": [
+       {
+        "w": "netra-basti-vibhāgikaḥ",
+        "gloss": "concerning the division of netra and basti",
+        "gram": "m. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "netrabastivipatsiddhistathā",
+      "words": [
+       {
+        "w": "netra-basti-vipat-siddhiḥ",
+        "gloss": "success after mishaps of netra and basti",
+        "gram": "f. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "cottarabastikaḥ",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "uttara-bastikaḥ",
+        "gloss": "concerning the uttara basti",
+        "gram": "m. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "उन दोनों की विपत्तियों की चिकित्सा; नेत्र और बस्ति के विभाग सम्बन्धी; नेत्र और बस्ति की विपत्ति की सिद्धि; तथा उत्तरबस्ति सम्बन्धी।",
+  "english": "The treatment of the mishaps of those two; the one concerned with the division of netra and basti; the success (siddhi) in the mishaps of netra and basti; and likewise the one concerned with the uttara basti.",
+  "text_flags": [],
+  "notes": "Chapter titles. netra (tube) and basti (bladder/enema bag) are kept as technical terms. 'tayoḥ' is read as 'of those two' (emesis and purging, from unit 23). 'siddhi' in a title means a successful treatment, kept as 'success'.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.24ab",
+   "Su.1.3.24cd"
+  ],
+  "lines_deva": [
+   "तयोर्व्यापच्चिकित्सा च नेत्रबस्तिविभागिकः ।",
+   "नेत्रबस्तिविपत्सिद्धिस्तथा चोत्तरबस्तिकः ॥"
+  ],
+  "lines_iast": [
+   "tayorvyāpaccikitsā ca netrabastivibhāgikaḥ |",
+   "netrabastivipatsiddhistathā cottarabastikaḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "25",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "nirūhakramasaṃjñaśca",
+      "words": [
+       {
+        "w": "nirūha-krama-saṃjñaḥ",
+        "gloss": "called the course of nirūha",
+        "gram": "m. nom. sg. bahuvrīhi"
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "tathaivāturasaṃjñakaḥ",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       },
+       {
+        "w": "eva",
+        "gloss": "indeed",
+        "gram": "ind."
+       },
+       {
+        "w": "ātura-saṃjñakaḥ",
+        "gloss": "called the patient",
+        "gram": "m. nom. sg. bahuvrīhi"
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "dhūmanasyavidhiścāntyaścatvāriṃśaditi",
+      "words": [
+       {
+        "w": "dhūma-nasya-vidhiḥ",
+        "gloss": "rule of smoke and nasal medication",
+        "gram": "m. nom. sg. dvandva"
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "antyaḥ",
+        "gloss": "last",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "catvāriṃśat",
+        "gloss": "forty",
+        "gram": "numeral"
+       },
+       {
+        "w": "iti",
+        "gloss": "thus",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "smṛtāḥ",
+      "words": [
+       {
+        "w": "smṛtāḥ",
+        "gloss": "remembered",
+        "gram": "m. nom. pl. pp. √smṛ"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "निरूह क्रम नामक, और इसी प्रकार आतुर नामक; और अन्तिम धूम तथा नस्य का विधान; इस प्रकार चालीस माने गए हैं।",
+  "english": "The one named the course of nirūha, and likewise the one named the patient; and the last, the rule for smoke and nasal medication: thus they are remembered as forty.",
+  "text_flags": [],
+  "notes": "Last Cikitsita titles, completing forty. 'nirūha' is an enema type, kept in Sanskrit. 'smṛtāḥ' refers to the chapters (adhyāyāḥ understood).",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.25ab",
+   "Su.1.3.25cd"
+  ],
+  "lines_deva": [
+   "निरूहक्रमसंज्ञश्च तथैवातुरसंज्ञकः ।",
+   "धूमनस्यविधिश्चान्त्यश्चत्वारिंशदिति स्मृताः ॥"
+  ],
+  "lines_iast": [
+   "nirūhakramasaṃjñaśca tathaivāturasaṃjñakaḥ |",
+   "dhūmanasyavidhiścāntyaścatvāriṃśaditi smṛtāḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "26",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "prāyaścittaṃ",
+      "words": [
+       {
+        "w": "prāyaścittam",
+        "gloss": "expiation",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "praśamanaṃ",
+      "words": [
+       {
+        "w": "praśamanam",
+        "gloss": "pacification",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "cikitsā",
+      "words": [
+       {
+        "w": "cikitsā",
+        "gloss": "treatment",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "śāntikarma",
+      "words": [
+       {
+        "w": "śānti-karma",
+        "gloss": "rite of appeasement",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "paryāyāstasya",
+      "words": [
+       {
+        "w": "paryāyāḥ",
+        "gloss": "synonyms",
+        "gram": "m. nom. pl."
+       },
+       {
+        "w": "tasya",
+        "gloss": "of it",
+        "gram": "n. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "nirdeśāccikitsāsthānamucyate",
+      "words": [
+       {
+        "w": "nirdeśāt",
+        "gloss": "because of indicating",
+        "gram": "m. abl. sg."
+       },
+       {
+        "w": "cikitsā-sthānam",
+        "gloss": "Cikitsāsthāna",
+        "gram": "n. nom. sg. tat-puruṣa"
+       },
+       {
+        "w": "ucyate",
+        "gloss": "is called",
+        "gram": "3 sg. pres. pass. √vac"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "प्रायश्चित्त, प्रशमन, चिकित्सा और शान्तिकर्म, ये उसके पर्याय हैं; उसका निर्देश करने के कारण इसे चिकित्सास्थान कहा जाता है।",
+  "english": "Expiation, pacification, treatment and the rite of appeasement are its synonyms; because it indicates that, it is called the Cikitsāsthāna.",
+  "text_flags": [],
+  "notes": "Explains the name of the section. 'tasya' (m./n.) cannot agree with feminine cikitsā; it means 'of that' and its referent is not stated.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.26ab",
+   "Su.1.3.26cd"
+  ],
+  "lines_deva": [
+   "प्रायश्चित्तं प्रशमनं चिकित्सा शान्तिकर्म च ।",
+   "पर्यायास्तस्य निर्देशाच्चिकित्सास्थानमुच्यते ॥"
+  ],
+  "lines_iast": [
+   "prāyaścittaṃ praśamanaṃ cikitsā śāntikarma ca |",
+   "paryāyāstasya nirdeśāccikitsāsthānamucyate ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "27",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "annasya",
+      "words": [
+       {
+        "w": "annasya",
+        "gloss": "of food",
+        "gram": "n. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "rakṣā",
+      "words": [
+       {
+        "w": "rakṣā",
+        "gloss": "protection",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "vijñānaṃ",
+      "words": [
+       {
+        "w": "vijñānam",
+        "gloss": "knowledge",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "sthāvarasyetarasya",
+      "words": [
+       {
+        "w": "sthāvarasya",
+        "gloss": "of the stationary",
+        "gram": "n. gen. sg."
+       },
+       {
+        "w": "itarasya",
+        "gloss": "of the other",
+        "gram": "n. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "sarpadaṣṭaviṣajñānaṃ",
+      "words": [
+       {
+        "w": "sarpa-daṣṭa-viṣa-jñānam",
+        "gloss": "knowledge of poison in snake bite",
+        "gram": "n. nom. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "tasyaiva",
+      "words": [
+       {
+        "w": "tasya",
+        "gloss": "of that",
+        "gram": "n. gen. sg."
+       },
+       {
+        "w": "eva",
+        "gloss": "very",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "cikitsitam",
+      "words": [
+       {
+        "w": "cikitsitam",
+        "gloss": "treatment",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "अन्न की रक्षा; स्थावर और दूसरे का ज्ञान; सर्प के काटे हुए का विष-ज्ञान; और उसी की चिकित्सा।",
+  "english": "The protection of food; knowledge of the stationary and of the other kind; knowledge of the poison of a snake-bitten person; and the treatment of that very thing.",
+  "text_flags": [],
+  "notes": "Kalpa chapter titles. 'sthāvara' and 'itara' have no noun in the unit; the poison (viṣa) is understood from the section name (unit 28). Left unstated in the translation.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.27ab",
+   "Su.1.3.27cd"
+  ],
+  "lines_deva": [
+   "अन्नस्य रक्षा विज्ञानं स्थावरस्येतरस्य च ।",
+   "सर्पदष्टविषज्ञानं तस्यैव च चिकित्सितम् ॥"
+  ],
+  "lines_iast": [
+   "annasya rakṣā vijñānaṃ sthāvarasyetarasya ca |",
+   "sarpadaṣṭaviṣajñānaṃ tasyaiva ca cikitsitam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "28",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "dundubhermūṣikāṇāṃ",
+      "words": [
+       {
+        "w": "dundubheḥ",
+        "gloss": "of the drum (dundubhi)",
+        "gram": "m. gen. sg."
+       },
+       {
+        "w": "mūṣikāṇām",
+        "gloss": "of mice",
+        "gram": "f. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kīṭānāṃ",
+      "words": [
+       {
+        "w": "kīṭānām",
+        "gloss": "of insects",
+        "gram": "m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "kalpa",
+      "words": [
+       {
+        "w": "kalpaḥ",
+        "gloss": "Kalpa",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "eva",
+      "words": [
+       {
+        "w": "eva",
+        "gloss": "indeed",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "aṣṭau",
+      "words": [
+       {
+        "w": "aṣṭau",
+        "gloss": "eight",
+        "gram": "numeral"
+       }
+      ]
+     },
+     {
+      "src": "kalpāḥ",
+      "words": [
+       {
+        "w": "kalpāḥ",
+        "gloss": "Kalpas",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "samākhyātā",
+      "words": [
+       {
+        "w": "samākhyātāḥ",
+        "gloss": "declared",
+        "gram": "m. nom. pl. pp. sam-ā-√khyā"
+       }
+      ]
+     },
+     {
+      "src": "viṣabheṣajakalpanāt",
+      "words": [
+       {
+        "w": "viṣa-bheṣaja-kalpanāt",
+        "gloss": "because of preparing poison remedies",
+        "gram": "f. abl. sg. tat-puruṣa"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "दुन्दुभि का, चूहों का और कीटों का कल्प भी; आठ कल्प कहे गए हैं, विष की औषधियों की रचना के कारण।",
+  "english": "The Kalpa of the dundubhi (drum), of mice and of insects; eight Kalpas are declared, because of the preparation of remedies for poison.",
+  "text_flags": [],
+  "notes": "Kalpa chapter titles; 'dundubhi' is kept as given (the literal word is 'drum'). 'viṣabheṣajakalpanāt' is read as 'preparing remedies for poison'; the name Kalpa is explained by kalpanā. 'samākhyātā' is the regular sandhi form of samākhyātāḥ before v.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.28ab",
+   "Su.1.3.28cd"
+  ],
+  "lines_deva": [
+   "दुन्दुभेर्मूषिकाणां च कीटानां कल्प एव च ।",
+   "अष्टौ कल्पाः समाख्याता विषभेषजकल्पनात् ॥"
+  ],
+  "lines_iast": [
+   "dundubhermūṣikāṇāṃ ca kīṭānāṃ kalpa eva ca |",
+   "aṣṭau kalpāḥ samākhyātā viṣabheṣajakalpanāt ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "29",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "adhyāyānāṃ",
+      "words": [
+       {
+        "w": "adhyāyānām",
+        "gloss": "of chapters",
+        "gram": "m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "śataṃ",
+      "words": [
+       {
+        "w": "śatam",
+        "gloss": "hundred",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "viṃśamevametadudīritam",
+      "words": [
+       {
+        "w": "viṃśam",
+        "gloss": "with twenty",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "evam",
+        "gloss": "thus",
+        "gram": "ind."
+       },
+       {
+        "w": "etat",
+        "gloss": "this",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "udīritam",
+        "gloss": "declared",
+        "gram": "n. nom. sg. pp. ud-√īr"
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "ataḥ",
+      "words": [
+       {
+        "w": "ataḥ",
+        "gloss": "from here",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "paraṃ",
+      "words": [
+       {
+        "w": "param",
+        "gloss": "beyond",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "svanāmnaiva",
+      "words": [
+       {
+        "w": "sva-nāmnā",
+        "gloss": "by its own name",
+        "gram": "n. inst. sg. karmadhāraya"
+       },
+       {
+        "w": "eva",
+        "gloss": "itself",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "tantramuttaramucyate",
+      "words": [
+       {
+        "w": "tantram",
+        "gloss": "Tantra",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "uttaram",
+        "gloss": "Uttara",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "ucyate",
+        "gloss": "is called",
+        "gram": "3 sg. pres. pass. √vac"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "अध्यायों का सौ और बीस, इस प्रकार यह कहा गया है; इसके बाद वाला तन्त्र अपने ही नाम से उत्तर कहलाता है।",
+  "english": "Of chapters, a hundred and twenty: thus this has been declared; beyond this, the Tantra is called Uttara by its own name.",
+  "text_flags": [],
+  "notes": "Sum of 120 as in unit 3. 'svanāmnā eva' (by its own name): it is simply called what it is, uttara 'later'.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.29ab",
+   "Su.1.3.29cd"
+  ],
+  "lines_deva": [
+   "अध्यायानां शतं विंशमेवमेतदुदीरितम् ।",
+   "अतः परं स्वनाम्नैव तन्त्रमुत्तरमुच्यते ॥"
+  ],
+  "lines_iast": [
+   "adhyāyānāṃ śataṃ viṃśamevametadudīritam |",
+   "ataḥ paraṃ svanāmnaiva tantramuttaramucyate ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "30",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "adhikṛtya",
+      "words": [
+       {
+        "w": "adhikṛtya",
+        "gloss": "having made the subject",
+        "gram": "abs. adhi-√kṛ"
+       }
+      ]
+     },
+     {
+      "src": "kṛtaṃ",
+      "words": [
+       {
+        "w": "kṛtam",
+        "gloss": "made",
+        "gram": "n. nom. sg. pp. √kṛ"
+       }
+      ]
+     },
+     {
+      "src": "yasmāttantrametadupadravān",
+      "words": [
+       {
+        "w": "yasmāt",
+        "gloss": "since",
+        "gram": "ind."
+       },
+       {
+        "w": "tantram",
+        "gloss": "Tantra",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "etat",
+        "gloss": "this",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "upadravān",
+        "gloss": "complications",
+        "gram": "m. acc. pl."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "opadravika",
+      "words": [
+       {
+        "w": "aupadravikaḥ",
+        "gloss": "Aupadravika",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "ityeṣa",
+      "words": [
+       {
+        "w": "iti",
+        "gloss": "thus",
+        "gram": "ind."
+       },
+       {
+        "w": "eṣaḥ",
+        "gloss": "this",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "tasyāgryatvānnirucyate",
+      "words": [
+       {
+        "w": "tasya",
+        "gloss": "of that",
+        "gram": "m. gen. sg."
+       },
+       {
+        "w": "agryatvāt",
+        "gloss": "because of pre-eminence",
+        "gram": "n. abl. sg."
+       },
+       {
+        "w": "nirucyate",
+        "gloss": "is explained",
+        "gram": "3 sg. pres. pass. nir-√vac"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of line mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "क्योंकि यह तन्त्र उपद्रवों को आधार बनाकर रचा गया है, इसलिए यह औपद्रविक कहलाता है, उसकी प्रधानता के कारण यह कहा जाता है।",
+  "english": "Since this Tantra has been made with the complications (upadrava) as its subject, it is explained as the Aupadravika, because of the pre-eminence of that (subject).",
+  "text_flags": [
+   {
+    "src": "opadravika",
+    "suggest": "aupadravika",
+    "why": "possible: the derived adjective from upadrava is aupadravika; o for au is a scan or transliteration slip, metre unchanged"
+   }
+  ],
+  "notes": "Reason for the name Aupadravika. 'tasyāgryatvāt': 'tasya' is taken to refer to the complications (or the Tantra's subject); other reading 'because of its (the Tantra's) pre-eminence'.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.30ab",
+   "Su.1.3.30cd"
+  ],
+  "lines_deva": [
+   "अधिकृत्य कृतं यस्मात्तन्त्रमेतदुपद्रवान् ।",
+   "ओपद्रविक इत्येष तस्याग्र्यत्वान्निरुच्यते ॥"
+  ],
+  "lines_iast": [
+   "adhikṛtya kṛtaṃ yasmāttantrametadupadravān |",
+   "opadravika ityeṣa tasyāgryatvānnirucyate ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "31",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "sandhau",
+      "words": [
+       {
+        "w": "sandhau",
+        "gloss": "junction",
+        "gram": "m. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "vartmani",
+      "words": [
+       {
+        "w": "vartmani",
+        "gloss": "eyelid",
+        "gram": "n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "śukle",
+      "words": [
+       {
+        "w": "śukle",
+        "gloss": "white part",
+        "gram": "n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kṛṣṇe",
+      "words": [
+       {
+        "w": "kṛṣṇe",
+        "gloss": "black part",
+        "gram": "n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "sarvatra",
+      "words": [
+       {
+        "w": "sarvatra",
+        "gloss": "everywhere",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "dṛṣṭiṣu",
+      "words": [
+       {
+        "w": "dṛṣṭiṣu",
+        "gloss": "sight, visual parts",
+        "gram": "f. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "saṃvijñānārthamadhyāyā",
+      "words": [
+       {
+        "w": "saṃvijñāna-artham",
+        "gloss": "for the knowledge",
+        "gram": "tat-puruṣa; ind."
+       },
+       {
+        "w": "adhyāyāḥ",
+        "gloss": "chapters",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "gadānāṃ",
+      "words": [
+       {
+        "w": "gadānām",
+        "gloss": "of diseases",
+        "gram": "m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "tu",
+      "words": [
+       {
+        "w": "tu",
+        "gloss": "indeed",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "prati",
+      "words": [
+       {
+        "w": "prati",
+        "gloss": "each",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "prati",
+      "words": [
+       {
+        "w": "prati",
+        "gloss": "each",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "संधि, पलक, श्वेत भाग, कृष्ण भाग तथा सर्वत्र दृष्टि में होने वाले रोगों को जानने के लिए प्रत्येक रोग के अध्याय हैं।",
+  "english": "For knowing the diseases in the junctions, the eyelids, the white part, the black part and everywhere in the visual parts, there are chapters, one for each disease.",
+  "text_flags": [],
+  "notes": "The chunk opens mid-sentence; 'are' is supplied. The locatives name the sites of the diseases; the sense of dṛṣṭi (sight, or the visual parts of the eye) is left general.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.31ab",
+   "Su.1.3.31cd"
+  ],
+  "lines_deva": [
+   "सन्धौ वर्त्मनि शुक्ले च कृष्णे सर्वत्र दृष्टिषु ।",
+   "संविज्ञानार्थमध्याया गदानां तु प्रति प्रति ॥"
+  ],
+  "lines_iast": [
+   "sandhau vartmani śukle ca kṛṣṇe sarvatra dṛṣṭiṣu |",
+   "saṃvijñānārthamadhyāyā gadānāṃ tu prati prati ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "32",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "cikitsāpravibhāgīyo",
+      "words": [
+       {
+        "w": "cikitsā-pravibhāgīyaḥ",
+        "gloss": "concerning the division of treatments",
+        "gram": "tat-puruṣa; m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "vātābhiṣyandavāraṇaḥ",
+      "words": [
+       {
+        "w": "vāta-abhiṣyanda-vāraṇaḥ",
+        "gloss": "warding off of Vāta flux",
+        "gram": "tat-puruṣa; m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "paittasya",
+      "words": [
+       {
+        "w": "paittasya",
+        "gloss": "of the Pitta kind",
+        "gram": "m. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "ślaiṣmikasyāpi",
+      "words": [
+       {
+        "w": "ślaiṣmikasya",
+        "gloss": "of the Kapha kind",
+        "gram": "m. gen. sg."
+       },
+       {
+        "w": "api",
+        "gloss": "also",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "raudhirasya",
+      "words": [
+       {
+        "w": "raudhirasya",
+        "gloss": "of the blood kind",
+        "gram": "m. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "tathaiva",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       },
+       {
+        "w": "eva",
+        "gloss": "indeed",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "चिकित्सा के विभाग का अध्याय; वातजन्य अभिष्यन्द का निवारण, और उसी प्रकार पित्तजन्य, कफजन्य तथा रक्तजन्य अभिष्यन्द का भी निवारण।",
+  "english": "The chapter on the division of treatments; the warding off of the Vāta abhiṣyanda (flux), and likewise of the Pitta, the Kapha and the blood kind.",
+  "text_flags": [],
+  "notes": "'abhiṣyanda' is supplied with the three genitives paittasya, ślaiṣmikasya, raudhirasya. 'chapter' is supplied for the nominatives.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.32ab",
+   "Su.1.3.32cd"
+  ],
+  "lines_deva": [
+   "चिकित्साप्रविभागीयो वाताभिष्यन्दवारणः ।",
+   "पैत्तस्य श्लैष्मिकस्यापि रौधिरस्य तथैव च ।"
+  ],
+  "lines_iast": [
+   "cikitsāpravibhāgīyo vātābhiṣyandavāraṇaḥ |",
+   "paittasya ślaiṣmikasyāpi raudhirasya tathaiva ca |"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "33",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "lekhyabhedyaniṣedhau",
+      "words": [
+       {
+        "w": "lekhya-bhedya-niṣedhau",
+        "gloss": "prohibitions on scraping and incising",
+        "gram": "dvandva and tat-puruṣa; m. nom. du."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "chedyānāṃ",
+      "words": [
+       {
+        "w": "chedyānām",
+        "gloss": "of things to be excised",
+        "gram": "n. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "vartmadṛṣṭiṣu",
+      "words": [
+       {
+        "w": "vartma-dṛṣṭiṣu",
+        "gloss": "in eyelids and sight",
+        "gram": "dvandva; loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "kriyākalpo'bhighātaśca",
+      "words": [
+       {
+        "w": "kriyā-kalpaḥ",
+        "gloss": "course of procedure",
+        "gram": "tat-puruṣa; m. nom. sg."
+       },
+       {
+        "w": "abhighātaḥ",
+        "gloss": "injury",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "karṇotthāstaccikitsitam",
+      "words": [
+       {
+        "w": "karṇa-utthāḥ",
+        "gloss": "arising in the ear",
+        "gram": "tat-puruṣa; m. nom. pl."
+       },
+       {
+        "w": "tat-cikitsitam",
+        "gloss": "their treatment",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "पलकों और दृष्टि में लेखन तथा भेदन के दो निषेध और छेदन योग्य वस्तुओं के विषय में; क्रियाकल्प; आघात; कान से उत्पन्न होने वाले रोग और उनकी चिकित्सा।",
+  "english": "The two prohibitions concerning what is to be scraped and what is to be incised, and concerning things to be excised, in the eyelids and the visual parts; the course of procedure; injury; the diseases arising in the ear and their treatment.",
+  "text_flags": [],
+  "notes": "The construction of 'lekhyabhedyaniṣedhau ca chedyānām' is not certain: niṣedhau is dual (two prohibitions, scraping and incising) and chedyānām (of things to be excised) is read as a further item. 'diseases' is supplied with karṇotthāḥ.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.33ab",
+   "Su.1.3.33cd"
+  ],
+  "lines_deva": [
+   "लेख्यभेद्यनिषेधौ च छेद्यानां वर्त्मदृष्टिषु ।",
+   "क्रियाकल्पोऽभिघातश्च कर्णोत्थास्तच्चिकित्सितम् ॥"
+  ],
+  "lines_iast": [
+   "lekhyabhedyaniṣedhau ca chedyānāṃ vartmadṛṣṭiṣu |",
+   "kriyākalpo'bhighātaśca karṇotthāstaccikitsitam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "34",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "ghrāṇotthānāṃ",
+      "words": [
+       {
+        "w": "ghrāṇa-utthānām",
+        "gloss": "of those arising in the nose",
+        "gram": "tat-puruṣa; m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "vijñānaṃ",
+      "words": [
+       {
+        "w": "vijñānam",
+        "gloss": "recognition",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "tadgadapratiṣedhanam",
+      "words": [
+       {
+        "w": "tad-gada-pratiṣedhanam",
+        "gloss": "counteracting of their diseases",
+        "gram": "tat-puruṣa; n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "pratiśyāyaniṣedhaśca",
+      "words": [
+       {
+        "w": "pratiśyāya-niṣedhaḥ",
+        "gloss": "checking of pratiśyāya",
+        "gram": "tat-puruṣa; m. nom. sg."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "śirogadavivecanam",
+      "words": [
+       {
+        "w": "śiro-gada-vivecanam",
+        "gloss": "discrimination of head diseases",
+        "gram": "tat-puruṣa; n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "नासिका से उत्पन्न होने वाले रोगों की पहचान और उनके रोगों का प्रतिषेध; प्रतिश्याय का निषेध; और शिरोरोगों का विवेचन।",
+  "english": "The recognition of those arising in the nose and the counteracting of their diseases; the checking of pratiśyāya (a nasal disorder); and the discrimination of head diseases.",
+  "text_flags": [],
+  "notes": "'diseases' is supplied with ghrāṇotthānām.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.34ab",
+   "Su.1.3.34cd"
+  ],
+  "lines_deva": [
+   "घ्राणोत्थानां च विज्ञानं तद्गदप्रतिषेधनम् ।",
+   "प्रतिश्यायनिषेधश्च शिरोगदविवेचनम् ॥"
+  ],
+  "lines_iast": [
+   "ghrāṇotthānāṃ ca vijñānaṃ tadgadapratiṣedhanam |",
+   "pratiśyāyaniṣedhaśca śirogadavivecanam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "35",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "cikitsā",
+      "words": [
+       {
+        "w": "cikitsā",
+        "gloss": "treatment",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "tadgadānāṃ",
+      "words": [
+       {
+        "w": "tad-gadānām",
+        "gloss": "of their diseases",
+        "gram": "tat-puruṣa; m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "śālākyaṃ",
+      "words": [
+       {
+        "w": "śālākyam",
+        "gloss": "Śālākya",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "tantramucyate",
+      "words": [
+       {
+        "w": "tantram",
+        "gloss": "branch of the treatise",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "ucyate",
+        "gloss": "is called",
+        "gram": "3 sg. pass. √vac"
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "navagrahākṛtijñānaṃ",
+      "words": [
+       {
+        "w": "nava-graha-ākṛti-jñānam",
+        "gloss": "knowledge of the forms of the nine seizers",
+        "gram": "tat-puruṣa; n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "skandasya",
+      "words": [
+       {
+        "w": "skandasya",
+        "gloss": "of Skanda",
+        "gram": "m. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "niṣedhanam",
+      "words": [
+       {
+        "w": "niṣedhanam",
+        "gloss": "checking",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "उन रोगों की चिकित्सा, इसे शालाक्य तन्त्र कहा जाता है। नौ ग्रहों के आकारों का ज्ञान और स्कन्द का निवारण,",
+  "english": "The treatment of their diseases is called the Śālākya tantra. The knowledge of the forms of the nine seizers (graha), and the checking of Skanda,",
+  "text_flags": [],
+  "notes": "The sentence continues into the next unit with further genitives governed by niṣedhanam.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.35ab",
+   "Su.1.3.35cd"
+  ],
+  "lines_deva": [
+   "चिकित्सा तद्गदानां च शालाक्यं तन्त्रमुच्यते ।",
+   "नवग्रहाकृतिज्ञानं स्कन्दस्य च निषेधनम् ॥"
+  ],
+  "lines_iast": [
+   "cikitsā tadgadānāṃ ca śālākyaṃ tantramucyate |",
+   "navagrahākṛtijñānaṃ skandasya ca niṣedhanam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "36",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "apasmāraśakunyośca",
+      "words": [
+       {
+        "w": "apasmāra-śakunyoḥ",
+        "gloss": "of Apasmāra and Śakuni",
+        "gram": "dvandva; gen. du."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "revatyāśca",
+      "words": [
+       {
+        "w": "revatyāḥ",
+        "gloss": "of Revatī",
+        "gram": "f. gen. sg."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "punaḥ",
+      "words": [
+       {
+        "w": "punaḥ",
+        "gloss": "again",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "pṛthak",
+      "words": [
+       {
+        "w": "pṛthak",
+        "gloss": "separately",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "pūtanāyāstathāandhāyā",
+      "words": [
+       {
+        "w": "pūtanāyāḥ",
+        "gloss": "of Pūtanā",
+        "gram": "f. gen. sg."
+       },
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       },
+       {
+        "w": "andhāyāḥ",
+        "gloss": "of Andhā",
+        "gram": "f. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "maṇḍikā",
+      "words": [
+       {
+        "w": "maṇḍikā",
+        "gloss": "Maṇḍikā",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "śītapūtanā",
+      "words": [
+       {
+        "w": "śīta-pūtanā",
+        "gloss": "Śītapūtanā",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "अपस्मार और शकुनी का, फिर अलग से रेवती का, पूतना का तथा अन्धा का; मण्डिका; शीतपूतना।",
+  "english": "of Apasmāra and Śakuni, and again separately of Revatī, of Pūtanā and likewise of Andhā; Maṇḍikā; Śītapūtanā.",
+  "text_flags": [
+   {
+    "src": "pūtanāyāstathāandhāyā",
+    "suggest": "pūtanāyāstathāndhāyā",
+    "why": "possible: tathā + andhāyāḥ is left unjoined (+ in the marked text); with the sandhi done the half-verse has 16 syllables, as printed it has 17"
+   }
+  ],
+  "notes": "Continues the genitives governed by niṣedhanam of the previous unit. The last two names stand in the nominative, so the construction shifts; the names are given as printed. The sense of andhā ('the blind one' as a name) is left untranslated.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.36ab",
+   "Su.1.3.36cd"
+  ],
+  "lines_deva": [
+   "अपस्मारशकुन्योश्च रेवत्याश्च पुनः पृथक् ।",
+   "पूतनायास्तथाअन्धाया मण्डिका शीतपूतना ॥"
+  ],
+  "lines_iast": [
+   "apasmāraśakunyośca revatyāśca punaḥ pṛthak |",
+   "pūtanāyāstathāandhāyā maṇḍikā śītapūtanā ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "37",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "naigameśacikitsā",
+      "words": [
+       {
+        "w": "naigameśa-cikitsā",
+        "gloss": "treatment of Naigameśa",
+        "gram": "tat-puruṣa; f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "grahotpattiḥ",
+      "words": [
+       {
+        "w": "graha-utpattiḥ",
+        "gloss": "origin of the seizers",
+        "gram": "tat-puruṣa; f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "sayonijā",
+      "words": [
+       {
+        "w": "sa-yoni-jā",
+        "gloss": "together with the womb-born (uncertain)",
+        "gram": "bahuvrīhi; f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "kaumāratantramityetacchārīreṣu",
+      "words": [
+       {
+        "w": "kaumāra-tantram",
+        "gloss": "Kaumāra branch",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "iti",
+        "gloss": "thus",
+        "gram": "ind."
+       },
+       {
+        "w": "etat",
+        "gloss": "this",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "śārīreṣu",
+        "gloss": "in the bodily matters",
+        "gram": "n. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kīrtitam",
+      "words": [
+       {
+        "w": "kīrtitam",
+        "gloss": "declared",
+        "gram": "n. nom. sg. p.p. √kīrt"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "नैगमेश की चिकित्सा; ग्रहों की उत्पत्ति, योनि से उत्पन्न होने वालों के साथ। इसे कौमार तन्त्र कहा गया है, और यह शारीर विषयों में भी वर्णित है।",
+  "english": "The treatment of Naigameśa; the origin of the seizers, together with the womb-born ones. This is called the Kaumāra tantra, and it is also set out among the bodily matters.",
+  "text_flags": [],
+  "notes": "sayonijā is unclear: read as sa-yoni-jā, 'together with those born of the womb'; another reading is 'of the same origin'. śārīreṣu may mean the bodily topics generally or the Śārīra section; the literal 'bodily matters' is kept.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.37ab",
+   "Su.1.3.37cd"
+  ],
+  "lines_deva": [
+   "नैगमेशचिकित्सा च ग्रहोत्पत्तिः सयोनिजा ।",
+   "कौमारतन्त्रमित्येतच्छारीरेषु च कीर्तितम् ॥"
+  ],
+  "lines_iast": [
+   "naigameśacikitsā ca grahotpattiḥ sayonijā |",
+   "kaumāratantramityetacchārīreṣu ca kīrtitam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "38",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "jvarātisāraśoṣāṇāṃ",
+      "words": [
+       {
+        "w": "jvara-atisāra-śoṣāṇām",
+        "gloss": "of fever, purging and wasting",
+        "gram": "dvandva; m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "gulmahṛdrogiṇāmapi",
+      "words": [
+       {
+        "w": "gulma-hṛd-rogiṇām",
+        "gloss": "of those with gulma and heart-affliction",
+        "gram": "dvandva; m. gen. pl."
+       },
+       {
+        "w": "api",
+        "gloss": "also",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "pāṇḍūnāṃ",
+      "words": [
+       {
+        "w": "pāṇḍūnām",
+        "gloss": "of the pāṇḍu-afflicted",
+        "gram": "m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "raktapittasya",
+      "words": [
+       {
+        "w": "rakta-pittasya",
+        "gloss": "of raktapitta (blood-pitta)",
+        "gram": "n. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "mūrcchāyāḥ",
+      "words": [
+       {
+        "w": "mūrcchāyāḥ",
+        "gloss": "of fainting",
+        "gram": "f. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "pānajāśca",
+      "words": [
+       {
+        "w": "pāna-jāḥ",
+        "gloss": "born of drinking",
+        "gram": "tat-puruṣa; m. nom. pl."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ye",
+      "words": [
+       {
+        "w": "ye",
+        "gloss": "which",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "ज्वर, अतिसार और शोष के, गुल्म और हृदय रोग से पीड़ितों के भी, पाण्डु रोगियों के, रक्तपित्त के, मूर्च्छा के, और जो पान से उत्पन्न होते हैं उनके भी,",
+  "english": "of fever, purging and wasting; also of those with gulma and heart-affliction; of the pāṇḍu-afflicted; of raktapitta; of fainting; and of those that are born of drinking,",
+  "text_flags": [],
+  "notes": "The list of genitives continues into the next unit, where niṣedhaḥ and cikitsā govern it. The relative 'ye' (those born of drinking) has no stated antecedent. Technical disease names are kept with literal glosses only. ye pānajāḥ is nominative plural in the print; it is rendered as a genitive ('of those ...') to fit the list of genitives.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.38ab",
+   "Su.1.3.38cd"
+  ],
+  "lines_deva": [
+   "ज्वरातिसारशोषाणां गुल्महृद्रोगिणामपि ।",
+   "पाण्डूनां रक्तपित्तस्य मूर्च्छायाः पानजाश्च ये ॥"
+  ],
+  "lines_iast": [
+   "jvarātisāraśoṣāṇāṃ gulmahṛdrogiṇāmapi |",
+   "pāṇḍūnāṃ raktapittasya mūrcchāyāḥ pānajāśca ye ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "39",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "tṛṣṇāyāśchardihikkānāṃ",
+      "words": [
+       {
+        "w": "tṛṣṇāyāḥ",
+        "gloss": "of thirst",
+        "gram": "f. gen. sg."
+       },
+       {
+        "w": "chardi-hikkānām",
+        "gloss": "of vomiting and hiccup",
+        "gram": "dvandva; f. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "niṣedhaḥ",
+      "words": [
+       {
+        "w": "niṣedhaḥ",
+        "gloss": "checking",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "śvāsakāsayoḥ",
+      "words": [
+       {
+        "w": "śvāsa-kāsayoḥ",
+        "gloss": "of breathlessness and cough",
+        "gram": "dvandva; m. gen. du."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "svarabhedacikitsā",
+      "words": [
+       {
+        "w": "svara-bheda-cikitsā",
+        "gloss": "treatment of voice-break",
+        "gram": "tat-puruṣa; f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kṛmyudāvartinoḥ",
+      "words": [
+       {
+        "w": "kṛmi-udāvartinoḥ",
+        "gloss": "of the worm-afflicted and the udāvarta-afflicted",
+        "gram": "dvandva; m. gen. du."
+       }
+      ]
+     },
+     {
+      "src": "prthak",
+      "words": [
+       {
+        "w": "pṛthak",
+        "gloss": "separately",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "प्यास, वमन और हिचकी का निषेध; श्वास और कास का; स्वरभेद की चिकित्सा; और अलग-अलग कृमि तथा उदावर्त से पीड़ितों का।",
+  "english": "the checking of thirst, vomiting and hiccup, and of breathlessness and cough; the treatment of voice-break; and, separately, of the worm-afflicted and of the udāvarta-afflicted.",
+  "text_flags": [
+   {
+    "src": "prthak",
+    "suggest": "pṛthak",
+    "why": "missing dot under r (spelling error)"
+   }
+  ],
+  "notes": "Continues the list from the previous unit. kṛmyudāvartinoḥ is read as a dual dvandva (kṛmin, udāvartin); udāvarta is left untranslated.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.39ab",
+   "Su.1.3.39cd"
+  ],
+  "lines_deva": [
+   "तृष्णायाश्छर्दिहिक्कानां निषेधः श्वासकासयोः ।",
+   "स्वरभेदचिकित्सा च कृम्युदावर्तिनोः प्र्थक् ॥"
+  ],
+  "lines_iast": [
+   "tṛṣṇāyāśchardihikkānāṃ niṣedhaḥ śvāsakāsayoḥ |",
+   "svarabhedacikitsā ca kṛmyudāvartinoḥ prthak ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "40",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "visūcikārocakayormūtrāghātavikṛcchrayoḥ",
+      "words": [
+       {
+        "w": "visūcikā-arocakayoḥ",
+        "gloss": "of visūcikā and arocaka (lack of relish)",
+        "gram": "dvandva; m. gen. du."
+       },
+       {
+        "w": "mūtra-āghāta-vikṛcchrayoḥ",
+        "gloss": "of urine-obstruction and vikṛcchra",
+        "gram": "dvandva; m. gen. du."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "iti",
+      "words": [
+       {
+        "w": "iti",
+        "gloss": "thus",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kāyacikitsāyāḥ",
+      "words": [
+       {
+        "w": "kāya-cikitsāyāḥ",
+        "gloss": "of the body-treatment",
+        "gram": "tat-puruṣa; f. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "śeṣamatra",
+      "words": [
+       {
+        "w": "śeṣam",
+        "gloss": "remainder",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "atra",
+        "gloss": "here",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "prakīrtitam",
+      "words": [
+       {
+        "w": "prakīrtitam",
+        "gloss": "set out",
+        "gram": "n. nom. sg. p.p. pra-√kīrt"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "विसूचिका और अरोचक का, मूत्राघात और विकृच्छ्र का; इस प्रकार कायचिकित्सा का शेष भाग यहाँ बताया गया है।",
+  "english": "of visūcikā and arocaka (lack of relish), of urine-obstruction and vikṛcchra: thus the remainder of the body-treatment (kāyacikitsā) is set out here.",
+  "text_flags": [],
+  "notes": "vikṛcchra is not a known standalone word; it is taken as a second dual member (vi-kṛcchra) and left untranslated. Possibly a shortened mūtrakṛcchra, but this is not certain and the text is kept. 'chapters' is not stated in the verse.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.40ab",
+   "Su.1.3.40cd"
+  ],
+  "lines_deva": [
+   "विसूचिकारोचकयोर्मूत्राघातविकृच्छ्रयोः ।",
+   "इति कायचिकित्सायाः शेषमत्र प्रकीर्तितम् ॥"
+  ],
+  "lines_iast": [
+   "visūcikārocakayormūtrāghātavikṛcchrayoḥ |",
+   "iti kāyacikitsāyāḥ śeṣamatra prakīrtitam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "41",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "amānuṣaniṣedhaśca",
+      "words": [
+       {
+        "w": "amānuṣa-niṣedhaḥ",
+        "gloss": "checking of non-humans",
+        "gram": "tat-puruṣa; m. nom. sg."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "tathāāpasmāriko'paraḥ",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       },
+       {
+        "w": "āpasmārikaḥ",
+        "gloss": "relating to apasmāra",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "aparaḥ",
+        "gloss": "another",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "unmādapratiṣedhaśca",
+      "words": [
+       {
+        "w": "unmāda-pratiṣedhaḥ",
+        "gloss": "checking of unmāda (madness)",
+        "gram": "tat-puruṣa; m. nom. sg."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "bhūtavidyā",
+      "words": [
+       {
+        "w": "bhūta-vidyā",
+        "gloss": "Bhūtavidyā (science of beings)",
+        "gram": "tat-puruṣa; f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "nirucyate",
+      "words": [
+       {
+        "w": "nirucyate",
+        "gloss": "is declared",
+        "gram": "3 sg. pass. nis-√vac"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "अमानुषों का निषेध, उसी प्रकार दूसरा अपस्मार से सम्बन्धित निषेध, और उन्माद का प्रतिषेध: यह भूतविद्या कही जाती है।",
+  "english": "The checking of non-human beings; likewise another, relating to apasmāra; and the checking of unmāda (madness): this is declared to be Bhūtavidyā (the science of beings).",
+  "text_flags": [
+   {
+    "src": "tathāāpasmāriko'paraḥ",
+    "suggest": "tathāpasmāriko'paraḥ",
+    "why": "possible: tathā + āpasmārikaḥ left unjoined; with the sandhi done the half-verse has 16 syllables, as printed 17"
+   }
+  ],
+  "notes": "'aparaḥ' is taken to qualify a supplied niṣedhaḥ ('another checking'). The printed tathāāpasmāriko leaves the hiatus unjoined; see text_flags.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.41ab",
+   "Su.1.3.41cd"
+  ],
+  "lines_deva": [
+   "अमानुषनिषेधश्च तथाआपस्मारिकोऽपरः ।",
+   "उन्मादप्रतिषेधश्च भूतविद्या निरुच्यते ॥"
+  ],
+  "lines_iast": [
+   "amānuṣaniṣedhaśca tathāāpasmāriko'paraḥ |",
+   "unmādapratiṣedhaśca bhūtavidyā nirucyate ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "42",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "rasabhedāḥ",
+      "words": [
+       {
+        "w": "rasa-bhedāḥ",
+        "gloss": "varieties of rasa",
+        "gram": "tat-puruṣa; m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "svasthavṛttiryuktayastāntrikāśca",
+      "words": [
+       {
+        "w": "svastha-vṛttiḥ",
+        "gloss": "regimen of the healthy",
+        "gram": "tat-puruṣa; f. nom. sg."
+       },
+       {
+        "w": "yuktayaḥ",
+        "gloss": "devices (yukti)",
+        "gram": "f. nom. pl."
+       },
+       {
+        "w": "tāntrikāḥ",
+        "gloss": "of the treatise",
+        "gram": "m. nom. pl."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "yāḥ",
+      "words": [
+       {
+        "w": "yāḥ",
+        "gloss": "which",
+        "gram": "f. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "doṣabhedā",
+      "words": [
+       {
+        "w": "doṣa-bhedāḥ",
+        "gloss": "varieties of doṣa",
+        "gram": "tat-puruṣa; m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "iti",
+      "words": [
+       {
+        "w": "iti",
+        "gloss": "thus",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "jñeyā",
+      "words": [
+       {
+        "w": "jñeyāḥ",
+        "gloss": "to be known",
+        "gram": "gerundive √jñā, m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "adhyāyāstantrabhūṣaṇāḥ",
+      "words": [
+       {
+        "w": "adhyāyāḥ",
+        "gloss": "chapters",
+        "gram": "m. nom. pl."
+       },
+       {
+        "w": "tantra-bhūṣaṇāḥ",
+        "gloss": "ornaments of the treatise",
+        "gram": "tat-puruṣa; m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "रसों के भेद, स्वस्थ की चर्या, तन्त्र सम्बन्धी युक्तियाँ और दोषों के भेद, इन अध्यायों को तन्त्र के भूषण जानना चाहिए।",
+  "english": "The varieties of rasa, the regimen of the healthy, the treatise's technical devices (yukti) and the varieties of doṣa: these chapters are to be known as the ornaments of the treatise.",
+  "text_flags": [],
+  "notes": "'rasa' here is read as the tastes (rasa-bheda); the text does not list them. tāntrikāḥ is masculine and does not agree with the feminine yuktayaḥ; the construction is noted as doubtful.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.42ab",
+   "Su.1.3.42cd"
+  ],
+  "lines_deva": [
+   "रसभेदाः स्वस्थवृत्तिर्युक्तयस्तान्त्रिकाश्च याः ।",
+   "दोषभेदा इति ज्ञेया अध्यायास्तन्त्रभूषणाः ॥"
+  ],
+  "lines_iast": [
+   "rasabhedāḥ svasthavṛttiryuktayastāntrikāśca yāḥ |",
+   "doṣabhedā iti jñeyā adhyāyāstantrabhūṣaṇāḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "43",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "śreṣṭhatvāduttaraṃ",
+      "words": [
+       {
+        "w": "śreṣṭhatvāt",
+        "gloss": "because of excellence",
+        "gram": "n. abl. sg."
+       },
+       {
+        "w": "uttaram",
+        "gloss": "Uttara (higher, later)",
+        "gram": "n. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "hyetattantramāhurmaharṣayaḥ",
+      "words": [
+       {
+        "w": "hi",
+        "gloss": "indeed",
+        "gram": "ind."
+       },
+       {
+        "w": "etat",
+        "gloss": "this",
+        "gram": "n. acc. sg."
+       },
+       {
+        "w": "tantram",
+        "gloss": "treatise",
+        "gram": "n. acc. sg."
+       },
+       {
+        "w": "āhuḥ",
+        "gloss": "they call",
+        "gram": "3 pl. pf. √ah"
+       },
+       {
+        "w": "mahā-ṛṣayaḥ",
+        "gloss": "great sages",
+        "gram": "karmadhāraya; m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "bahvarthasaṃgrahācchreṣṭhamuttaraṃ",
+      "words": [
+       {
+        "w": "bahu-artha-saṃgrahāt",
+        "gloss": "because it gathers many topics",
+        "gram": "tat-puruṣa; m. abl. sg."
+       },
+       {
+        "w": "śreṣṭham",
+        "gloss": "best",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "uttaram",
+        "gloss": "Uttara",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "cāpi",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "api",
+        "gloss": "also",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "paścimam",
+      "words": [
+       {
+        "w": "paścimam",
+        "gloss": "last",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "श्रेष्ठ होने के कारण महर्षि इस तन्त्र को उत्तर कहते हैं; बहुत विषयों का संग्रह होने से यह उत्तर श्रेष्ठ है, और अन्तिम भी।",
+  "english": "Because of its excellence the great sages call this treatise 'Uttara'; because it gathers many topics the Uttara is the best, and also the last.",
+  "text_flags": [],
+  "notes": "Word-play on uttara (higher, best / later, last); the translation follows the verse in giving both senses.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.43ab",
+   "Su.1.3.43cd"
+  ],
+  "lines_deva": [
+   "श्रेष्ठत्वादुत्तरं ह्येतत्तन्त्रमाहुर्महर्षयः ।",
+   "बह्वर्थसंग्रहाच्छ्रेष्ठमुत्तरं चापि पश्चिमम् ॥"
+  ],
+  "lines_iast": [
+   "śreṣṭhatvāduttaraṃ hyetattantramāhurmaharṣayaḥ |",
+   "bahvarthasaṃgrahācchreṣṭhamuttaraṃ cāpi paścimam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "44",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "śālākyatantraṃ",
+      "words": [
+       {
+        "w": "śālākya-tantram",
+        "gloss": "Śālākya branch",
+        "gram": "tat-puruṣa; n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "kaumāraṃ",
+      "words": [
+       {
+        "w": "kaumāram",
+        "gloss": "Kaumāra",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "cikitsā",
+      "words": [
+       {
+        "w": "cikitsā",
+        "gloss": "treatment",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "kāyikī",
+      "words": [
+       {
+        "w": "kāyikī",
+        "gloss": "of the body",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "yā",
+      "words": [
+       {
+        "w": "yā",
+        "gloss": "which",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "bhūtavidyeti",
+      "words": [
+       {
+        "w": "bhūta-vidyā",
+        "gloss": "Bhūtavidyā",
+        "gram": "tat-puruṣa; f. nom. sg."
+       },
+       {
+        "w": "iti",
+        "gloss": "thus",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "catvāri",
+      "words": [
+       {
+        "w": "catvāri",
+        "gloss": "four",
+        "gram": "n. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "tantre",
+      "words": [
+       {
+        "w": "tantre",
+        "gloss": "in the treatise",
+        "gram": "n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "tūttarasaṃjñite",
+      "words": [
+       {
+        "w": "tu",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "uttara-saṃjñite",
+        "gloss": "named Uttara",
+        "gram": "bahuvrīhi; n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "शालाक्य तन्त्र, कौमार, जो कायिकी चिकित्सा है, और भूतविद्या: ये चार उत्तर नामक तन्त्र में हैं।",
+  "english": "The Śālākya tantra, the Kaumāra, the body-treatment (kāyikī cikitsā) and Bhūtavidyā: these four are in the treatise named Uttara.",
+  "text_flags": [],
+  "notes": "",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.44ab",
+   "Su.1.3.44cd"
+  ],
+  "lines_deva": [
+   "शालाक्यतन्त्रं कौमारं चिकित्सा कायिकी च या ।",
+   "भूतविद्येति चत्वारि तन्त्रे तूत्तरसंज्ञिते ॥"
+  ],
+  "lines_iast": [
+   "śālākyatantraṃ kaumāraṃ cikitsā kāyikī ca yā |",
+   "bhūtavidyeti catvāri tantre tūttarasaṃjñite ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "45",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "vājīkaraṃ",
+      "words": [
+       {
+        "w": "vājīkaram",
+        "gloss": "vājīkara (a treatment branch)",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "cakitsāsu",
+      "words": [
+       {
+        "w": "cikitsāsu",
+        "gloss": "among treatments",
+        "gram": "f. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "rasāyanavidhistathā",
+      "words": [
+       {
+        "w": "rasāyana-vidhiḥ",
+        "gloss": "rasāyana procedure",
+        "gram": "tat-puruṣa; m. nom. sg."
+       },
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "viṣatantraṃ",
+      "words": [
+       {
+        "w": "viṣa-tantram",
+        "gloss": "poison treatise",
+        "gram": "tat-puruṣa; n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "punaḥ",
+      "words": [
+       {
+        "w": "punaḥ",
+        "gloss": "further",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kalpāḥ",
+      "words": [
+       {
+        "w": "kalpāḥ",
+        "gloss": "kalpas (preparations)",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "śalyajñānaṃ",
+      "words": [
+       {
+        "w": "śalya-jñānam",
+        "gloss": "knowledge of śalya",
+        "gram": "tat-puruṣa; n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "samantataḥ",
+      "words": [
+       {
+        "w": "samantataḥ",
+        "gloss": "completely",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "चिकित्साओं में वाजीकरण, वैसे ही रसायन की विधि; विषतन्त्र, फिर कल्प; और शल्य का पूर्ण ज्ञान।",
+  "english": "Among treatments, vājīkaraṇa, and likewise the rasāyana procedure; the poison treatise and further the kalpas; and complete knowledge of śalya.",
+  "text_flags": [
+   {
+    "src": "cakitsāsu",
+    "suggest": "cikitsāsu",
+    "why": "spelling error (ca for ci); the words of the phrase are cikitsāsu"
+   }
+  ],
+  "notes": "The text has vājīkaram (neuter) for the branch; samantataḥ is taken with śalyajñānam. kalpāḥ may belong with viṣatantram or stand alone; left as listed. With the four of unit 44 these give eight, if kalpāḥ is counted with viṣatantra of the next unit.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.45ab",
+   "Su.1.3.45cd"
+  ],
+  "lines_deva": [
+   "वाजीकरं चकित्सासु रसायनविधिस्तथा ।",
+   "विषतन्त्रं पुनः कल्पाः शल्यज्ञानं समन्ततः ॥"
+  ],
+  "lines_iast": [
+   "vājīkaraṃ cakitsāsu rasāyanavidhistathā |",
+   "viṣatantraṃ punaḥ kalpāḥ śalyajñānaṃ samantataḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "46",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "ityaṣṭāṅgamidaṃ",
+      "words": [
+       {
+        "w": "iti",
+        "gloss": "thus",
+        "gram": "ind."
+       },
+       {
+        "w": "aṣṭa-aṅgam",
+        "gloss": "of eight limbs",
+        "gram": "bahuvrīhi; n. nom. sg."
+       },
+       {
+        "w": "idam",
+        "gloss": "this",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "tantramādidevaprakāśitam",
+      "words": [
+       {
+        "w": "tantram",
+        "gloss": "treatise",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "ādi-deva-prakāśitam",
+        "gloss": "revealed by the primal god",
+        "gram": "tat-puruṣa; n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "vidhināadhītya",
+      "words": [
+       {
+        "w": "vidhinā",
+        "gloss": "by rule",
+        "gram": "m. inst. sg."
+       },
+       {
+        "w": "adhītya",
+        "gloss": "having studied",
+        "gram": "abs. adhi-√i"
+       }
+      ]
+     },
+     {
+      "src": "yuñjānā",
+      "words": [
+       {
+        "w": "yuñjānāḥ",
+        "gloss": "applying",
+        "gram": "pres. part. mid. √yuj, m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "bhavanti",
+      "words": [
+       {
+        "w": "bhavanti",
+        "gloss": "they become",
+        "gram": "3 pl. pres. √bhū"
+       }
+      ]
+     },
+     {
+      "src": "prāṇadā",
+      "words": [
+       {
+        "w": "prāṇadāḥ",
+        "gloss": "givers of life",
+        "gram": "tat-puruṣa; m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "bhuvi",
+      "words": [
+       {
+        "w": "bhuvi",
+        "gloss": "on earth",
+        "gram": "f. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "इस प्रकार आदिदेव द्वारा प्रकाशित यह आठ अंगों वाला तन्त्र है; इसे विधिपूर्वक पढ़कर प्रयोग करने वाले पृथ्वी पर प्राणदाता होते हैं।",
+  "english": "Thus this treatise of eight limbs was revealed by the primal god; those who study it by the rule and apply it become givers of life on earth.",
+  "text_flags": [
+   {
+    "src": "vidhināadhītya",
+    "suggest": "vidhinādhītya",
+    "why": "possible: vidhinā + adhītya left unjoined; with the sandhi done the half-verse has 16 syllables, as printed 17"
+   }
+  ],
+  "notes": "The printed vidhināadhītya leaves the hiatus unjoined; see text_flags. 'ādideva' is rendered 'primal god' without naming him.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.46ab",
+   "Su.1.3.46cd"
+  ],
+  "lines_deva": [
+   "इत्यष्टाङ्गमिदं तन्त्रमादिदेवप्रकाशितम् ।",
+   "विधिनाअधीत्य युञ्जाना भवन्ति प्राणदा भुवि ॥"
+  ],
+  "lines_iast": [
+   "ityaṣṭāṅgamidaṃ tantramādidevaprakāśitam |",
+   "vidhināadhītya yuñjānā bhavanti prāṇadā bhuvi ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "47",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "etaddhyavaśyamadhyeyaṃ",
+      "words": [
+       {
+        "w": "etat",
+        "gloss": "this",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "hi",
+        "gloss": "for",
+        "gram": "ind."
+       },
+       {
+        "w": "avaśyam",
+        "gloss": "necessarily",
+        "gram": "ind."
+       },
+       {
+        "w": "adhyeyam",
+        "gloss": "to be studied",
+        "gram": "gerundive adhi-√i, n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "adhītya",
+      "words": [
+       {
+        "w": "adhītya",
+        "gloss": "having studied",
+        "gram": "abs. adhi-√i"
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "karmāpyavaśyamupāsitavyaṃ",
+      "words": [
+       {
+        "w": "karma",
+        "gloss": "practical work",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "api",
+        "gloss": "also",
+        "gram": "ind."
+       },
+       {
+        "w": "avaśyam",
+        "gloss": "necessarily",
+        "gram": "ind."
+       },
+       {
+        "w": "upāsitavyam",
+        "gloss": "to be practised",
+        "gram": "gerundive upa-√ās, n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "ubhayajño",
+      "words": [
+       {
+        "w": "ubhaya-jñaḥ",
+        "gloss": "knower of both",
+        "gram": "tat-puruṣa; m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "hi",
+      "words": [
+       {
+        "w": "hi",
+        "gloss": "for",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "bhiṣak",
+      "words": [
+       {
+        "w": "bhiṣak",
+        "gloss": "physician",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "rājārho",
+      "words": [
+       {
+        "w": "rāja-arhaḥ",
+        "gloss": "worthy of a king",
+        "gram": "tat-puruṣa; m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "bhavati",
+      "words": [
+       {
+        "w": "bhavati",
+        "gloss": "becomes",
+        "gram": "3 sg. pres. √bhū"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "यह अवश्य पढ़ने योग्य है, और पढ़कर कर्म का भी अवश्य अभ्यास करना चाहिए; क्योंकि दोनों को जानने वाला वैद्य राजा के योग्य होता है।",
+  "english": "This must be studied, and having studied it the practical work (karma) must also be pursued; for a physician who knows both is worthy of a king.",
+  "text_flags": [],
+  "notes": "karma is rendered 'practical work'; 'both' means the treatise and the practical work. Prose, no metre check.",
+  "confidence": "high",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.3.47"
+  ],
+  "lines_deva": [
+   "एतद्ध्यवश्यमध्येयं अधीत्य च कर्माप्यवश्यमुपासितव्यं उभयज्ञो हि भिषक् राजार्हो भवति ॥"
+  ],
+  "lines_iast": [
+   "etaddhyavaśyamadhyeyaṃ adhītya ca karmāpyavaśyamupāsitavyaṃ ubhayajño hi bhiṣak rājārho bhavati ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "48",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "yastu",
+      "words": [
+       {
+        "w": "yaḥ",
+        "gloss": "who",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "tu",
+        "gloss": "but",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kevalaśāstrajñaḥ",
+      "words": [
+       {
+        "w": "kevala-śāstra-jñaḥ",
+        "gloss": "knowing only the treatise",
+        "gram": "tat-puruṣa; m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "karmasvapariniṣṭhitaḥ",
+      "words": [
+       {
+        "w": "karmasu",
+        "gloss": "in practical work",
+        "gram": "n. loc. pl."
+       },
+       {
+        "w": "apariniṣṭhitaḥ",
+        "gloss": "not well versed",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "sa",
+      "words": [
+       {
+        "w": "saḥ",
+        "gloss": "he",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "muhyatyāturaṃ",
+      "words": [
+       {
+        "w": "muhyati",
+        "gloss": "is bewildered",
+        "gram": "3 sg. pres. √muh"
+       },
+       {
+        "w": "āturam",
+        "gloss": "patient",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "prāpya",
+      "words": [
+       {
+        "w": "prāpya",
+        "gloss": "having reached",
+        "gram": "abs. pra-√āp"
+       }
+      ]
+     },
+     {
+      "src": "prāpya",
+      "words": [
+       {
+        "w": "prāpya",
+        "gloss": "having reached",
+        "gram": "abs. pra-√āp"
+       }
+      ]
+     },
+     {
+      "src": "bhīrurivāhavam",
+      "words": [
+       {
+        "w": "bhīruḥ",
+        "gloss": "timid man",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "iva",
+        "gloss": "like",
+        "gram": "ind."
+       },
+       {
+        "w": "āhavam",
+        "gloss": "battle",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "lead_in_tokens": [
+   {
+    "src": "bhavanti",
+    "words": [
+     {
+      "w": "bhavanti",
+      "gloss": "there are",
+      "gram": "3 pl. pres. √bhū"
+     }
+    ]
+   },
+   {
+    "src": "cātra",
+    "words": [
+     {
+      "w": "ca",
+      "gloss": "and",
+      "gram": "ind."
+     },
+     {
+      "w": "atra",
+      "gloss": "here",
+      "gram": "ind."
+     }
+    ]
+   },
+   {
+    "src": "|",
+    "words": [
+     {
+      "w": "|",
+      "gloss": "half-verse mark",
+      "gram": "punct."
+     }
+    ]
+   }
+  ],
+  "lead_in_hindi": "और इस विषय में ये श्लोक हैं।",
+  "lead_in_english": "And here there are verses.",
+  "hindi": "जो केवल शास्त्र को जानता है और कर्मों में पूर्ण दक्ष नहीं है, वह रोगी के पास पहुँचकर घबरा जाता है, जैसे डरपोक युद्ध में पहुँचकर।",
+  "english": "He who knows only the treatise and is not well versed in practical work is bewildered on reaching a patient, like a timid man on reaching a battle.",
+  "text_flags": [],
+  "notes": "The second prāpya belongs to the simile ('having reached a battle'). Lead-in formula bhavanti cātra translated in lead_in_english. Alternative: prāpya prāpya as a single repeated absolutive ('each time he reaches a patient'); the split between patient and simile is a choice.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.48",
+   "Su.1.3.48ab",
+   "Su.1.3.48cd"
+  ],
+  "lines_deva": [
+   "यस्तु केवलशास्त्रज्ञः कर्मस्वपरिनिष्ठितः ।",
+   "स मुह्यत्यातुरं प्राप्य प्राप्य भीरुरिवाहवम् ॥"
+  ],
+  "lines_iast": [
+   "yastu kevalaśāstrajñaḥ karmasvapariniṣṭhitaḥ |",
+   "sa muhyatyāturaṃ prāpya prāpya bhīrurivāhavam ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "49",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "yastu",
+      "words": [
+       {
+        "w": "yaḥ",
+        "gloss": "who",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "tu",
+        "gloss": "but",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "karmasu",
+      "words": [
+       {
+        "w": "karmasu",
+        "gloss": "in practical work",
+        "gram": "n. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "niṣṇāto",
+      "words": [
+       {
+        "w": "niṣṇātaḥ",
+        "gloss": "skilled",
+        "gram": "p.p. ni-√snā, m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "dhārṣṭyācchāstrabahiṣkṛtaḥ",
+      "words": [
+       {
+        "w": "dhārṣṭyāt",
+        "gloss": "through audacity",
+        "gram": "n. abl. sg."
+       },
+       {
+        "w": "śāstra-bahiṣkṛtaḥ",
+        "gloss": "cast out from the treatise",
+        "gram": "tat-puruṣa; m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "sa",
+      "words": [
+       {
+        "w": "saḥ",
+        "gloss": "he",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "satsu",
+      "words": [
+       {
+        "w": "satsu",
+        "gloss": "among the good",
+        "gram": "m. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "pūjāṃ",
+      "words": [
+       {
+        "w": "pūjām",
+        "gloss": "honour",
+        "gram": "f. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "nāpnoti",
+      "words": [
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       },
+       {
+        "w": "āpnoti",
+        "gloss": "obtains",
+        "gram": "3 sg. pres. √āp"
+       }
+      ]
+     },
+     {
+      "src": "vadhaṃ",
+      "words": [
+       {
+        "w": "vadham",
+        "gloss": "death",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "cārhati",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "arhati",
+        "gloss": "deserves",
+        "gram": "3 sg. pres. √arh"
+       }
+      ]
+     },
+     {
+      "src": "rājataḥ",
+      "words": [
+       {
+        "w": "rājataḥ",
+        "gloss": "from the king",
+        "gram": "ind. (abl.)"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "परन्तु जो कर्मों में निपुण है, किन्तु ढिठाई के कारण शास्त्र से बहिष्कृत है, वह सज्जनों में सम्मान नहीं पाता और राजा से वध का भी पात्र होता है।",
+  "english": "But he who is skilled in practical work yet, through audacity, is cast out from the treatise does not win honour among the good, and deserves death at the king's hands.",
+  "text_flags": [],
+  "notes": "'vadha' is rendered 'death' (killing or execution).",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.49ab",
+   "Su.1.3.49cd"
+  ],
+  "lines_deva": [
+   "यस्तु कर्मसु निष्णातो धार्ष्ट्याच्छास्त्रबहिष्कृतः ।",
+   "स सत्सु पूजां नाप्नोति वधं चार्हति राजतः ॥"
+  ],
+  "lines_iast": [
+   "yastu karmasu niṣṇāto dhārṣṭyācchāstrabahiṣkṛtaḥ |",
+   "sa satsu pūjāṃ nāpnoti vadhaṃ cārhati rājataḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "50",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "ubhāvetāvanipuṇāvasamarthau",
+      "words": [
+       {
+        "w": "ubhau",
+        "gloss": "both",
+        "gram": "m. nom. du."
+       },
+       {
+        "w": "etau",
+        "gloss": "these two",
+        "gram": "m. nom. du."
+       },
+       {
+        "w": "anipuṇau",
+        "gloss": "unskilled",
+        "gram": "m. nom. du."
+       },
+       {
+        "w": "asamarthau",
+        "gloss": "unable",
+        "gram": "m. nom. du."
+       }
+      ]
+     },
+     {
+      "src": "svakarmaṇi",
+      "words": [
+       {
+        "w": "sva-karmaṇi",
+        "gloss": "in their own work",
+        "gram": "tat-puruṣa; n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "ardhavedadharāvetāvekapakṣāviva",
+      "words": [
+       {
+        "w": "ardha-veda-dharau",
+        "gloss": "holding half the Veda",
+        "gram": "tat-puruṣa; m. nom. du."
+       },
+       {
+        "w": "etau",
+        "gloss": "these two",
+        "gram": "m. nom. du."
+       },
+       {
+        "w": "eka-pakṣau",
+        "gloss": "one-winged",
+        "gram": "bahuvrīhi; m. nom. du."
+       },
+       {
+        "w": "iva",
+        "gloss": "like",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "dvijau",
+      "words": [
+       {
+        "w": "dvijau",
+        "gloss": "birds",
+        "gram": "m. nom. du."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "ये दोनों अपने कर्म में अनिपुण और असमर्थ हैं; आधे वेद को धारण करने वाले ये दोनों एक पंख वाले दो पक्षियों के समान हैं।",
+  "english": "Both of these are unskilled and unable in their own work; holding half the Veda each, these two are like two birds with one wing apiece.",
+  "text_flags": [],
+  "notes": "dvija is taken as 'bird' (twice-born) because of eka-pakṣa (one-winged). 'Veda' is used in the general sense of knowledge.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.50ab",
+   "Su.1.3.50cd"
+  ],
+  "lines_deva": [
+   "उभावेतावनिपुणावसमर्थौ स्वकर्मणि ।",
+   "अर्धवेदधरावेतावेकपक्षाविव द्विजौ ॥"
+  ],
+  "lines_iast": [
+   "ubhāvetāvanipuṇāvasamarthau svakarmaṇi |",
+   "ardhavedadharāvetāvekapakṣāviva dvijau ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "51",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "oṣadhyo'mṛtakalpāstu",
+      "words": [
+       {
+        "w": "oṣadhyaḥ",
+        "gloss": "herbs",
+        "gram": "f. nom. pl."
+       },
+       {
+        "w": "amṛta-kalpāḥ",
+        "gloss": "like ambrosia",
+        "gram": "tat-puruṣa; f. nom. pl."
+       },
+       {
+        "w": "tu",
+        "gloss": "but",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "śastrāśaniviṣopamāḥ",
+      "words": [
+       {
+        "w": "śastra-aśani-viṣa-upamāḥ",
+        "gloss": "like weapon, thunderbolt and poison",
+        "gram": "tat-puruṣa; f. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "bhavantyajñairupahṛtāstasmādetān",
+      "words": [
+       {
+        "w": "bhavanti",
+        "gloss": "they become",
+        "gram": "3 pl. pres. √bhū"
+       },
+       {
+        "w": "ajñaiḥ",
+        "gloss": "by the ignorant",
+        "gram": "m. inst. pl."
+       },
+       {
+        "w": "upahṛtāḥ",
+        "gloss": "administered",
+        "gram": "p.p. upa-√hṛ, f. nom. pl."
+       },
+       {
+        "w": "tasmāt",
+        "gloss": "therefore",
+        "gram": "ind."
+       },
+       {
+        "w": "etān",
+        "gloss": "these",
+        "gram": "m. acc. pl."
+       }
+      ]
+     },
+     {
+      "src": "vivarjayet",
+      "words": [
+       {
+        "w": "vivarjayet",
+        "gloss": "one should avoid",
+        "gram": "3 sg. opt. caus. vi-√vṛj"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "औषधियाँ अमृत के समान होती हैं, परन्तु अज्ञानियों द्वारा प्रयुक्त होने पर शस्त्र, वज्र और विष के समान हो जाती हैं; इसलिए इन्हें त्याग देना चाहिए।",
+  "english": "Herbs are like ambrosia, but when administered by the ignorant they become like a weapon, a thunderbolt or poison; therefore one should avoid these.",
+  "text_flags": [],
+  "notes": "etān is ambiguous; it most naturally refers to the ignorant (ajñāḥ) just mentioned, being masculine plural it cannot refer to the feminine oṣadhyaḥ. upahṛta is rendered 'administered' (literally brought or offered).",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.51ab",
+   "Su.1.3.51cd"
+  ],
+  "lines_deva": [
+   "ओषध्योऽमृतकल्पास्तु शस्त्राशनिविषोपमाः ।",
+   "भवन्त्यज्ञैरुपहृतास्तस्मादेतान् विवर्जयेत् ॥"
+  ],
+  "lines_iast": [
+   "oṣadhyo'mṛtakalpāstu śastrāśaniviṣopamāḥ |",
+   "bhavantyajñairupahṛtāstasmādetān vivarjayet ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "52",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "snehādiṣvanabhijñā",
+      "words": [
+       {
+        "w": "sneha-ādiṣu",
+        "gloss": "in oleation and the rest",
+        "gram": "bahuvrīhi; m. loc. pl."
+       },
+       {
+        "w": "anabhijñāḥ",
+        "gloss": "ignorant",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "ye",
+      "words": [
+       {
+        "w": "ye",
+        "gloss": "who",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "chedyādiṣu",
+      "words": [
+       {
+        "w": "chedya-ādiṣu",
+        "gloss": "in excision and the rest",
+        "gram": "bahuvrīhi; n. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "karmasu",
+      "words": [
+       {
+        "w": "karmasu",
+        "gloss": "in procedures",
+        "gram": "n. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "te",
+      "words": [
+       {
+        "w": "te",
+        "gloss": "they",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "nihanti",
+      "words": [
+       {
+        "w": "nihanti",
+        "gloss": "kills",
+        "gram": "3 sg. pres. ni-√han"
+       }
+      ]
+     },
+     {
+      "src": "janaṃ",
+      "words": [
+       {
+        "w": "janam",
+        "gloss": "people",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "lobhāt",
+      "words": [
+       {
+        "w": "lobhāt",
+        "gloss": "from greed",
+        "gram": "m. abl. sg."
+       }
+      ]
+     },
+     {
+      "src": "kuvaidyā",
+      "words": [
+       {
+        "w": "kuvaidyāḥ",
+        "gloss": "bad physicians",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "nṛpadoṣataḥ",
+      "words": [
+       {
+        "w": "nṛpa-doṣataḥ",
+        "gloss": "through the king's fault",
+        "gram": "tat-puruṣa; ind. (abl.)"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "जो स्नेह आदि में और छेदन आदि कर्मों में अनभिज्ञ हैं, वे कुवैद्य लोभ के कारण राजा के दोष से लोगों को मार डालते हैं।",
+  "english": "Those who are ignorant of oleation (sneha) and the rest, and of procedures such as excision, those bad physicians kill people out of greed, through the king's fault.",
+  "text_flags": [
+   {
+    "src": "nihanti",
+    "suggest": "nighnanti",
+    "why": "possible: plural subject te needs a plural verb; the syllable count is the same"
+   }
+  ],
+  "notes": "Plural subject te with singular verb nihanti; see text_flags. 'nṛpadoṣataḥ' is rendered literally ('through the king's fault').",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.52ab",
+   "Su.1.3.52cd"
+  ],
+  "lines_deva": [
+   "स्नेहादिष्वनभिज्ञा ये छेद्यादिषु च कर्मसु ।",
+   "ते निहन्ति जनं लोभात् कुवैद्या नृपदोषतः ॥"
+  ],
+  "lines_iast": [
+   "snehādiṣvanabhijñā ye chedyādiṣu ca karmasu |",
+   "te nihanti janaṃ lobhāt kuvaidyā nṛpadoṣataḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "53",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "yastūbhayajño",
+      "words": [
+       {
+        "w": "yaḥ",
+        "gloss": "who",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "tu",
+        "gloss": "but",
+        "gram": "ind."
+       },
+       {
+        "w": "ubhaya-jñaḥ",
+        "gloss": "knower of both",
+        "gram": "tat-puruṣa; m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "matimān",
+      "words": [
+       {
+        "w": "matimān",
+        "gloss": "intelligent",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "sa",
+      "words": [
+       {
+        "w": "saḥ",
+        "gloss": "he",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "samartho'rthasādhane",
+      "words": [
+       {
+        "w": "samarthaḥ",
+        "gloss": "able",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "artha-sādhane",
+        "gloss": "in accomplishing the aim",
+        "gram": "tat-puruṣa; n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "āhave",
+      "words": [
+       {
+        "w": "āhave",
+        "gloss": "in battle",
+        "gram": "m. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "karma",
+      "words": [
+       {
+        "w": "karma",
+        "gloss": "task",
+        "gram": "n. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "nirvoḍhuṃ",
+      "words": [
+       {
+        "w": "nirvoḍhum",
+        "gloss": "to carry out",
+        "gram": "inf. nis-√vah"
+       }
+      ]
+     },
+     {
+      "src": "dvicakraḥ",
+      "words": [
+       {
+        "w": "dvi-cakraḥ",
+        "gloss": "two-wheeled",
+        "gram": "bahuvrīhi; m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "syandano",
+      "words": [
+       {
+        "w": "syandanaḥ",
+        "gloss": "chariot",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "yathā",
+      "words": [
+       {
+        "w": "yathā",
+        "gloss": "as",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "परन्तु जो बुद्धिमान दोनों को जानता है, वह कार्य को सिद्ध करने में समर्थ होता है, जैसे दो पहियों वाला रथ युद्ध में अपना कार्य निभाने में।",
+  "english": "But the intelligent man who knows both is able to accomplish the aim, as a two-wheeled chariot is able to carry out its task in battle.",
+  "text_flags": [],
+  "notes": "The simile is completed by supplying 'is able'.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.53ab",
+   "Su.1.3.53cd"
+  ],
+  "lines_deva": [
+   "यस्तूभयज्ञो मतिमान् स समर्थोऽर्थसाधने ।",
+   "आहवे कर्म निर्वोढुं द्विचक्रः स्यन्दनो यथा ॥"
+  ],
+  "lines_iast": [
+   "yastūbhayajño matimān sa samartho'rthasādhane |",
+   "āhave karma nirvoḍhuṃ dvicakraḥ syandano yathā ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "54",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "atha",
+      "words": [
+       {
+        "w": "atha",
+        "gloss": "now",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "vatsa",
+      "words": [
+       {
+        "w": "vatsa",
+        "gloss": "child",
+        "gram": "m. voc. sg."
+       }
+      ]
+     },
+     {
+      "src": "tadetadadhyeyaṃ",
+      "words": [
+       {
+        "w": "tat",
+        "gloss": "that",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "etat",
+        "gloss": "this",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "adhyeyam",
+        "gloss": "to be studied",
+        "gram": "gerundive adhi-√i, n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "tathā",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "so",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "tathopadhāraya",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "accordingly",
+        "gram": "ind."
+       },
+       {
+        "w": "upadhāraya",
+        "gloss": "take in",
+        "gram": "2 sg. imper. caus. upa-√dhṛ"
+       }
+      ]
+     },
+     {
+      "src": "mayā",
+      "words": [
+       {
+        "w": "mayā",
+        "gloss": "by me",
+        "gram": "inst. sg."
+       }
+      ]
+     },
+     {
+      "src": "procyamānaṃ",
+      "words": [
+       {
+        "w": "procyamānam",
+        "gloss": "being spoken",
+        "gram": "pres. pass. part. pra-√vac, n. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "atha",
+      "words": [
+       {
+        "w": "atha",
+        "gloss": "then",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "śucaye",
+      "words": [
+       {
+        "w": "śucaye",
+        "gloss": "to the pure",
+        "gram": "m. dat. sg."
+       }
+      ]
+     },
+     {
+      "src": "kṛtottarāsaṅgāyāvyākulayopasthitāyādhyayanakāle",
+      "words": [
+       {
+        "w": "kṛta-uttarāsaṅgāya",
+        "gloss": "who has put on the upper garment",
+        "gram": "bahuvrīhi; m. dat. sg."
+       },
+       {
+        "w": "avyākulāya",
+        "gloss": "undistracted",
+        "gram": "m. dat. sg."
+       },
+       {
+        "w": "upasthitāya",
+        "gloss": "attending",
+        "gram": "m. dat. sg."
+       },
+       {
+        "w": "adhyayana-kāle",
+        "gloss": "at the time of study",
+        "gram": "tat-puruṣa; m. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "śiṣyāya",
+      "words": [
+       {
+        "w": "śiṣyāya",
+        "gloss": "to the pupil",
+        "gram": "m. dat. sg."
+       }
+      ]
+     },
+     {
+      "src": "yathāśakti",
+      "words": [
+       {
+        "w": "yathā-śakti",
+        "gloss": "according to capacity",
+        "gram": "avyayībhāva; ind."
+       }
+      ]
+     },
+     {
+      "src": "gururupadiśet",
+      "words": [
+       {
+        "w": "guruḥ",
+        "gloss": "teacher",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "upadiśet",
+        "gloss": "should teach",
+        "gram": "3 sg. opt. upa-√diś"
+       }
+      ]
+     },
+     {
+      "src": "padaṃ",
+      "words": [
+       {
+        "w": "padam",
+        "gloss": "word",
+        "gram": "n. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "pādaṃ",
+      "words": [
+       {
+        "w": "pādam",
+        "gloss": "quarter-verse",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "ślokaṃ",
+      "words": [
+       {
+        "w": "ślokam",
+        "gloss": "verse",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "vā",
+      "words": [
+       {
+        "w": "vā",
+        "gloss": "or",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "te",
+      "words": [
+       {
+        "w": "te",
+        "gloss": "those",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "padapādaślokābhūyaḥ",
+      "words": [
+       {
+        "w": "pada-pāda-ślokāḥ",
+        "gloss": "words, quarter-verses and verses",
+        "gram": "dvandva; m. nom. pl."
+       },
+       {
+        "w": "bhūyaḥ",
+        "gloss": "again",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "krameṇānusaṃdheyāḥ",
+      "words": [
+       {
+        "w": "krameṇa",
+        "gloss": "in order",
+        "gram": "m. inst. sg."
+       },
+       {
+        "w": "anusaṃdheyāḥ",
+        "gloss": "to be joined",
+        "gram": "gerundive anu-sam-√dhā, m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "evamekaikaśo",
+      "words": [
+       {
+        "w": "evam",
+        "gloss": "thus",
+        "gram": "ind."
+       },
+       {
+        "w": "ekaikaśaḥ",
+        "gloss": "one by one",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ghaṭayedātmanā",
+      "words": [
+       {
+        "w": "ghaṭayet",
+        "gloss": "should put together",
+        "gram": "3 sg. opt. caus. √ghaṭ"
+       },
+       {
+        "w": "ātmanā",
+        "gloss": "by himself",
+        "gram": "m. inst. sg."
+       }
+      ]
+     },
+     {
+      "src": "cānupaṭhet",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "anupaṭhet",
+        "gloss": "should recite after",
+        "gram": "3 sg. opt. anu-√paṭh"
+       }
+      ]
+     },
+     {
+      "src": "adrutamavilambitamaviśaṇkitamananunāsikaṃ",
+      "words": [
+       {
+        "w": "adrutam",
+        "gloss": "not hurried",
+        "gram": "n. acc. sg. (adv.)"
+       },
+       {
+        "w": "avilambitam",
+        "gloss": "not delayed",
+        "gram": "n. acc. sg. (adv.)"
+       },
+       {
+        "w": "aviśaṅkitam",
+        "gloss": "not hesitant",
+        "gram": "n. acc. sg. (adv.)"
+       },
+       {
+        "w": "ananunāsikam",
+        "gloss": "not nasalised",
+        "gram": "n. acc. sg. (adv.)"
+       }
+      ]
+     },
+     {
+      "src": "vyaktākṣramapīḍitavarṇamakṣibhruvauṣṭhahastairanabhinītaṃ",
+      "words": [
+       {
+        "w": "vyakta-akṣaram",
+        "gloss": "with clear syllables",
+        "gram": "bahuvrīhi; n. acc. sg. (adv.)"
+       },
+       {
+        "w": "apīḍita-varṇam",
+        "gloss": "with unpressed letters",
+        "gram": "bahuvrīhi; n. acc. sg. (adv.)"
+       },
+       {
+        "w": "akṣi-bhruva-oṣṭha-hastaiḥ",
+        "gloss": "by eyes, eyebrows, lips and hands",
+        "gram": "dvandva; m. inst. pl."
+       },
+       {
+        "w": "anabhinītam",
+        "gloss": "not mimed",
+        "gram": "p.p. n. acc. sg. (adv.)"
+       }
+      ]
+     },
+     {
+      "src": "susaṃskṛtaṃ",
+      "words": [
+       {
+        "w": "susaṃskṛtam",
+        "gloss": "well formed",
+        "gram": "n. acc. sg. (adv.)"
+       }
+      ]
+     },
+     {
+      "src": "nātyuccairnātinīcaiśca",
+      "words": [
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       },
+       {
+        "w": "ati-uccaiḥ",
+        "gloss": "too high",
+        "gram": "m. inst. pl."
+       },
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       },
+       {
+        "w": "ati-nīcaiḥ",
+        "gloss": "too low",
+        "gram": "m. inst. pl."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "svaraiḥ",
+      "words": [
+       {
+        "w": "svaraiḥ",
+        "gloss": "with tones",
+        "gram": "m. inst. pl."
+       }
+      ]
+     },
+     {
+      "src": "paṭhet",
+      "words": [
+       {
+        "w": "paṭhet",
+        "gloss": "should recite",
+        "gram": "3 sg. opt. √paṭh"
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "na",
+      "words": [
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "cāntareṇa",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "antareṇa",
+        "gloss": "between",
+        "gram": "ind. (with gen.)"
+       }
+      ]
+     },
+     {
+      "src": "kaścidvrajet",
+      "words": [
+       {
+        "w": "kaḥ-cit",
+        "gloss": "anyone",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "vrajet",
+        "gloss": "should pass",
+        "gram": "3 sg. opt. √vraj"
+       }
+      ]
+     },
+     {
+      "src": "tayoradhīyānayoḥ",
+      "words": [
+       {
+        "w": "tayoḥ",
+        "gloss": "of the two",
+        "gram": "m. gen. du."
+       },
+       {
+        "w": "adhīyānayoḥ",
+        "gloss": "studying",
+        "gram": "pres. part. mid. adhi-√i, m. gen. du."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "हे वत्स, अब यह अध्ययन करने योग्य है; मेरे द्वारा कहे जाते हुए इसको वैसे ही ग्रहण करो। तब पवित्र, उत्तरीय धारण किए हुए, अव्याकुल और अध्ययन के समय उपस्थित शिष्य को गुरु यथाशक्ति एक पद, एक पाद या एक श्लोक का उपदेश दे; और उन पदों, पादों और श्लोकों को फिर क्रम से जोड़ना चाहिए। इस प्रकार एक-एक करके उन्हें जोड़े और स्वयं भी अनुपाठ करे: न जल्दी, न विलम्ब से, न शंकित होकर, न नाक से, स्पष्ट अक्षरों वाला, वर्णों को बिना दबाए, आँख, भौंह, ओठ और हाथों से अभिनय किए बिना, शुद्ध रूप से और न बहुत ऊँचे न बहुत नीचे स्वरों से पढ़े। और उन दोनों के पढ़ते समय बीच से कोई न निकले।",
+  "english": "Now, my child, this is to be studied; so take it in as it is spoken by me. Then, to a pupil who is pure, has put on his upper garment, is undistracted and is present at the time of study, the teacher should teach, according to his capacity, a word, a quarter-verse or a verse; and those words, quarter-verses and verses are to be joined again in order. In this way, one by one, he should put them together and himself recite after (the teacher): not hurried, not delayed, not hesitant, not through the nose, with clear syllables, with the letters not pressed, not mimed with eyes, eyebrows, lips or hands, well formed, he should recite with tones neither too high nor too low. And let no one pass between the two while they are studying.",
+  "text_flags": [
+   {
+    "src": "kṛtottarāsaṅgāyāvyākulayopasthitāyādhyayanakāle",
+    "suggest": "kṛtottarāsaṅgāyāvyākulāyopasthitāyādhyayanakāle",
+    "why": "avyākulāya + upasthitāya should give -kulāyo-; the printed -kulayo- lacks the long ā (the Devanagari agrees)"
+   },
+   {
+    "src": "adrutamavilambitamaviśaṇkitamananunāsikaṃ",
+    "suggest": "adrutamavilambitamaviśaṅkitamananunāsikaṃ",
+    "why": "spelling: ṇk for ṅk in aviśaṅkita (the Devanagari has the same)"
+   },
+   {
+    "src": "vyaktākṣramapīḍitavarṇamakṣibhruvauṣṭhahastairanabhinītaṃ",
+    "suggest": "vyaktākṣaramapīḍitavarṇamakṣibhruvauṣṭhahastairanabhinītaṃ",
+    "why": "the vowel a is missing in vyaktākṣaram (the Devanagari agrees)"
+   }
+  ],
+  "notes": "tathā tathā is read as 'so ... accordingly'; it could also be 'each in its way'. The subject of ghaṭayet and anupaṭhet is not stated; read as the pupil. The last line is a half-verse of 16 syllables, set in the prose unit as printed. Printed Devanagari confirms the faulty spellings listed in text_flags.",
+  "confidence": "medium",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.3.54"
+  ],
+  "lines_deva": [
+   "अथ वत्स तदेतदध्येयं तथा तथोपधारय मया प्रोच्यमानं अथ शुचये कृतोत्तरासङ्गायाव्याकुलयोपस्थितायाध्ययनकाले शिष्याय यथाशक्ति गुरुरुपदिशेत् पदं पादं श्लोकं वा ते च पदपादश्लोकाभूयः क्रमेणानुसंधेयाः एवमेकैकशो घटयेदात्मना चानुपठेत् अद्रुतमविलम्बितमविशण्कितमननुनासिकं व्यक्ताक्ष्रमपीडितवर्णमक्षिभ्रुवौष्ठहस्तैरनभिनीतं सुसंस्कृतं नात्युच्चैर्नातिनीचैश्च स्वरैः पठेत् ।",
+   "न चान्तरेण कश्चिद्व्रजेत् तयोरधीयानयोः ॥"
+  ],
+  "lines_iast": [
+   "atha vatsa tadetadadhyeyaṃ tathā tathopadhāraya mayā procyamānaṃ atha śucaye kṛtottarāsaṅgāyāvyākulayopasthitāyādhyayanakāle śiṣyāya yathāśakti gururupadiśet padaṃ pādaṃ ślokaṃ vā te ca padapādaślokābhūyaḥ krameṇānusaṃdheyāḥ evamekaikaśo ghaṭayedātmanā cānupaṭhet adrutamavilambitamaviśaṇkitamananunāsikaṃ vyaktākṣramapīḍitavarṇamakṣibhruvauṣṭhahastairanabhinītaṃ susaṃskṛtaṃ nātyuccairnātinīcaiśca svaraiḥ paṭhet |",
+   "na cāntareṇa kaścidvrajet tayoradhīyānayoḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "55",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "śucirguruparo",
+      "words": [
+       {
+        "w": "śuciḥ",
+        "gloss": "pure",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "guru-paraḥ",
+        "gloss": "devoted to the teacher",
+        "gram": "bahuvrīhi; m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "dakṣastandrānidrāvivarjitaḥ",
+      "words": [
+       {
+        "w": "dakṣaḥ",
+        "gloss": "skilful",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "tandrā-nidrā-vivarjitaḥ",
+        "gloss": "free from drowsiness and sleep",
+        "gram": "tat-puruṣa; m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "paṭhannetena",
+      "words": [
+       {
+        "w": "paṭhan",
+        "gloss": "studying",
+        "gram": "pres. part. √paṭh, m. nom. sg."
+       },
+       {
+        "w": "etena",
+        "gloss": "this",
+        "gram": "m. inst. sg."
+       }
+      ]
+     },
+     {
+      "src": "vidhinā",
+      "words": [
+       {
+        "w": "vidhinā",
+        "gloss": "by method",
+        "gram": "m. inst. sg."
+       }
+      ]
+     },
+     {
+      "src": "śiṣyaḥ",
+      "words": [
+       {
+        "w": "śiṣyaḥ",
+        "gloss": "pupil",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "śāstrāntamāpnuyāt",
+      "words": [
+       {
+        "w": "śāstra-antam",
+        "gloss": "end of the treatise",
+        "gram": "tat-puruṣa; m. acc. sg."
+       },
+       {
+        "w": "āpnuyāt",
+        "gloss": "would reach",
+        "gram": "3 sg. opt. √āp"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "lead_in_tokens": [
+   {
+    "src": "bhavataścātra",
+    "words": [
+     {
+      "w": "bhavanti",
+      "gloss": "there are (printed bhavataḥ; read bhavanti, possible)",
+      "gram": "3 pl. pres. √bhū"
+     },
+     {
+      "w": "ca",
+      "gloss": "and",
+      "gram": "ind."
+     },
+     {
+      "w": "atra",
+      "gloss": "here",
+      "gram": "ind."
+     }
+    ]
+   },
+   {
+    "src": "|",
+    "words": [
+     {
+      "w": "|",
+      "gloss": "half-verse mark",
+      "gram": "punct."
+     }
+    ]
+   }
+  ],
+  "lead_in_hindi": "और इस विषय में ये श्लोक हैं।",
+  "lead_in_english": "And on this subject there are these verses.",
+  "hindi": "पवित्र, गुरु में तत्पर, दक्ष, तन्द्रा और निद्रा से रहित शिष्य इस विधि से पढ़ता हुआ शास्त्र के अन्त को प्राप्त करे।",
+  "english": "A pupil who is pure, devoted to the teacher, skilful and free from drowsiness and sleep, studying by this method, would reach the end of the treatise.",
+  "text_flags": [
+   {
+    "src": "bhavataścātra",
+    "suggest": "bhavanti cātra",
+    "why": "possible: bhavataḥ does not fit the sense; compare the formula bhavanti cātra in the previous lead-in"
+   }
+  ],
+  "notes": "The printed lead-in bhavataścātra is read as bhavanti cātra (as in the previous formula); see text_flags.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.55",
+   "Su.1.3.55ab",
+   "Su.1.3.55cd"
+  ],
+  "lines_deva": [
+   "शुचिर्गुरुपरो दक्षस्तन्द्रानिद्राविवर्जितः ।",
+   "पठन्नेतेन विधिना शिष्यः शास्त्रान्तमाप्नुयात् ॥"
+  ],
+  "lines_iast": [
+   "śucirguruparo dakṣastandrānidrāvivarjitaḥ |",
+   "paṭhannetena vidhinā śiṣyaḥ śāstrāntamāpnuyāt ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "56",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "vāksauṣṭhave'rthavijñāne",
+      "words": [
+       {
+        "w": "vāk-sauṣṭhave",
+        "gloss": "in excellence of speech",
+        "gram": "tat-puruṣa; n. loc. sg."
+       },
+       {
+        "w": "artha-vijñāne",
+        "gloss": "in knowledge of meaning",
+        "gram": "tat-puruṣa; n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "prāgalbhye",
+      "words": [
+       {
+        "w": "prāgalbhye",
+        "gloss": "in boldness",
+        "gram": "n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "karmanaipuṇe",
+      "words": [
+       {
+        "w": "karma-naipuṇe",
+        "gloss": "in skill in practical work",
+        "gram": "tat-puruṣa; n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "tadabhyāse",
+      "words": [
+       {
+        "w": "tad-abhyāse",
+        "gloss": "in practice of it",
+        "gram": "tat-puruṣa; m. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "siddhau",
+      "words": [
+       {
+        "w": "siddhau",
+        "gloss": "in success",
+        "gram": "f. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "yatetādhyayanāntagaḥ",
+      "words": [
+       {
+        "w": "yateta",
+        "gloss": "should strive",
+        "gram": "3 sg. opt. mid. √yat"
+       },
+       {
+        "w": "adhyayana-anta-gaḥ",
+        "gloss": "one who has reached the end of study",
+        "gram": "tat-puruṣa; m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse-end mark",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "अध्ययन के अन्त तक पहुँचा हुआ व्यक्ति वाणी की उत्तमता, अर्थ के ज्ञान, प्रगल्भता, कर्म की निपुणता, उसके अभ्यास और सिद्धि में प्रयत्न करे।",
+  "english": "One who has reached the end of study should strive for excellence of speech, knowledge of meaning, boldness, skill in practical work, practice of it, and success.",
+  "text_flags": [],
+  "notes": "The locatives are rendered 'for' after yateta.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.3.56ab",
+   "Su.1.3.56cd"
+  ],
+  "lines_deva": [
+   "वाक्सौष्ठवेऽर्थविज्ञाने प्रागल्भ्ये कर्मनैपुणे ।",
+   "तदभ्यासे च सिद्धौ च यतेताध्ययनान्तगः ॥"
+  ],
+  "lines_iast": [
+   "vāksauṣṭhave'rthavijñāne prāgalbhye karmanaipuṇe |",
+   "tadabhyāse ca siddhau ca yatetādhyayanāntagaḥ ||"
+  ],
+  "uncertain": []
+ }
+]
