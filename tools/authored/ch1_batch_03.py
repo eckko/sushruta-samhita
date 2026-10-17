@@ -164,7 +164,7 @@ AUTHORED = {
         "title": "अस्मिन् शास्त्रे पुरुषः",
         "question": "What does the treatise call puruṣa, and how does it divide the world and beings?",
         "rule": "-ज at the end of a compound means born from (संस्वेदज, अण्डज). The text sets terms in pairs (स्थावर and जङ्गम, आग्नेय and सौम्य) and then a fourfold list of beings.",
-        "limits": "A terse passage. The clause that action is in him and he is the substratum is read tentatively, and the text does not say what action covers. The phrase तद्भूयस्त्वात् पञ्चात्मकः is ambiguous, so no question uses it. The five elements and four classes are not defined. The next unit writes the first class differently.",
+        "limits": "A terse passage. The clause that action is in him is read tentatively; the text does not say what action covers. तद्भूयस्त्वात् पञ्चात्मकः is ambiguous, so no question uses it. The elements and classes are not defined. The next unit writes the first class differently.",
         "explain_hi": "इस अंश में कहा गया है कि इस शास्त्र में पाँच महाभूतों से बने प्राणियों के समवाय को पुरुष कहते हैं। फिर लोक की द्विविधता बताई गई है: स्थावर और जङ्गम; आग्नेय और सौम्य। प्राणि-समूह चार प्रकार का गिनाया गया है: संस्वेदज, जरायुज, अण्डज और उद्भिज्ज। उनमें पुरुष प्रधान है और उसका उपकरण दूसरा है, इसलिए पुरुष अधिष्ठान है। कुछ वाक्य संक्षिप्त हैं, इसलिए ऊपर की सीमाएँ देखें।",
         "hook": "पाँच महाभूतों के प्राणियों का समवाय = पुरुष; चार प्राणि-वर्ग: संस्वेदज · जरायुज · अण्डज · उद्भिज्ज।",
         "core": True,
