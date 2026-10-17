@@ -566,7 +566,7 @@ AUTHORED["8.4"] = {
     "title": "भूतविद्या नाम देवासुर",
     "question": "Whose minds does the text say Bhutavidya concerns, and by whom are they seized?",
     "rule": "The first compound is a list of beings joined by dvandva, ending in आदि; उपसृष्टचेतसाम् = of those whose minds are seized.",
-    "limits": "The text lists classes of beings by name and says minds are seized by them; it makes no claim here beyond that; the text names propitiatory rites and offering of bali but gives no method. The reading of the printed word बलोहरणादि and the sense of graha are noted; no question rests on them.",
+    "limits": "The text lists classes of beings and says their minds are seized; it names propitiatory rites and bali but gives no method. The reading of the printed word बलोहरणादि and the sense of graha are noted; no question rests on them.",
     "explain_hi": "चौथा अंग भूतविद्या है। पाठ के अनुसार वह उनके लिए है जिनके चित्त देव, असुर, गन्धर्व, यक्ष, रक्षः, पितर, पिशाच, नाग, ग्रह आदि से ग्रस्त हैं। सूची आदि पर खुली रहती है। छपे शब्द बलोहरणादि और ग्रह के अर्थ पर नोट देखें; उन पर प्रश्न नहीं बने।",
     "hook": "भूतविद्या: देव-असुर-गन्धर्व-यक्ष आदि से ग्रस्त चित्त।",
     "core": False,
@@ -740,7 +740,7 @@ AIDS = {
     },
     "8.3": {
         "frame": "कायचिकित्सा: स्थान: सारा शरीर · रोग: ज्वर, रक्तपित्त, शोष, उन्माद आदि · उद्देश्य: उपशमन।",
-        "diagram": {"steps": ["ज्वर", "रक्तपित्त", "शोष", "उन्माद", "अपस्मार", "कुष्ठ", "मेह", "अतिसार", "… आदि (और भी)"]},
+        "diagram": {"steps": ["ज्वर", "रक्तपित्त", "शोष", "उन्माद", "अपस्मार", "कुष्ठ", "मेह", "अतिसार … आदि (और भी)"]},
         "sandhi": "सर्व + अङ्ग = सर्वाङ्ग (अ + अ = आ)।",
     },
     "8.4": {
@@ -800,7 +800,7 @@ IMAGE_SPECS = {
                  '    नयन\n'
                  '    वदन\n'
                  '    घ्राण\n'
-                 '    …आदि (और भी)'),
+                 '    …आदि, और भी'),
     },
     ("8.3", "diagram"): {
         "file": "ch1-kaya-83.svg",
@@ -816,6 +816,6 @@ IMAGE_SPECS = {
                  '    कुष्ठ\n'
                  '    मेह\n'
                  '    अतिसार\n'
-                 '    …आदि (और भी)'),
+                 '    …आदि, और भी'),
     },
 }
