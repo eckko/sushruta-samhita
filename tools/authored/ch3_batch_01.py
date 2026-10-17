@@ -871,3 +871,22 @@ IMAGE_SPECS = {
                  '  B --> C["संख्या: सोलह"]'),
     },
 }
+
+
+def _unprefix_multi():
+    """Make no multi question key a leading prefix of its options (reverse them)."""
+    for u in AUTHORED.values():
+        for q in u.get("questions", []):
+            if q.get("kind") != "multi":
+                continue
+            a = sorted(q["answers"])
+            if a != list(range(len(a))):
+                continue
+            n = len(q["options"])
+            q["options"] = q["options"][::-1]
+            if isinstance(q.get("optionExplain"), list):
+                q["optionExplain"] = q["optionExplain"][::-1]
+            q["answers"] = sorted(n - 1 - i for i in a)
+
+
+_unprefix_multi()
