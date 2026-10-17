@@ -278,7 +278,7 @@ AUTHORED = {
                  ("उवाचै + वम् + अस्तु + इति", "वम् is not a word.")],
                 "The joined ऐ stands for the end of उवाच and the start of एवम्.",
                 "आ + ए = ऐ."),
-            fill(4, "The reply says 'let it ____': type अस्तु in Devanagari or in English letters (e.g. dharma).",
+            fill(4, "The reply means so let it ____. Type the missing word अस्तु in Devanagari or in English letters (e.g. dharma).",
                  accepts("अस्तु"),
                  "अस्तु is the imperative of the verb to be.",
                  "अस्तु = let it be.",
@@ -314,7 +314,7 @@ AUTHORED = {
                    ["प्रक्ष्यति", "will ask"], ["उपधारयिष्यामः", "we shall retain"]],
                   "Four words of the unit.",
                   "अभिसमीक्ष्य is an absolutive; the other two verbs are future."),
-            fill(2, "The man who will ask is सुश्रुतः: type the name in Devanagari or in English letters (e.g. dharma).",
+            fill(2, "The one who will ask the Blessed One is ____. Type the name in Devanagari or in English letters (e.g. dharma).",
                  accepts("सुश्रुतः"),
                  "सुश्रुतः stands in the nominative as the subject of प्रक्ष्यति.",
                  "सुश्रुतः = Sushruta, the one who will ask.",
@@ -426,7 +426,7 @@ AUTHORED = {
                   [0, 1],
                   "The unit gives exactly these two purposes.",
                   "Two purposes joined by च."),
-            fill(4, "The purpose of the healthy is रक्षणम्: type the word for protection in Devanagari or in English letters (e.g. dharma).",
+            fill(4, "The second purpose is the ____ (protection) of the healthy. Type it in Devanagari or in English letters (e.g. dharma).",
                  accepts("रक्षणम्"),
                  "रक्षणम् is the neuter noun: protection.",
                  "रक्षणम् = protection.",
@@ -474,7 +474,7 @@ AUTHORED = {
                  ("It says from this.", "That would be an ablative.")],
                 "अनेन = by this; अस्मिन् = in this.",
                 "Instrumental -एन = by."),
-            fill(4, "The name explained is आयुर्वेदः: type the name in Devanagari or in English letters (e.g. dharma).",
+            fill(4, "The text explains the name ____. Type it in Devanagari or in English letters (e.g. dharma).",
                  accepts("आयुर्वेदः", None, "आयुर्वेद"),
                  "The unit ends with इति आयुर्वेदः: therefore it is Ayurveda.",
                  "आयुर्वेदः = Ayurveda.",
@@ -493,7 +493,7 @@ AUTHORED = {
         "title": "तस्याङ्गवरमाद्यम्",
         "question": "By which four means of knowing is the first limb said to be uncontradicted?",
         "rule": "-ऐः (instrumental plural) = by; अ-विरुद्धम् = not contradicted.",
-        "limits": "The unit does not say here what each of the four is, nor which limb is the first (it comes in the next unit). It says 'could also be first and best'. No question rests on that point.",
+        "limits": "The unit does not say here what each of the four is, nor which limb is the first (it comes in the next unit). The data notes that foremost-first could also be read as first-and-best; no question rests on that point.",
         "explain_hi": "यहाँ वक्ता कहता है कि उसके श्रेष्ठ आदि अंग को धारण करो, जो प्रत्यक्ष, आगम, अनुमान और उपमान से अविरुद्ध कहा जा रहा है। चारों शब्द द्वन्द्व समास में तृतीया बहुवचन हैं। अविरुद्ध का अर्थ है जिसका विरोध नहीं हुआ। कौन-सा अंग है, यह अगले अंश में बताया जाता है।",
         "hook": "प्रत्यक्ष, आगम, अनुमान, उपमान से अविरुद्ध।",
         "core": True,
@@ -593,7 +593,7 @@ AUTHORED = {
         "question": "Among the eight branches, which does the text hold foremost, and what are the means it names?",
         "rule": "The ablative -आत् gives a reason (because of); a द्वन्द्व lists items: instruments, blades, caustic and fire.",
         "limits": "The first reason is printed with a doubtful opening (see the note); no question rests on it. The text says 'held to be' (अभिमतम्), a claim of the text, not a verdict.",
-        "explain_hi": "पाठ कहता है कि आयुर्वेद के आठों तन्त्रों में यही (शल्य) अधिक माना गया है। कारण पञ्चमी विभक्ति में दिए गए हैं: यन्त्र, शस्त्र, क्षार और अग्नि का प्रयोग, और सब तन्त्रों में सामान्य होना। पहले कारण का पाठ संदिग्ध है (नोट देखें)।",
+        "explain_hi": "पाठ कहता है कि आयुर्वेद के आठों तन्त्रों में यही अधिक माना गया है। कारण पञ्चमी विभक्ति में दिए गए हैं: यन्त्र, शस्त्र, क्षार और अग्नि का प्रयोग, और सब तन्त्रों में सामान्य होना। पहले कारण का पाठ संदिग्ध है (नोट देखें)।",
         "hook": "आठों में यही अधिक माना गया: यन्त्र-शस्त्र-क्षार-अग्नि और सर्वतन्त्रसामान्य।",
         "core": False,
         "questions": [
@@ -614,7 +614,7 @@ AUTHORED = {
                   "Order of the text.", role="extend",
                   teaches="The four items stand in a fixed order."),
             mcq("discriminate", 3, "What is the last reason the unit gives?",
-                ("It is common to all branches.", "सर्वतन्त्रसामान्यात् ."),
+                ("It is common to all branches.", "सर्वतन्त्रसामान्यात् says this."),
                 [("It is rare among all branches.", "सामान्य is common, not rare."),
                  ("It is hidden from all branches.", "Nothing is said of hiding."),
                  ("It is opposed to all branches.", "सामान्य is not opposed.")],
@@ -634,4 +634,154 @@ AUTHORED = {
                 "-आत् = because of.",
                 teaches="The ablative -आत् gives a reason."),
         ]},
+}
+
+NOTES_HI = {
+    "8.6": "छपे रूप ‘सर्पकीटलूतामूशिकादि…’ में ‘मूशिका’ सम्भवतः ‘मूषिका’ (चूहा) है (श और ष का भेद); इस शब्द पर कोई प्रश्न आधारित नहीं है। ‘व्यञ्जन’ का शब्दार्थ ‘प्रकट होना, लक्षण’ है और ‘लक्षण बताने के लिए’ अनुवाद शाब्दिक रूप से लिया गया है। पाठ का विश्वास-स्तर मध्यम है।",
+    "8.7": "‘आयुर्मेधाबलकरम्’ का ‘करम्’ ‘करने वाला (बढ़ाने वाला)’ है। ‘रसायन’ शब्द की परिभाषा यहाँ नहीं दी गई। कोई पाठ-संकेत या अनिश्चित पंक्ति नहीं है।",
+    "8.8": "‘नामाल्प…’ में नाम + अल्प मिलकर नामाल्प हुए हैं (अ + अ = आ)। ‘रेतस्’ का शब्दार्थ ‘बीज’ है, यहाँ वीर्य के अर्थ में। कोई पाठ-संकेत नहीं है।",
+    "9": "‘आयुर्वेदोऽष्टाङ्ग’ में आयुर्वेदः + अष्टाङ्गः मिले हैं; अन्तिम विसर्ग का ओ बना और अ का लोप (ऽ) हुआ। वक्ता धन्वन्तरि हैं, यह नोट में है, पाठ के इस अंश में नहीं। ‘अत्र’ का अर्थ ‘इस विषय में’ भी हो सकता है।",
+    "10": "‘त ऊचुः’ में ते का ए अगले स्वर से पहले अ रूप में छपा है (स्वर-सन्धि का अभाव)। ‘वे’ कौन हैं, यह इस अंश में नहीं कहा गया। ‘मूलं कृत्वा’ का भाव ‘आधार बनाकर’ है। कोई पाठ-संकेत नहीं है।",
+    "11": "उवाच + एवम् = उवाचैवम् (आ + ए = ऐ); एवम् + अस्तु = एवमस्तु। ‘सः’ का नाम यहाँ नहीं है। कोई पाठ-संकेत या अनिश्चित पंक्ति नहीं है।",
+    "12": "‘भूयोऽपि’ को ‘ऊचुः’ के साथ ‘फिर’ के अर्थ में लिया गया है। ‘अस्मै’ को चतुर्थी ‘उसके लिए’ (सुश्रुत) माना गया है। ‘उपधारयिष्यामः’ का अर्थ ‘धारण करेंगे / स्मरण रखेंगे’ है। इन दोनों पर कोई प्रश्न आधारित नहीं है।",
+    "13": "‘स होवाचैवमस्त्विति’ में ह + उवाच = होवाच (अ + उ = ओ) और उवाच + एवम् = उवाचैवम्। ह का अर्थ ‘निश्चय’ है। कोई पाठ-संकेत नहीं है।",
+    "14": "छपा ‘व्याधिपरिमोकषः’ सम्भवतः ‘व्याधिपरिमोक्षः’ (छुटकारा) है; इस वर्तनी पर कोई प्रश्न आधारित नहीं है। ‘इह खलु’ में ‘खलु’ बल देने वाला अव्यय है। कोई अनिश्चित पंक्ति नहीं है।",
+    "15": "यह आयुर्वेद शब्द की दोहरी व्युत्पत्ति है: विद् धातु के ‘होना’ (विद्यते) और ‘पाना’ (विन्दति) दोनों अर्थ। ‘वाआयुः’ में दो आ अलग छपे हैं; सन्धि नहीं की गई। इस पर कोई प्रश्न आधारित नहीं है।",
+    "16": "छपा ‘उपधरय’ सम्भवतः ‘उपधारय’ है (दूसरे अक्षर में दीर्घ); अर्थ वही रहता है। ‘अङ्गवरमाद्यम्’ को ‘श्रेष्ठ आदि अंग’ पढ़ा गया है; ‘आदि और श्रेष्ठ’ अर्थ भी सम्भव है। इन दोनों पर कोई प्रश्न आधारित नहीं है।",
+    "17": "‘यज्ञशेरः’ शब्द नहीं है; ‘यज्ञस्य शिरः’ चाहिए। ‘यज्ञभगेन’ सम्भवतः ‘यज्ञभागेन’ है, पर ‘भग’ (अंश) भी बैठ सकता है। ‘प्राक् अभिघातव्रणसंरोहात्’ में ‘प्राक्’ का कार्य अनिश्चित है; ‘पहले’ अर्थ लिया गया है और अन्य अर्थ सम्भव हैं। छपे अंश में दो ‘।’ चिह्न हैं। पाठ का विश्वास-स्तर मध्यम है; इन शब्दों पर कोई प्रश्न आधारित नहीं है। कथा ‘श्रूयते’ के रूप में कही गई है।",
+    "18": "छपा ‘आमाशुक्रियाकरणाद्’ में अतिरिक्त ‘मा’ सम्भवतः है; सुधारा रूप ‘आशुक्रियाकरणात्’ है, जो तीन कारणों की सूची को ठीक बनाता है। यदि ‘आम’ रखा जाए तो अर्थ वाक्य में नहीं बैठता। इसलिए कोई प्रश्न पहले कारण पर आधारित नहीं है। ‘अभिमतं’ पर अनुस्वार अगले शब्द से पहले छपा है। पाठ का विश्वास-स्तर मध्यम है।",
+}
+
+AIDS = {
+    "8.6": {
+        "frame": "कौन सा तन्त्र: अगद · विषय: विष · दो प्रयोजन: काटने से हुए विष के लक्षण; विषों के संयोग की शान्ति।",
+        "chunks": {"steps": ["अगदतन्त्रं नाम", "सर्पकीटलूता… दष्टविषव्यञ्जनार्थम्",
+                             "विविधविषसंयोगोपशमनार्थं च"]},
+    },
+    "8.7": {
+        "frame": "तन्त्र: रसायन · चार बातें: वय स्थिर · आयु, मेधा, बल करने वाला · रोग हटाने में समर्थ।",
+        "chain": {"steps": ["वयःस्थापनम्", "आयुर्मेधाबलकरम्", "रोगापहरणसमर्थं च"]},
+        "chunks": {"steps": ["रसायनतन्त्रं नाम", "वयःस्थापनम्", "आयुर्मेधाबलकरम्", "रोगापहरणसमर्थं च"]},
+    },
+    "8.8": {
+        "frame": "किनके लिए: अल्प, दुष्ट, क्षीण, विशुष्क रेतस् वालों के · क्या: पोषण, प्रसाद, उपचय · और: हर्ष।",
+        "diagram": {"steps": ["अल्प", "दुष्ट", "क्षीण", "विशुष्क"]},
+        "chunks": {"steps": ["वाजीकरणतन्त्रं नाम", "अल्पदुष्टक्षीणविशुष्करेतसाम्",
+                             "आप्यायनप्रसादोपचयजननिमित्तम्", "प्रहर्षजननार्थं च"]},
+    },
+    "9": {
+        "frame": "निष्कर्ष: आयुर्वेद अष्टाङ्ग · फिर प्रश्न: यहाँ किसे क्या कहा जाए।",
+        "sandhi": "आयुर्वेदः + अष्टाङ्ग = आयुर्वेदोऽष्टाङ्ग (अः + अ = ोऽ)।",
+        "chunks": {"steps": ["एवम् अयम् आयुर्वेदः अष्टाङ्गः उपदिश्यते", "अत्र कस्मै किम् उच्यताम्"]},
+    },
+    "10": {
+        "frame": "वक्ता: वे · अनुरोध: भगवान् उपदेश करें · आधार: शल्यज्ञान।",
+        "chunks": {"steps": ["ते ऊचुः", "अस्माकं सर्वेषामेव", "शल्यज्ञानं मूलं कृत्वा",
+                             "उपदिशतु भगवान्"]},
+    },
+    "11": {
+        "frame": "एक छोटा उत्तर: सहमति।",
+        "sandhi": "उवाच + एवम् = उवाचैवम् (आ + ए = ऐ); एवम् + अस्तु = एवमस्तु।",
+        "chunks": {"steps": ["सः", "उवाच", "एवम्", "अस्तु", "इति"]},
+    },
+    "12": {
+        "frame": "फिर कथन: सुश्रुत पूछेंगे · हम भी धारण करेंगे।",
+        "chain": {"steps": ["वे फिर भगवान् से बोले", "अपने एकमत का मत देखकर",
+                            "सुश्रुत भगवान् से पूछेंगे", "जो उपदेश दिया जाएगा, हम भी धारण करेंगे"]},
+        "chunks": {"steps": ["ते ऊचुः भूयोऽपि भगवन्तम्", "अस्माकम् एकमतीनां मतम् अभिसमीक्ष्य",
+                             "सुश्रुतो भगवन्तं प्रक्ष्यति", "वयम् अपि उपधारयिष्यामः"]},
+        "contrast": {"groups": [
+            {"label": "प्रक्ष्यति (वह पूछेगा)", "items": ["सुश्रुत", "-ष्यति = वह करेगा"]},
+            {"label": "उपधारयिष्यामः (हम धारण करेंगे)", "items": ["वक्ता सब", "-ष्यामः = हम करेंगे"]}]},
+    },
+    "13": {
+        "frame": "पिछले जैसा उत्तर, पर सः के बाद ह।",
+        "sandhi": "ह + उवाच = होवाच (अ + उ = ओ); उवाच + एवम् = उवाचैवम् (आ + ए = ऐ)।",
+        "contrast": {"groups": [
+            {"label": "पहला उत्तर", "items": ["स उवाच", "एवमस्तु"]},
+            {"label": "यह उत्तर", "items": ["स ह उवाच", "एवमस्तु"]}]},
+    },
+    "14": {
+        "frame": "सम्बोधन: वत्स सुश्रुत · प्रयोजन दो: रोग से मुक्ति (पीड़ितों की), रक्षा (स्वस्थ की)।",
+        "diagram": {"steps": ["आयुर्वेद का प्रयोजन", "रोग से पीड़ितों को रोग से मुक्ति", "स्वस्थ की रक्षा"]},
+        "chunks": {"steps": ["वत्स सुश्रुत", "इह खलु आयुर्वेदप्रयोजनम्", "व्याध्युपसृष्टानां व्याधिपरिमोक्षः",
+                             "स्वस्थस्य रक्षणं च"]},
+    },
+    "15": {
+        "frame": "नाम की दो व्याख्याएँ: इसमें आयु मिलती है · इससे आयु पाई जाती है।",
+        "diagram": {"steps": ["आयुर्वेद", "आयुः अस्मिन् विद्यते", "अनेन वा आयुः विन्दति"]},
+        "contrast": {"groups": [
+            {"label": "पहली व्याख्या", "items": ["अस्मिन् = इसमें", "विद्यते = मिलती है"]},
+            {"label": "दूसरी व्याख्या", "items": ["अनेन = इससे", "विन्दति = पाता है"]}]},
+        "chunks": {"steps": ["आयुः अस्मिन् विद्यते", "अनेन वा आयुः विन्दति", "इति आयुर्वेदः"]},
+    },
+    "16": {
+        "frame": "अंग: श्रेष्ठ, आदि · शर्त: चार प्रमाणों से अविरुद्ध · आदेश: धारण करो।",
+        "diagram": {"steps": ["प्रत्यक्ष", "आगम", "अनुमान", "उपमान"]},
+        "chunks": {"steps": ["तस्य अङ्गवरम् आद्यम्", "प्रत्यक्षागमानुमानोपमानैः अविरुद्धम्",
+                             "उच्यमानम् उपधारय"]},
+    },
+    "17": {
+        "frame": "कारण दो: चोट के व्रणों का भरना · यज्ञ के सिर का जुड़ना; फिर कथा (श्रूयते)।",
+        "chain": {"steps": ["रुद्र ने यज्ञ का सिर काटा", "देवता अश्विनों के पास गए",
+                            "अश्विनों ने कहा, ऐसा ही हो", "देवताओं ने इन्द्र को प्रसन्न किया",
+                            "दोनों ने यज्ञ का सिर जोड़ा"]},
+        "chunks": {"steps": ["रुद्रेण यज्ञस्य शिरश्छिन्नम्", "देवा अश्विनौ अभिगम्य ऊचुः",
+                             "तौ ऊचतुः एवमस्तु", "देवा इन्द्रं प्रासादयन्", "ताभ्यां यज्ञस्य शिरः संहितम्"]},
+    },
+    "18": {
+        "frame": "निष्कर्ष: आठों में यही अधिक माना गया · कारण (पञ्चमी): तीन।",
+        "diagram": {"steps": ["यन्त्र", "शस्त्र", "क्षार", "अग्नि"]},
+        "chunks": {"steps": ["अष्टासु अपि आयुर्वेदतन्त्रेषु", "एतत् एव अधिकम् अभिमतम्",
+                             "यन्त्रशस्त्रक्षाराग्निप्रणिधानात्", "सर्वतन्त्रसामान्यात् च"]},
+    },
+}
+
+IMAGE_SPECS = {
+    ("8.8", "diagram"): {
+        "file": "ch1-vajikarana-8-8.svg",
+        "alt": "Chain of four states of semen named in the text: scanty, vitiated, depleted, dried up.",
+        "type": "mermaid",
+        "code": ('flowchart TD\n'
+                 '  A["अल्प"] --> B["दुष्ट"]\n'
+                 '  B --> C["क्षीण"]\n'
+                 '  C --> D["विशुष्क"]'),
+    },
+    ("14", "diagram"): {
+        "file": "ch1-prayojana-14.svg",
+        "alt": "The purpose of Ayurveda branches into two: release from disease of those afflicted, and protection of the healthy.",
+        "type": "mermaid",
+        "code": ('flowchart TD\n'
+                 '  A["आयुर्वेद का प्रयोजन"] --> B["पीड़ितों को<br/>रोग से मुक्ति"]\n'
+                 '  A --> C["स्वस्थ की रक्षा"]'),
+    },
+    ("15", "diagram"): {
+        "file": "ch1-ayurveda-15.svg",
+        "alt": "The name Ayurveda has two explanations: life is found in it; or by it one finds life.",
+        "type": "mermaid",
+        "code": ('flowchart TD\n'
+                 '  A["आयुर्वेद"] --> B["इसमें आयु मिलती है"]\n'
+                 '  A --> C["इससे आयु पाई जाती है"]'),
+    },
+    ("16", "diagram"): {
+        "file": "ch1-pramana-16.svg",
+        "alt": "Mind map: the four items by which the first limb is uncontradicted: perception, tradition, inference, analogy.",
+        "type": "mermaid",
+        "code": ('mindmap\n'
+                 '  अविरुद्ध\n'
+                 '    प्रत्यक्ष\n'
+                 '    आगम\n'
+                 '    अनुमान\n'
+                 '    उपमान'),
+    },
+    ("17", "chain"): {
+        "file": "ch1-yajna-17.svg",
+        "alt": "Five steps of the story: Rudra cuts the head of the sacrifice, the gods approach the Ashvins, they agree, the gods propitiate Indra, the head is joined.",
+        "type": "mermaid",
+        "code": ('flowchart TD\n'
+                 '  A["रुद्र ने यज्ञ का सिर काटा"] --> B["देवता अश्विनों के पास गए"]\n'
+                 '  B --> C["अश्विनों ने कहा:<br/>ऐसा ही हो"]\n'
+                 '  C --> D["देवताओं ने इन्द्र को<br/>प्रसन्न किया"]\n'
+                 '  D --> E["सिर जोड़ा गया"]'),
+    },
 }
