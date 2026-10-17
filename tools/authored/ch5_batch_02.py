@@ -7,7 +7,7 @@ AUTHORED = {
         "question": "What results does the text list when it is done otherwise?",
         "rule": "अन्यथा means otherwise; four results follow in one nominative series, and no verb is printed (results are, or occur, is understood).",
         "limits": "The unit gives only what follows when it is done otherwise; what is done instead lies outside this unit. No verb is printed, and māṃsakandī stays a name, glossed only as fleshy growth.",
-        "explain_hi": "यह अंश अन्यथा से शुरू होता है, यानी जो कहा जा चुका उससे भिन्न करने पर। फिर चार परिणाम गिनाए जाते हैं: सिरा और स्नायु का कटना, अत्यधिक पीड़ा, व्रण का देर से भरना और मांसकन्दी का प्रकट होना। छपे पाठ में कोई क्रिया नहीं है, अनुवाद में होते हैं जोड़ा गया है। मांसकन्दी को नाम के रूप में रखा गया है।",
+        "explain_hi": "यह अंश अन्यथा तु से शुरू होता है: अन्यथा का अर्थ है 'नहीं तो'; क्या अन्यथा होता है, यह इस अंश में नहीं कहा गया। फिर चार परिणाम गिनाए जाते हैं: सिरा और स्नायु का कटना, अत्यधिक पीड़ा, व्रण का देर से भरना और मांसकन्दी का प्रकट होना। छपे पाठ में कोई क्रिया नहीं है, अनुवाद में होते हैं जोड़ा गया है। मांसकन्दी को नाम के रूप में रखा गया है।",
         "hook": "अन्यथा करने पर चार परिणाम: कटना, पीड़ा, देर से भरना, मांसकन्दी।",
         "core": False,
         "questions": [
@@ -64,7 +64,7 @@ AUTHORED = {
         "rule": "अभुक्तवतः (genitive) = of one who has not eaten; the conditions form one list ending in a locative plural (-रोगेषु, in mouth diseases).",
         "limits": "The text states a list of conditions and that the operation is on one who has not eaten. It gives no reason, method or advice. Disease names stay names, with no modern diagnosis.",
         "explain_hi": "यह अंश छह स्थितियों की सूची देता है: मूढगर्भ, उदर, अर्श, अश्मरी, भगन्दर और मुखरोग। इनके लिए पाठ कहता है कि कर्म उस रोगी का करे जिसने भोजन नहीं किया है (अभुक्तवतः, षष्ठी)। क्रिया कुर्वीत विधिलिङ् में है: करे। रोगों के नाम केवल नाम के रूप में रखे गए हैं, कोई आधुनिक निदान नहीं जोड़ा गया।",
-        "hook": "छह स्थितियाँ: कर्म उसका जिसने भोजन नहीं किया।",
+        "hook": "छह स्थितियाँ; पाठ के अनुसार कर्म उसका जिसने भोजन नहीं किया।",
         "core": True,
         "questions": [
             mcq("pretest", 0, "On what kind of patient does the text say the operation is done in these conditions?",
@@ -114,7 +114,7 @@ AUTHORED = {
         "rule": "A prefixed verb gives a 'having done' form in -य (आश्वास्य, परिपीड्य); an unprefixed one takes -त्वा (दत्त्वा). The main verbs are optatives: should do.",
         "limits": "The text states a sequence; this card gives no advice, amount or reason. The sense of अवचार्य, प्रोत and प्रगाढाम् is unsettled; मन्त्न्रैः is a misprint for मन्त्रैः; a noted variant was not applied.",
         "explain_hi": "यह लम्बा वाक्य एक क्रम में कई कर्म गिनाता है। करके अर्थ वाले -य रूप (आश्वास्य, परिपीड्य, अभिमृद्य, प्रक्षाल्य) एक के बाद एक आते हैं, और बिना उपसर्ग वाला दत्त्वा -त्वा लेता है। मुख्य क्रियाएँ विधिलिङ् में हैं: प्रणिदध्यात्, बध्नीयात्, धूपयेत्, कुर्वीत। पाठ केवल यही कहता है; यहाँ कोई सलाह या मात्रा नहीं दी जा रही।",
-        "hook": "आश्वास्य, परिपीड्य, अभिमृद्य, प्रक्षाल्य: करके-करके की कड़ी, अन्त में बाँधे, धूनी दे, रक्षा करे।",
+        "hook": "आश्वास्य, परिपीड्य, अभिमृद्य, प्रक्षाल्य: करके-करके की कड़ी; पाठ में अन्त की क्रियाएँ हैं बध्नीयात्, धूपयेत्, कुर्वीत।",
         "core": True,
         "questions": [
             mcq("pretest", 0, "How does this long sentence mostly link its many acts?",
@@ -131,8 +131,8 @@ AUTHORED = {
                   "Five absolutives of the unit.",
                   "Prefixed verbs take -य; दत्त्वा has no prefix."),
             order(2, "Put these phrases in the order in which the text gives them.",
-                  ["आतुरम् आश्वास्य", "अङ्गुल्या परिपीड्य", "व्रणम् अभिमृद्य",
-                   "कषायेण प्रक्षाल्य", "वस्त्रपट्टेन बध्नीयात्"],
+                  ["आतुरम् आश्वास्य", "परिपीड्य अङ्गुल्या", "व्रणम् अभिमृद्य",
+                   "प्रक्षाल्य कषायेण", "वस्त्रपट्टेन बध्नीयात्"],
                   "The text runs: reassured, pressed with the finger, rubbed the wound, washed with a decoction, bind with a strip of cloth.",
                   "Order of the text.", role="extend",
                   teaches="A chain of absolutives gives the acts in the order they come."),
@@ -146,7 +146,7 @@ AUTHORED = {
             mcq("apply", 4, "With what does the text say the wound is washed?",
                 ("With a decoction (कषाय).", "कषायेण प्रक्षाल्य."),
                 [("With a strip of cloth.", "The strip of cloth is for binding."),
-                 ("With honey and ghee.", "These belong to the wick, not the washing."),
+                 ("With a pad of paste.", "The paste covers the wick; the washing is with a decoction."),
                  ("With cold water.", "Cold water is used to reassure the patient.")],
                 "कषायेण प्रक्षाल्य: washed with a decoction.",
                 "Instrumental -ena = with."),
@@ -169,8 +169,8 @@ AUTHORED = {
         "hook": "पाँच नाम, नमक-नीम-घी से मिले; बचे घी से प्राणों का स्पर्श।",
         "core": False,
         "questions": [
-            mcq("pretest", 0, "What does the text say is done with the ghee that remains?",
-                ("His prāṇas are touched with it.", "आज्यशेषेण च अस्य प्राणान् समालभेत."),
+            mcq("pretest", 0, "In the translation of the card, what is done with the ghee that remains?",
+                ("His prāṇas are touched with it (as the card renders it).", "आज्यशेषेण च अस्य प्राणान् समालभेत."),
                 [("It is poured into the water-pot.", "The water-pot is not named in this unit."),
                  ("It is mixed back into the powders.", "No mixing back is mentioned."),
                  ("It is kept aside for later use.", "Nothing of the kind is said.")],
@@ -213,8 +213,8 @@ AUTHORED = {
         "title": "उदकुम्भाच्चापो गृहीत्वा",
         "question": "What does the text say is done with water from the pot?",
         "rule": "-त्वा = having done; a participle in -न् (प्रोक्षयन्) = while doing; वक्ष्यामः = we shall state.",
-        "limits": "Printed कुयात् is a misprint for कुर्यात् and ||तद्वक्ष्यामः is run together. The unit names only the water-pot, water and rite, with no amount or reason, and it points ahead to what follows.",
-        "explain_hi": "यहाँ जल के घड़े से जल लेकर उसे छिड़कते हुए रक्षाकर्म करने को कहा गया है। गृहीत्वा लेकर है (पहले हुआ कर्म) और प्रोक्षयन् छिड़कते हुए (साथ-साथ होता कर्म)। अन्त में तद्वक्ष्यामः आता है: उसे हम कहेंगे, यानी रक्षाकर्म के श्लोक आगे आते हैं। छपे रूप कुयात् में र् छूटा है; सही कुर्यात् है।",
+        "limits": "Printed कुयात् seems a misprint for कुर्यात् and ||तद्वक्ष्यामः is run together. The unit names only the water-pot, water and rite, with no amount or reason, and it points ahead to what follows.",
+        "explain_hi": "यहाँ जल के घड़े से जल लेकर उसे छिड़कते हुए रक्षाकर्म करने को कहा गया है। गृहीत्वा लेकर है (पहले हुआ कर्म) और प्रोक्षयन् छिड़कते हुए (साथ-साथ होता कर्म)। अन्त में तद्वक्ष्यामः आता है: उसे हम कहेंगे, यानी रक्षाकर्म के श्लोक आगे आते हैं। छपे रूप कुयात् में र् छूटा लगता है (सम्भवतः कुर्यात्)।",
         "hook": "जल लेकर, छिड़कते हुए रक्षाकर्म; फिर उसे हम कहेंगे।",
         "core": False,
         "questions": [
@@ -265,7 +265,7 @@ AUTHORED = {
         "question": "For what two purposes will the rite be performed?",
         "rule": "-अर्थम् = for the sake of; करिष्यामि = I shall perform; the ending -ताम् (अनुमन्यताम्) is a wish: may he approve.",
         "limits": "The verse states two purposes and asks Brahmā to approve. It does not say what the rite consists of. Kṛtyā is kept as sorcery and rakṣas as rakṣas, with no further description.",
-        "explain_hi": "वक्ता कहता है कि मैं रक्षाकर्म करूँगा, दो उद्देश्यों से: कृत्याओं (जादू-टोने) के निवारण के लिए और राक्षसों के भय के लिए। अन्त में प्रार्थना है कि ब्रह्मा इसका अनुमोदन करें; अनुमन्यताम् प्रार्थना का रूप है। श्लोक में करने वाला वही है जो मैं कहता है।",
+        "explain_hi": "वक्ता कहता है कि मैं रक्षाकर्म करूँगा, दो उद्देश्यों से: कृत्याओं (जादू-टोने) के निवारण के लिए और राक्षसों के भय के लिए। अन्त में प्रार्थना है कि ब्रह्मा इसका अनुमोदन करें; अनुमन्यताम् प्रार्थना का रूप है। श्लोक में करने वाला वही है जो 'मैं' कहता है।",
         "hook": "कृत्याओं के निवारण और राक्षसों के भय के लिए मैं रक्षाकर्म करूँगा; ब्रह्मा अनुमोदन करें।",
         "core": True,
         "questions": [
@@ -360,7 +360,7 @@ AUTHORED = {
     # ------------------------------------------------------------------ 22
     "22": {
         "title": "पृथिव्यामन्तरीक्षे च",
-        "question": "Which places are named, and in what state are they asked to protect?",
+        "question": "Which places are named, and in what state are the beings asked to protect?",
         "rule": "A locative (-आम्, -ए, -षु) means in or on; नमस्कृताः = honoured with salutation, a participle describing they (ते).",
         "limits": "The directions and the house-site dwellers may go with the night-wanderers or be separate beings; the grammar allows both readings, and no question rests on either. No being is described further.",
         "explain_hi": "यहाँ वे निशाचर बताए गए हैं जो पृथ्वी और अन्तरीक्ष में विचरते हैं, साथ ही दिशाओं और वास्तु में निवास करने वाले। पाठ कहता है कि नमस्कार किए जाने पर वे तुम्हारी रक्षा करें। स्थान बताने के लिए सप्तमी (पृथिव्याम्, अन्तरीक्षे, दिक्षु) का प्रयोग है। दिशाओं और वास्तुवासियों का अन्वय दो तरह से हो सकता है; नोट देखें।",
@@ -414,7 +414,7 @@ AUTHORED = {
         "question": "Which natural things does the second line ask to protect?",
         "rule": "One verb (पान्तु) can serve many subjects; सर्व agrees in gender: सर्वाः (feminine) with नद्यः, सर्वे (masculine) with सागराः.",
         "limits": "One word of the first line (printed ब्राहया) is damaged and its sense is only guessed, so it is left out of every question. The verse states a wish and no more.",
-        "explain_hi": "यह रक्षा-मन्त्र का अंश है: मुनि, दिव्य राजर्षि, पर्वत, सब नदियाँ और सभी समुद्र तुम्हारी रक्षा करें। एक ही क्रिया पान्तु सब कर्ताओं के साथ चलती है। सब शब्द लिंग के अनुसार बदलता है: नदियों (स्त्रीलिंग) के साथ सर्वाः, समुद्रों (पुल्लिंग) के साथ सर्वे। पहली पंक्ति का एक शब्द (छपा ब्राहया) बिगड़ा हुआ है; नोट देखें।",
+        "explain_hi": "यह रक्षा-मन्त्र का अंश है: मुनि, (एक बिगड़ा शब्द), दिव्य, राजर्षि, पर्वत, सब नदियाँ और सभी समुद्र तुम्हारी रक्षा करें। एक ही क्रिया पान्तु सब कर्ताओं के साथ चलती है। सब शब्द लिंग के अनुसार बदलता है: नदियों (स्त्रीलिंग) के साथ सर्वाः, समुद्रों (पुल्लिंग) के साथ सर्वे। पहली पंक्ति का एक शब्द (छपा ब्राहया) बिगड़ा हुआ है; नोट देखें।",
         "hook": "मुनि, राजर्षि, पर्वत, सब नदियाँ, सभी समुद्र: पान्तु त्वाम्।",
         "core": False,
         "questions": [
@@ -462,7 +462,7 @@ AUTHORED = {
     "24": {
         "title": "रक्षतु ते जिह्वां प्राणान्",
         "question": "Which powers are asked to guard the breaths named in this verse?",
-        "rule": "रक्षतु and परिरक्षतु are 3rd person singular wishes: may he protect. What is guarded stands in the accusative (प्राणान्, व्यानम्).",
+        "rule": "रक्षतु and परिरक्षतु are 3rd person singular wishes: may he protect. What is guarded stands in the accusative (प्राणान्, व्यानम्). पान्तु (unit 23) is the plural wish, पातु/रक्षतु the singular; त्वाम् = you (object).",
         "limits": "Three printed words are doubtful (the first word, अपान, and what the last verb guards), so no question rests on them. प्राण, व्यान and अपान are breaths, kept as terms. The verse states wishes only.",
         "explain_hi": "रक्षा-मन्त्र की इस कड़ी में देवताओं को शरीर की वस्तुओं से जोड़ा गया है: वायु प्राणों की और सोम व्यान की रक्षा करे; पर्जन्य के लिए परिरक्षतु आता है। जिह्वा का भी उल्लेख है। रक्षतु और परिरक्षतु एकवचन की प्रार्थनाएँ हैं। तीन छपे शब्द संदिग्ध हैं (पहला शब्द, अपान और अन्तिम क्रिया का कर्म), इसलिए प्रश्न उन पर नहीं टिके हैं।",
         "hook": "वायु प्राणों की, सोम व्यान की रक्षा करे; पर्जन्य परिरक्षतु।",
@@ -614,9 +614,9 @@ AUTHORED = {
         "title": "चक्षुः सूर्यो दिशः श्रोत्रे",
         "question": "Which power is paired with the eye, the ears, the mind and the form?",
         "rule": "A dual ending (श्रोत्रे, two ears) names two; plural subjects (नक्षत्राणि, निशाः) take the plural wish पान्तु.",
-        "limits": "छाया can mean shadow or lustre, so no question rests on it. The verbs of the directions and the stars are understood. The verse states wishes only and makes no claim about the heavenly bodies.",
-        "explain_hi": "यहाँ चार जोड़ियाँ हैं: सूर्य और नेत्र, दिशाएँ और दोनों कान, चन्द्रमा और मन, नक्षत्र और रूप; साथ में रातें और छाया। श्रोत्रे द्विवचन है, यानी दोनों कान। दूसरी पंक्ति में नक्षत्राणि और निशाः बहुवचन हैं, इसलिए क्रिया पान्तु है। छाया का अर्थ छाया या कान्ति दोनों हो सकता है, इसलिए उस पर प्रश्न नहीं है।",
-        "hook": "सूर्य–नेत्र, दिशाएँ–दोनों कान, चन्द्रमा–मन, नक्षत्र–रूप।",
+        "limits": "छाया can mean shadow or lustre, so no question rests on it. The verb of the directions is understood; the stars and the nights share the printed पान्तु. The verse states wishes only and makes no claim about the heavenly bodies.",
+        "explain_hi": "यहाँ चार जोड़ियाँ हैं: सूर्य और चक्षु, दिशाएँ और दोनों कान, चन्द्रमा और मन, नक्षत्र और रूप; साथ में रातें और छाया। श्रोत्रे द्विवचन है, यानी दोनों कान। दूसरी पंक्ति में नक्षत्राणि और निशाः बहुवचन हैं, इसलिए क्रिया पान्तु है। छाया का अर्थ छाया या कान्ति दोनों हो सकता है, इसलिए उस पर प्रश्न नहीं है।",
+        "hook": "सूर्य–चक्षु, दिशाएँ–दोनों कान, चन्द्रमा–मन, नक्षत्र–रूप।",
         "core": False,
         "questions": [
             mcq("pretest", 0, "Who is asked to protect your mind?",
@@ -636,10 +636,10 @@ AUTHORED = {
                   "The verse runs: eye and Sun, directions and two ears, Moon and mind, stars and form.",
                   "Order of the text.", role="extend",
                   teaches="Four pairs can be learned in the order of the text."),
-            mcq("discriminate", 3, "What does the dual ending of श्रोत्रे tell us?",
-                ("There are two ears.", "The card marks श्रोत्रे as dual."),
-                [("There is one ear.", "A singular would be श्रोत्रम्."),
-                 ("There are many ears.", "A plural would be श्रोत्राणि."),
+            mcq("discriminate", 3, "What does the ending of श्रोत्रे show about the ears?",
+                ("There are two of them.", "The card marks श्रोत्रे as dual."),
+                [("There is one of them.", "A singular would be श्रोत्रम्."),
+                 ("There are many of them.", "A plural would be श्रोत्राणि."),
                  ("The ears belong to the Moon.", "The ears belong to the one addressed, ते.")],
                 "A dual ending names two, so श्रोत्रे means the two ears.",
                 "Dual = two."),
@@ -665,7 +665,7 @@ AUTHORED = {
         "question": "Which natural things are named in this verse?",
         "rule": "इ before a different vowel becomes य्: रोमाणि + ओषधयः = रोमाण्योषधयः. A visarga before त becomes स्: ओषधयः + तथा = ओषधयस्तथा.",
         "limits": "In the first line त्वा may be you or and, and the herbs' verb is not printed; printed देहां is doubtful. No question rests on these. Retas is kept as a term. The verse states wishes only.",
-        "explain_hi": "इस श्लोक में जल, ओषधियाँ, आकाश और पृथ्वी का नाम आता है, साथ में रोम और शरीर के छिद्र। पहली पंक्ति में त्वा तुम्हें भी हो सकता है और तु (और) भी, और ओषधियों की क्रिया छपी नहीं है; देहां भी संदिग्ध है। इसलिए प्रश्न केवल उन शब्दों पर हैं जिन पर सन्देह नहीं। सन्धि की दो मिसालें हैं: रोमाण्योषधयः और ओषधयस्तथा।",
+        "explain_hi": "इस श्लोक में जल, ओषधियाँ, आकाश और पृथ्वी का नाम आता है, साथ में रोम और खानि (छिद्र, ऐसा पढ़ा गया)। पहली पंक्ति में त्वा तुम्हें भी हो सकता है और तु (और) भी, और ओषधियों की क्रिया छपी नहीं है; देहां भी संदिग्ध है। इसलिए प्रश्न केवल उन शब्दों पर हैं जिन पर सन्देह नहीं। सन्धि की दो मिसालें हैं: रोमाण्योषधयः और ओषधयस्तथा।",
         "hook": "जल, ओषधियाँ, आकाश, पृथ्वी: सन्धि रोमाण्योषधयः और ओषधयस्तथा।",
         "core": False,
         "questions": [
@@ -715,10 +715,10 @@ NOTES_HI = {
     "16": "विश्वास उच्च; कोई पाठ-संकेत नहीं। रोगों के नाम नाम की तरह रखे हैं, आधुनिक निदान नहीं। सन्धि: मूढगर्भ + उदर = मूढगर्भोदर (अ + उ = ओ); अर्शः + अश्मरी = अर्शोऽश्मरी (विसर्ग → ओ, अवग्रह)। अभुक्तवतः षष्ठी एकवचन है। टिप्पणी के अनुसार इसकी तुलना अंश ७ से होती है, जहाँ रोगी ने हल्का भोजन किया है।",
     "17": "विश्वास मध्यम। स्रोत में एक पाठान्तर (ज्य) की सूचना है, स्थान नहीं बताया, इसलिए लागू नहीं किया। अवचार्य का प्रयोग करके अर्थ स्थिर नहीं। प्रोत एक वस्तु का नाम रखा है। प्रगाढाम् का गाढ़ा लगी या सघन, दोनों अर्थ हो सकते हैं। छपा मन्त्न्रैः में अतिरिक्त न् है, सुझाया मन्त्रैः। सन्धि: शीताभिः + अद्भिः = शीताभिरद्भिः; प्रोतेन + उदकम् = प्रोतेनोदकम्; वेदनारक्षोघ्नैः + धूपैः = वेदनारक्षोघ्नैर्धूपैः। प्रश्न केवल उन कर्मों पर हैं जिन पर सन्देह नहीं।",
     "18": "विश्वास मध्यम। औषध-नाम केवल नाम हैं, पहचान नहीं दी गई। चूर्णैः सब नामों पर लगता है, यह अन्वय माना गया है। गौरसर्षप का शब्दार्थ गौर (हल्के रंग की) सरसों है। समालभेत का स्पर्श करे अर्थ है, पर रगड़ना या लगाना भी हो सकता है; प्राणान् को शाब्दिक रखा है। सन्धि: गुग्गुलु + अगुरु = गुग्गुल्वगुरु (उ → व्); आज्यशेषेण + च + अस्य = आज्यशेषेण चास्य।",
-    "19": "विश्वास मध्यम। कुयात् में र् छूटा है; सही कुर्यात्। अन्तिम शब्द ||तद्वक्ष्यामः में दण्ड के बाद स्थान नहीं है; एक शब्द की तरह रखा है, और वक्ष्यामः के बाद दण्ड नहीं है। यह आगे के श्लोकों (अंश २०–२२) का परिचय है। उदकुम्भात् + च + आपः = उदकुम्भाच्चापः। छपे रूप में गृहीत्वा और प्रोक्षयन् बिना अन्तर के जुड़े हैं; उन्हें अलग शब्द पढ़ा गया है।",
+    "19": "विश्वास मध्यम। कुयात् में र् छूटा लगता है (सम्भवतः कुर्यात्)। अन्तिम शब्द ||तद्वक्ष्यामः में दण्ड के बाद स्थान नहीं है; एक शब्द की तरह रखा है, और वक्ष्यामः के बाद दण्ड नहीं है। यह आगे के श्लोकों (अंश २०–२२) का परिचय है। उदकुम्भात् + च + आपः = उदकुम्भाच्चापः। छपे रूप में गृहीत्वा और प्रोक्षयन् बिना अन्तर के जुड़े हैं; उन्हें अलग शब्द पढ़ा गया है।",
     "20": "विश्वास उच्च। छपे कृत्यानांप्रतिघातार्थं में दो शब्दों के बीच अन्तर छूटा है (केवल शब्द-जोड़, अर्थ में फर्क नहीं)। कृत्या का अर्थ जादू-टोना है। टिप्पणी के अनुसार वक्ता वही है जो रक्षाकर्म करेगा। सन्धि: तत् + अनुमन्यताम् = तदनुमन्यताम्। छन्द अनुष्टुप् है।",
     "21": "विश्वास उच्च; कोई पाठ-संकेत नहीं। त्वाम् रोगी के लिए है, ऐसा टिप्पणी में माना गया है। प्राणियों के नाम वैसे ही रखे गए हैं जैसे पाठ में हैं। यक्षराक्षसाः द्वन्द्व है। ये ये का अर्थ है जो-जो। सन्धि: पिशाचाः + गन्धर्वाः = पिशाचा गन्धर्वाः (आः के बाद घोष वर्ण पर विसर्ग लुप्त); पितरः + यक्ष = पितरो यक्ष।",
-    "22": "विश्वास उच्च। वास्तुनिवासाः दिक्षु के साथ दो तरह से पढ़ा जा सकता है: जो दिशाओं में हैं और जो वास्तु में रहते हैं (अनुवाद), या दिशाओं और वास्तु के वासी। प्रश्न किसी एक पाठ पर नहीं टिके। छपा अन्तरीक्षे दीर्घ ई के साथ है, वही रखा गया है। सन्धि: पृथिव्याम् + अन्तरीक्षे = पृथिव्यामन्तरीक्षे; वास्तुनिवासाः + च = वास्तुनिवासाश्च।",
+    "22": "विश्वास उच्च। वास्तुनिवासाः दिक्षु के साथ दो तरह से पढ़ा जा सकता है: जो दिशाओं में हैं और जो वास्तु में रहते हैं (अनुवाद), या दिशाओं और वास्तु के वासी। प्रश्न किसी एक पाठ पर नहीं टिके। सन्धि: पृथिव्याम् + अन्तरीक्षे = पृथिव्यामन्तरीक्षे; वास्तुनिवासाः + च = वास्तुनिवासाश्च।",
     "23": "विश्वास कम; क्षतिग्रस्त शब्द। छपा ब्राहया शब्द नहीं है; पाठ-संकेत ब्राह्माः है, पर यह अनुमान है और ब्राह्म अर्थ भी अनुमानित है। इसलिए किसी प्रश्न में यह शब्द नहीं आया। टिप्पणी के अनुसार पान्तु आगे के श्लोकों (अंश २५–३२) तक कर्ताओं को चलाता है। सन्धि: पर्वताः + च + एव = पर्वताश्चैव; नद्यः + च = नद्यश्च।",
     "24": "विश्वास मध्यम; संदिग्ध शब्द हैं। छपा स्ग्नी सम्भवतः अग्निः की भूल है (आरम्भ का स् अ की जगह; अन्त का ई एकवचन कर्ता के लिए ठीक नहीं)। अपान में कर्म की म् छूटी है (अपानम् अपेक्षित)। अपान के बाद ते दोनों कर्मों से जुड़ सकता है; अन्तिम पंक्ति में परिरक्षतु का अन्य कर्म नहीं छपा, तुम्हें लिया गया। प्राण, व्यान, अपान वायुओं के नाम हैं। प्राणान् वायुः का अन्वय अनुवाद के अनुसार लिया गया। सन्धि: वायुः + तथा + एव = वायुस्तथैव।",
     "25": "विश्वास कम; संदिग्ध पाठ। छपा मन्ये संदिग्ध है; सुझाव मन्युम् है (उत्साह), जो अनुमान है। हिन्दी का संदिग्ध पाठ और English का (spirit?) इसी ओर संकेत करते हैं। क्रिया पान्तु / रक्षतु से ली गई है। इसलिए मनु वाला अंश किसी प्रश्न में नहीं है। उदान और समान वायुओं के नाम हैं। सन्धि: बलपतिः + मनुः = बलपतिर्मनुः; बलम् + इन्द्रः = बलमिन्द्रः।",
@@ -743,7 +743,7 @@ AIDS = {
     "17": {
         "frame": "एक लम्बा वाक्य: करके-करके की कड़ी (-य रूप), फिर चार मुख्य क्रियाएँ विधिलिङ् में।",
         "chain": {"steps": ["शस्त्रम् अवचार्य (अर्थ अनिश्चित)", "शीतल जल से रोगी को आश्वास्य",
-                            "परिपीड्य, अभिमृद्य", "कषाय से प्रक्षाल्य", "वर्तिं प्रणिदध्यात्",
+                            "परिपीड्य, अभिमृद्य", "कषाय से प्रक्षाल्य", "प्रोत से उदक लेकर (आदाय; प्रोत का अर्थ अनिश्चित)", "वर्तिं प्रणिदध्यात्",
                             "कल्क से आच्छाद्य, कवलिका देकर बध्नीयात्", "धूपैः धूपयेत्",
                             "मन्त्रैः रक्षां कुर्वीत"]},
         "sandhi": "शीताभिः + अद्भिः = शीताभिरद्भिः (विसर्ग → र् स्वर से पहले); प्रोतेन + उदकम् = प्रोतेनोदकम् (अ + उ = ओ); वेदनारक्षोघ्नैः + धूपैः = वेदनारक्षोघ्नैर्धूपैः।",
@@ -756,7 +756,7 @@ AIDS = {
     },
     "19": {
         "frame": "क्रम: जल के घड़े से जल लेकर → छिड़कते हुए → रक्षाकर्म करे → उसे हम कहेंगे।",
-        "chain": {"steps": ["उदकुम्भात् आपः गृहीत्वा", "प्रोक्षयन्", "रक्षाकर्म कुर्यात्", "तद्वक्ष्यामः"]},
+        "chain": {"steps": ["उदकुम्भात् आपः गृहीत्वा", "प्रोक्षयन्", "रक्षाकर्म कुयात् (कुर्यात्?)", "तद्वक्ष्यामः"]},
         "sandhi": "उदकुम्भात् + च + आपः = उदकुम्भाच्चापः (त् + च = च्च)।",
     },
     "20": {
@@ -783,7 +783,7 @@ AIDS = {
     },
     "23": {
         "frame": "एक क्रिया पान्तु · कर्ता: मुनि, राजर्षि, पर्वत, नदियाँ, समुद्र · सर्वाः (स्त्री) नदियों के साथ, सर्वे (पुं) समुद्रों के साथ।",
-        "chunks": {"steps": ["पान्तु त्वां मुनयः", "दिव्याः राजर्षयः तथा", "पर्वताः च एव",
+        "chunks": {"steps": ["पान्तु त्वां मुनयः", "[ब्राहया: बिगड़ा शब्द]", "दिव्याः", "राजर्षयः तथा", "पर्वताः च एव",
                              "नद्यः च", "सर्वाः सर्वे च सागराः"]},
         "sandhi": "पर्वताः + च + एव = पर्वताश्चैव (विसर्ग → श्, अ + ए = ऐ); नद्यः + च = नद्यश्च।",
     },
@@ -805,7 +805,7 @@ AIDS = {
         "sandhi": "कामान् + ते = कामांस्ते (न् → ंस् त से पहले); सत्त्वम् + इन्द्रः + अभिरक्षतु = सत्त्वमिन्द्रोऽभिरक्षतु।",
     },
     "27": {
-        "frame": "सूर्य–नेत्र, दिशाएँ–दोनों कान (द्विवचन), चन्द्रमा–मन, नक्षत्र–रूप, रातें भी · पान्तु बहुवचन के लिए।",
+        "frame": "सूर्य–चक्षु, दिशाएँ–दोनों कान (द्विवचन), चन्द्रमा–मन, नक्षत्र–रूप, रातें भी · पान्तु बहुवचन के लिए।",
         "diagram": {"steps": ["चक्षुः सूर्यः", "दिशः श्रोत्रे", "चन्द्रमाः पातु ते मनः",
                               "नक्षत्राणि सदा रूपम्"]},
         "sandhi": "निशाः + तव = निशास्तव (विसर्ग → स् त से पहले)।",
@@ -813,7 +813,7 @@ AIDS = {
     "28": {
         "frame": "नाम: जल, ओषधियाँ, आकाश, पृथ्वी · सन्धि की दो मिसालें: रोमाण्योषधयः, ओषधयस्तथा।",
         "chunks": {"steps": ["रेतः त्वा आप्याययन्तु आपः", "रोमाणि ओषधयः तथा",
-                             "आकाशं खानि ते पातु", "तव वसुन्धरा"]},
+                             "आकाशं खानि ते पातु", "देहां (संदिग्ध) तव वसुन्धरा"]},
         "sandhi": "रोमाणि + ओषधयः = रोमाण्योषधयः (इ → य्); ओषधयः + तथा = ओषधयस्तथा (विसर्ग → स् त से पहले)।",
     },
 }
@@ -824,7 +824,7 @@ IMAGE_SPECS = {
         "alt": "Mind map: otherwise, with four results: cutting of veins and sinews, excessive pain, healing of the wound after a long time, and appearance of fleshy growths.",
         "type": "mermaid",
         "code": ('mindmap\n'
-                 '  अन्यथा करने पर\n'
+                 '  अन्यथा\n'
                  '    सिरा-स्नायु का कटना\n'
                  '    अत्यधिक पीड़ा\n'
                  '    व्रण का देर से भरना\n'
@@ -867,10 +867,10 @@ IMAGE_SPECS = {
     },
     ("22", "diagram"): {
         "file": "ch5-sthana-22.svg",
-        "alt": "Mind map: four places named in the verse, on the earth, in the atmosphere, in the directions and in the house-site, under the wish that they protect when saluted.",
+        "alt": "Mind map: beings who roam or dwell in four places named in the verse (earth, atmosphere, directions, house-site); being saluted, may they protect.",
         "type": "mermaid",
         "code": ('mindmap\n'
-                 '  नमस्कृत होकर रक्षा करें\n'
+                 '  निशाचर: नमस्कृत होकर रक्षा करें\n'
                  '    पृथ्वी में\n'
                  '    अन्तरीक्ष में\n'
                  '    दिशाओं में\n'
@@ -891,7 +891,7 @@ IMAGE_SPECS = {
         "alt": "Four pairs: the Sun protects the eye, the directions protect the two ears, the Moon protects the mind, the stars protect the form.",
         "type": "mermaid",
         "code": ('flowchart LR\n'
-                 '  A["सूर्य"] --> A2["नेत्र की रक्षा"]\n'
+                 '  A["सूर्य"] --> A2["चक्षु की रक्षा"]\n'
                  '  B["दिशाएँ"] --> B2["दोनों कानों की रक्षा"]\n'
                  '  C["चन्द्रमा"] --> C2["मन की रक्षा"]\n'
                  '  D["नक्षत्र"] --> D2["रूप की रक्षा"]'),
