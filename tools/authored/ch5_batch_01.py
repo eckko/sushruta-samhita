@@ -301,7 +301,7 @@ AUTHORED = {
         "question": "In what sequence does the text state the actions before and during the incision?",
         "rule": "-त्वा and -य words (having honoured, having seated ...) come before the main verbs निदध्यात् and अपहरेत् (should set in, should withdraw).",
         "limits": "The text states a sequence of rites and actions; it gives no reasons. The printed words for facing east and facing west are doubtful (see the note), so no question rests on them. The word for along the grain is rendered literally. The card gives no advice beyond the text.",
-        "explain_hi": "यह लम्बा वाक्य क्रम से बताता है: शुभ समय में अग्नि, ब्राह्मणों और वैद्यों की पूजा करके, रोगी को बैठाकर और नियन्त्रित करके, वैद्य मर्म, सिरा, स्नायु, सन्धि, अस्थि और धमनियों को बचाते हुए शस्त्र को पीब दिखाई देने तक डाले और एक ही बार शीघ्र निकाले। अन्त में कहा है कि शस्त्रपद दो या तीन अंगुल के अन्तर पर कहा गया है। पाठ यहाँ केवल अपना कथन देता है; कारण या अतिरिक्त सलाह नहीं।",
+        "explain_hi": "यह लम्बा वाक्य क्रम से बताता है: शुभ समय में अग्नि, ब्राह्मणों और वैद्यों की पूजा करके, रोगी को बैठाकर और नियन्त्रित करके, वैद्य मर्म, सिरा, स्नायु, सन्धि, अस्थि और धमनियों को बचाते हुए शस्त्र को पीब दिखाई देने तक डाले और एक ही बार शीघ्र निकाले। अन्त में कहा है कि बड़े पाकों में भी शस्त्रपद दो या तीन अंगुल के अन्तर पर कहा गया है। पाठ यहाँ केवल अपना कथन देता है; कारण या अतिरिक्त सलाह नहीं।",
         "hook": "पूजा → बैठाना → नियन्त्रण → शस्त्र डालना (पीब दिखने तक) → एक बार शीघ्र निकालना।",
         "core": True,
         "questions": [
