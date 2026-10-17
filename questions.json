@@ -1,418 +1,4555 @@
 {
-  "id": "sample-book",
-  "book": "Sample Book",
-  "labels": {
-    "unit": "Lesson",
-    "units": "lessons",
-    "topic": "Idea",
-    "whole": "Whole course"
-  },
-  "concepts": [
-    {
-      "id": "remainders",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Remainders",
-      "title": "Remainders and the clock",
-      "requires": [],
-      "card": {
-        "paragraphs": [
-          "A clock face only has the numbers 1 to 12. When the hour hand passes 12 it does not go on to 13; it starts again. So the time 17:00 shows as 5 o'clock.",
-          "The reason is division with remainder. 17 hours is one full turn of 12 hours plus 5 more: \\(17 = 1 \\times 12 + 5\\). The full turns do not change where the hand points; only the 5 left over does.",
-          "We write \\(17 \\bmod 12 = 5\\), read '17 mod 12 is 5'. In general \\(a \\bmod n\\) is the remainder when a is divided by n. It is always one of 0, 1, 2, and so on up to \\(n - 1\\). On the clock, the top position 12 plays the part of remainder 0."
-        ],
-        "example": "Where does the hour hand point 29 hours after midnight? Divide by 12: \\(29 = 2 \\times 12 + 5\\). Two full turns change nothing, so the hand points to 5, and \\(29 \\bmod 12 = 5\\).",
-        "rule": "\\(a \\bmod n\\) is the remainder of a divided by n, a number from 0 to \\(n - 1\\).",
-        "limits": "It describes whole numbers divided by a positive whole number n. It says nothing about fractions, and the choice of n matters: 17 leaves 5 on a 12-hour clock but 3 on a 7-day week.",
-        "media": [
-          {
-            "id": "sample/fig-clock",
-            "type": "image/png",
-            "role": "figure",
-            "alt": "A clock face whose short hand points at 5 and long hand at 12: 17:00 shown as 5 o'clock."
-          }
-        ]
-      },
-      "question": "What is left over when a number wraps around a clock?",
-      "core": true
-    },
-    {
-      "id": "congruence",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Same remainder",
-      "title": "Congruence: same remainder",
-      "requires": [
-        "remainders"
-      ],
-      "card": {
-        "paragraphs": [
-          "Many numbers leave the same remainder: 5, 17 and 29 all leave remainder 5 when divided by 12. On a clock they all point to 5. Mathematicians give this a short name.",
-          "We write \\(a \\equiv b \\pmod{n}\\), read 'a is congruent to b mod n', when a and b leave the same remainder after division by n. For example \\(17 \\equiv 5 \\pmod{12}\\) and \\(29 \\equiv 17 \\pmod{12}\\).",
-          "There is a second test that needs no remainders. \\(a \\equiv b \\pmod{n}\\) exactly when n divides \\(a - b\\), meaning \\(a - b\\) is a whole multiple of n. For instance \\(29 - 17 = 12\\), and 12 is a multiple of 12, so \\(29 \\equiv 17 \\pmod{12}\\)."
-        ],
-        "example": "Is \\(40 \\equiv 16 \\pmod{12}\\)? Remainders: \\(40 = 3 \\times 12 + 4\\) and \\(16 = 12 + 4\\), both 4, so yes. Difference test: \\(40 - 16 = 24 = 2 \\times 12\\), also yes.",
-        "rule": "\\(a \\equiv b \\pmod{n}\\) means a and b leave the same remainder when divided by n; equivalently, \\(a - b\\) is a multiple of n.",
-        "limits": "Congruence is always relative to one chosen n. Two numbers can be congruent mod 12 and not congruent mod 5, so name n every time."
-      },
-      "question": "When do two numbers point to the same place on a clock?",
-      "core": false
-    }
-  ],
-  "questions": [
-    {
-      "id": "remainders-p",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Remainders",
-      "concept": "remainders",
-      "role": "pretest",
-      "rung": 0,
-      "kind": "mcq",
-      "q": "A clock shows 9 o'clock. What time does it show 5 hours later?",
-      "options": [
-        "14 o'clock",
-        "2 o'clock",
-        "1 o'clock",
-        "5 o'clock"
-      ],
-      "answer": 1,
-      "explain": "Count on from 9: 10, 11, 12, 1, 2. After 12 the clock starts again, so 9 + 5 = 14 hours shows as 2 o'clock. The next card shows why this is a remainder.",
-      "optionExplain": [
-        "9 + 5 = 14 is the right sum, but a clock face stops at 12, so 14 o'clock is never shown.",
-        "Right: the hand passes 12 and goes on 2 more hours, since 14 is one turn of 12 plus 2.",
-        "This is one hour short, which happens if you count 9 itself as the first hour: 9, 10, 11, 12, 1.",
-        "5 is how many hours pass, not where the hand ends up; the count has to start from 9."
-      ],
-      "rule": "A clock starts again after 12."
-    },
-    {
-      "id": "remainders-1",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Remainders",
-      "concept": "remainders",
-      "role": "warmup",
-      "rung": 1,
-      "kind": "fill",
-      "q": "Fill in the remainder: \\(23 \\bmod 12 = \\) ____",
-      "accept": [
-        "11",
-        "eleven"
-      ],
-      "explain": "\\(23 = 1 \\times 12 + 11\\), so the remainder is 11. On a clock, 23:00 shows as 11 o'clock.",
-      "rule": "Take away whole twelves; what is left, from 0 to 11, is the answer."
-    },
-    {
-      "id": "remainders-2",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Remainders",
-      "concept": "remainders",
-      "role": "apply",
-      "rung": 2,
-      "kind": "mcq",
-      "q": "It is 10 o'clock now. A train journey takes 27 hours. What does a 12-hour clock show when the train arrives?",
-      "options": [
-        "3 o'clock",
-        "13 o'clock",
-        "1 o'clock",
-        "10 o'clock"
-      ],
-      "answer": 2,
-      "explain": "The arrival is 10 + 27 = 37 hours on from 12. Since \\(37 = 3 \\times 12 + 1\\), the clock shows 1 o'clock.",
-      "optionExplain": [
-        "3 is \\(27 \\bmod 12\\), the remainder of the journey alone. It forgets to start counting from 10 o'clock.",
-        "10 + 3 = 13 adds the right remainder but forgets to wrap around a second time: 13 o'clock is 1 o'clock.",
-        "Right: \\(10 + 27 = 37\\) and \\(37 = 3 \\times 12 + 1\\), so the hand points to 1.",
-        "27 hours feels like 'about a day', but only multiples of 12 bring the hand back; \\(27 = 2 \\times 12 + 3\\)."
-      ],
-      "hint": "Add the journey to the start time first, then remove whole twelves.",
-      "rule": "Add first, then wrap around as many times as needed."
-    },
-    {
-      "id": "remainders-3",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Remainders",
-      "concept": "remainders",
-      "role": "extend",
-      "rung": 3,
-      "kind": "multi",
-      "q": "Select every number that leaves remainder 5 when divided by 12.",
-      "options": [
-        "17",
-        "15",
-        "29",
-        "41",
-        "50",
-        "53"
-      ],
-      "answers": [
-        0,
-        2,
-        3,
-        5
-      ],
-      "explain": "17, 29, 41 and 53 are \\(12 + 5\\), \\(2 \\times 12 + 5\\), \\(3 \\times 12 + 5\\) and \\(4 \\times 12 + 5\\). Each is 12 more than the one before, so they all point to 5 on the clock.",
-      "optionExplain": [
-        "Right: \\(17 = 12 + 5\\).",
-        "15 ends in 5, which is tempting, but \\(15 = 12 + 3\\), so its remainder is 3.",
-        "Right: \\(29 = 2 \\times 12 + 5\\).",
-        "Right: \\(41 = 3 \\times 12 + 5\\), one more full turn than 29.",
-        "50 is close to 53, but \\(50 = 4 \\times 12 + 2\\), so its remainder is 2.",
-        "Right: \\(53 = 4 \\times 12 + 5\\)."
-      ],
-      "rule": "Numbers with the same remainder mod 12 are 12 apart.",
-      "teaches": "The numbers with remainder 5 mod 12 form a list 5, 17, 29, 41, 53, ... in which each is 12 more than the last, because adding a full turn never moves the hand."
-    },
-    {
-      "id": "remainders-4",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Remainders",
-      "concept": "remainders",
-      "role": "discriminate",
-      "rung": 4,
-      "kind": "sort",
-      "q": "Each question is answered by one part of a division with remainder. Sort them: is the answer the quotient (number of full rounds) or the remainder (what is left over)?",
-      "items": [
+ "id": "sushruta-samhita-sutra-1-5",
+ "book": "सुश्रुतसंहिता — सूत्रस्थान (अध्याय १–५)",
+ "labels": {
+  "unit": "Chapter",
+  "units": "chapters",
+  "topic": "Unit",
+  "whole": "Whole chapter"
+ },
+ "summary": "The first five chapters of the Sutrasthana of the Sushruta Samhita, the classical Sanskrit text of surgery, studied passage by passage with word split, Hindi and English.",
+ "genre": "संस्कृत श्लोक",
+ "scrollButtons": true,
+ "unitSummaries": {
+  "Chapter 1": "Origin of the science of life, its eight branches and the teaching lineage from Dhanvantari to Sushruta.",
+  "Chapter 2": "How a student is chosen and initiated: the teacher's duties and the rules of conduct.",
+  "Chapter 3": "How the text is studied and handed on: the student's training and what is taught.",
+  "Chapter 4": "How a treatise is discussed and taught, and why it is studied word by word.",
+  "Chapter 5": "The offering before surgery and the preparations and conduct for surgical work."
+ },
+ "concepts": [
+  {
+   "id": "su3-029",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "२९. अध्यायानां शतं विंशम्",
+   "requires": [
+    "su3-028"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक २९। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "अध्यायानां शतं विंशमेवमेतदुदीरितम् ।",
+       "अतः परं स्वनाम्नैव तन्त्रमुत्तरमुच्यते ॥ ॥ २९ ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
         {
-          "t": "How many full turns the hour hand makes in 29 hours",
-          "g": 0
+         "w": "अध्यायानाम्",
+         "gloss": "of chapters",
+         "gram": "पु. षष्ठी ब.व."
         },
         {
-          "t": "Which number the hour hand points to after 29 hours",
-          "g": 1
+         "w": "शतम्",
+         "gloss": "hundred",
+         "gram": "नपुं. प्रथमा ए.व."
         },
         {
-          "t": "How many full boxes 50 eggs fill, 12 to a box",
-          "g": 0
+         "w": "विंशम्",
+         "gloss": "with twenty",
+         "gram": "नपुं. प्रथमा ए.व."
         },
         {
-          "t": "How many loose eggs remain after boxing 50 eggs, 12 to a box",
-          "g": 1
+         "w": "एवम्",
+         "gloss": "thus",
+         "gram": "अव्यय"
         },
         {
-          "t": "How many complete weeks there are in 45 days",
-          "g": 0
+         "w": "एतत्",
+         "gloss": "this",
+         "gram": "नपुं. प्रथमा ए.व."
         },
         {
-          "t": "How many extra days there are beyond the complete weeks in 45 days",
-          "g": 1
+         "w": "उदीरितम्",
+         "gloss": "declared",
+         "gram": "नपुं. प्रथमा ए.व. क्त उद्-√ईर्"
+        },
+        {
+         "w": "।",
+         "gloss": "end of line mark",
+         "gram": "punct."
         }
-      ],
-      "groups": [
-        "The quotient (full rounds)",
-        "The remainder (left over)"
-      ],
-      "explain": "\\(29 = 2 \\times 12 + 5\\), \\(50 = 4 \\times 12 + 2\\) and \\(45 = 6 \\times 7 + 3\\). The quotients 2, 4 and 6 count full rounds; the remainders 5, 2 and 3 say where you end up.",
-      "rule": "The quotient counts full rounds; the remainder says where you land."
-    },
-    {
-      "id": "remainders-5",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Remainders",
-      "concept": "remainders",
-      "role": "transfer",
-      "rung": 5,
-      "kind": "mcq",
-      "q": "A kitchen timer's minute hand starts at 0 and runs for 175 minutes. Which minute mark does the minute hand point to at the end?",
-      "options": [
-        "55",
-        "7",
-        "2",
-        "75"
-      ],
-      "answer": 0,
-      "explain": "The minute hand goes round once every 60 minutes, so divide by 60: \\(175 = 2 \\times 60 + 55\\). It points to minute 55.",
-      "optionExplain": [
-        "Right: the cycle for minutes has length 60, and \\(175 = 2 \\times 60 + 55\\).",
-        "\\(175 \\bmod 12 = 7\\). Dividing by 12 is a habit from the hour hand, but the minute hand needs 60 minutes, not 12, to go round.",
-        "2 is the quotient: the number of full turns. It says how often the hand went round, not where it points.",
-        "175 minus 100 is 75, but a minute hand has no 75 mark; take away whole 60s until less than 60 is left."
-      ],
-      "hint": "How many minutes does the minute hand need to go all the way round?",
-      "rule": "Divide by the length of the cycle.",
-      "teaches": "The number you divide by (the modulus) is the length of the cycle, so the same method works for any cycle: 60 for minutes, 24 for a 24-hour clock, 12 for hours."
-    },
-    {
-      "id": "congruence-p",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Same remainder",
-      "concept": "congruence",
-      "role": "pretest",
-      "rung": 0,
-      "kind": "tf",
-      "q": "On a 12-hour clock, the hour hand points to the same number 3 hours after midnight and 15 hours after midnight.",
-      "answer": true,
-      "explain": "15 hours is one full turn of 12 hours plus 3, and a full turn leaves the hand where it was. The next card gives this 'same position' a name.",
-      "rule": "Numbers that differ by a full turn land in the same place."
-    },
-    {
-      "id": "congruence-1",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Same remainder",
-      "concept": "congruence",
-      "role": "warmup",
-      "rung": 1,
-      "kind": "mcq",
-      "q": "Which statement means the same as \\(38 \\equiv 14 \\pmod{12}\\)?",
-      "options": [
-        "38 divided by 12 gives 14",
-        "38 minus 14 is exactly 12",
-        "14 is the remainder of 38 divided by 12",
-        "38 and 14 leave the same remainder when divided by 12"
-      ],
-      "answer": 3,
-      "explain": "Congruence means equal remainders. Here both are 2: \\(38 = 3 \\times 12 + 2\\) and \\(14 = 12 + 2\\). Their difference 24 is a multiple of 12, as the second test needs.",
-      "optionExplain": [
-        "The symbol looks a bit like a division sum, but \\(38 \\div 12\\) is about 3.2, not 14.",
-        "The difference must be a multiple of 12, not 12 itself. Here 38 - 14 = 24, which is 2 x 12, and that is enough.",
-        "A remainder mod 12 is always below 12, so it cannot be 14; the remainder of 38 is 2.",
-        "Right: both leave remainder 2, which is exactly what \\(\\equiv\\) says."
-      ],
-      "rule": "\\(\\equiv\\) means 'same remainder', not 'equals the remainder'."
-    },
-    {
-      "id": "congruence-2",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Same remainder",
-      "concept": "congruence",
-      "role": "apply",
-      "rung": 2,
-      "kind": "multi",
-      "q": "Select every true statement.",
-      "options": [
-        "\\(29 \\equiv 5 \\pmod{12}\\)",
-        "\\(26 \\equiv 6 \\pmod{12}\\)",
-        "\\(40 \\equiv 4 \\pmod{12}\\)",
-        "\\(33 \\equiv 3 \\pmod{12}\\)",
-        "\\(50 \\equiv 2 \\pmod{12}\\)",
-        "\\(19 \\equiv 9 \\pmod{12}\\)"
-      ],
-      "answers": [
-        0,
-        2,
-        4
-      ],
-      "explain": "Use the difference test: is the difference a multiple of 12? 24, 36 and 48 are; 20, 30 and 10 are not.",
-      "optionExplain": [
-        "True: \\(29 - 5 = 24 = 2 \\times 12\\).",
-        "False: \\(26 - 6 = 20\\), not a multiple of 12. Both numbers end in 6, which is tempting, but \\(26 \\bmod 12 = 2\\).",
-        "True: \\(40 - 4 = 36 = 3 \\times 12\\).",
-        "False: both contain the digit 3, but \\(33 - 3 = 30\\) is not a multiple of 12; \\(33 \\bmod 12 = 9\\).",
-        "True: \\(50 - 2 = 48 = 4 \\times 12\\).",
-        "False: both end in 9, but \\(19 - 9 = 10\\), which is not a multiple of 12; \\(19 \\bmod 12 = 7\\)."
-      ],
-      "rule": "Subtract and ask: is the difference a multiple of n? Matching last digits prove nothing mod 12."
-    },
-    {
-      "id": "congruence-3",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Same remainder",
-      "concept": "congruence",
-      "role": "extend",
-      "rung": 3,
-      "kind": "fill",
-      "q": "\\(26 \\equiv 2 \\pmod{12}\\) is true. The largest n for which \\(26 \\equiv 2 \\pmod{n}\\) is also true is ____.",
-      "accept": [
-        "24",
-        "twenty-four",
-        "twenty four"
-      ],
-      "explain": "\\(26 \\equiv 2 \\pmod{n}\\) holds exactly when n divides \\(26 - 2 = 24\\). So it holds for n = 1, 2, 3, 4, 6, 8, 12 and 24, and the largest is 24.",
-      "hint": "Work out 26 - 2 first. Which numbers divide it?",
-      "rule": "\\(a \\equiv b \\pmod{n}\\) holds for exactly the n that divide \\(a - b\\).",
-      "teaches": "One subtraction answers the question for every modulus at once: \\(a \\equiv b\\) is true mod each divisor of \\(a - b\\) and false for every other n."
-    },
-    {
-      "id": "congruence-4",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Same remainder",
-      "concept": "congruence",
-      "role": "predict",
-      "rung": 4,
-      "kind": "tf",
-      "q": "Suppose you know that \\(a \\equiv b \\pmod{12}\\). Then \\(a \\equiv b \\pmod{6}\\) must also be true.",
-      "answer": true,
-      "explain": "If \\(a - b\\) is a multiple of 12, it is also a multiple of 6, since 12 = 2 x 6. The reverse fails: \\(8 \\equiv 2 \\pmod{6}\\) but not mod 12, because 6 is not a multiple of 12.",
-      "rule": "Congruent mod n means congruent mod every divisor of n, but not the other way round."
-    },
-    {
-      "id": "congruence-5",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Same remainder",
-      "concept": "congruence",
-      "role": "transfer",
-      "rung": 5,
-      "kind": "match",
-      "q": "Match each congruence with the everyday description of the whole number x that means the same thing.",
-      "pairs": [
-        [
-          "\\(x \\equiv 0 \\pmod{2}\\)",
-          "x is even"
-        ],
-        [
-          "\\(x \\equiv 1 \\pmod{2}\\)",
-          "x is odd"
-        ],
-        [
-          "\\(x \\equiv 0 \\pmod{5}\\)",
-          "x ends in the digit 0 or 5"
-        ],
-        [
-          "\\(x \\equiv 0 \\pmod{12}\\)",
-          "x eggs fill whole boxes of 12 exactly"
+       ],
+       [
+        {
+         "w": "अतः",
+         "gloss": "from here",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "परम्",
+         "gloss": "beyond",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "स्व-नाम्ना",
+         "gloss": "by its own name",
+         "gram": "नपुं. तृतीया ए.व. कर्मधारय"
+        },
+        {
+         "w": "एव",
+         "gloss": "itself",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "तन्त्रम्",
+         "gloss": "Tantra",
+         "gram": "नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "उत्तरम्",
+         "gloss": "Uttara",
+         "gram": "नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "उच्यते",
+         "gloss": "is called",
+         "gram": "प्र.पु. ए.व. लट् कर्मवाच्य √वच्"
+        },
+        {
+         "w": "॥",
+         "gloss": "end of line mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "अध्यायों का सौ और बीस, इस प्रकार यह कहा गया है; इसके बाद वाला तन्त्र अपने ही नाम से उत्तर कहलाता है।"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "Of chapters, a hundred and twenty: thus this has been declared; beyond this, the Tantra is called Uttara by its own name."
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "श्लोक का पहला आधा भाग अध्यायों की संख्या बताता है: सौ और बीस, यानी एक सौ बीस, और कहता है कि यह इस प्रकार कहा गया है। दूसरे भाग में कहा है कि इसके आगे जो तन्त्र है, वह अपने ही नाम से उत्तर कहलाता है। यहाँ केवल संख्या और नाम दिए हैं, उत्तर तन्त्र की विषय-वस्तु नहीं।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "संख्या: सौ और बीस अध्याय · कहा गया: इस प्रकार · इसके बाद: उत्तर तन्त्र, अपने ही नाम से।"
+       },
+       {
+        "aid": "sandhi",
+        "label": "संधि-नियम",
+        "text": "एतत् + उदीरितम् = एतदुदीरितम् (त् स्वर से पहले द्); स्वनाम्ना + एव = स्वनाम्नैव (आ + ए = ऐ); तन्त्रम् + उत्तरम् + उच्यते = तन्त्रमुत्तरमुच्यते।"
+       },
+       {
+        "aid": "chunks",
+        "label": "लय में खण्ड",
+        "steps": [
+         "अध्यायानां शतं विंशम्",
+         "एवम् एतत् उदीरितम्",
+         "अतः परम्",
+         "स्वनाम्ना एव",
+         "तन्त्रम् उत्तरम् उच्यते"
         ]
-      ],
-      "explain": "Remainder 0 mod 2 means x splits into pairs: even. Remainder 1 mod 2 means one is left over: odd. The multiples of 5 are 5, 10, 15, 20, ..., which end in 5 or 0. Remainder 0 mod 12 means whole dozens with none left over.",
-      "rule": "'Even', 'odd' and 'a multiple of' are all congruence statements.",
-      "teaches": "Ideas you already knew are congruences in disguise: even means \\(x \\equiv 0 \\pmod 2\\), odd means \\(x \\equiv 1 \\pmod 2\\), and 'a multiple of k' means \\(x \\equiv 0 \\pmod k\\)."
-    },
-    {
-      "id": "congruence-6",
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "section": "Same remainder",
-      "concept": "congruence",
-      "role": "spot-error",
-      "rung": 6,
-      "kind": "mcq",
-      "q": "Sam checks whether \\(52 \\equiv 4 \\pmod{12}\\). Step 1: \\(52 - 4 = 48\\). Step 2: 48 is not 12, so 52 and 4 are not congruent mod 12. Which step is wrong?",
-      "options": [
-        "Step 1: the difference must be 4 - 52, not 52 - 4",
-        "Step 2: 48 only has to be a multiple of 12, and 48 = 4 x 12",
-        "Neither step: 52 and 4 really are not congruent mod 12",
-        "Step 1: you must divide by 12 first and never subtract"
-      ],
-      "answer": 1,
-      "explain": "The test asks whether \\(a - b\\) is a multiple of n, not whether it equals n. \\(48 = 4 \\times 12\\), so \\(52 \\equiv 4 \\pmod{12}\\); indeed \\(52 = 4 \\times 12 + 4\\).",
-      "optionExplain": [
-        "Order does not matter: 4 - 52 = -48 is a multiple of 12 exactly when 48 is.",
-        "Right: 'n divides a - b' means a - b is some multiple of n. Four full turns is as good as one.",
-        "Tempting if you trust Step 2, but \\(52 = 4 \\times 12 + 4\\) leaves remainder 4, the same as 4.",
-        "Both tests are valid; the difference test is often quicker. The mistake is in how Step 2 reads the result."
-      ],
-      "rule": "Multiple of n, not equal to n."
-    }
-  ],
-  "summary": "A tiny sample bank (two ideas, thirteen questions) that shows the shape of questions.json. Replace it with your own book.",
-  "unitSummaries": {
-    "Lesson 1": "Numbers wrap around after n steps, so only the remainder matters."
+       },
+       {
+        "aid": "metre",
+        "label": "छन्द",
+        "text": "हर पंक्ति में ८ + ८ अक्षर (गिनती से)। ‘|’ पाद की सीमा है; संधि के कारण वह शब्द के बीच भी पड़ सकती है।",
+        "lines": [
+         "अध्यायानां शतं विंश | मेवमेतदुदीरितम् ।",
+         "अतः परं स्वनाम्नैव | तन्त्रमुत्तरमुच्यते ॥"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "‘विंशमेवमेतदुदीरितम्’ में विंशम् + एवम् + एतत् + उदीरितम् मिले हैं (एतत् का त् स्वर से पहले द् बना)। ‘स्वनाम्नैव’ = स्वनाम्ना + एव (आ + ए = ऐ)। ‘तन्त्रमुत्तरमुच्यते’ = तन्त्रम् + उत्तरम् + उच्यते। ‘विंश’ का शब्दार्थ ‘बीस से युक्त’ है। ‘उत्तर’ का सामान्य अर्थ ‘बाद वाला’ है; यह केवल शब्दार्थ है। पाठ-संकेत कोई नहीं।"
+     }
+    ],
+    "rule": "शतं विंशम् = a hundred with twenty; स्वनाम्ना = by its own name; उच्यते = is called.",
+    "limits": "The text states the number and the name Uttara only. It does not list the chapters of the Uttara Tantra, nor say what it teaches. Why it is called Uttara is only the plain sense of the word (later, beyond)."
+   },
+   "question": "How many chapters does the verse state, and what is the Tantra beyond them called?",
+   "core": true
   },
-  "cover": {
-    "id": "sample/cover",
-    "type": "image/png",
-    "role": "cover",
-    "alt": "Sample cover: a dark blue rectangle with a white border."
+  {
+   "id": "su3-030",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "३०. अधिकृत्य कृतं यस्मात्",
+   "requires": [
+    "su3-029"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ३०। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "अधिकृत्य कृतं यस्मात्तन्त्रमेतदुपद्रवान् ।",
+       "ओपद्रविक इत्येष तस्याग्र्यत्वान्निरुच्यते ॥ ॥ ३० ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "अधिकृत्य",
+         "gloss": "having made the subject",
+         "gram": "ल्यप् अधि-√कृ"
+        },
+        {
+         "w": "कृतम्",
+         "gloss": "made",
+         "gram": "नपुं. प्रथमा ए.व. क्त √कृ"
+        },
+        {
+         "w": "यस्मात्",
+         "gloss": "since",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "तन्त्रम्",
+         "gloss": "Tantra",
+         "gram": "नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "एतत्",
+         "gloss": "this",
+         "gram": "नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "उपद्रवान्",
+         "gloss": "complications",
+         "gram": "पु. द्वितीया ब.व."
+        },
+        {
+         "w": "।",
+         "gloss": "end of line mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "औपद्रविकः",
+         "gloss": "Aupadravika",
+         "gram": "पु. प्रथमा ए.व."
+        },
+        {
+         "w": "इति",
+         "gloss": "thus",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "एषः",
+         "gloss": "this",
+         "gram": "पु. प्रथमा ए.व."
+        },
+        {
+         "w": "तस्य",
+         "gloss": "of that",
+         "gram": "पु. षष्ठी ए.व."
+        },
+        {
+         "w": "अग्र्यत्वात्",
+         "gloss": "because of pre-eminence",
+         "gram": "नपुं. पञ्चमी ए.व."
+        },
+        {
+         "w": "निरुच्यते",
+         "gloss": "is explained",
+         "gram": "प्र.पु. ए.व. लट् कर्मवाच्य निर्-√वच्"
+        },
+        {
+         "w": "॥",
+         "gloss": "end of line mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "क्योंकि यह तन्त्र उपद्रवों को आधार बनाकर रचा गया है, इसलिए यह औपद्रविक कहलाता है, उसकी प्रधानता के कारण यह कहा जाता है।"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "Since this Tantra has been made with the complications (upadrava) as its subject, it is explained as the Aupadravika, because of the pre-eminence of that (subject)."
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "पहली पंक्ति कारण बताती है: क्योंकि यह तन्त्र उपद्रवों को विषय बनाकर रचा गया है। अधिकृत्य अधि और कृ से बना है और अर्थ है विषय बनाकर। दूसरी पंक्ति कहती है कि इसी कारण यह नाम से कहा जाता है; उस नाम का छपा रूप और 'तस्य' का सम्बन्ध अनिश्चित है, इसलिए यहाँ केवल कारण पर ध्यान दें।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "कारण: यस्मात् (क्योंकि) · क्या किया: उपद्रवों को विषय बनाकर रचा · तन्त्र: यह तन्त्र।"
+       },
+       {
+        "aid": "sandhi",
+        "label": "संधि-नियम",
+        "text": "यस्मात् + तन्त्रम् = यस्मात्तन्त्रम्; एतत् + उपद्रवान् = एतदुपद्रवान् (त् स्वर से पहले द्)।"
+       },
+       {
+        "aid": "chunks",
+        "label": "लय में खण्ड",
+        "steps": [
+         "अधिकृत्य कृतम्",
+         "यस्मात्",
+         "तन्त्रम् एतत्",
+         "उपद्रवान्"
+        ]
+       },
+       {
+        "aid": "metre",
+        "label": "छन्द",
+        "text": "हर पंक्ति में ८ + ८ अक्षर (गिनती से)। ‘|’ पाद की सीमा है; संधि के कारण वह शब्द के बीच भी पड़ सकती है।",
+        "lines": [
+         "अधिकृत्य कृतं यस्मा | त्तन्त्रमेतदुपद्रवान् ।",
+         "ओपद्रविक इत्येष | तस्याग्र्यत्वान्निरुच्यते ॥"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "पाठ-संकेत: छपा ‘ओपद्रविक’ सम्भवतः ‘औपद्रविक’ होना चाहिए (छन्द पर असर नहीं)। विश्वास-स्तर मध्यम है। ‘तस्याग्र्यत्वात्’ में ‘तस्य’ उपद्रवों/तन्त्र के विषय की ओर इशारा मानना एक पक्ष है; दूसरा पक्ष ‘इसकी (तन्त्र की) प्रधानता’ है। इन दोनों बातों पर कोई प्रश्न आधारित नहीं है।"
+     }
+    ],
+    "rule": "अधिकृत्य (अधि + कृ, with -य) = having made X the subject; यस्मात् = since.",
+    "limits": "The printed name of the Tantra in the second line is probably a slip for a standard form (see the note), and whose pre-eminence is meant is not settled. No question rests on that name or on that point. The unit only says why the Tantra bears a name."
+   },
+   "question": "What does the first line say this Tantra was made with as its subject?",
+   "core": false
   },
-  "mediaStore": "repo"
+  {
+   "id": "su3-031",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "३१. सन्धौ वर्त्मनि शुक्ले च",
+   "requires": [
+    "su3-030"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ३१। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "सन्धौ वर्त्मनि शुक्ले च कृष्णे सर्वत्र दृष्टिषु ।",
+       "संविज्ञानार्थमध्याया गदानां तु प्रति प्रति ॥ ॥ ३१ ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "सन्धौ",
+         "gloss": "junction",
+         "gram": "पु. सप्तमी ए.व."
+        },
+        {
+         "w": "वर्त्मनि",
+         "gloss": "eyelid",
+         "gram": "नपुं. सप्तमी ए.व."
+        },
+        {
+         "w": "शुक्ले",
+         "gloss": "white part",
+         "gram": "नपुं. सप्तमी ए.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "कृष्णे",
+         "gloss": "black part",
+         "gram": "नपुं. सप्तमी ए.व."
+        },
+        {
+         "w": "सर्वत्र",
+         "gloss": "everywhere",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "दृष्टिषु",
+         "gloss": "sight, visual parts",
+         "gram": "स्त्री. सप्तमी ब.व."
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "संविज्ञान-अर्थम्",
+         "gloss": "for the knowledge",
+         "gram": "तत्पुरुष; अव्यय"
+        },
+        {
+         "w": "अध्यायाः",
+         "gloss": "chapters",
+         "gram": "पु. प्रथमा ब.व."
+        },
+        {
+         "w": "गदानाम्",
+         "gloss": "of diseases",
+         "gram": "पु. षष्ठी ब.व."
+        },
+        {
+         "w": "तु",
+         "gloss": "indeed",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "प्रति",
+         "gloss": "each",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "प्रति",
+         "gloss": "each",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "॥",
+         "gloss": "verse-end mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "संधि, पलक, श्वेत भाग, कृष्ण भाग तथा सर्वत्र दृष्टि में होने वाले रोगों को जानने के लिए प्रत्येक रोग के अध्याय हैं।"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "For knowing the diseases in the junctions, the eyelids, the white part, the black part and everywhere in the visual parts, there are chapters, one for each disease."
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "यह श्लोक बताता है कि आगे के अध्याय किन स्थानों के रोगों को जानने के लिए हैं। पाँच स्थान सप्तमी विभक्ति में आते हैं: सन्धि, वर्त्म, शुक्ल, कृष्ण और सर्वत्र दृष्टि। 'प्रति प्रति' का अर्थ है हर एक, यानी प्रत्येक रोग के लिए एक अध्याय। 'अध्यायाः' के साथ 'हैं' जोड़ा गया है।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "क्यों: संविज्ञान के लिए · किनका: रोगों का · कहाँ: पाँच स्थानों में · कितने: हर रोग का एक अध्याय।"
+       },
+       {
+        "aid": "diagram",
+        "label": "चित्र",
+        "steps": [
+         "सन्धौ",
+         "वर्त्मनि",
+         "शुक्ले च",
+         "कृष्णे",
+         "सर्वत्र दृष्टिषु"
+        ],
+        "image": {
+         "src": "images/aids/ch3-sthana-31.svg",
+         "alt": "Mind map: chapters for knowing diseases, one for each, with five sites named in the verse: junction, eyelid, white part, black part and the visual parts."
+        }
+       },
+       {
+        "aid": "pegs",
+        "label": "चित्र-शब्द (मेरा बनाया चित्र)",
+        "text": "मेरा बनाया सहारा: स-व-शु-कृ-दृ (सन्धि, वर्त्म, शुक्ल, कृष्ण, दृष्टि) के आरम्भिक अक्षर। यह केवल याद रखने की सहायता है, पाठ का दावा नहीं।"
+       },
+       {
+        "aid": "chunks",
+        "label": "लय में खण्ड",
+        "steps": [
+         "सन्धौ वर्त्मनि शुक्ले च कृष्णे",
+         "सर्वत्र दृष्टिषु",
+         "संविज्ञानार्थम् अध्यायाः",
+         "गदानां तु प्रति प्रति"
+        ]
+       },
+       {
+        "aid": "metre",
+        "label": "छन्द",
+        "text": "हर पंक्ति में ८ + ८ अक्षर (गिनती से)। ‘|’ पाद की सीमा है; संधि के कारण वह शब्द के बीच भी पड़ सकती है।",
+        "lines": [
+         "सन्धौ वर्त्मनि शुक्ले च | कृष्णे सर्वत्र दृष्टिषु ।",
+         "संविज्ञानार्थमध्याया | गदानां तु प्रति प्रति ॥"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "श्लोक बीच वाक्य से शुरू होता है; ‘हैं’ जोड़ा गया है। ‘संविज्ञानार्थमध्यायाः’ = संविज्ञान-अर्थम् + अध्यायाः (म् का आगे के स्वर से मेल)। सन्धौ, वर्त्मनि, शुक्ले, कृष्णे, दृष्टिषु सप्तमी हैं। ‘दृष्टि’ का अर्थ (दर्शन या दृष्टि-सम्बन्धी भाग) सामान्य रखा गया है; इस पर कोई प्रश्न आधारित नहीं।"
+     }
+    ],
+    "rule": "The locative (-औ, -इ, -े, -षु) says where: in the junctions, the eyelids, the white and the black part, the visual parts.",
+    "limits": "The sentence opens mid-way, and 'are' is supplied. The verse names the sites, not the diseases; it gives no list of diseases. The sense of दृष्टि (sight or the visual parts) is left general, and no question rests on it."
+   },
+   "question": "At which sites are the diseases that these chapters are for?",
+   "core": false
+  },
+  {
+   "id": "su3-032",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "३२. चिकित्साप्रविभागीयः",
+   "requires": [
+    "su3-031"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ३२। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "चिकित्साप्रविभागीयो वाताभिष्यन्दवारणः ।",
+       "पैत्तस्य श्लैष्मिकस्यापि रौधिरस्य तथैव च । ॥ ३२ ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "चिकित्सा-प्रविभागीयः",
+         "gloss": "concerning the division of treatments",
+         "gram": "तत्पुरुष; पु. प्रथमा ए.व."
+        },
+        {
+         "w": "वात-अभिष्यन्द-वारणः",
+         "gloss": "warding off of Vata flux",
+         "gram": "तत्पुरुष; पु. प्रथमा ए.व."
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "पैत्तस्य",
+         "gloss": "of the Pitta kind",
+         "gram": "पु. षष्ठी ए.व."
+        },
+        {
+         "w": "श्लैष्मिकस्य",
+         "gloss": "of the Kapha kind",
+         "gram": "पु. षष्ठी ए.व."
+        },
+        {
+         "w": "अपि",
+         "gloss": "also",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "रौधिरस्य",
+         "gloss": "of the blood kind",
+         "gram": "पु. षष्ठी ए.व."
+        },
+        {
+         "w": "तथा",
+         "gloss": "likewise",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "एव",
+         "gloss": "indeed",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "चिकित्सा के विभाग का अध्याय; वातजन्य अभिष्यन्द का निवारण, और उसी प्रकार पित्तजन्य, कफजन्य तथा रक्तजन्य अभिष्यन्द का भी निवारण।"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "The chapter on the division of treatments; the warding off of the Vata abhishyanda (flux), and likewise of the Pitta, the Kapha and the blood kind."
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "इस अंश में दो अध्याय-शीर्षक आते हैं: चिकित्सा का विभाग, और अभिष्यन्द का निवारण। अभिष्यन्द के चार प्रकार गिनाए गए हैं: वातजन्य, फिर पित्तजन्य, कफजन्य और रक्तजन्य। बाद के तीनों शब्द षष्ठी में हैं और अभिष्यन्द पहले शब्द से जोड़ा जाता है। 'अध्याय' शब्द श्लोक में नहीं, अनुवाद में जोड़ा गया है।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "पहला शीर्षक: चिकित्सा का विभाग · दूसरा शीर्षक: अभिष्यन्द का निवारण · चार प्रकार: वात, पित्त, कफ, रक्त।"
+       },
+       {
+        "aid": "diagram",
+        "label": "चित्र",
+        "steps": [
+         "वाताभिष्यन्दवारणः",
+         "पैत्तस्य",
+         "श्लैष्मिकस्य",
+         "रौधिरस्य"
+        ],
+        "image": {
+         "src": "images/aids/ch3-abhishyanda-32.svg",
+         "alt": "Mind map of the warding off of abhishyanda with its four kinds in the verse's order: Vata, Pitta, Kapha and blood."
+        }
+       },
+       {
+        "aid": "pegs",
+        "label": "चित्र-शब्द (मेरा बनाया चित्र)",
+        "text": "मेरा बनाया सहारा: वात, पित्त, कफ, रक्त = व · प · क · र। यह केवल याद रखने की सहायता है, पाठ का दावा नहीं।"
+       },
+       {
+        "aid": "chunks",
+        "label": "लय में खण्ड",
+        "steps": [
+         "चिकित्साप्रविभागीयः",
+         "वाताभिष्यन्दवारणः",
+         "पैत्तस्य श्लैष्मिकस्य अपि",
+         "रौधिरस्य तथा एव च"
+        ]
+       },
+       {
+        "aid": "metre",
+        "label": "छन्द",
+        "text": "हर पंक्ति में ८ + ८ अक्षर (गिनती से)। ‘|’ पाद की सीमा है; संधि के कारण वह शब्द के बीच भी पड़ सकती है।",
+        "lines": [
+         "चिकित्साप्रविभागीयो | वाताभिष्यन्दवारणः ।",
+         "पैत्तस्य श्लैष्मिकस्यापि | रौधिरस्य तथैव च ।"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "‘अभिष्यन्द’ शब्द तीनों षष्ठी-रूपों (पैत्तस्य, श्लैष्मिकस्य, रौधिरस्य) के साथ जोड़ा गया है, और ‘अध्याय’ शब्द प्रथमा रूपों के साथ, दोनों अनुवाद में जोड़े गए हैं। ‘चिकित्साप्रविभागीयः’ में तद्धित -ईय का अर्थ ‘सम्बन्धी’ है। कोई पाठ-संकेत नहीं।"
+     }
+    ],
+    "rule": "वारणः = warding off; the genitives पैत्तस्य, श्लैष्मिकस्य, रौधिरस्य go with abhishyanda supplied from the first item.",
+    "limits": "Chapter titles are listed; the verse does not say what any chapter contains. 'Abhishyanda' (flux) is supplied with the three genitives, and 'chapter' with the nominatives. No treatment or effect is stated here."
+   },
+   "question": "Which four kinds of abhishyanda does the list ward off?",
+   "core": false
+  },
+  {
+   "id": "su3-033",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "३३. लेख्यभेद्यनिषेधौ च",
+   "requires": [
+    "su3-032"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ३३। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "लेख्यभेद्यनिषेधौ च छेद्यानां वर्त्मदृष्टिषु ।",
+       "क्रियाकल्पोऽभिघातश्च कर्णोत्थास्तच्चिकित्सितम् ॥ ॥ ३३ ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "लेख्य-भेद्य-निषेधौ",
+         "gloss": "prohibitions on scraping and incising",
+         "gram": "द्वन्द्व and तत्पुरुष; पु. प्रथमा द्वि.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "छेद्यानाम्",
+         "gloss": "of things to be excised",
+         "gram": "नपुं. षष्ठी ब.व."
+        },
+        {
+         "w": "वर्त्म-दृष्टिषु",
+         "gloss": "in eyelids and sight",
+         "gram": "द्वन्द्व; सप्तमी ब.व."
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "क्रिया-कल्पः",
+         "gloss": "course of procedure",
+         "gram": "तत्पुरुष; पु. प्रथमा ए.व."
+        },
+        {
+         "w": "अभिघातः",
+         "gloss": "injury",
+         "gram": "पु. प्रथमा ए.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "कर्ण-उत्थाः",
+         "gloss": "arising in the ear",
+         "gram": "तत्पुरुष; पु. प्रथमा ब.व."
+        },
+        {
+         "w": "तत्-चिकित्सितम्",
+         "gloss": "their treatment",
+         "gram": "नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "॥",
+         "gloss": "verse-end mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "पलकों और दृष्टि में लेखन तथा भेदन के दो निषेध और छेदन योग्य वस्तुओं के विषय में; क्रियाकल्प; आघात; कान से उत्पन्न होने वाले रोग और उनकी चिकित्सा।"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "The two prohibitions concerning what is to be scraped and what is to be incised, and concerning things to be excised, in the eyelids and the visual parts; the course of procedure; injury; the diseases arising in the ear and their treatment."
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "पहली पंक्ति की रचना अनिश्चित है: निषेध द्विवचन है, पर छेद्यानाम् का सम्बन्ध पक्का नहीं। इसलिए यहाँ दूसरी पंक्ति पर ध्यान दें: क्रियाकल्प, अभिघात, कान से उत्पन्न होने वाले और उनकी चिकित्सा। तच्चिकित्सितम् में तत् का अर्थ है उनकी, यानी कान से उत्पन्न होने वालों की। 'रोग' शब्द अनुवाद में जोड़ा गया है।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "दूसरी पंक्ति की चार बातें: क्रियाकल्प · अभिघात · कान से उत्पन्न · उनकी चिकित्सा।"
+       },
+       {
+        "aid": "sandhi",
+        "label": "संधि-नियम",
+        "text": "तत् + चिकित्सितम् = तच्चिकित्सितम् (त् + च = च्च); कर्ण + उत्थाः = कर्णोत्थाः (अ + उ = ओ); कर्णोत्थाः + तच्चिकित्सितम् = कर्णोत्थास्तच्चिकित्सितम् (ः + त = स्त)।"
+       },
+       {
+        "aid": "chunks",
+        "label": "लय में खण्ड",
+        "steps": [
+         "क्रियाकल्पः",
+         "अभिघातः",
+         "कर्णोत्थाः",
+         "तच्चिकित्सितम्"
+        ]
+       },
+       {
+        "aid": "metre",
+        "label": "छन्द",
+        "text": "हर पंक्ति में ८ + ८ अक्षर (गिनती से)। ‘|’ पाद की सीमा है; संधि के कारण वह शब्द के बीच भी पड़ सकती है।",
+        "lines": [
+         "लेख्यभेद्यनिषेधौ च | छेद्यानां वर्त्मदृष्टिषु ।",
+         "क्रियाकल्पोऽभिघातश्च | कर्णोत्थास्तच्चिकित्सितम् ॥"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "विश्वास-स्तर मध्यम है। ‘लेख्यभेद्यनिषेधौ च छेद्यानाम्’ की रचना निश्चित नहीं: ‘निषेधौ’ द्विवचन है (लेखन और भेदन का), और ‘छेद्यानाम्’ को अलग पद माना गया है। इस पंक्ति पर कोई प्रश्न आधारित नहीं। ‘कर्णोत्थास्तच्चिकित्सितम्’ = कर्णोत्थाः + तत्-चिकित्सितम्; तत् + चिकित्सितम् = तच्चिकित्सितम् (त् + च = च्च)। ‘रोग’ अनुवाद में जोड़ा गया है।"
+     }
+    ],
+    "rule": "तत् + चिकित्सितम् = तच्चिकित्सितम् (त् + च = च्च); कर्णोत्थाः = कर्ण + उत्थाः, arising in the ear.",
+    "limits": "How the first line is built (the two prohibitions and the word छेद्यानाम्) is not certain, so no question rests on it. The second line is clear: course of procedure, injury, the ones arising in the ear, and their treatment. 'Diseases' is supplied with कर्णोत्थाः."
+   },
+   "question": "Which items of the second line are listed after the eyelids and the visual parts?",
+   "core": false
+  },
+  {
+   "id": "su3-034",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "३४. घ्राणोत्थानां च विज्ञानम्",
+   "requires": [
+    "su3-033"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ३४। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "घ्राणोत्थानां च विज्ञानं तद्गदप्रतिषेधनम् ।",
+       "प्रतिश्यायनिषेधश्च शिरोगदविवेचनम् ॥ ॥ ३४ ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "घ्राण-उत्थानाम्",
+         "gloss": "of those arising in the nose",
+         "gram": "तत्पुरुष; पु. षष्ठी ब.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "विज्ञानम्",
+         "gloss": "recognition",
+         "gram": "नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "तद्-गद-प्रतिषेधनम्",
+         "gloss": "counteracting of their diseases",
+         "gram": "तत्पुरुष; नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "प्रतिश्याय-निषेधः",
+         "gloss": "checking of pratishyaya",
+         "gram": "तत्पुरुष; पु. प्रथमा ए.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "शिरो-गद-विवेचनम्",
+         "gloss": "discrimination of head diseases",
+         "gram": "तत्पुरुष; नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "॥",
+         "gloss": "verse-end mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "नासिका से उत्पन्न होने वाले रोगों की पहचान और उनके रोगों का प्रतिषेध; प्रतिश्याय का निषेध; और शिरोरोगों का विवेचन।"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "The recognition of those arising in the nose and the counteracting of their diseases; the checking of pratishyaya (a nasal disorder); and the discrimination of head diseases."
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "यह अंश चार बातें गिनाता है: नासिका से उत्पन्न होने वालों की पहचान, उनके रोगों का प्रतिषेध, प्रतिश्याय का निषेध और शिरोरोगों का विवेचन। तीनों शब्द 'विज्ञान', 'प्रतिषेधन' और 'विवेचन' अलग-अलग काम के नाम हैं। शिरोगद में शिरः का विसर्ग ओ बन गया है।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "नासा से उत्पन्न: पहचान और प्रतिषेधन · प्रतिश्याय: निषेध · शिर के रोग: विवेचन।"
+       },
+       {
+        "aid": "chain",
+        "label": "क्रम-कड़ी",
+        "steps": [
+         "घ्राणोत्थानां विज्ञानम्",
+         "तद्गदप्रतिषेधनम्",
+         "प्रतिश्यायनिषेधः",
+         "शिरोगदविवेचनम्"
+        ]
+       },
+       {
+        "aid": "sandhi",
+        "label": "संधि-नियम",
+        "text": "शिरः + गद = शिरोगद (अः + घोष वर्ण = ओ); घ्राण + उत्थानाम् = घ्राणोत्थानाम् (अ + उ = ओ)।"
+       },
+       {
+        "aid": "metre",
+        "label": "छन्द",
+        "text": "हर पंक्ति में ८ + ८ अक्षर (गिनती से)। ‘|’ पाद की सीमा है; संधि के कारण वह शब्द के बीच भी पड़ सकती है।",
+        "lines": [
+         "घ्राणोत्थानां च विज्ञानं | तद्गदप्रतिषेधनम् ।",
+         "प्रतिश्यायनिषेधश्च | शिरोगदविवेचनम् ॥"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "‘घ्राणोत्थानाम्’ के साथ ‘रोगों’ जोड़ा गया है। ‘शिरोगदविवेचनम्’ = शिरः + गद (अः + घोष = ओ)। ‘प्रतिश्याय’ केवल नाम के रूप में रखा गया है। कोई पाठ-संकेत नहीं।"
+     }
+    ],
+    "rule": "विज्ञानम् = recognition; प्रतिषेधनम् / निषेधः = counteracting or checking; विवेचनम् = discrimination. शिरः + गद = शिरोगद.",
+    "limits": "The verse lists four items by name only. It does not say how anything is recognised, checked or discriminated. 'Diseases' is supplied with घ्राणोत्थानाम्, and प्रतिश्याय is left as a name."
+   },
+   "question": "What does the verse give for those arising in the nose, and what for head diseases?",
+   "core": false
+  },
+  {
+   "id": "su3-035",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "३५. चिकित्सा तद्गदानां च",
+   "requires": [
+    "su3-034"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ३५। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "चिकित्सा तद्गदानां च शालाक्यं तन्त्रमुच्यते ।",
+       "नवग्रहाकृतिज्ञानं स्कन्दस्य च निषेधनम् ॥ ॥ ३५ ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "चिकित्सा",
+         "gloss": "treatment",
+         "gram": "स्त्री. प्रथमा ए.व."
+        },
+        {
+         "w": "तद्-गदानाम्",
+         "gloss": "of their diseases",
+         "gram": "तत्पुरुष; पु. षष्ठी ब.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "शालाक्यम्",
+         "gloss": "Shalakya",
+         "gram": "नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "तन्त्रम्",
+         "gloss": "branch of the treatise",
+         "gram": "नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "उच्यते",
+         "gloss": "is called",
+         "gram": "प्र.पु. ए.व. कर्मवाच्य √वच्"
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "नव-ग्रह-आकृति-ज्ञानम्",
+         "gloss": "knowledge of the forms of the nine seizers",
+         "gram": "तत्पुरुष; नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "स्कन्दस्य",
+         "gloss": "of Skanda",
+         "gram": "पु. षष्ठी ए.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "निषेधनम्",
+         "gloss": "checking",
+         "gram": "नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "॥",
+         "gloss": "verse-end mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "उन रोगों की चिकित्सा, इसे शालाक्य तन्त्र कहा जाता है। नौ ग्रहों के आकारों का ज्ञान और स्कन्द का निवारण,"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "The treatment of their diseases is called the Shalakya tantra. The knowledge of the forms of the nine seizers (graha), and the checking of Skanda,"
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "पहली पंक्ति कहती है कि उन रोगों की चिकित्सा शालाक्य तन्त्र कहलाती है। दूसरी पंक्ति नए विषय शुरू करती है: नौ ग्रहों के आकारों का ज्ञान और स्कन्द का निवारण। वाक्य अगले अंश में चलता रहता है, जहाँ और नाम आते हैं। यहाँ ग्रह केवल नाम हैं, उनका स्वरूप नहीं बताया गया।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "नाम: शालाक्य तन्त्र · पहली पंक्ति: उन रोगों की चिकित्सा · दूसरी पंक्ति: नौ ग्रहों के आकारों का ज्ञान, स्कन्द का निवारण (वाक्य आगे चलता है)।"
+       },
+       {
+        "aid": "diagram",
+        "label": "चित्र",
+        "steps": [
+         "चिकित्सा तद्गदानां च",
+         "शालाक्यं तन्त्रम् उच्यते",
+         "नवग्रहाकृतिज्ञानम्",
+         "स्कन्दस्य च निषेधनम्"
+        ],
+        "image": {
+         "src": "images/aids/ch3-shalakya-35.svg",
+         "alt": "Flow chart: the treatment of their diseases is called the Shalakya tantra; the list then goes on with the knowledge of the forms of the nine seizers and the checking of Skanda."
+        }
+       },
+       {
+        "aid": "sandhi",
+        "label": "संधि-नियम",
+        "text": "तन्त्रम् + उच्यते = तन्त्रमुच्यते; नव + ग्रह + आकृति = नवग्रहाकृति (अ + आ = आ)।"
+       },
+       {
+        "aid": "chunks",
+        "label": "लय में खण्ड",
+        "steps": [
+         "चिकित्सा तद्गदानां च",
+         "शालाक्यं तन्त्रम् उच्यते",
+         "नवग्रहाकृतिज्ञानम्",
+         "स्कन्दस्य च निषेधनम्"
+        ]
+       },
+       {
+        "aid": "metre",
+        "label": "छन्द",
+        "text": "हर पंक्ति में ८ + ८ अक्षर (गिनती से)। ‘|’ पाद की सीमा है; संधि के कारण वह शब्द के बीच भी पड़ सकती है।",
+        "lines": [
+         "चिकित्सा तद्गदानां च | शालाक्यं तन्त्रमुच्यते ।",
+         "नवग्रहाकृतिज्ञानं | स्कन्दस्य च निषेधनम् ॥"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "वाक्य अगले अंश में चलता है। ‘नवग्रहाकृतिज्ञानम्’ में नव + ग्रह + आकृति (अ + आ = आ) मिले हैं। ‘तन्त्रमुच्यते’ = तन्त्रम् + उच्यते। ‘स्कन्द’ और ‘ग्रह’ केवल नाम हैं; उनका स्वरूप पाठ में नहीं बताया गया। कोई पाठ-संकेत नहीं।"
+     }
+    ],
+    "rule": "तन्त्रम् उच्यते = the branch is called; तत् at the head of a compound = their, those.",
+    "limits": "The verse gives the name Shalakya to the treatment of their diseases, and does not say what any listed treatment is. The sentence goes on into the next unit with further genitives governed by निषेधनम्. The seizers (graha) are named, not described."
+   },
+   "question": "What does the verse call the treatment of those diseases, and what two items follow?",
+   "core": true
+  },
+  {
+   "id": "su3-036",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "३६. अपस्मारशकुन्योश्च",
+   "requires": [
+    "su3-035"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ३६। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "अपस्मारशकुन्योश्च रेवत्याश्च पुनः पृथक् ।",
+       "पूतनायास्तथाअन्धाया मण्डिका शीतपूतना ॥ ॥ ३६ ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "अपस्मार-शकुन्योः",
+         "gloss": "of Apasmara and Shakuni",
+         "gram": "द्वन्द्व; षष्ठी द्वि.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "रेवत्याः",
+         "gloss": "of Revati",
+         "gram": "स्त्री. षष्ठी ए.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "पुनः",
+         "gloss": "again",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "पृथक्",
+         "gloss": "separately",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "पूतनायाः",
+         "gloss": "of Putana",
+         "gram": "स्त्री. षष्ठी ए.व."
+        },
+        {
+         "w": "तथा",
+         "gloss": "likewise",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "अन्धायाः",
+         "gloss": "of Andha",
+         "gram": "स्त्री. षष्ठी ए.व."
+        },
+        {
+         "w": "मण्डिका",
+         "gloss": "Mandika",
+         "gram": "स्त्री. प्रथमा ए.व."
+        },
+        {
+         "w": "शीत-पूतना",
+         "gloss": "Shitaputana",
+         "gram": "स्त्री. प्रथमा ए.व."
+        },
+        {
+         "w": "॥",
+         "gloss": "verse-end mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "अपस्मार और शकुनी का, फिर अलग से रेवती का, पूतना का तथा अन्धा का; मण्डिका; शीतपूतना।"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "of Apasmara and Shakuni, and again separately of Revati, of Putana and likewise of Andha; Mandika; Shitaputana."
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "यह अंश पिछले अंश के निषेधन से जुड़ा हुआ नामों का क्रम है: अपस्मार और शकुनी, रेवती, पूतना, फिर एक और नाम, फिर मण्डिका और शीतपूतना। अपस्मारशकुन्योः में दो नाम एक साथ द्विवचन में हैं। 'च', 'पुनः' और 'पृथक्' छोटे शब्द हैं जो सूची को जोड़ते हैं। अन्तिम दो नाम प्रथमा में हैं, इसलिए रचना वहाँ बदल जाती है।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "सूची निषेधन के साथ पिछले अंश से जुड़ी है · जोड़ने वाले शब्द: च, पुनः, पृथक्, तथा · अन्त के दो नाम प्रथमा में।"
+       },
+       {
+        "aid": "pegs",
+        "label": "चित्र-शब्द (मेरा बनाया चित्र)",
+        "text": "मेरा बनाया सहारा: नाम की ध्वनियाँ अ · रे · पू · म · शी। यह केवल सुनने की सहायता है, पाठ का दावा नहीं।"
+       },
+       {
+        "aid": "chunks",
+        "label": "लय में खण्ड",
+        "steps": [
+         "अपस्मारशकुन्योः च",
+         "रेवत्याः च पुनः पृथक्",
+         "पूतनायाः तथा अन्धायाः",
+         "मण्डिका",
+         "शीतपूतना"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "विश्वास-स्तर मध्यम है। पाठ-संकेत: ‘तथाअन्धायाः’ में तथा और अन्धायाः अलग छपे हैं; सन्धि करने पर पंक्ति १६ अक्षर की होती है, जैसे छपा रूप १७ है। ‘अन्धा’ का नाम के रूप में अर्थ अनूदित नहीं है; इस शब्द पर कोई प्रश्न आधारित नहीं। अन्तिम दो नाम (मण्डिका, शीतपूतना) प्रथमा में हैं, इसलिए रचना बदल जाती है।"
+     }
+    ],
+    "rule": "-योः on a pair (शकुन्योः) is the dual: of the two; च = and, पुनः = again, पृथक् = separately.",
+    "limits": "The unit gives names only. The last two names are in the nominative, so the construction shifts. One printed join (तथा and the next name) is open and that name is left unexplained; no question rests on it."
+   },
+   "question": "Which names does this unit list, and with what small words are they joined?",
+   "core": false
+  },
+  {
+   "id": "su3-037",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "३७. नैगमेशचिकित्सा च",
+   "requires": [
+    "su3-036"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ३७। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "नैगमेशचिकित्सा च ग्रहोत्पत्तिः सयोनिजा ।",
+       "कौमारतन्त्रमित्येतच्छारीरेषु च कीर्तितम् ॥ ॥ ३७ ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "नैगमेश-चिकित्सा",
+         "gloss": "treatment of Naigamesha",
+         "gram": "तत्पुरुष; स्त्री. प्रथमा ए.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "ग्रह-उत्पत्तिः",
+         "gloss": "origin of the seizers",
+         "gram": "तत्पुरुष; स्त्री. प्रथमा ए.व."
+        },
+        {
+         "w": "स-योनि-जा",
+         "gloss": "together with the womb-born (uncertain)",
+         "gram": "बहुव्रीहि; स्त्री. प्रथमा ए.व."
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "कौमार-तन्त्रम्",
+         "gloss": "Kaumara branch",
+         "gram": "नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "इति",
+         "gloss": "thus",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "एतत्",
+         "gloss": "this",
+         "gram": "नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "शारीरेषु",
+         "gloss": "in the bodily matters",
+         "gram": "नपुं. सप्तमी ब.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "कीर्तितम्",
+         "gloss": "declared",
+         "gram": "नपुं. प्रथमा ए.व. p.p. √कीर्त्"
+        },
+        {
+         "w": "॥",
+         "gloss": "verse-end mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "नैगमेश की चिकित्सा; ग्रहों की उत्पत्ति, योनि से उत्पन्न होने वालों के साथ। इसे कौमार तन्त्र कहा गया है, और यह शारीर विषयों में भी वर्णित है।"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "The treatment of Naigamesha; the origin of the seizers, together with the womb-born ones. This is called the Kaumara tantra, and it is also set out among the bodily matters."
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "यह अंश तीन बातें कहता है: नैगमेश की चिकित्सा, ग्रहों की उत्पत्ति, और यह कि इसे कौमार तन्त्र कहा गया है। 'ग्रहोत्पत्तिः' में ग्रह और उत्पत्ति मिले हैं (अ + उ = ओ)। 'सयोनिजा' का अर्थ अस्पष्ट है और 'शारीरेषु' के दो अर्थ सम्भव हैं, इसलिए इन दोनों शब्दों पर कोई निष्कर्ष नहीं निकाला गया।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "तीन बातें: नैगमेश की चिकित्सा · ग्रहों की उत्पत्ति · नाम: कौमार तन्त्र।"
+       },
+       {
+        "aid": "chain",
+        "label": "क्रम-कड़ी",
+        "steps": [
+         "नैगमेशचिकित्सा च",
+         "ग्रहोत्पत्तिः सयोनिजा (अर्थ अस्पष्ट)",
+         "कौमारतन्त्रम् इति एतत्",
+         "शारीरेषु च कीर्तितम्"
+        ]
+       },
+       {
+        "aid": "sandhi",
+        "label": "संधि-नियम",
+        "text": "ग्रह + उत्पत्तिः = ग्रहोत्पत्तिः (अ + उ = ओ); इति + एतत् = इत्येतत्; एतत् + शारीरेषु = एतच्छारीरेषु।"
+       },
+       {
+        "aid": "metre",
+        "label": "छन्द",
+        "text": "हर पंक्ति में ८ + ८ अक्षर (गिनती से)। ‘|’ पाद की सीमा है; संधि के कारण वह शब्द के बीच भी पड़ सकती है।",
+        "lines": [
+         "नैगमेशचिकित्सा च | ग्रहोत्पत्तिः सयोनिजा ।",
+         "कौमारतन्त्रमित्येत | च्छारीरेषु च कीर्तितम् ॥"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "विश्वास-स्तर मध्यम है। ‘सयोनिजा’ अस्पष्ट है: ‘योनि से उत्पन्न होने वालों के साथ’ या ‘समान उत्पत्ति वाली’। ‘शारीरेषु’ का अर्थ शरीर-विषयक बातें या शारीर-स्थान दोनों हो सकता है। इन दोनों पर कोई प्रश्न आधारित नहीं। ‘ग्रहोत्पत्तिः’ = ग्रह + उत्पत्तिः (अ + उ = ओ)। ‘कौमारतन्त्रमित्येतच्छारीरेषु’ = कौमारतन्त्रम् + इति + एतत् + शारीरेषु।"
+     }
+    ],
+    "rule": "कौमारतन्त्रम् इति एतत् = this is called the Kaumara tantra; ग्रह + उत्पत्तिः = ग्रहोत्पत्तिः (अ + उ = ओ).",
+    "limits": "The word सयोनिजा is unclear (together with the womb-born, or of the same origin), and शारीरेषु may mean bodily matters generally or the Sharira section. No question rests on either. The verse gives names only; it does not describe them."
+   },
+   "question": "What does the unit list, and what name does it give to the group?",
+   "core": false
+  },
+  {
+   "id": "su3-038",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "३८. ज्वरातिसारशोषाणाम्",
+   "requires": [
+    "su3-037"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ३८। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "ज्वरातिसारशोषाणां गुल्महृद्रोगिणामपि ।",
+       "पाण्डूनां रक्तपित्तस्य मूर्च्छायाः पानजाश्च ये ॥ ॥ ३८ ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "ज्वर-अतिसार-शोषाणाम्",
+         "gloss": "of fever, purging and wasting",
+         "gram": "द्वन्द्व; पु. षष्ठी ब.व."
+        },
+        {
+         "w": "गुल्म-हृद्-रोगिणाम्",
+         "gloss": "of those with gulma and heart-affliction",
+         "gram": "द्वन्द्व; पु. षष्ठी ब.व."
+        },
+        {
+         "w": "अपि",
+         "gloss": "also",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "पाण्डूनाम्",
+         "gloss": "of the pandu-afflicted",
+         "gram": "पु. षष्ठी ब.व."
+        },
+        {
+         "w": "रक्त-पित्तस्य",
+         "gloss": "of raktapitta (blood-pitta)",
+         "gram": "नपुं. षष्ठी ए.व."
+        },
+        {
+         "w": "मूर्च्छायाः",
+         "gloss": "of fainting",
+         "gram": "स्त्री. षष्ठी ए.व."
+        },
+        {
+         "w": "पान-जाः",
+         "gloss": "born of drinking",
+         "gram": "तत्पुरुष; पु. प्रथमा ब.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "ये",
+         "gloss": "which",
+         "gram": "पु. प्रथमा ब.व."
+        },
+        {
+         "w": "॥",
+         "gloss": "verse-end mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "ज्वर, अतिसार और शोष के, गुल्म और हृदय रोग से पीड़ितों के भी, पाण्डु रोगियों के, रक्तपित्त के, मूर्च्छा के, और जो पान से उत्पन्न होते हैं उनके भी,"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "of fever, purging and wasting; also of those with gulma and heart-affliction; of the pandu-afflicted; of raktapitta; of fainting; and of those that are born of drinking,"
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "यह अंश नामों की सूची है, सब षष्ठी में: ज्वर, अतिसार और शोष; गुल्म और हृदय रोग वाले; पाण्डु वाले; रक्तपित्त; मूर्च्छा; और जो पान से उत्पन्न हुए। जिन शब्दों से ये जुड़ते हैं वे अगले अंश में आते हैं। ये केवल रोगों के नाम हैं, इनका कारण या उपाय यहाँ नहीं कहा गया।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "षष्ठी की सूची · नाम: ज्वर, अतिसार, शोष, गुल्म, हृद्रोग, पाण्डु, रक्तपित्त, मूर्च्छा, पान से उत्पन्न · शासक शब्द अगले अंश में।"
+       },
+       {
+        "aid": "diagram",
+        "label": "चित्र",
+        "steps": [
+         "ज्वरातिसारशोषाणाम्",
+         "गुल्महृद्रोगिणाम् अपि",
+         "पाण्डूनाम्",
+         "रक्तपित्तस्य",
+         "मूर्च्छायाः",
+         "पानजाः च ये"
+        ],
+        "image": {
+         "src": "images/aids/ch3-genitives-38.svg",
+         "alt": "Mind map of the list in the verse: fever, purging, wasting, gulma and heart-affliction, pandu, raktapitta, fainting and those born of drinking."
+        }
+       },
+       {
+        "aid": "pegs",
+        "label": "चित्र-शब्द (मेरा बनाया चित्र)",
+        "text": "मेरा बनाया सहारा: पहली तीन बीमारियों के आरम्भिक अक्षर ज · अ · शो। यह केवल याद रखने की सहायता है, पाठ का दावा नहीं।"
+       },
+       {
+        "aid": "chunks",
+        "label": "लय में खण्ड",
+        "steps": [
+         "ज्वरातिसारशोषाणाम्",
+         "गुल्महृद्रोगिणाम् अपि",
+         "पाण्डूनाम् रक्तपित्तस्य",
+         "मूर्च्छायाः",
+         "पानजाः च ये"
+        ]
+       },
+       {
+        "aid": "metre",
+        "label": "छन्द",
+        "text": "हर पंक्ति में ८ + ८ अक्षर (गिनती से)। ‘|’ पाद की सीमा है; संधि के कारण वह शब्द के बीच भी पड़ सकती है।",
+        "lines": [
+         "ज्वरातिसारशोषाणां | गुल्महृद्रोगिणामपि ।",
+         "पाण्डूनां रक्तपित्तस्य | मूर्च्छायाः पानजाश्च ये ॥"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "सूची अगले अंश में चलती है, जहाँ निषेधः और चिकित्सा आते हैं। ‘ये पानजाः’ प्रथमा बहुवचन है, पर सूची में षष्ठी की तरह पढ़ा गया है; ‘ये’ का कोई पूर्व-पद नहीं है। पारिभाषिक नाम केवल शब्दार्थ के साथ रखे गए हैं (गुल्म, पाण्डु, रक्तपित्त)। कोई पाठ-संकेत नहीं।"
+     }
+    ],
+    "rule": "A dvandva ending in -आणाम् (ज्वरातिसारशोषाणाम्) is one genitive plural covering all its members: of fever, purging and wasting.",
+    "limits": "The list of genitives goes on into the next unit, where the governing words are given. The relative ये (those born of drinking) has no stated antecedent. Technical names are kept with literal glosses only; no cause, effect or advice is stated."
+   },
+   "question": "Which conditions does this unit list in the genitive?",
+   "core": false
+  },
+  {
+   "id": "su3-039",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "३९. तृष्णायाश्छर्दिहिक्कानाम्",
+   "requires": [
+    "su3-038"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ३९। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "तृष्णायाश्छर्दिहिक्कानां निषेधः श्वासकासयोः ।",
+       "स्वरभेदचिकित्सा च कृम्युदावर्तिनोः प्र्थक् ॥ ॥ ३९ ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "तृष्णायाः",
+         "gloss": "of thirst",
+         "gram": "स्त्री. षष्ठी ए.व."
+        },
+        {
+         "w": "छर्दि-हिक्कानाम्",
+         "gloss": "of vomiting and hiccup",
+         "gram": "द्वन्द्व; स्त्री. षष्ठी ब.व."
+        },
+        {
+         "w": "निषेधः",
+         "gloss": "checking",
+         "gram": "पु. प्रथमा ए.व."
+        },
+        {
+         "w": "श्वास-कासयोः",
+         "gloss": "of breathlessness and cough",
+         "gram": "द्वन्द्व; पु. षष्ठी द्वि.व."
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "स्वर-भेद-चिकित्सा",
+         "gloss": "treatment of voice-break",
+         "gram": "तत्पुरुष; स्त्री. प्रथमा ए.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "कृमि-उदावर्तिनोः",
+         "gloss": "of the worm-afflicted and the udavarta-afflicted",
+         "gram": "द्वन्द्व; पु. षष्ठी द्वि.व."
+        },
+        {
+         "w": "पृथक्",
+         "gloss": "separately",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "॥",
+         "gloss": "verse-end mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "प्यास, वमन और हिचकी का निषेध; श्वास और कास का; स्वरभेद की चिकित्सा; और अलग-अलग कृमि तथा उदावर्त से पीड़ितों का।"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "the checking of thirst, vomiting and hiccup, and of breathlessness and cough; the treatment of voice-break; and, separately, of the worm-afflicted and of the udavarta-afflicted."
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "यह अंश पिछली सूची को आगे बढ़ाता है। निषेध प्यास, वमन, हिचकी, श्वास और कास का कहा है, और स्वरभेद के लिए चिकित्सा कही है। अन्त में कृमि और उदावर्त वालों का 'अलग-अलग' आता है। तृष्णायाश्छर्दि में तृष्णायाः का विसर्ग छ से पहले श् बन गया है।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "पहली पंक्ति: निषेध (प्यास, वमन, हिचकी, श्वास, कास) · दूसरी पंक्ति: स्वरभेद की चिकित्सा, और कृमि-उदावर्त वालों का अलग-अलग।"
+       },
+       {
+        "aid": "diagram",
+        "label": "चित्र",
+        "steps": [
+         "तृष्णायाः",
+         "छर्दिहिक्कानाम्",
+         "निषेधः",
+         "श्वासकासयोः",
+         "स्वरभेदचिकित्सा"
+        ],
+        "image": {
+         "src": "images/aids/ch3-nishedha-39.svg",
+         "alt": "Mind map: checking is stated for thirst, vomiting, hiccup, breathlessness and cough; treatment is stated for voice-break."
+        }
+       },
+       {
+        "aid": "sandhi",
+        "label": "संधि-नियम",
+        "text": "तृष्णायाः + छर्दिहिक्कानाम् = तृष्णायाश्छर्दिहिक्कानाम् (ः + छ = श्छ)।"
+       },
+       {
+        "aid": "chunks",
+        "label": "लय में खण्ड",
+        "steps": [
+         "तृष्णायाः छर्दिहिक्कानाम् निषेधः",
+         "श्वासकासयोः",
+         "स्वरभेदचिकित्सा च",
+         "कृम्युदावर्तिनोः पृथक्"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "पाठ-संकेत: छपा ‘प्र्थक्’ में ऋ की बिन्दु छूटी है; सही रूप ‘पृथक्’ है। ‘तृष्णायाश्छर्दिहिक्कानाम्’ = तृष्णायाः + छर्दिहिक्कानाम् (ः + छ = श्छ)। ‘कृम्युदावर्तिनोः’ को द्विवचन द्वन्द्व माना गया है (कृमिन्, उदावर्तिन्); ‘उदावर्त’ अनूदित नहीं रखा। इस समास पर कोई प्रश्न आधारित नहीं।"
+     }
+    ],
+    "rule": "तृष्णायाः + छर्दि = तृष्णायाश्छर्दि (ः + छ = श्छ); निषेधः = checking, चिकित्सा = treatment.",
+    "limits": "The list continues the previous unit. Technical names such as उदावर्त are kept as names. How the last compound (कृमि, उदावर्त) is built is read as a dual list, so no question rests on it. Nothing is said of how checking or treatment is done."
+   },
+   "question": "For which items does the text state checking, and for which treatment?",
+   "core": false
+  },
+  {
+   "id": "su3-040",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "४०. विसूचिकारोचकयोः",
+   "requires": [
+    "su3-039"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ४०। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "विसूचिकारोचकयोर्मूत्राघातविकृच्छ्रयोः ।",
+       "इति कायचिकित्सायाः शेषमत्र प्रकीर्तितम् ॥ ॥ ४० ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "विसूचिका-अरोचकयोः",
+         "gloss": "of visucika and arocaka (lack of relish)",
+         "gram": "द्वन्द्व; पु. षष्ठी द्वि.व."
+        },
+        {
+         "w": "मूत्र-आघात-विकृच्छ्रयोः",
+         "gloss": "of urine-obstruction and vikricchra",
+         "gram": "द्वन्द्व; पु. षष्ठी द्वि.व."
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "इति",
+         "gloss": "thus",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "काय-चिकित्सायाः",
+         "gloss": "of the body-treatment",
+         "gram": "तत्पुरुष; स्त्री. षष्ठी ए.व."
+        },
+        {
+         "w": "शेषम्",
+         "gloss": "remainder",
+         "gram": "नपुं. प्रथमा ए.व."
+        },
+        {
+         "w": "अत्र",
+         "gloss": "here",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "प्रकीर्तितम्",
+         "gloss": "set out",
+         "gram": "नपुं. प्रथमा ए.व. p.p. प्र-√कीर्त्"
+        },
+        {
+         "w": "॥",
+         "gloss": "verse-end mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "विसूचिका और अरोचक का, मूत्राघात और विकृच्छ्र का; इस प्रकार कायचिकित्सा का शेष भाग यहाँ बताया गया है।"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "of visucika and arocaka (lack of relish), of urine-obstruction and vikricchra: thus the remainder of the body-treatment (kayacikitsa) is set out here."
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "यह अंश कायचिकित्सा की सूची का अन्त है। पहली पंक्ति में दो जोड़े हैं: विसूचिका और अरोचक, फिर मूत्राघात और विकृच्छ्र। दूसरी पंक्ति कहती है: इस प्रकार कायचिकित्सा का शेष भाग यहाँ बताया गया। विकृच्छ्र शब्द का रूप अनिश्चित है और उसे अनूदित नहीं किया गया।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "पहली पंक्ति: दो जोड़े (विसूचिका–अरोचक; मूत्राघात–विकृच्छ्र) · दूसरी पंक्ति: इति, कायचिकित्सा का शेष, यहाँ कहा गया।"
+       },
+       {
+        "aid": "sandhi",
+        "label": "संधि-नियम",
+        "text": "विसूचिका + अरोचकयोः = विसूचिकारोचकयोः (आ + अ = आ); मूत्र + आघात = मूत्राघात (अ + आ = आ)।"
+       },
+       {
+        "aid": "chunks",
+        "label": "लय में खण्ड",
+        "steps": [
+         "विसूचिकारोचकयोः",
+         "मूत्राघातविकृच्छ्रयोः",
+         "इति",
+         "कायचिकित्सायाः शेषम्",
+         "अत्र प्रकीर्तितम्"
+        ]
+       },
+       {
+        "aid": "metre",
+        "label": "छन्द",
+        "text": "हर पंक्ति में ८ + ८ अक्षर (गिनती से)। ‘|’ पाद की सीमा है; संधि के कारण वह शब्द के बीच भी पड़ सकती है।",
+        "lines": [
+         "विसूचिकारोचकयो | र्मूत्राघातविकृच्छ्रयोः ।",
+         "इति कायचिकित्सायाः | शेषमत्र प्रकीर्तितम् ॥"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "विश्वास-स्तर मध्यम है। ‘विकृच्छ्र’ कोई ज्ञात स्वतन्त्र शब्द नहीं; इसे द्विवचन का दूसरा सदस्य (वि-कृच्छ्र) माना गया और अनूदित नहीं रखा; सम्भव है यह ‘मूत्रकृच्छ्र’ का संक्षिप्त रूप हो, पर पक्का नहीं। ‘अध्याय’ शब्द श्लोक में नहीं है। ‘विसूचिकारोचकयोः’ = विसूचिका + अरोचकयोः (आ + अ = आ)।"
+     }
+    ],
+    "rule": "इति = thus; शेषम् = the remainder; अत्र = here; प्रकीर्तितम् = set out.",
+    "limits": "The word विकृच्छ्र is not a known standalone word; it is read as a second dual member and left untranslated. It might be a short form of मूत्रकृच्छ्र, but that is not certain, so no question rests on it. The verse does not say 'chapters'."
+   },
+   "question": "What does the closing half-verse say is set out here?",
+   "core": false
+  },
+  {
+   "id": "su3-041",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "४१. अमानुषनिषेधश्च",
+   "requires": [
+    "su3-040"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ४१। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "अमानुषनिषेधश्च तथाआपस्मारिकोऽपरः ।",
+       "उन्मादप्रतिषेधश्च भूतविद्या निरुच्यते ॥ ॥ ४१ ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "अमानुष-निषेधः",
+         "gloss": "checking of non-humans",
+         "gram": "तत्पुरुष; पु. प्रथमा ए.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "तथा",
+         "gloss": "likewise",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "आपस्मारिकः",
+         "gloss": "relating to apasmara",
+         "gram": "पु. प्रथमा ए.व."
+        },
+        {
+         "w": "अपरः",
+         "gloss": "another",
+         "gram": "पु. प्रथमा ए.व."
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "उन्माद-प्रतिषेधः",
+         "gloss": "checking of unmada (madness)",
+         "gram": "तत्पुरुष; पु. प्रथमा ए.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "भूत-विद्या",
+         "gloss": "Bhutavidya (science of beings)",
+         "gram": "तत्पुरुष; स्त्री. प्रथमा ए.व."
+        },
+        {
+         "w": "निरुच्यते",
+         "gloss": "is declared",
+         "gram": "प्र.पु. ए.व. कर्मवाच्य निस्-√वच्"
+        },
+        {
+         "w": "॥",
+         "gloss": "verse-end mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "अमानुषों का निषेध, उसी प्रकार दूसरा अपस्मार से सम्बन्धित निषेध, और उन्माद का प्रतिषेध: यह भूतविद्या कही जाती है।"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "The checking of non-human beings; likewise another, relating to apasmara; and the checking of unmada (madness): this is declared to be Bhutavidya (the science of beings)."
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "यह अंश एक और विद्या की सूची समाप्त करता है: अमानुषों का निषेध, एक और अपस्मार-सम्बन्धी निषेध और उन्माद का प्रतिषेध। अन्त में कहा है कि इसे भूतविद्या कहते हैं। निरुच्यते कर्मवाच्य है: भूतविद्या कही जाती है, कहने वाली नहीं। अमानुष में अ- निषेध बताता है: जो मानुष नहीं।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "निषेध: अमानुषों का · दूसरा निषेध: अपस्मार-सम्बन्धी · प्रतिषेध: उन्माद का · नाम: भूतविद्या।"
+       },
+       {
+        "aid": "diagram",
+        "label": "चित्र",
+        "steps": [
+         "अमानुषनिषेधः",
+         "आपस्मारिकः अपरः",
+         "उन्मादप्रतिषेधः",
+         "भूतविद्या निरुच्यते"
+        ],
+        "image": {
+         "src": "images/aids/ch3-bhutavidya-41.svg",
+         "alt": "Flow chart: checking of non-human beings, another checking relating to apasmara, and the checking of unmada together are declared to be Bhutavidya."
+        }
+       },
+       {
+        "aid": "contrast",
+        "label": "मिलते-जुलते की जोड़ी",
+        "groups": [
+         {
+          "label": "मानुष",
+          "items": [
+           "मनुष्य से सम्बन्धित"
+          ]
+         },
+         {
+          "label": "अमानुष (अ- + मानुष)",
+          "items": [
+           "जो मानुष नहीं",
+           "इसी का निषेध इस अंश में"
+          ]
+         }
+        ]
+       },
+       {
+        "aid": "chunks",
+        "label": "लय में खण्ड",
+        "steps": [
+         "अमानुषनिषेधः च",
+         "तथा आपस्मारिकः अपरः",
+         "उन्मादप्रतिषेधः च",
+         "भूतविद्या निरुच्यते"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "पाठ-संकेत: ‘तथाआपस्मारिकः’ में तथा और आपस्मारिकः अलग छपे हैं; सन्धि करने पर ‘तथापस्मारिकः’ बनता है और अक्षर-संख्या १६ होती है। ‘अपरः’ को छूटे हुए ‘निषेधः’ का विशेषण माना गया है। ‘अमानुष’ = अ + मानुष। इस जोड़ पर कोई प्रश्न आधारित नहीं।"
+     }
+    ],
+    "rule": "भूतविद्या निरुच्यते = is declared to be Bhutavidya; अ- before a consonant negates (अमानुष = non-human).",
+    "limits": "The printed text leaves one join open (तथा and the next word), noted below; the sense is clear from the Hindi and English. The verse gives names only. It does not say what non-human beings are or how anything is checked."
+   },
+   "question": "What does the verse call the group of checkings it lists?",
+   "core": true
+  },
+  {
+   "id": "su3-042",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "title": "४२. रसभेदाः स्वस्थवृत्तिः",
+   "requires": [
+    "su3-041"
+   ],
+   "card": {
+    "blocks": [
+     {
+      "key": "ref",
+      "label": "संदर्भ",
+      "text": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय ३ · श्लोक ४२। पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।"
+     },
+     {
+      "key": "verse",
+      "label": "श्लोक",
+      "study": true,
+      "lines": [
+       "रसभेदाः स्वस्थवृत्तिर्युक्तयस्तान्त्रिकाश्च याः ।",
+       "दोषभेदा इति ज्ञेया अध्यायास्तन्त्रभूषणाः ॥ ॥ ४२ ॥"
+      ]
+     },
+     {
+      "key": "words",
+      "label": "पद-विच्छेद",
+      "study": true,
+      "words": [
+       [
+        {
+         "w": "रस-भेदाः",
+         "gloss": "varieties of rasa",
+         "gram": "तत्पुरुष; पु. प्रथमा ब.व."
+        },
+        {
+         "w": "स्वस्थ-वृत्तिः",
+         "gloss": "regimen of the healthy",
+         "gram": "तत्पुरुष; स्त्री. प्रथमा ए.व."
+        },
+        {
+         "w": "युक्तयः",
+         "gloss": "devices (yukti)",
+         "gram": "स्त्री. प्रथमा ब.व."
+        },
+        {
+         "w": "तान्त्रिकाः",
+         "gloss": "of the treatise",
+         "gram": "पु. प्रथमा ब.व."
+        },
+        {
+         "w": "च",
+         "gloss": "and",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "याः",
+         "gloss": "which",
+         "gram": "स्त्री. प्रथमा ब.व."
+        },
+        {
+         "w": "।",
+         "gloss": "half-verse mark",
+         "gram": "punct."
+        }
+       ],
+       [
+        {
+         "w": "दोष-भेदाः",
+         "gloss": "varieties of dosha",
+         "gram": "तत्पुरुष; पु. प्रथमा ब.व."
+        },
+        {
+         "w": "इति",
+         "gloss": "thus",
+         "gram": "अव्यय"
+        },
+        {
+         "w": "ज्ञेयाः",
+         "gloss": "to be known",
+         "gram": "कृत्य √ज्ञा, पु. प्रथमा ब.व."
+        },
+        {
+         "w": "अध्यायाः",
+         "gloss": "chapters",
+         "gram": "पु. प्रथमा ब.व."
+        },
+        {
+         "w": "तन्त्र-भूषणाः",
+         "gloss": "ornaments of the treatise",
+         "gram": "तत्पुरुष; पु. प्रथमा ब.व."
+        },
+        {
+         "w": "॥",
+         "gloss": "verse-end mark",
+         "gram": "punct."
+        }
+       ]
+      ]
+     },
+     {
+      "key": "hindi",
+      "label": "हिन्दी",
+      "study": true,
+      "text": "रसों के भेद, स्वस्थ की चर्या, तन्त्र सम्बन्धी युक्तियाँ और दोषों के भेद, इन अध्यायों को तन्त्र के भूषण जानना चाहिए।"
+     },
+     {
+      "key": "english",
+      "label": "English",
+      "study": true,
+      "text": "The varieties of rasa, the regimen of the healthy, the treatise's technical devices (yukti) and the varieties of dosha: these chapters are to be known as the ornaments of the treatise."
+     },
+     {
+      "key": "explain",
+      "label": "व्याख्या",
+      "study": true,
+      "text": "इस श्लोक में ये विषय गिनाए गए हैं: रसों के भेद, स्वस्थ की चर्या, तन्त्र की युक्तियाँ और दोषों के भेद। आख़िर में कहा है कि इन अध्यायों को तन्त्र का भूषण जानना चाहिए। यहाँ 'रस' के भेद नहीं गिनाए गए। 'तान्त्रिकाः' का लिंग 'युक्तयः' से मेल नहीं खाता, इसलिए उस शब्द पर निष्कर्ष नहीं निकाला गया।"
+     },
+     {
+      "key": "aids",
+      "label": "स्मरण-सहायक",
+      "study": true,
+      "aids": [
+       {
+        "aid": "frame",
+        "label": "कौन · किसके पास · क्यों",
+        "text": "विषय: रसों के भेद · स्वस्थ की चर्या · युक्तियाँ · दोषों के भेद · नाम: तन्त्र के भूषण अध्याय।"
+       },
+       {
+        "aid": "diagram",
+        "label": "चित्र",
+        "steps": [
+         "रसभेदाः",
+         "स्वस्थवृत्तिः",
+         "युक्तयः",
+         "दोषभेदाः",
+         "तन्त्रभूषणाः अध्यायाः"
+        ],
+        "image": {
+         "src": "images/aids/ch3-bhushana-42.svg",
+         "alt": "Mind map: the ornaments of the treatise are the varieties of rasa, the regimen of the healthy, the devices and the varieties of dosha."
+        }
+       },
+       {
+        "aid": "pegs",
+        "label": "चित्र-शब्द (मेरा बनाया चित्र)",
+        "text": "मेरा बनाया सहारा: र · स्व · यु · दो (रस, स्वस्थ, युक्ति, दोष) के आरम्भिक अक्षर। यह केवल याद रखने की सहायता है, पाठ का दावा नहीं।"
+       },
+       {
+        "aid": "chunks",
+        "label": "लय में खण्ड",
+        "steps": [
+         "रसभेदाः स्वस्थवृत्तिः",
+         "युक्तयः तान्त्रिकाः च याः",
+         "दोषभेदाः इति ज्ञेयाः",
+         "अध्यायाः तन्त्रभूषणाः"
+        ]
+       },
+       {
+        "aid": "metre",
+        "label": "छन्द",
+        "text": "हर पंक्ति में ८ + ८ अक्षर (गिनती से)। ‘|’ पाद की सीमा है; संधि के कारण वह शब्द के बीच भी पड़ सकती है।",
+        "lines": [
+         "रसभेदाः स्वस्थवृत्ति | र्युक्तयस्तान्त्रिकाश्च याः ।",
+         "दोषभेदा इति ज्ञेया | अध्यायास्तन्त्रभूषणाः ॥"
+        ]
+       }
+      ]
+     },
+     {
+      "key": "note",
+      "label": "पाठ-टिप्पणी",
+      "text": "‘तान्त्रिकाः’ पुल्लिंग है और स्त्रीलिंग ‘युक्तयः’ से मेल नहीं खाता, इसलिए रचना शंकित है। ‘रस’ को रसों के भेद के रूप में पढ़ा गया है; पाठ रसों की गिनती नहीं देता। ‘अध्यायास्तन्त्रभूषणाः’ = अध्यायाः + तन्त्रभूषणाः (ः + त = स्त)। ‘तान्त्रिकाः’ पर कोई प्रश्न आधारित नहीं।"
+     }
+    ],
+    "rule": "तन्त्रभूषणाः = ornaments of the treatise; X-भेदाः = varieties of X.",
+    "limits": "The verse says rasa and does not list the tastes. In the printed text तान्त्रिकाः (masculine) does not agree with the feminine युक्तयः, so the construction is doubtful; no question rests on that word. The verse gives titles only."
+   },
+   "question": "What things does the verse list, and what are they called?",
+   "core": true
+  }
+ ],
+ "questions": [
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "What name does the text give to what comes beyond this?",
+   "options": [
+    "Uttara, by its own name.",
+    "Shalakya, by its teacher.",
+    "Kaumara, by its subject.",
+    "It is left without a name."
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: तन्त्रमुत्तरमुच्यते: the Tantra is called Uttara.",
+    "No such name is given in this verse.",
+    "The verse names only Uttara.",
+    "The verse says it is called by a name."
+   ],
+   "explain": "The second line says the Tantra beyond is called Uttara by its own name.",
+   "rule": "उत्तरम् उच्यते = is called Uttara.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-029",
+   "id": "su3-029-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each word of the first line to its meaning.",
+   "pairs": [
+    [
+     "अध्यायानाम्",
+     "of chapters"
+    ],
+    [
+     "शतम्",
+     "hundred"
+    ],
+    [
+     "एतत्",
+     "this"
+    ],
+    [
+     "उदीरितम्",
+     "declared"
+    ]
+   ],
+   "explain": "Four words of the first line, as the card splits them.",
+   "rule": "अध्यायानाम् is genitive plural; शतम् is a neuter noun; उदीरितम् is a past participle.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-029",
+   "id": "su3-029-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "fill",
+   "q": "Beyond this, the ____ is called Uttara. Type the word for treatise in Devanagari or in English letters (e.g. dharma).",
+   "accept": [
+    "तन्त्रम्",
+    "तन्त्रं",
+    "तंत्रम्",
+    "तंत्रं",
+    "तन्त्र",
+    "तंत्र",
+    "tantram",
+    "tantra"
+   ],
+   "explain": "तन्त्रम् is the subject of उच्यते: the Tantra is called Uttara.",
+   "teaches": "तन्त्रम् = Tantra, the treatise that is named.",
+   "rule": "The subject of उच्यते stands in the nominative.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-029",
+   "id": "su3-029-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "mcq",
+   "q": "Which rendering of the verse is right?",
+   "options": [
+    "Of chapters twelve hundred, thus declared; beyond, the Tantra is called Uttara by its own name.",
+    "Of chapters a hundred and twenty, thus declared; beyond, the Tantra is called Uttara by its own name.",
+    "Of chapters a hundred and twenty, thus declared; beyond, the Tantra is called Uttara by its author's name.",
+    "Of chapters a hundred and twenty, never declared; beyond, the Tantra is called Uttara by its own name."
+   ],
+   "answer": 1,
+   "optionExplain": [
+    "शतं विंशम् is a hundred with twenty, not twelve hundred.",
+    "Right: It follows the card word for word.",
+    "स्वनाम्ना is by its own name, not an author's.",
+    "उदीरितम् is declared, not never declared."
+   ],
+   "explain": "Only the first rendering keeps both the number and the phrase by its own name.",
+   "rule": "शतं विंशम् = 120; स्वनाम्ना = by its own name.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-029",
+   "id": "su3-029-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put these phrases of the verse in the order of the text.",
+   "items": [
+    "अध्यायानां शतं विंशम्",
+    "एवम् एतत् उदीरितम्",
+    "अतः परम्",
+    "स्वनाम्ना एव",
+    "तन्त्रम् उत्तरम् उच्यते"
+   ],
+   "explain": "First the number, then declared, then beyond this, by its own name, and last the Tantra named Uttara.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-029",
+   "id": "su3-029-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "In the invented line इदं स्थानं शिवपुरम् उच्यते, what does उच्यते say?",
+   "options": [
+    "This place is built as Shivapura.",
+    "This place calls Shivapura.",
+    "This place is called Shivapura.",
+    "This place will be called Shivapura."
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "उच्यते is a verb of saying, not building.",
+    "The ending -ते is passive: it is called.",
+    "Right: Like तन्त्रम् उत्तरम् उच्यते: two nominatives, is called.",
+    "उच्यते is present, not future."
+   ],
+   "explain": "उच्यते is a passive present of vac: is called, with the name beside the thing named.",
+   "rule": "X Y उच्यते = X is called Y.",
+   "teaches": "With उच्यते, the thing and its name both stand in the nominative: is called.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-029",
+   "id": "su3-029-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "According to the text, what did the Tantra take as its subject?",
+   "options": [
+    "The students of the teacher.",
+    "The names of the chapters.",
+    "The tools of the surgeon.",
+    "The upadravas (complications)."
+   ],
+   "answer": 3,
+   "optionExplain": [
+    "No students are named in this verse.",
+    "Chapter names are not the stated subject.",
+    "No tools are mentioned in this verse.",
+    "Right: उपद्रवान् is the object of अधिकृत्य."
+   ],
+   "explain": "The first line says the Tantra was made with the upadravas as its subject.",
+   "rule": "अधिकृत्य कृतम् उपद्रवान् = made with upadravas as subject.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-030",
+   "id": "su3-030-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each word of the first line to its meaning.",
+   "pairs": [
+    [
+     "अधिकृत्य",
+     "having made the subject"
+    ],
+    [
+     "कृतम्",
+     "made"
+    ],
+    [
+     "यस्मात्",
+     "since"
+    ],
+    [
+     "उपद्रवान्",
+     "complications"
+    ]
+   ],
+   "explain": "Four words of the first line.",
+   "rule": "अधिकृत्य is an absolutive; कृतम् is a past participle; उपद्रवान् is accusative plural.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-030",
+   "id": "su3-030-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "mcq",
+   "q": "What does the ending -य of अधिकृत्य tell us?",
+   "options": [
+    "An action done before the main verb: having made.",
+    "An action still to come, after the main verb: will make.",
+    "The doer of the main action, the one who makes: the maker.",
+    "The place where the action is done: in the making."
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: -य is the absolutive after a prefix.",
+    "The absolutive looks back, not forward.",
+    "A doer would end in -तृ, not -य.",
+    "-य does not mark a place."
+   ],
+   "explain": "The card marks अधिकृत्य as abs.: a word meaning having done X.",
+   "rule": "Prefix + root + -य = having done.",
+   "teaches": "After a prefix, the 'having done' form ends in -य (adhi + kr gives adhikrtya).",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-030",
+   "id": "su3-030-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "mcq",
+   "q": "Which rendering of the first line is right?",
+   "options": [
+    "Since this Tantra is made to cure all the upadravas.",
+    "Since this Tantra is made with the upadravas as its subject.",
+    "Since the upadravas were made out of this Tantra.",
+    "Since this Tantra is made after the upadravas ended."
+   ],
+   "answer": 1,
+   "optionExplain": [
+    "The verse says nothing of curing.",
+    "Right: यस्मात् gives the reason and उपद्रवान् the subject.",
+    "The Tantra is what is made, not the upadravas.",
+    "No time order of that kind is stated."
+   ],
+   "explain": "The reason is that the Tantra has the upadravas as its subject.",
+   "rule": "अधिकृत्य कृतम् = made, having taken as subject.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-030",
+   "id": "su3-030-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put these words of the first line in the order of the text.",
+   "items": [
+    "अधिकृत्य",
+    "कृतम्",
+    "यस्मात्",
+    "तन्त्रम्",
+    "एतत्",
+    "उपद्रवान्"
+   ],
+   "explain": "The line runs: having made the subject, made, since, Tantra, this, complications.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-030",
+   "id": "su3-030-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "In the invented line सः गुरुं प्रणम्य पठति, what does प्रणम्य mean?",
+   "options": [
+    "About to bow to.",
+    "Bowing to him.",
+    "Having bowed to.",
+    "Because he bows."
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "The -य form is not about to do.",
+    "There is no object ending for him.",
+    "Right: प्र + नम् with -य, as अधि + कृ gives अधिकृत्य.",
+    "-य is not a word for because."
+   ],
+   "explain": "प्रणम्य has a prefix and ends in -य: having bowed.",
+   "rule": "Prefix + root + -य = having done.",
+   "teaches": "A prefixed verb makes its 'having done' form in -य, not -त्वा.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-030",
+   "id": "su3-030-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "What are these chapters for, according to the verse?",
+   "options": [
+    "For naming the teachers of the sites.",
+    "For listing the tools used at the sites.",
+    "For counting the sites of the body.",
+    "For knowing the diseases of the named sites."
+   ],
+   "answer": 3,
+   "optionExplain": [
+    "No teachers are named in this verse.",
+    "No tools are named in this verse.",
+    "Counting is not the purpose stated.",
+    "Right: संविज्ञानार्थम् अध्यायाः गदानाम्: chapters for knowing diseases."
+   ],
+   "explain": "संविज्ञानार्थम् means for the knowledge of; गदानाम् means of diseases.",
+   "rule": "-अर्थम् = for the sake of.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-031",
+   "id": "su3-031-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each site named in the verse to its meaning.",
+   "pairs": [
+    [
+     "सन्धि",
+     "junction"
+    ],
+    [
+     "वर्त्म",
+     "eyelid"
+    ],
+    [
+     "शुक्ल",
+     "white part"
+    ],
+    [
+     "कृष्ण",
+     "black part"
+    ]
+   ],
+   "explain": "The four sites in the order of the verse.",
+   "rule": "All four stand in the locative singular in the verse.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-031",
+   "id": "su3-031-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "fill",
+   "q": "Chapters for knowing the ____ (diseases). Type the word in Devanagari or in English letters (e.g. dharma).",
+   "accept": [
+    "गदानाम्",
+    "गदानां",
+    "गद",
+    "gadānām",
+    "gada"
+   ],
+   "explain": "गदानाम् is genitive plural: of diseases.",
+   "teaches": "गद = disease; -आनाम् = of (many).",
+   "rule": "-आनाम् is the genitive plural ending.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-031",
+   "id": "su3-031-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "multi",
+   "q": "Which of these sites does the verse name?",
+   "options": [
+    "सन्धि",
+    "कर्ण",
+    "शुक्ल",
+    "घ्राण",
+    "कृष्ण"
+   ],
+   "answers": [
+    0,
+    2,
+    4
+   ],
+   "optionExplain": [
+    "Named: in the junctions.",
+    "Not in this verse (the ear comes in a later unit).",
+    "Named: in the white part.",
+    "Not in this verse (the nose comes in a later unit).",
+    "Named: in the black part."
+   ],
+   "explain": "The verse names junction, eyelid, white part, black part and the visual parts.",
+   "rule": "Only the five sites of the verse count.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-031",
+   "id": "su3-031-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put the sites in the order in which the verse names them.",
+   "items": [
+    "सन्धि",
+    "वर्त्म",
+    "शुक्ल",
+    "कृष्ण",
+    "सर्वत्र दृष्टि"
+   ],
+   "explain": "The verse gives junction, eyelid, white part, black part, then everywhere in the visual parts.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-031",
+   "id": "su3-031-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "In the invented line वने सर्वत्र वृक्षाः सन्ति, what does वने mean?",
+   "options": [
+    "In the forest.",
+    "Of the forest.",
+    "From the forest.",
+    "To the forest."
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: -े on a neuter a-noun is the locative, like शुक्ले, कृष्णे.",
+    "Of would be वनस्य.",
+    "From would be वनात्.",
+    "To would be वनम्."
+   ],
+   "explain": "वने is locative singular of वन: in the forest.",
+   "rule": "-े (neuter a-noun) = in.",
+   "teaches": "The locative singular of a neuter a-noun ends in -े, meaning in the ...",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-031",
+   "id": "su3-031-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "Which item comes first in this unit's list?",
+   "options": [
+    "The warding off of the Kapha kind.",
+    "The division of treatments.",
+    "The recognition of the diseases.",
+    "The injury and its treatment."
+   ],
+   "answer": 1,
+   "optionExplain": [
+    "The Kapha kind comes later in the list.",
+    "Right: चिकित्साप्रविभागीयः opens the unit.",
+    "No recognition is named here.",
+    "Injury comes in a later unit."
+   ],
+   "explain": "The first item is the chapter on the division of treatments.",
+   "rule": "चिकित्साप्रविभागीयः = concerning the division of treatments.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-032",
+   "id": "su3-032-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "पैत्तस्य",
+     "of the Pitta kind"
+    ],
+    [
+     "श्लैष्मिकस्य",
+     "of the Kapha kind"
+    ],
+    [
+     "रौधिरस्य",
+     "of the blood kind"
+    ],
+    [
+     "वारणः",
+     "warding off"
+    ]
+   ],
+   "explain": "Four words of the unit.",
+   "rule": "The first three are genitive singular; वारणः is a nominative.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-032",
+   "id": "su3-032-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "mcq",
+   "q": "How are the three genitives पैत्तस्य, श्लैष्मिकस्य, रौधिरस्य filled out?",
+   "options": [
+    "With a new subject, such as a physician.",
+    "With a verb of their own, such as to cure.",
+    "With abhishyanda, from the item before them.",
+    "With nothing at all, as bare names in a list."
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "No physician is named in this verse.",
+    "No verb is given for them.",
+    "Right: The note says abhishyanda is supplied.",
+    "A genitive needs a word it depends on."
+   ],
+   "explain": "Each is 'of such a kind', and the word supplied is abhishyanda, as in the first item.",
+   "rule": "A genitive list leans on a word named earlier.",
+   "teaches": "In a list, later genitives can depend on a word given once at the start.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-032",
+   "id": "su3-032-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "mcq",
+   "q": "Which rendering lists the four kinds right?",
+   "options": [
+    "Vata, Pitta, Kapha and the ear kind.",
+    "Vata, Pitta, Kapha and the sweat kind.",
+    "Vata, Pitta, Kapha and the bone kind.",
+    "Vata, Pitta, Kapha and the blood kind."
+   ],
+   "answer": 3,
+   "optionExplain": [
+    "रौधिरस्य is of blood, not of the ear.",
+    "No sweat is named in the verse.",
+    "रौधिरस्य is of blood, not of bone.",
+    "Right: वात, पैत्त, श्लैष्मिक, रौधिर."
+   ],
+   "explain": "The fourth kind is the blood kind, रौधिर, from रुधिर (blood).",
+   "rule": "रौधिर = of blood.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-032",
+   "id": "su3-032-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put the four kinds of abhishyanda in the order of the verse.",
+   "items": [
+    "वात",
+    "पैत्त",
+    "श्लैष्मिक",
+    "रौधिर"
+   ],
+   "explain": "The verse gives Vata first, then the Pitta, Kapha and blood kinds.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-032",
+   "id": "su3-032-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "In the invented compound अग्निवारणः, what does it mean?",
+   "options": [
+    "The warding off of fire.",
+    "The fire that wards off.",
+    "The fire of the ward.",
+    "The kindling of fire."
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: Like वाताभिष्यन्दवारणः (warding off of Vata flux): the first member names what is warded off.",
+    "In वाताभिष्यन्दवारणः the first member is warded off, not warding.",
+    "There is no ward in this compound.",
+    "वारण is warding off, not kindling."
+   ],
+   "explain": "In X-वारणः, X is what is warded off.",
+   "rule": "X-वारणः = warding off of X.",
+   "teaches": "In a compound ending in वारण, the first member names what is warded off.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-032",
+   "id": "su3-032-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "Which item of the second line arises in the ear?",
+   "options": [
+    "क्रियाकल्पः.",
+    "कर्णोत्थाः.",
+    "अभिघातः.",
+    "चिकित्सितम्."
+   ],
+   "answer": 1,
+   "optionExplain": [
+    "That is the course of procedure.",
+    "Right: कर्ण-उत्थाः: those arising in the ear.",
+    "That is injury.",
+    "That is treatment."
+   ],
+   "explain": "कर्ण is the ear and उत्थाः means arising.",
+   "rule": "कर्णोत्थाः = arising in the ear.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-033",
+   "id": "su3-033-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each word of the second line to its meaning.",
+   "pairs": [
+    [
+     "क्रियाकल्पः",
+     "course of procedure"
+    ],
+    [
+     "अभिघातः",
+     "injury"
+    ],
+    [
+     "कर्णोत्थाः",
+     "arising in the ear"
+    ],
+    [
+     "तच्चिकित्सितम्",
+     "their treatment"
+    ]
+   ],
+   "explain": "The four items of the second line.",
+   "rule": "Each of them stands in the nominative.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-033",
+   "id": "su3-033-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "fill",
+   "q": "Those arising in the ____ (ear). Type the word in Devanagari or in English letters (e.g. dharma).",
+   "accept": [
+    "कर्ण",
+    "karṇa"
+   ],
+   "explain": "कर्ण is the first member of कर्णोत्थाः.",
+   "teaches": "कर्ण = ear.",
+   "rule": "In a compound the first member names the place.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-033",
+   "id": "su3-033-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "mcq",
+   "q": "Which split of तच्चिकित्सितम् is right?",
+   "options": [
+    "तम् + चिकित्सितम्",
+    "तच् + चिकित्सितम्",
+    "तत् + चिकित्सितम्",
+    "ततः + चिकित्सितम्"
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "म् before च gives a nasal (तञ्चिकित्सितम्), not च्च.",
+    "No word ends in तच् here.",
+    "Right: त् before च joins as च्च.",
+    "ततः before च would give ततश्च."
+   ],
+   "explain": "तत् means their; त् before च becomes च्, which joins into च्च.",
+   "rule": "त् + च = च्च.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-033",
+   "id": "su3-033-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put the four items of the second line in the order of the verse.",
+   "items": [
+    "क्रियाकल्पः",
+    "अभिघातः",
+    "कर्णोत्थाः",
+    "तच्चिकित्सितम्"
+   ],
+   "explain": "The line gives the course of procedure, injury, those arising in the ear, then their treatment.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-033",
+   "id": "su3-033-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "By the sandhi in तच्चिकित्सितम्, what does तत् + चरितम् join into?",
+   "options": [
+    "तत्चरितम्",
+    "तदचरितम्",
+    "ततचरितम्",
+    "तच्चरितम्"
+   ],
+   "answer": 3,
+   "optionExplain": [
+    "The two are joined, and त् changes.",
+    "द् and a new अ do not appear.",
+    "The final त् does not turn into त.",
+    "Right: त् + च = च्च, as in तच्चिकित्सितम्."
+   ],
+   "explain": "Final त् before च turns into च्, so तत् + चरितम् is तच्चरितम्.",
+   "rule": "त् + च = च्च.",
+   "teaches": "Final त् before च joins as च्च.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-033",
+   "id": "su3-033-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "Which part of the body is named in घ्राणोत्थानाम्?",
+   "options": [
+    "The nose.",
+    "The ear.",
+    "The head.",
+    "The eyelid."
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: घ्राण is the nose.",
+    "The ear is in the previous unit.",
+    "The head is named by शिरः, later in the unit.",
+    "The eyelid is in an earlier unit."
+   ],
+   "explain": "घ्राण-उत्थानाम् means of those arising in the nose.",
+   "rule": "घ्राण = nose.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-034",
+   "id": "su3-034-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "घ्राण",
+     "nose"
+    ],
+    [
+     "विज्ञानम्",
+     "recognition"
+    ],
+    [
+     "प्रतिषेधनम्",
+     "counteracting"
+    ],
+    [
+     "विवेचनम्",
+     "discrimination"
+    ]
+   ],
+   "explain": "Four words of the unit.",
+   "rule": "Each of the last three names a kind of act; the first names a part of the body.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-034",
+   "id": "su3-034-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "fill",
+   "q": "The discrimination of ____ diseases. Type the word for head in Devanagari or in English letters (e.g. dharma).",
+   "accept": [
+    "शिरः",
+    "शिर",
+    "शिरो",
+    "śiraḥ",
+    "śira",
+    "śiro",
+    "sira",
+    "siro"
+   ],
+   "explain": "शिरः is the head; before गद it joins as शिरो.",
+   "teaches": "शिरः = head.",
+   "rule": "In a compound the first member names where the disease lies.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-034",
+   "id": "su3-034-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "mcq",
+   "q": "Which rendering of the second line is right?",
+   "options": [
+    "The treatment of pratishyaya and the discrimination of head diseases.",
+    "The checking of pratishyaya and the discrimination of head diseases.",
+    "The checking of head diseases and the discrimination of pratishyaya.",
+    "The recognition of pratishyaya and the checking of head diseases."
+   ],
+   "answer": 1,
+   "optionExplain": [
+    "The word is निषेधः, checking, not treatment.",
+    "Right: प्रतिश्यायनिषेधः and शिरोगदविवेचनम् in that order.",
+    "The two objects are swapped.",
+    "Recognition belongs to the first line."
+   ],
+   "explain": "The line has checking for pratishyaya and discrimination for head diseases.",
+   "rule": "निषेधः = checking; विवेचनम् = discrimination.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-034",
+   "id": "su3-034-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put the four items of the unit in the order of the verse.",
+   "items": [
+    "घ्राणोत्थानां विज्ञानम्",
+    "तद्गदप्रतिषेधनम्",
+    "प्रतिश्यायनिषेधः",
+    "शिरोगदविवेचनम्"
+   ],
+   "explain": "Recognition, then counteracting their diseases, then the checking of pratishyaya, then head diseases.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-034",
+   "id": "su3-034-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "By the sandhi in शिरोगद, what does तपः + वनम् join into?",
+   "options": [
+    "तपःवनम्",
+    "तपेवनम्",
+    "तपोवनम्",
+    "तपवनम्"
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "The visarga is not kept before a voiced sound.",
+    "The visarga after अ does not give ए.",
+    "Right: अः before a voiced sound becomes ओ, as शिरः + गद.",
+    "The visarga does not simply drop here."
+   ],
+   "explain": "अः before a voiced letter (here व) turns into ओ.",
+   "rule": "अः + voiced letter = ओ.",
+   "teaches": "Visarga after अ, before a voiced sound, becomes ओ (शिरः + गद gives शिरोगद).",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-034",
+   "id": "su3-034-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "What name does the verse give to the treatment of their diseases?",
+   "options": [
+    "Kaumara.",
+    "Sharira.",
+    "Nidana.",
+    "Shalakya."
+   ],
+   "answer": 3,
+   "optionExplain": [
+    "The name in this unit is Shalakya.",
+    "That name is not given here.",
+    "That name is not given here.",
+    "Right: शालाक्यं तन्त्रमुच्यते: it is called Shalakya."
+   ],
+   "explain": "The first line calls the treatment of their diseases the Shalakya tantra.",
+   "rule": "शालाक्यं तन्त्रम् उच्यते = is called the Shalakya tantra.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-035",
+   "id": "su3-035-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "नव",
+     "nine"
+    ],
+    [
+     "स्कन्दस्य",
+     "of Skanda"
+    ],
+    [
+     "आकृति",
+     "form"
+    ],
+    [
+     "निषेधनम्",
+     "checking"
+    ]
+   ],
+   "explain": "Four words from the second line.",
+   "rule": "नव-ग्रह-आकृति-ज्ञानम् is one compound: knowledge of the forms of the nine seizers.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-035",
+   "id": "su3-035-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "fill",
+   "q": "The knowledge of the forms of the nine ____ (seizers). Type the word in Devanagari or in English letters (e.g. dharma).",
+   "accept": [
+    "ग्रह",
+    "ग्रहाः",
+    "graha",
+    "grahāḥ"
+   ],
+   "explain": "ग्रह is the second member of नवग्रहाकृतिज्ञानम्.",
+   "teaches": "ग्रह = seizer.",
+   "rule": "The second member of the compound names whose forms are known.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-035",
+   "id": "su3-035-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "mcq",
+   "q": "Which split of तन्त्रमुच्यते is right?",
+   "options": [
+    "तन्त्रम् + उच्यते",
+    "तन्त्र + मुच्यते",
+    "तन्त्रमु + च्यते",
+    "तन्त्रः + उच्यते"
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: म् joins with the following उ as मु.",
+    "मुच्यते would be another verb, is released.",
+    "च्यते is not a word.",
+    "A visarga would not give म."
+   ],
+   "explain": "तन्त्रम् is the noun and उच्यते the verb, is called.",
+   "rule": "म् + स्वर joins as the consonant म with that vowel.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-035",
+   "id": "su3-035-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put these parts of the unit in the order of the verse.",
+   "items": [
+    "चिकित्सा तद्गदानां च",
+    "शालाक्यं तन्त्रम् उच्यते",
+    "नवग्रहाकृतिज्ञानम्",
+    "स्कन्दस्य च निषेधनम्"
+   ],
+   "explain": "The treatment, the name Shalakya, the knowledge of the nine seizers, the checking of Skanda.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-035",
+   "id": "su3-035-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "In the invented phrase तद्गुणानां ज्ञानम्, what does तद्गुणानाम् mean?",
+   "options": [
+    "Of its quality.",
+    "Of their qualities.",
+    "By their qualities.",
+    "From their qualities."
+   ],
+   "answer": 1,
+   "optionExplain": [
+    "The ending -आनाम् is plural, not singular.",
+    "Right: तद्- at the head means their, as in तद्गदानाम् (of their diseases).",
+    "By would be तद्गुणैः.",
+    "From would be तद्गुणेभ्यः."
+   ],
+   "explain": "तद्गुणानाम् is genitive plural, like तद्गदानाम्: of their qualities.",
+   "rule": "तद्- + genitive plural = of their ...",
+   "teaches": "तद्- at the head of a compound means their or those; -आनाम् is genitive plural.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-035",
+   "id": "su3-035-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "Which two names are joined in the compound अपस्मारशकुन्योः?",
+   "options": [
+    "Apasmara and Revati.",
+    "Shakuni and Putana.",
+    "Apasmara and Shakuni.",
+    "Revati and Putana."
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "Revati stands on its own after च.",
+    "Putana comes in the second line.",
+    "Right: अपस्मार-शकुन्योः: of the two, Apasmara and Shakuni.",
+    "They are separate words in the verse."
+   ],
+   "explain": "The first compound pairs Apasmara with Shakuni.",
+   "rule": "-योः = of the two.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-036",
+   "id": "su3-036-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each word of the first line to its meaning.",
+   "pairs": [
+    [
+     "च",
+     "and"
+    ],
+    [
+     "पुनः",
+     "again"
+    ],
+    [
+     "पृथक्",
+     "separately"
+    ],
+    [
+     "रेवत्याः",
+     "of Revati"
+    ]
+   ],
+   "explain": "Four words of the first line.",
+   "rule": "च, पुनः, पृथक् are indeclinables; रेवत्याः is genitive singular.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-036",
+   "id": "su3-036-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "mcq",
+   "q": "What does the ending of शकुन्योः show?",
+   "options": [
+    "One name only, taken alone: of it.",
+    "Many names in a row: of them all.",
+    "A place where it stands: in the two.",
+    "Two names taken together: of the two."
+   ],
+   "answer": 3,
+   "optionExplain": [
+    "A single name would end in -ः or -स्य.",
+    "Many would use a plural ending.",
+    "The card marks it as genitive, not as place.",
+    "Right: The card marks it as a dvandva in the dual."
+   ],
+   "explain": "The card says dvandva, genitive dual: of the two names together.",
+   "rule": "-योः (dual) = of the two.",
+   "teaches": "A dvandva compound with -योः names two things together: of the two.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-036",
+   "id": "su3-036-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "mcq",
+   "q": "Which rendering of the first line is right?",
+   "options": [
+    "Of Apasmara and Shakuni, and again separately of Revati.",
+    "Of Apasmara and Shakuni, and again together of Revati.",
+    "Of Apasmara and Shakuni, and never separately of Revati.",
+    "Of Apasmara and Revati, and again separately of Shakuni."
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: The line says again and separately.",
+    "पृथक् is separately, not together.",
+    "पुनः is again, not never.",
+    "Shakuni is joined with Apasmara."
+   ],
+   "explain": "The first line pairs the first two names and then takes Revati again, separately.",
+   "rule": "पुनः = again; पृथक् = separately.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-036",
+   "id": "su3-036-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put these five names in the order in which the unit gives them (one name is left out).",
+   "items": [
+    "अपस्मारशकुन्योः",
+    "रेवत्याः",
+    "पूतनायाः",
+    "मण्डिका",
+    "शीतपूतना"
+   ],
+   "explain": "The unit goes from the pair to Revati, Putana, Mandika and Shitaputana.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-036",
+   "id": "su3-036-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "In the invented compound गुरुशिष्ययोः, what does it mean?",
+   "options": [
+    "Of the teacher and the students.",
+    "Of the teacher and the student.",
+    "By the teacher and the student.",
+    "The teacher of the student."
+   ],
+   "answer": 1,
+   "optionExplain": [
+    "The ending -योः is dual, not plural.",
+    "Right: Like शकुन्योः: a dual dvandva, of the two.",
+    "By would be गुरुशिष्याभ्याम्.",
+    "A dvandva pairs two things, no teacher-of."
+   ],
+   "explain": "A dvandva with -योः names two: the teacher and the student, of the two.",
+   "rule": "Dvandva + -योः = of the two.",
+   "teaches": "A dvandva in the dual genitive means 'of the two' joined: गुरुशिष्ययोः is of the teacher and the student.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-036",
+   "id": "su3-036-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "What name does the unit give to this group?",
+   "options": [
+    "The Shalakya tantra.",
+    "The Uttara tantra.",
+    "The Kaumara tantra.",
+    "The Bhutavidya tantra."
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "That name is in an earlier unit.",
+    "That name is for the Tantra beyond the chapters.",
+    "Right: कौमारतन्त्रम् इति एतत् कीर्तितम्: this is declared the Kaumara tantra.",
+    "That name comes in a later unit."
+   ],
+   "explain": "The second line says this is declared the Kaumara tantra.",
+   "rule": "इति = thus; कौमारतन्त्रम् = Kaumara tantra.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-037",
+   "id": "su3-037-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each word of the unit to its meaning.",
+   "pairs": [
+    [
+     "चिकित्सा",
+     "treatment"
+    ],
+    [
+     "कौमारतन्त्रम्",
+     "Kaumara branch"
+    ],
+    [
+     "ग्रह",
+     "seizer"
+    ],
+    [
+     "कीर्तितम्",
+     "declared"
+    ]
+   ],
+   "explain": "Four words of the unit.",
+   "rule": "चिकित्सा is a feminine nominative; कीर्तितम् is a past participle.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-037",
+   "id": "su3-037-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "fill",
+   "q": "The ____ (origin) of the seizers. Type the word in Devanagari or in English letters (e.g. dharma).",
+   "accept": [
+    "उत्पत्तिः",
+    "उत्पत्ति",
+    "utpattiḥ",
+    "utpatti"
+   ],
+   "explain": "उत्पत्तिः is the second member of ग्रहोत्पत्तिः.",
+   "teaches": "उत्पत्ति = origin.",
+   "rule": "The second member of the compound names what is stated of the seizers.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-037",
+   "id": "su3-037-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "mcq",
+   "q": "What does the text state about Naigamesha?",
+   "options": [
+    "Its origin.",
+    "Its knowledge.",
+    "Its checking.",
+    "Its treatment."
+   ],
+   "answer": 3,
+   "optionExplain": [
+    "The origin is stated of the seizers.",
+    "No knowledge is named here.",
+    "No checking is named here.",
+    "Right: नैगमेशचिकित्सा: the treatment of Naigamesha."
+   ],
+   "explain": "The compound नैगमेश-चिकित्सा means the treatment of Naigamesha.",
+   "rule": "X-चिकित्सा = treatment of X.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-037",
+   "id": "su3-037-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put these items in the order of the verse.",
+   "items": [
+    "नैगमेशचिकित्सा",
+    "ग्रहोत्पत्तिः",
+    "कौमारतन्त्रम्",
+    "कीर्तितम्"
+   ],
+   "explain": "Treatment of Naigamesha, origin of the seizers, the Kaumara tantra, declared.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-037",
+   "id": "su3-037-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "By the sandhi in ग्रहोत्पत्तिः, what does सूर्य + उदयः join into?",
+   "options": [
+    "सूर्योदयः",
+    "सूर्यउदयः",
+    "सूर्यौदयः",
+    "सूर्यूदयः"
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: अ + उ = ओ, as ग्रह + उत्पत्तिः gives ग्रहोत्पत्तिः.",
+    "The two vowels join in this sandhi.",
+    "अ + उ gives ओ, not औ.",
+    "The two vowels do not merge into ऊ."
+   ],
+   "explain": "अ + उ = ओ.",
+   "rule": "अ + उ = ओ.",
+   "teaches": "Sandhi: a short अ before उ joins to ओ.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-037",
+   "id": "su3-037-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "What three names does ज्वरातिसारशोषाणाम् join?",
+   "options": [
+    "Fever, thirst and cough.",
+    "Fever, purging and wasting.",
+    "Purging, wasting and fainting.",
+    "Fever, wasting and vomiting."
+   ],
+   "answer": 1,
+   "optionExplain": [
+    "Thirst and cough come in the next unit.",
+    "Right: ज्वर, अतिसार, शोष.",
+    "Fainting is a separate name in this unit.",
+    "Vomiting comes in the next unit."
+   ],
+   "explain": "The first compound holds fever, purging and wasting.",
+   "rule": "ज्वर = fever; अतिसार = purging; शोष = wasting.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-038",
+   "id": "su3-038-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each name to its literal meaning.",
+   "pairs": [
+    [
+     "ज्वर",
+     "fever"
+    ],
+    [
+     "अतिसार",
+     "purging"
+    ],
+    [
+     "शोष",
+     "wasting"
+    ],
+    [
+     "मूर्च्छा",
+     "fainting"
+    ],
+    [
+     "रक्तपित्त",
+     "blood-pitta"
+    ]
+   ],
+   "explain": "Five names of the unit with the card's literal glosses.",
+   "rule": "These are names only; the card gives plain literal meanings.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-038",
+   "id": "su3-038-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "mcq",
+   "q": "What do the genitive endings in पाण्डूनाम्, रक्तपित्तस्य, मूर्च्छायाः show?",
+   "options": [
+    "Each is a doer, one acting on its own.",
+    "Each is a place, standing for the word in.",
+    "Each is 'of such', leaning on a word given later.",
+    "Each is a verb, standing for the word is."
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "A genitive is not the doer.",
+    "Place would be the locative.",
+    "Right: The card says the list continues into the next unit.",
+    "These are nouns with case endings."
+   ],
+   "explain": "These are genitives of a list; the words they depend on come in the next unit.",
+   "rule": "A genitive says of; it leans on another word.",
+   "teaches": "A run of genitives in a list depends on a governing word that may come later.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-038",
+   "id": "su3-038-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "multi",
+   "q": "Which of these names does this unit list?",
+   "options": [
+    "ज्वर",
+    "तृष्णा",
+    "मूर्च्छा",
+    "श्वास",
+    "रक्तपित्त"
+   ],
+   "answers": [
+    0,
+    2,
+    4
+   ],
+   "optionExplain": [
+    "Listed in the first compound.",
+    "Not here; thirst is in the next unit.",
+    "Listed as fainting.",
+    "Not here; breathlessness is in the next unit.",
+    "Listed as blood-pitta."
+   ],
+   "explain": "Fever, fainting and blood-pitta are in this unit; thirst and breathlessness come next.",
+   "rule": "Only the names of the unit count.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-038",
+   "id": "su3-038-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put these names in the order in which the unit lists them.",
+   "items": [
+    "ज्वरातिसारशोषाणाम्",
+    "गुल्महृद्रोगिणाम्",
+    "पाण्डूनाम्",
+    "रक्तपित्तस्य",
+    "मूर्च्छायाः"
+   ],
+   "explain": "The unit moves from the first compound to gulma and heart-affliction, pandu, raktapitta and fainting.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-038",
+   "id": "su3-038-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "In the invented word आम्रपनसजम्बूनाम्, what does it mean?",
+   "options": [
+    "Of jambu only.",
+    "Of mango and jackfruit.",
+    "From mango, jackfruit and jambu.",
+    "Of mango, jackfruit and jambu."
+   ],
+   "answer": 3,
+   "optionExplain": [
+    "The ending covers every member of the compound.",
+    "Jambu is also a member.",
+    "From would be -एभ्यः.",
+    "Right: One ending -नाम् at the end covers all the members."
+   ],
+   "explain": "In a dvandva only the last member carries the ending, and it covers all.",
+   "rule": "Dvandva: one ending for all members.",
+   "teaches": "In a dvandva list one case ending, on the last member, belongs to every member.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-038",
+   "id": "su3-038-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "What does the second line state for स्वरभेद?",
+   "options": [
+    "Treatment.",
+    "Checking.",
+    "Recognition.",
+    "Origin."
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: स्वरभेदचिकित्सा: the treatment of voice-break.",
+    "Checking is stated in the first line, for others.",
+    "No recognition is named in this unit.",
+    "No origin is named in this unit."
+   ],
+   "explain": "The second line begins with स्वरभेदचिकित्सा, treatment of voice-break.",
+   "rule": "चिकित्सा = treatment.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-039",
+   "id": "su3-039-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each name to its literal meaning.",
+   "pairs": [
+    [
+     "निषेधः",
+     "checking"
+    ],
+    [
+     "छर्दि",
+     "vomiting"
+    ],
+    [
+     "हिक्का",
+     "hiccup"
+    ],
+    [
+     "श्वास",
+     "breathlessness"
+    ],
+    [
+     "कास",
+     "cough"
+    ]
+   ],
+   "explain": "Five words of the first line.",
+   "rule": "These are plain literal meanings.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-039",
+   "id": "su3-039-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "fill",
+   "q": "The checking of ____ (thirst). Type the word in Devanagari or in English letters (e.g. dharma).",
+   "accept": [
+    "तृष्णा",
+    "तृष्णायाः",
+    "tṛṣṇā",
+    "tṛṣṇāyāḥ",
+    "trushna",
+    "trisna",
+    "trusna",
+    "trishnaya",
+    "trushnaya",
+    "trisnaya",
+    "trusnaya"
+   ],
+   "explain": "तृष्णायाः is genitive singular of तृष्णा.",
+   "teaches": "तृष्णा = thirst.",
+   "rule": "The genitive gives what the checking is of.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-039",
+   "id": "su3-039-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "multi",
+   "q": "For which items does the verse state checking (निषेधः)?",
+   "options": [
+    "स्वरभेद",
+    "तृष्णा",
+    "हिक्का",
+    "घ्राण",
+    "श्वास"
+   ],
+   "answers": [
+    1,
+    2,
+    4
+   ],
+   "optionExplain": [
+    "No: for voice-break the text states treatment.",
+    "Yes: the checking of thirst.",
+    "Yes: the checking of hiccup.",
+    "No: the nose is not named in this unit.",
+    "Yes: and of breathlessness."
+   ],
+   "explain": "The first line gives checking for thirst, vomiting, hiccup, breathlessness and cough.",
+   "rule": "निषेधः governs the genitives of the first line.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-039",
+   "id": "su3-039-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put these items in the order in which the unit gives them.",
+   "items": [
+    "तृष्णायाः",
+    "छर्दिहिक्कानाम्",
+    "श्वासकासयोः",
+    "स्वरभेदचिकित्सा"
+   ],
+   "explain": "Thirst, vomiting and hiccup, breathlessness and cough, then treatment of voice-break.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-039",
+   "id": "su3-039-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "By the sandhi in तृष्णायाश्छ, what does रामः + च join into?",
+   "options": [
+    "रामोच",
+    "रामश्च",
+    "रामस्च",
+    "रामःच"
+   ],
+   "answer": 1,
+   "optionExplain": [
+    "ो comes before a voiced sound, and च is not voiced.",
+    "Right: ः before च becomes श्, as ः before छ does in तृष्णायाश्छ.",
+    "ः before च does not become स्.",
+    "The visarga does not stay before च."
+   ],
+   "explain": "Visarga before a palatal (च, छ) changes to श्.",
+   "rule": "ः + च or छ = श्.",
+   "teaches": "Visarga before च or छ becomes श् (तृष्णायाः + छ gives तृष्णायाश्छ).",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-039",
+   "id": "su3-039-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "What does the verse say is set out here?",
+   "options": [
+    "The whole of the body-treatment.",
+    "The start of the body-treatment.",
+    "The remainder of the body-treatment.",
+    "The remainder of the surgery."
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "शेषम् is the remainder, not the whole.",
+    "शेषम् points to what is left, not the start.",
+    "Right: कायचिकित्सायाः शेषम् अत्र प्रकीर्तितम्.",
+    "The verse says body-treatment, not surgery."
+   ],
+   "explain": "The second line says the remainder of the body-treatment is set out here.",
+   "rule": "शेषम् = remainder.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-040",
+   "id": "su3-040-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "अरोचक",
+     "lack of relish"
+    ],
+    [
+     "मूत्राघात",
+     "urine-obstruction"
+    ],
+    [
+     "प्रकीर्तितम्",
+     "set out"
+    ],
+    [
+     "अत्र",
+     "here"
+    ]
+   ],
+   "explain": "Four words of the unit.",
+   "rule": "The first two are names; the last two are ordinary words.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-040",
+   "id": "su3-040-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "fill",
+   "q": "The ____ (remainder) of the body-treatment is set out here. Type the word in Devanagari or in English letters (e.g. dharma).",
+   "accept": [
+    "शेषम्",
+    "शेषं",
+    "शेष",
+    "śeṣam",
+    "śeṣa",
+    "sesam",
+    "sesa"
+   ],
+   "explain": "शेषम् is the subject of प्रकीर्तितम्.",
+   "teaches": "शेष = remainder.",
+   "rule": "The subject of a passive participle stands in the nominative.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-040",
+   "id": "su3-040-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "mcq",
+   "q": "Which rendering of the second line is right?",
+   "options": [
+    "Thus the remainder of the body-treatment is set out elsewhere.",
+    "Thus the whole of the body-treatment is set out here.",
+    "Thus the remainder of the body-treatment is hidden here.",
+    "Thus the remainder of the body-treatment is set out here."
+   ],
+   "answer": 3,
+   "optionExplain": [
+    "अत्र is here, not elsewhere.",
+    "शेषम् is the remainder.",
+    "प्रकीर्तितम् is set out, not hidden.",
+    "Right: इति, शेषम्, अत्र, प्रकीर्तितम् in order."
+   ],
+   "explain": "Each word of the line fixes one part: thus, remainder, here, set out.",
+   "rule": "अत्र = here; प्रकीर्तितम् = set out.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-040",
+   "id": "su3-040-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put these parts of the unit in the order of the verse.",
+   "items": [
+    "विसूचिकारोचकयोः",
+    "इति",
+    "कायचिकित्सायाः",
+    "शेषम्",
+    "अत्र",
+    "प्रकीर्तितम्"
+   ],
+   "explain": "The pair of names comes first, then thus, the body-treatment, the remainder, here, set out.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-040",
+   "id": "su3-040-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "By the -त्र ending of अत्र (here), what does अन्यत्र mean?",
+   "options": [
+    "Elsewhere.",
+    "Afterwards.",
+    "Otherwise.",
+    "Always."
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: अन्य (other) + -त्र (in a place), as अत्र is here.",
+    "Time words do not use -त्र.",
+    "Otherwise would be अन्यथा.",
+    "Always would be सदा."
+   ],
+   "explain": "-त्र makes a place word: अत्र here, so अन्यत्र is in another place.",
+   "rule": "-त्र = in a place.",
+   "teaches": "The ending -त्र makes place words: अत्र (here), अन्यत्र (elsewhere).",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-040",
+   "id": "su3-040-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "What is the group in this unit declared to be?",
+   "options": [
+    "Shalakya.",
+    "Bhutavidya.",
+    "Kaumara.",
+    "Uttara."
+   ],
+   "answer": 1,
+   "optionExplain": [
+    "That name belongs to an earlier group.",
+    "Right: भूतविद्या निरुच्यते: it is declared Bhutavidya.",
+    "That name belongs to an earlier group.",
+    "That name is for the Tantra beyond the chapters."
+   ],
+   "explain": "The last words say the group is declared Bhutavidya.",
+   "rule": "भूतविद्या = the science of beings.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-041",
+   "id": "su3-041-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each word to its meaning.",
+   "pairs": [
+    [
+     "अमानुष",
+     "non-human"
+    ],
+    [
+     "निषेधः",
+     "checking"
+    ],
+    [
+     "भूतविद्या",
+     "science of beings"
+    ],
+    [
+     "निरुच्यते",
+     "is declared"
+    ]
+   ],
+   "explain": "Four words of the unit.",
+   "rule": "अमानुष is from अ- and मानुष; निरुच्यते is a passive verb.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-041",
+   "id": "su3-041-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "mcq",
+   "q": "In भूतविद्या निरुच्यते, what is the role of भूतविद्या?",
+   "options": [
+    "It is the one declaring, that is the speaker.",
+    "It is the place where it is declared, the locale.",
+    "It is what is declared, not the one declaring.",
+    "It is the time when it is declared, the moment."
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "A passive verb has no such doer here.",
+    "Place would take the locative.",
+    "Right: निरुच्यते is passive: is declared.",
+    "Time would take another ending."
+   ],
+   "explain": "In the passive, the nominative names what is acted on.",
+   "rule": "Passive: the nominative is what is acted on.",
+   "teaches": "With a passive verb (-यते), the subject is what is acted on: भूतविद्या is declared.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-041",
+   "id": "su3-041-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "mcq",
+   "q": "Which rendering of the two named checkings and the closing name is right?",
+   "options": [
+    "The recognition of non-human beings and of unmada: this is declared Bhutavidya.",
+    "The checking of non-human beings and of unmada: this is declared Shalakya.",
+    "The checking of human beings and of unmada: this is declared Bhutavidya.",
+    "The checking of non-human beings and of unmada: this is declared Bhutavidya."
+   ],
+   "answer": 3,
+   "optionExplain": [
+    "The word is निषेधः, checking, not recognition.",
+    "The name stated is Bhutavidya.",
+    "अमानुष is non-human, not human.",
+    "Right: The unit gives these checkings and ends with the name."
+   ],
+   "explain": "Only one rendering keeps checking, non-human and the name Bhutavidya.",
+   "rule": "अमानुषनिषेधः and उन्मादप्रतिषेधः end in भूतविद्या निरुच्यते.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-041",
+   "id": "su3-041-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put these parts of the unit in the order of the verse.",
+   "items": [
+    "अमानुषनिषेधः",
+    "उन्मादप्रतिषेधः",
+    "भूतविद्या",
+    "निरुच्यते"
+   ],
+   "explain": "Checking of non-human beings, checking of unmada, the name Bhutavidya, then is declared.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-041",
+   "id": "su3-041-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "By the अ- of अमानुष, what does अदृष्टम् mean?",
+   "options": [
+    "Not seen.",
+    "Well seen.",
+    "Seen again.",
+    "Seen first."
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: अ- + दृष्टम् (seen), as अ- + मानुष is non-human.",
+    "अ- does not strengthen.",
+    "अ- does not repeat.",
+    "अ- does not mean first."
+   ],
+   "explain": "अ- before a consonant says not.",
+   "rule": "अ- = not.",
+   "teaches": "The prefix अ- before a consonant negates the word: अदृष्टम् is not seen.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-041",
+   "id": "su3-041-r5"
+  },
+  {
+   "role": "pretest",
+   "rung": 0,
+   "kind": "mcq",
+   "q": "What does the verse call these chapters?",
+   "options": [
+    "The roots of the treatise.",
+    "The ornaments of the treatise.",
+    "The limbs of the treatise.",
+    "The students of the treatise."
+   ],
+   "answer": 1,
+   "optionExplain": [
+    "तन्त्रभूषणाः is ornaments, not roots.",
+    "Right: तन्त्रभूषणाः: ornaments of the treatise.",
+    "No limbs are named in this verse.",
+    "No students are named in this verse."
+   ],
+   "explain": "The last word is तन्त्रभूषणाः, the ornaments of the treatise.",
+   "rule": "भूषण = ornament.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-042",
+   "id": "su3-042-p"
+  },
+  {
+   "role": "warmup",
+   "rung": 1,
+   "kind": "match",
+   "q": "Match each term to its meaning.",
+   "pairs": [
+    [
+     "स्वस्थवृत्तिः",
+     "regimen of the healthy"
+    ],
+    [
+     "युक्तयः",
+     "devices"
+    ],
+    [
+     "अध्यायाः",
+     "chapters"
+    ],
+    [
+     "तन्त्रभूषणाः",
+     "ornaments of the treatise"
+    ]
+   ],
+   "explain": "Four terms of the verse.",
+   "rule": "भेदाः means varieties; वृत्तिः means regimen; भूषणाः means ornaments.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-042",
+   "id": "su3-042-r1"
+  },
+  {
+   "role": "extend",
+   "rung": 2,
+   "kind": "fill",
+   "q": "The ____ (varieties) of rasa and dosha. Type the word in Devanagari or in English letters (e.g. dharma).",
+   "accept": [
+    "भेदाः",
+    "भेद",
+    "bhedāḥ",
+    "bheda"
+   ],
+   "explain": "भेदाः is the second member of रसभेदाः and दोषभेदाः.",
+   "teaches": "भेद = variety.",
+   "rule": "X-भेदाः names varieties of X.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-042",
+   "id": "su3-042-r2"
+  },
+  {
+   "role": "discriminate",
+   "rung": 3,
+   "kind": "multi",
+   "q": "Which of these does the verse list?",
+   "options": [
+    "उन्माद",
+    "रसभेद",
+    "ज्वर",
+    "स्वस्थवृत्ति",
+    "दोषभेद"
+   ],
+   "answers": [
+    1,
+    3,
+    4
+   ],
+   "optionExplain": [
+    "Not in this verse; it is in the previous unit.",
+    "Listed: varieties of rasa.",
+    "Not in this verse; it is in an earlier unit.",
+    "Listed: regimen of the healthy.",
+    "Listed: varieties of dosha."
+   ],
+   "explain": "The verse lists rasa varieties, the regimen of the healthy, the devices and dosha varieties.",
+   "rule": "Only the verse's own items count.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-042",
+   "id": "su3-042-r3"
+  },
+  {
+   "role": "apply",
+   "rung": 4,
+   "kind": "order",
+   "q": "Put these terms in the order in which the verse gives them.",
+   "items": [
+    "रसभेदाः",
+    "स्वस्थवृत्तिः",
+    "युक्तयः",
+    "दोषभेदाः",
+    "तन्त्रभूषणाः"
+   ],
+   "explain": "The verse lists rasa, the regimen, the devices, dosha, and ends with the ornaments.",
+   "rule": "Order of the text.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-042",
+   "id": "su3-042-r4"
+  },
+  {
+   "role": "transfer",
+   "rung": 5,
+   "kind": "mcq",
+   "q": "By the compound तन्त्रभूषणाः, what does the invented नगरभूषणम् mean?",
+   "options": [
+    "The ornament in the city.",
+    "The city made by an ornament.",
+    "The ornament of the city.",
+    "The ornament for the cities."
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "In would need a locative ending.",
+    "The first member is owner, not maker.",
+    "Right: Like तन्त्र-भूषणाः: the first member is whose ornament.",
+    "नगर is singular, and for needs another case."
+   ],
+   "explain": "X-भूषण = the ornament of X.",
+   "rule": "X-भूषण = ornament of X.",
+   "teaches": "In X-भूषण, the first member is the one adorned: the ornament of X.",
+   "unit": "Chapter 3",
+   "unitTitle": "अध्ययनसम्प्रदानीय",
+   "section": "अध्ययनसम्प्रदानीय",
+   "concept": "su3-042",
+   "id": "su3-042-r5"
+  }
+ ]
 }

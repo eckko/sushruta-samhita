@@ -56,22 +56,22 @@ AUTHORED = {
     "30": {
         "title": "एता देहे विशेषेण",
         "question": "What does the verse say of these deities, and what does it wish for you?",
-        "rule": "-न्तु marks 3rd person plural imperative (let them); -हि marks 2nd person singular (may you).",
+        "rule": "-न्तु ending (पान्तु) = 3rd person plural imperative (let them); the verb ending -हि (अवाप्नुहि) = 2nd person singular imperative (may you). The separate word हि in नित्या हि means indeed.",
         "limits": "The verse says the deities are ever present in the body and wishes protection and long life. It does not say which deities by name here; the verb are is not stated and is understood.",
         "explain_hi": "पहली पंक्ति कहती है कि ये देवता विशेष रूप से तुम्हारे शरीर में सदा विद्यमान हैं; हि का अर्थ है निश्चय ही। दूसरी पंक्ति में दो इच्छाएँ हैं: ये देवता निरन्तर तुम्हारी रक्षा करें (पान्तु, बहुवचन क्योंकि देवताः बहुवचन है) और तुम दीर्घ आयु प्राप्त करो (अवाप्नुहि, मध्यम पुरुष एकवचन)।",
         "hook": "देवता शरीर में सदा; वे रक्षा करें (पान्तु), तुम दीर्घ आयु पाओ (अवाप्नुहि)।",
         "core": False,
         "questions": [
             mcq("pretest", 0, "What does the verse say about these deities and your body?",
-                ("They are ever present in it, in a special way.", "देहे विशेषेण ... नित्या हि देवताः."),
+                ("They are ever present in it.", "देहे विशेषेण ... नित्या हि देवताः."),
                 [("They are absent from it and must be called.", "The verse says they are present."),
-                 ("They stay in it for a single day only.", "The word नित्याः means constant."),
+                 ("They stay in it for a single day only, and then go.", "The word नित्याः means constant."),
                  ("They are present in the head alone.", "The verse says in the body, देहे.")],
                 "नित्याः (constant) and देहे (in the body) say that they are ever present there.",
                 "नित्य = constant, ever-present."),
             match(1, "Match each word to its meaning.",
                   [["एताः", "these"], ["देहे", "in the body"],
-                   ["नित्याः", "constant, ever-present"], ["सततम्", "continually"],
+                   ["नित्याः", "constant, ever-present"], ["तव", "your"],
                    ["दीर्घम्", "long"]],
                   "Five words of the verse.",
                   "नित्याः and देवताः are feminine plural; देहे is locative."),
@@ -138,12 +138,12 @@ AUTHORED = {
                   [0, 1],
                   "The two pairs are marked du.; ब्रह्मा is singular and देवाः plural.",
                   "Dual pair of names: -औ."),
-            mcq("apply", 4, "How does the card split स्वस्त्यग्निः?",
+            mcq("apply", 4, "How does the card split the start of स्वस्त्यग्निश्चैव?",
                 ("स्वस्ति + अग्निः", "इ before a different vowel becomes य्: svasti + agni."),
                 [("स्वस्त + अग्निः", "The word is स्वस्ति; the इ is not lost without trace."),
                  ("स्वस्ति + ग्निः", "There is no word ग्निः."),
                  ("स्वस्त्य + अग्निः", "There is no word स्वस्त्य here.")],
-                "स्वस्ति + अग्निः joins as स्वस्त्यग्निः, because इ before a different vowel becomes य्.",
+                "स्वस्ति + अग्निः joins as स्वस्त्यग्निः (in स्वस्त्यग्निश्चैव), because इ before a different vowel becomes य्.",
                 "इ + different vowel = य् + vowel."),
             mcq("transfer", 5, "Patterned on चन्द्रसूर्यौ, what does the invented पुत्रपौत्रौ mean?",
                 ("A son and a grandson.", "A dvandva in the dual: two named persons."),
@@ -160,7 +160,7 @@ AUTHORED = {
         "question": "What does the verse say about the protection and what does it wish for you?",
         "rule": "Imperatives express wishes: वर्धताम् (let it increase), प्रशाम्यन्तु (let them subside), भव (be).",
         "limits": "The verse names the maker of the protection only as the Grandsire (पितामह); the identification with Brahma is context, not stated here. ईतयः is rendered afflictions without more detail. The singular verb वर्धताम् with two subjects is read as agreeing with the nearer one.",
-        "explain_hi": "पहली पंक्ति कहती है कि यह रक्षा पितामह द्वारा की गई है और तुम्हारा कल्याण और आयु बढ़े। दूसरी पंक्ति में इच्छाएँ हैं कि तुम्हारी ईतियाँ (विपत्तियाँ) शान्त हों और तुम सदा पीड़ा से रहित रहो। वर्धताम्, प्रशाम्यन्तु और भव तीनों लोट् के रूप हैं; गतव्यथः बहुव्रीहि है, यानी जिसकी पीड़ा चली गई।",
+        "explain_hi": "पहली पंक्ति कहती है कि यह रक्षा पितामह द्वारा की गई है और तुम्हारा कल्याण और आयु बढ़े। दूसरी पंक्ति में इच्छाएँ हैं कि तुम्हारी ईतियाँ (विपत्तियाँ) शान्त हों और तुम सदा पीड़ा से रहित रहो। वर्धताम्, प्रशाम्यन्तु और भव तीनों लोट् के रूप हैं; गतव्यथः बहुव्रीहि है, यानी जिसकी पीड़ा चली गई। वर्धताम् एकवचन है, निकटतम कर्ता से मेल (नोट देखें)।",
         "hook": "रक्षा पितामह की; आयु बढ़े, ईतियाँ शान्त हों, सदा गतव्यथ रहो।",
         "core": False,
         "questions": [
@@ -190,11 +190,11 @@ AUTHORED = {
                   [0, 1, 2],
                   "The first three are marked imp.; रक्षा is a noun.",
                   "Imperative = a wish or command."),
-            mcq("apply", 4, "How do स्वस्ति and आयुः join in स्वस्त्यायुः?",
-                ("स्वस्त्यायुः: इ before a different vowel becomes य्.", "svasti + ayuh: इ + आ gives या."),
-                [("स्वस्तायुः: the इ is lost.", "The इ does not vanish; it becomes य्."),
-                 ("स्वस्तेयुः: इ + आ gives ए.", "ए comes from अ + इ, not from इ + आ."),
-                 ("स्वस्त्वायुः: the इ becomes व्.", "इ becomes य्, not व्.")],
+            mcq("apply", 4, "What happens to the इ of स्वस्ति when आयुः follows, as at the start of the printed स्वस्त्यायुर्वर्धतां?",
+                ("It becomes य्: स्वस्त्यायुः.", "svasti + ayuh: इ + आ gives या."),
+                [("It is lost: स्वस्तायुः.", "The इ does not vanish; it becomes य्."),
+                 ("It becomes ए: स्वस्तेयुः.", "ए comes from अ + इ, not from इ + आ."),
+                 ("It becomes व्: स्वस्त्वायुः.", "इ becomes य्, not व्.")],
                 "इ before a different vowel becomes य्, so स्वस्ति + आयुः = स्वस्त्यायुः.",
                 "इ + different vowel = य् + vowel."),
             mcq("transfer", 5, "Patterned on गतव्यथः, what does the invented गतभयः describe?",
@@ -211,7 +211,7 @@ AUTHORED = {
         "title": "एतैर्वेदात्मकैर्मन्त्रैः",
         "question": "By what has the one addressed been protected, and what is wished for him?",
         "rule": "-ऐः on a plural noun is the instrumental (with, by); मया = by me.",
-        "limits": "The second word of the first line is damaged in print and no question uses it; the metre there is irregular. The lead-in is given a plain rendering. The unit does not name the speaker.",
+        "limits": "The second word of the first line is damaged in print and no question uses it; the metre there is irregular. The unit does not name the speaker.",
         "explain_hi": "इस श्लोक में कहा गया है कि इन वेदस्वरूप मन्त्रों से, जो विपत्तियों और रोगों का नाश करते हैं, मेरे द्वारा इस प्रकार तुम्हारी रक्षा कर दी गई है; अब तुम दीर्घ आयु प्राप्त करो। एतैः, मन्त्रैः और मया तृतीया विभक्ति के रूप हैं। कृतरक्षः बहुव्रीहि है, यानी जिसकी रक्षा की जा चुकी है; यह ‘तुम’ के लिए है। पहली पंक्ति का दूसरा शब्द छपाई में बिगड़ा है।",
         "hook": "इन वेदमन्त्रों से, मेरे द्वारा, रक्षा हो चुकी; अब दीर्घ आयु पाओ।",
         "core": False,
@@ -243,7 +243,7 @@ AUTHORED = {
                   "एतैः and मया are marked inst.; त्वम् is nominative and अवाप्नुहि a verb.",
                   "Instrumental = by, with."),
             mcq("apply", 4, "Who is described as कृतरक्षः in the second line?",
-                ("The one addressed (you), whose protection is made.", "कृतरक्षः stands with त्वम्: you, one whose protection is made."),
+                ("You, the one addressed.", "कृतरक्षः stands with त्वम्: you, whose protection is made."),
                 [("The speaker, who has made the protection.", "The speaker is मया, by me, not त्वम्."),
                  ("The mantras, which have made the protection.", "The mantras are in the instrumental."),
                  ("The Veda, whose protection is made.", "The Veda is not the one protected.")],
@@ -265,7 +265,7 @@ AUTHORED = {
         "rule": "An absolutive of a verb with a prefix ends in -य (प्र-वेश्य): having caused to enter.",
         "limits": "ācārikam is read two ways (matters of conduct, or an attendant); no question rests on it. The subject, the physician, is not stated in the sentence.",
         "explain_hi": "यह गद्य-वाक्य बताता है कि रक्षा-कर्म हो जाने के बाद रोगी को घर में प्रवेश कराकर आगे का उपदेश दिया जाए। प्रवेश्य उपसर्ग वाली धातु का पूर्वकालिक रूप है, इसलिए -य पर समाप्त होता है। ‘आचारिकम्’ के दो अर्थ सम्भव हैं (आचार-सम्बन्धी बातें, या कोई आचारिक), नोट देखें; इसी कारण इस पर कोई प्रश्न नहीं है।",
-        "hook": "ततः रक्षित रोगी को घर में प्रवेश कराकर, आदेश दे।",
+        "hook": "पाठ के अनुसार: रक्षित रोगी को घर में प्रवेश कराकर आदेश दिया जाए।",
         "core": False,
         "questions": [
             mcq("pretest", 0, "What is done with the protected patient, according to this unit?",
@@ -301,7 +301,7 @@ AUTHORED = {
                  ("It is a wish.", "A wish would be an imperative.")],
                 "A verb with a prefix forms its absolutive in -य: प्र + वेश्य.",
                 "Prefix: absolutive in -य.",),
-            mcq("transfer", 5, "Patterned on प्रवेश्य, which is the absolutive of उप + विश् (to sit): having sat down?",
+            mcq("transfer", 5, "Patterned on प्रवेश्य, what is the absolutive, having sat down, of उप + विश् (to sit)?",
                 ("उपविश्य", "With a prefix the absolutive ends in -य."),
                 [("उपविष्ट्वा", "-त्वा is not used with a prefix."),
                  ("उपविष्टः", "That is a participle, not an absolutive."),
@@ -315,9 +315,9 @@ AUTHORED = {
         "title": "ततस्तृतीयेऽहनि",
         "question": "On which day does the text state the bandage is untied and bound again, and what is not to be done?",
         "rule": "The text states: untie on the third day, bind again in the same way, do not hurry and release on the next day.",
-        "limits": "The text does not say what is bound; the object (it) is supplied from context. It states a rule of timing only, with no reason in this unit. The reading of अपरेद्युः as the next day is a judgement.",
+        "limits": "The text does not say what is bound; the object (it) is supplied from context. It states a rule of timing only, with no reason in this unit. The reading of अपरेद्युः as the next day is a judgement. The day from which अपरेद्युः counts is not stated here.",
         "explain_hi": "पाठ के अनुसार तीसरे दिन खोलकर उसी प्रकार कपड़े की पट्टी से बाँधा जाए, और जल्दबाज़ी करके अगले दिन इसे न खोला जाए। विमुच्य पूर्वकालिक रूप है; बध्नीयात् और मोक्षयेत् विधिलिङ् के रूप हैं। ‘एनम्’ का कर्म पाठ में नहीं दिया गया, इसलिए अनुवाद में ‘इसे’ रखा गया है। यहाँ कारण नहीं बताया गया, अगला अंश बताता है।",
-        "hook": "तीसरे दिन खोलकर वैसे ही पट्टी बाँधे; अगले दिन जल्दबाज़ी में न खोले।",
+        "hook": "पाठ: तीसरे दिन खोलकर वैसे ही पट्टी बाँधना; अगले दिन जल्दबाज़ी में न खोलना।",
         "core": True,
         "questions": [
             mcq("pretest", 0, "On which day does the text state it is untied and bound again?",
@@ -369,16 +369,16 @@ AUTHORED = {
         "question": "What does the text say follows from releasing on the second day?",
         "rule": "The ablative -आत् can mean from, as a result of: परिमोक्षणात् = from the release.",
         "limits": "The text states three results of releasing on the second day. The sense of विग्रथितः (loosened, disturbed) is a judgement, so no question rests on it; this unit gives the reason that the previous unit leaves out.",
-        "explain_hi": "पिछले अंश की मनाही का कारण यहाँ है: पाठ के अनुसार दूसरे दिन खोल देने से तीन बातें होती हैं: घाव विचलित होता है, देर से भरता है और तीव्र पीड़ा वाला हो जाता है। परिमोक्षणात् पञ्चमी है (उससे)। तीव्ररुजः बहुव्रीहि है, यानी जिसकी पीड़ा तीव्र है। विग्रथितः के अर्थ में थोड़ा विकल्प है, नोट देखें।",
-        "hook": "दूसरे दिन खोलने से: घाव विचलित, देर से भरे, तीव्र पीड़ा।",
+        "explain_hi": "पिछले अंश की मनाही का कारण यहाँ है: पाठ के अनुसार दूसरे दिन खोल देने से तीन बातें होती हैं: घाव विग्रथित होता है (विचलित या अस्त-व्यस्त; अर्थ में विकल्प), देर से भरता है और तीव्र पीड़ा वाला हो जाता है। परिमोक्षणात् पञ्चमी है (उससे)। तीव्ररुजः बहुव्रीहि है, यानी जिसकी पीड़ा तीव्र है। विग्रथितः के अर्थ में थोड़ा विकल्प है, नोट देखें।",
+        "hook": "दूसरे दिन खोलने से: घाव विग्रथित (अर्थ में विकल्प), देर से भरे, तीव्र पीड़ा।",
         "core": True,
         "questions": [
             mcq("pretest", 0, "What does the text state follows release on the second day?",
-                ("The wound is disturbed, heals late and is severely painful.", "विग्रथितो व्रणश्चिरादुपसंरोहति तीव्ररुजश्च."),
-                [("The wound heals early and without any pain.", "The text says late and painful."),
-                 ("The wound dries up and the patient weakens.", "Neither result is mentioned."),
-                 ("The wound is unchanged and nothing follows.", "The text lists three results.")],
-                "Three results are stated: disturbed, healing late, severe pain.",
+                ("It heals late and is severely painful.", "चिरादुपसंरोहति तीव्ररुजश्च: heals late, severe pain."),
+                [("It heals early and without any pain.", "The text says late and painful."),
+                 ("It dries up and the patient grows weak.", "Neither result is mentioned."),
+                 ("It is unchanged and nothing follows.", "The text lists three results.")],
+                "The text states healing late and severe pain (and a further word, विग्रथित, whose sense varies).",
                 "Result of release on the second day."),
             match(1, "Match each word to its meaning.",
                   [["व्रणः", "wound"], ["चिरात्", "after a long time"],
@@ -419,16 +419,16 @@ AUTHORED = {
     # ------------------------------------------------------------------ 37
     "37": {
         "title": "अत ऊर्ध्वं दोषकालबलादीन्",
-        "question": "What does the text say is considered, and what five things are then prescribed?",
+        "question": "What does the text say is considered, and what five things does it list?",
         "rule": "A dvandva names all its members together: कषाय-आलेपन-बन्ध-आहार-आचार = decoctions, plasters, bandaging, diet and conduct.",
         "limits": "The text lists the five matters by name only; it gives no recipe, dose or method. The final verb is misprinted (the suggested reading is vidadhyat, he should prescribe), so no question rests on it. Kāla is time or season, and kaṣāya is only glossed decoction.",
-        "explain_hi": "इसके बाद पाठ कहता है कि दोष, काल, बल आदि का विचार करके काढ़े, लेप, पट्टी, आहार और आचार का विधान किया जाए। यह एक लम्बा द्वन्द्व समास है जिसके पाँचों सदस्य क्रम से आते हैं। किसी की विधि या मात्रा यहाँ नहीं दी गई। अन्तिम क्रिया छपाई में बिगड़ी है; उसका अर्थ ‘विधान करे’ लिया गया है।",
+        "explain_hi": "इसके बाद पाठ दोष, काल, बल आदि का विचार करके काढ़े, लेप, पट्टी, आहार और आचार की सूची देता है। यह एक लम्बा द्वन्द्व समास है जिसके पाँचों सदस्य क्रम से आते हैं। किसी की विधि या मात्रा यहाँ नहीं दी गई। अन्तिम क्रिया छपाई में बिगड़ी है; उसका अर्थ ‘विधान करे’ सुझाया गया है (संदिग्ध)।",
         "hook": "दोष-काल-बल देखकर: काढ़ा, लेप, पट्टी, आहार, आचार।",
         "core": False,
         "questions": [
-            mcq("pretest", 0, "Before prescribing, what does the text say he considers?",
-                ("The doshas, the time, the strength and the like.", "दोषकालबलादीन् अवेक्ष्य."),
-                [("The patient's name, village and family.", "None of these is named."),
+            mcq("pretest", 0, "Before the list, what does the text say he considers?",
+                ("The doshas, the time, the strength, etc.", "दोषकालबलादीन् अवेक्ष्य."),
+                [("The patient's name, village and his family.", "None of these is named."),
                  ("The phase of the moon and the stars.", "None of these is named."),
                  ("The price, the weight and the place.", "None of these is named.")],
                 "अवेक्ष्य (having considered) governs दोष, काल, बल and the like.",
@@ -438,12 +438,12 @@ AUTHORED = {
                    ["अवेक्ष्य", "having considered"], ["आहार", "diet"]],
                   "Words of the sentence.",
                   "अवेक्ष्य is an absolutive."),
-            order(2, "Put the five prescribed matters in the order in which the text lists them.",
+            order(2, "Put the five matters in the order in which the text lists them.",
                   ["कषाय", "आलेपन", "बन्ध", "आहार", "आचार"],
                   "Decoctions, plasters, bandaging, diet, conduct.",
                   "Order of the text.", role="extend",
                   teaches="The five matters come in one fixed list."),
-            multi("discriminate", 3, "Which of these does the text name among the prescribed matters?",
+            multi("discriminate", 3, "Which of these does the text name among the five?",
                   [("आलेपन", "Named: plasters."),
                    ("बन्ध", "Named: bandaging."),
                    ("आहार", "Named: diet."),
@@ -474,11 +474,11 @@ AUTHORED = {
         "rule": "हि gives the reason (for, because); न च एनम् = and not it; the instrumental gives the means (by a lapse).",
         "limits": "The subject (the wound) is not named in the unit. The sense of उत्सङ्ग (hollow) and the verb विकरोति (becomes deranged, or does harm) are judgements, so no question rests on them. The unit states a caution only.",
         "explain_hi": "पाठ के अनुसार जल्दबाज़ी करके भीतर दोष रहते हुए इसे भरने न दे। कारण हि से दिया गया है: थोड़े से भी अपचार से वह भीतर एक गड्ढा बनाकर फिर से विकृत हो जाता है। अल्पेन और अपचारेण तृतीया के रूप हैं। उत्सङ्ग और विकरोति के अर्थ में थोड़ा विकल्प है, नोट देखें।",
-        "hook": "भीतर दोष हो तो जल्दी में भरने न दे; थोड़ी भूल से भी बिगड़ता है।",
+        "hook": "पाठ: जल्दबाज़ी में भीतर दोष रहते भरना नहीं; कारण: थोड़ी भूल से भी (हि)।",
         "core": False,
         "questions": [
-            mcq("pretest", 0, "What does the text say he should not do, if hurrying?",
-                ("Make it heal while a fault remains within.", "सान्तर्दोषं रोपयेत् is what he should not do."),
+            mcq("pretest", 0, "What does the text say he should not do while hurrying?",
+                ("Make it heal with a fault within.", "सान्तर्दोषं रोपयेत् is what he should not do."),
                 [("Bind it with a cloth bandage.", "Binding is not mentioned here."),
                  ("Instruct him in the rules of conduct.", "Instruction is not mentioned here."),
                  ("Bring him into the house.", "Entering the house is not mentioned here.")],
@@ -526,7 +526,7 @@ AUTHORED = {
         "rule": "The text states: heal the wound well cleansed inside and outside; avoid the listed things until firmness is attained.",
         "limits": "How the three printed lines group into verses is uncertain (see the note); the questions use only items inside the lines. Sthairya (firmness) is understood as firmness of the healed place and is not defined. The text gives no remedy here and no dose.",
         "explain_hi": "इसलिए, पाठ के अनुसार, घाव को भीतर और बाहर से अच्छी तरह शुद्ध करके भरे। घाव भर जाने पर भी अजीर्ण, व्यायाम, व्यवाय आदि से बचे, और हर्ष, क्रोध तथा भय से भी, जब तक स्थिरता न आ जाए। ‘यावत्’ का अर्थ है जब तक। पंक्तियों का श्लोकों में समूह निश्चित नहीं है, नोट देखें; इसलिए प्रश्न केवल पंक्तियों की सामग्री पर हैं।",
-        "hook": "भीतर-बाहर शुद्ध करके भरे; भर जाने पर भी अजीर्ण, व्यायाम, व्यवाय, हर्ष, क्रोध, भय से बचे।",
+        "hook": "पाठ: भीतर-बाहर शुद्ध करके भरना; भर जाने पर भी अजीर्ण, व्यायाम, व्यवाय, हर्ष, क्रोध, भय से बचना।",
         "core": True,
         "questions": [
             mcq("pretest", 0, "Which of these does the text list among things to avoid even after healing?",
@@ -541,7 +541,7 @@ AUTHORED = {
                    ["रूढे", "when healed"], ["यावत्", "until"]],
                   "Words from the lines.",
                   "रूढे is locative; यावत् introduces the limit."),
-            order(2, "Put the things to avoid in the order in which the text names them.",
+            order(2, "Put the things the text lists to avoid in the order in which it names them.",
                   ["indigestion", "exertion", "sexual intercourse", "joy", "anger", "fear"],
                   "Indigestion, exertion and the like come first, then joy, anger and fear.",
                   "Order of the text.", role="extend",
@@ -576,12 +576,12 @@ AUTHORED = {
         "question": "After how many days does the verse say to release, in which seasons?",
         "rule": "The verse pairs the seasons in the order of its words: three days for the first three seasons, two days for the last three.",
         "limits": "The object (the bandage) and the physician are supplied from context. The pairing of the day counts with the seasons follows the order of the words, as the note says. The season names are given by plain terms only.",
-        "explain_hi": "श्लोक छह ऋतुओं को दो समूहों में रखता है। पहली पंक्ति के अनुसार हेमन्त, शिशिर और वसन्त में तीन दिन बाद खोले; दूसरी पंक्ति के अनुसार शरद्, ग्रीष्म और वर्षा में दो दिन बाद। त्र्यहात् और द्व्यहात् पञ्चमी के रूप हैं (इतने दिन बाद)। जोड़ी शब्दों के क्रम से ली गई है, नोट देखें।",
-        "hook": "हेमन्त-शिशिर-वसन्त: तीन दिन; शरद्-ग्रीष्म-वर्षा: दो दिन।",
+        "explain_hi": "श्लोक छह ऋतुओं को दो समूहों में रखता है। पाठ के अनुसार, पहली पंक्ति के हेमन्त, शिशिर, वसन्त में त्र्यहात् अर्थात् तीन दिन बाद खोले; शरद्, ग्रीष्म, वर्षा में (दूसरी पंक्ति) द्व्यहात् अर्थात् दो दिन बाद। त्र्यहात् और द्व्यहात् पञ्चमी के रूप हैं (इतने दिन बाद)। जोड़ी शब्दों के क्रम से ली गई है, नोट देखें।",
+        "hook": "शब्द-क्रम से: हेमन्त-शिशिर-वसन्त: तीन दिन; शरद्-ग्रीष्म-वर्षा: दो दिन।",
         "core": True,
         "questions": [
             mcq("pretest", 0, "What does the verse give for each group of seasons?",
-                ("The number of days after which to release.", "त्र्यहात् and द्व्यहात् are after three days and after two days."),
+                ("A number of days to wait.", "त्र्यहात् and द्व्यहात् are after three days and after two days."),
                 [("The kind of cloth to be used.", "No cloth is named."),
                  ("The place where to release it.", "No place is named."),
                  ("The name of the physician.", "No physician is named.")],
@@ -591,13 +591,13 @@ AUTHORED = {
                   [["हेमन्त", "the cold season"], ["वसन्त", "spring"], ["शरद्", "autumn"],
                    ["ग्रीष्म", "summer"], ["वर्षा", "the rains"]],
                   "Season names of the verse.",
-                  "These are all in the locative."),
+                  "हेमन्त and वसन्त are locative; शरद्, ग्रीष्म, वर्षा are members of one locative compound."),
             order(2, "Put the seasons in the order in which the verse names them.",
                   ["हेमन्त", "शिशिर", "वसन्त", "शरद्", "ग्रीष्म", "वर्षा"],
                   "Three seasons in the first line, then the three of the second line.",
                   "Order of the text.", role="extend",
                   teaches="The six seasons run in one order, in two groups of three."),
-            multi("discriminate", 3, "Which seasons does the verse pair with release after two days?",
+            multi("discriminate", 3, "By the order of the words, which seasons does the verse pair with release after two days?",
                   [("शरद्", "Autumn: in the second group."),
                    ("ग्रीष्म", "Summer: in the second group."),
                    ("वर्षा", "The rains: in the second group."),
@@ -628,7 +628,7 @@ AUTHORED = {
         "rule": "न इच्छेत् = he should not wish; -वत् added to a word means like (प्रदीप्तागारवत्, like a burning house).",
         "limits": "The verse gives only a comparison with a burning house, not a method. Which rule this refers to is not stated in the unit. Atipātin is rendered rapidly advancing or urgent.",
         "explain_hi": "श्लोक कहता है कि शीघ्र बढ़ने वाले रोगों में वैद्य इस विधि को न चाहे, और वहाँ जलते हुए घर के समान शीघ्र प्रतिक्रिया करे। अतिपातिषु और रोगेषु सप्तमी बहुवचन हैं। प्रदीप्तागारवत् में -वत् का अर्थ है समान। ‘इस विधि’ से कौन-सी विधि मानी जाए, यह इस अंश में नहीं कहा गया।",
-        "hook": "शीघ्र बढ़ने वाले रोगों में यह विधि नहीं; जलते घर के समान शीघ्रता।",
+        "hook": "पाठ: शीघ्र बढ़ने वाले रोगों में यह विधि नहीं; जलते घर के समान शीघ्रता।",
         "core": False,
         "questions": [
             mcq("pretest", 0, "What comparison does the verse use for acting quickly?",
@@ -732,13 +732,13 @@ NOTES_HI = {
     "30": "‘एताः … देवताः’ पिछले श्लोकों में नामित देवता हैं (नोट के अनुसार श्लोक २३ से २९)। ‘देहे’ के साथ ‘हैं’ क्रिया अध्याहृत है। ‘एतास्त्वाम्’ में एताः + त्वाम् (विसर्ग त से पहले स्) और ‘दीर्घमायुरवाप्नुहि’ में दीर्घम् + आयुः + अवाप्नुहि का जोड़ है। कोई पाठ-संकेत नहीं।",
     "31": "समूह-सम्बन्धी संशय: इस इकाई में तीन छपी अर्ध-पंक्तियाँ हैं (३१कख, ३१गघ, ३१ङच), यानी डेढ़ श्लोक; तीसरी पंक्ति उसी क्रम का नया वाक्य है और अगली इकाई के साथ भी जा सकती है, जैसी छपी वैसी रखी गई। सम्पादक के कोष्ठक अधूरे हैं (एक पंक्ति में खुलता है, दूसरी में बन्द होता है); कोष्ठक के शब्द दिए पाठ में चिह्नित नहीं हैं, इसलिए संशय केवल दर्ज है, पाठ नहीं बदला। ‘कुर्वताम्’ बाद के वाक्यांशों में अध्याहृत है। ‘सहेन्द्रगाः’ संदिग्ध है; ‘इन्द्र के साथ चलने वाले’ शाब्दिक अनुमान है, दूसरा पाठ देवताओं का विशेषण हो सकता है। नारद और पर्वत दो ऋषि-नाम हैं। इसी कारण अन्तिम समूह पर कोई प्रश्न नहीं है।",
     "32": "‘स्वस्त्यायुर्वर्धतां’ को स्वस्ति + आयुः + वर्धताम् पढ़ा गया है; एकवचन क्रिया निकटतम कर्ता से मेल खाती है। ‘पितामह’ को ब्रह्मा का विशेषण माना गया है, पर यह केवल सन्दर्भ है, इस इकाई में नहीं कहा गया। ‘ईतयः’ का अर्थ ‘विपत्तियाँ’ लिया गया, उससे अधिक विशेष नहीं। प्रश्नों में पितामह की पहचान पर कुछ आधारित नहीं है।",
-    "33": "आरम्भ का ‘इति स्वाहा’ पिछली मन्त्र-शृंखला को समाप्त करता है और सादा अनुवाद दिया गया है। पहली पंक्ति का दूसरा शब्द ‘इऋत्याव्याधिविनाशनैः’ बिगड़ा हुआ है; पाठ-संकेत ‘ईतिव्याधिविनाशनैः’ है (सम्भव), अर्थ ‘विपत्तियों और रोगों का नाश करने वाले’, और अक्षर-संख्या से भी यही ठीक बैठता है। इस कारण उस पाद का छन्द अनियमित है। यह इकाई रक्षा-मन्त्र खण्ड का अन्त है और वक्ता सन्दर्भ से चिकित्सक है। इस शब्द पर कोई प्रश्न आधारित नहीं है।",
+    "33": "पहली पंक्ति का दूसरा शब्द ‘इऋत्याव्याधिविनाशनैः’ बिगड़ा हुआ है; पाठ-संकेत ‘ईतिव्याधिविनाशनैः’ है (सम्भव), अर्थ ‘विपत्तियों और रोगों का नाश करने वाले’, और अक्षर-संख्या से भी यही ठीक बैठता है। इस कारण उस पाद का छन्द अनियमित है। यह इकाई रक्षा-मन्त्र खण्ड का अन्त है और वक्ता सन्दर्भ से चिकित्सक है। इस शब्द पर कोई प्रश्न आधारित नहीं है।",
     "34": "‘आचारिकम्’ को आचार से ‘आचार-सम्बन्धी (बातें)’ माना गया है; दूसरा पक्ष ‘आचारिक’ (सेवक या शिक्षक) है, जो ‘आदिशेत्’ का कर्म होगा (‘किसी आचारिक को आदेश दे’)। कर्ता (चिकित्सक) वाक्य में नहीं कहा गया। इसलिए ‘आचारिकम्’ पर कोई प्रश्न आधारित नहीं है। ‘कृतरक्षमातुरमागारं’ में कृतरक्षम् + आतुरम् + आगारम् का जोड़ है।",
     "35": "कर्म (पट्टी या घाव) पाठ में नहीं कहा गया; ‘एनम्’ का अनुवाद ‘इसे’ है। ‘अपरेद्युः’ को ‘अगले दिन’ पढ़ा गया है। ‘ततस्तृतीयेऽहनि’ में ततः + तृतीये + अहनि का जोड़ है (विसर्ग त से पहले स्; ए + अ = ए + ऽ)। ‘चैनं’ = च + एनम् (अ + ए = ऐ)। यहाँ कारण नहीं दिया गया; अगली इकाई देती है।",
     "36": "‘विग्रथित’ को ‘विचलित, अस्त-व्यस्त’ माना गया है (शाब्दिक अर्थ ‘गाँठ खुला हुआ’); दूसरे अनुवाद सम्भव हैं, इसलिए इस शब्द पर कोई प्रश्न आधारित नहीं है। ‘द्वितीयदिवसपरिमोक्षणात्’ पञ्चमी एकवचन है। ‘तीव्ररुजश्च’ = तीव्ररुजः + च।",
     "37": "‘वेदध्यात्’ अशुद्ध छपा रूप है; ‘विदध्यात्’ (वि-धा का विधिलिङ्) सुझाया गया है, अर्थ ‘विधान करे’। ‘काल’ को समय या ऋतु माना गया है और ‘बलादि’ का अर्थ ‘बल आदि’ है। ‘कषाय’ केवल ‘काढ़ा’ के रूप में दिया गया है, उससे अधिक नहीं। पिछली इकाई का ‘आचारिकम्’ यहाँ दोहराया नहीं गया। ‘अत ऊर्ध्वं’ में अतः का विसर्ग ऊ से पहले लुप्त है। क्रिया पर कोई प्रश्न आधारित नहीं है।",
     "38": "कर्ता ‘सः’ (वह) घाव है, पर इकाई में उसका नाम नहीं आता। ‘उत्सङ्ग’ का अनुवाद ‘गड्ढा’ है (शाब्दिक: गोद, जेब)। ‘विकरोति’ यहाँ अकर्मक ‘विकृत हो जाता है’ लिया गया है; ‘हानि करता है’ भी सम्भव है। इन दो शब्दों पर कोई प्रश्न आधारित नहीं है। ‘चैनं’ = च + एनम्; ‘सान्तर्दोषं’ = स + अन्तः + दोषम् (बहुव्रीहि)।",
-    "39": "समूह-सम्बन्धी संशय: तीन छपी पंक्तियाँ (३९कख, गघ, ङच) डेढ़ श्लोक हैं; पंक्ति १ और २ में १६ अक्षर हैं, तीसरी में भी १६, इसलिए छन्द-दोष नहीं। पर वाक्य-रचना से लगता है कि गघ और ङच मिलकर एक श्लोक हैं और कख अकेला अर्ध-श्लोक (तीसरी पंक्ति गघ के कर्मों और ‘यावत्’ वाक्यांश को आगे बढ़ाती है); जैसा छपा वैसा रखा गया है। ‘ropayet … suśuddham’ को ‘शुद्ध करके घाव को भरे’ पढ़ा गया है। ‘स्थैर्य’ भरे हुए स्थान की दृढ़ता है (अर्थ से, पाठ में नहीं कहा गया)। अन्तिम पंक्ति की क्रिया ‘विवर्जयेत्’ से ली गई है। प्रश्न केवल पंक्तियों की सामग्री पर हैं। आरम्भ का ‘भवन्ति चात्र’ = और यहाँ (ये श्लोक) हैं।",
+    "39": "समूह-सम्बन्धी संशय: तीन छपी पंक्तियाँ (३९कख, गघ, ङच) डेढ़ श्लोक हैं; पंक्ति १ और २ में १६ अक्षर हैं, तीसरी में भी १६, इसलिए छन्द-दोष नहीं। पर वाक्य-रचना से लगता है कि गघ और ङच मिलकर एक श्लोक हैं और कख अकेला अर्ध-श्लोक (तीसरी पंक्ति गघ के कर्मों और ‘यावत्’ वाक्यांश को आगे बढ़ाती है); जैसा छपा वैसा रखा गया है। ‘ropayet … suśuddham’ को ‘शुद्ध करके घाव को भरे’ पढ़ा गया है। ‘स्थैर्य’ भरे हुए स्थान की दृढ़ता है (अर्थ से, पाठ में नहीं कहा गया)। अन्तिम पंक्ति की क्रिया ‘विवर्जयेत्’ से ली गई है। प्रश्न केवल पंक्तियों की सामग्री पर हैं।",
     "40": "कर्म ‘पट्टी’ और कर्ता ‘वैद्य’ सन्दर्भ से जोड़े गए हैं। ‘त्र्यहात्’ का पहली तीन ऋतुओं से और ‘द्व्यहात्’ का अन्तिम तीन ऋतुओं से मेल शब्दों के क्रम के अनुसार लिया गया है। ऋतुओं के नाम सामान्य शब्दों में दिए गए हैं। ‘द्व्यहाच्छरद्…’ में द्व्यहात् + शरद् का जोड़ है (त् + श = च्छ)।",
     "41": "‘अतिपातिन्’ का अर्थ ‘शीघ्र बढ़ने वाला, तात्कालिक’ लिया गया है; ‘इच्छेत्’ का अर्थ ‘(पालन करना) चाहे’ है। ‘इस विधि’ से कौन-सी विधि मानी जाए, यह इकाई में नहीं कहा गया। पाठ केवल जलते घर की तुलना देता है, कोई उपाय नहीं। ‘नेच्छेत्’ = न + इच्छेत् (अ + इ = ए)।",
     "42": "पाठ जैसा कहता है वैसा अनूदित है। ‘यष्टीमधुक’ को औषधि-नाम के रूप में रखा गया है (पहचान नहीं की गई); कोई मात्रा पाठ में नहीं है। ‘कोष्ण’ को क + उष्ण, ‘थोड़ा गरम’, पढ़ा गया है। छन्द उपजाति है और पंक्तियाँ ठीक बनी हैं। कोई पाठ-संकेत नहीं।",
@@ -762,7 +762,7 @@ AIDS = {
         "chunks": {"steps": ["स्वस्ति ते भगवान् ब्रह्मा", "स्वस्ति देवाः च कुर्वताम्",
                              "स्वस्ति ते चन्द्रसूर्यौ च", "स्वस्ति नारदपर्वतौ",
                              "स्वस्ति अग्निः च एव वायुः च"]},
-        "sandhi": "स्वस्ति + अग्निः = स्वस्त्यग्निः (इ अलग स्वर से पहले य् बनता है); ‘चन्द्रसूर्यौ’ और ‘नारदपर्वतौ’ द्विवचन के जोड़े हैं। अन्तिम समूह (सहेन्द्रगाः) संदिग्ध है, यहाँ नहीं लिया।",
+        "sandhi": "स्वस्ति + अग्निः = स्वस्त्यग्निः (इ अलग स्वर से पहले य् बनता है), जो स्वस्त्यग्निश्चैव के आरम्भ में है; ‘चन्द्रसूर्यौ’ और ‘नारदपर्वतौ’ द्विवचन के जोड़े हैं। अन्तिम समूह (सहेन्द्रगाः) संदिग्ध है, यहाँ नहीं लिया।",
     },
     "32": {
         "frame": "रक्षा किसने की · क्या बढ़े · क्या शान्त हो · तुम कैसे रहो।",
@@ -774,43 +774,43 @@ AIDS = {
         "frame": "किससे: वेदस्वरूप मन्त्रों से · किसने: मैंने · किसकी रक्षा: तुम्हारी · इच्छा: दीर्घ आयु।",
         "chunks": {"steps": ["एतैः वेदात्मकैः मन्त्रैः", "मया एवम्", "कृतरक्षः त्वम्",
                              "दीर्घम् आयुः अवाप्नुहि"]},
-        "sandhi": "मया + एवम् = मयैवम् (अ + ए = ऐ); दीर्घम् + आयुः + अवाप्नुहि = दीर्घमायुरवाप्नुहि।",
+        "sandhi": "मया + एवम् = मयैवम् (आ + ए = ऐ); दीर्घम् + आयुः + अवाप्नुहि = दीर्घमायुरवाप्नुहि।",
     },
     "34": {
-        "frame": "ततः · रक्षित रोगी · घर में · प्रवेश कराकर · आदेश दे।",
-        "chain": {"steps": ["ततः", "रक्षा किए हुए रोगी को", "घर में प्रवेश कराकर", "आदेश दे"]},
-        "anchors": "प्रवेश्य = प्र + विश् का पूर्वकालिक रूप, उपसर्ग के कारण -य। यही नियम आदाय और उपास्य में भी है।",
+        "frame": "ततः · रक्षित रोगी · घर में · प्रवेश कराकर · पाठ: आदेश दे।",
+        "chain": {"steps": ["ततः", "रक्षा किए हुए रोगी को", "घर में प्रवेश कराकर", "पाठ: आदेश दे"]},
+        "anchors": "प्रवेश्य = प्र + विश् (णिच्, प्रवेशय-) का पूर्वकालिक रूप, उपसर्ग के कारण -य। यही नियम आदाय और उपास्य में भी है।",
     },
     "35": {
         "frame": "तीसरा दिन: खोलना, वैसे ही पट्टी बाँधना · अगले दिन जल्दबाज़ी में न खोलना।",
-        "chain": {"steps": ["तीसरे दिन खोलकर", "उसी प्रकार वस्त्र-पट्टी से बाँधे",
-                            "अगले दिन जल्दबाज़ी में न खोले"]},
+        "chain": {"steps": ["पाठ के अनुसार: तीसरे दिन खोलकर", "उसी प्रकार वस्त्र-पट्टी से बाँधे",
+                            "पाठ: अगले दिन जल्दबाज़ी में न खोले"]},
         "sandhi": "ततः + तृतीये + अहनि = ततस्तृतीयेऽहनि (विसर्ग त से पहले स्; ए + अ = ए + ऽ); च + एनम् = चैनम्।",
     },
     "36": {
-        "frame": "कारण: दूसरे दिन खोलना · फल: विचलित, देर से भरे, तीव्र पीड़ा।",
-        "chain": {"steps": ["दूसरे दिन खोलना", "घाव विचलित", "देर से भरता है", "तीव्र पीड़ा वाला"]},
+        "frame": "कारण: दूसरे दिन खोलना · फल: विग्रथित (अर्थ में विकल्प), देर से भरे, तीव्र पीड़ा।",
+        "chain": {"steps": ["दूसरे दिन खोलना", "घाव विग्रथित (अर्थ में विकल्प)", "देर से भरता है", "तीव्र पीड़ा वाला"]},
         "chunks": {"steps": ["द्वितीयदिवसपरिमोक्षणात्", "विग्रथितः व्रणः", "चिरात् उपसंरोहति",
                              "तीव्ररुजः च भवति"]},
     },
     "37": {
-        "frame": "पहले विचार: दोष, काल, बल आदि · फिर विधान: काढ़ा, लेप, पट्टी, आहार, आचार।",
+        "frame": "पहले विचार: दोष, काल, बल आदि · फिर पाठ की सूची: काढ़ा, लेप, पट्टी, आहार, आचार।",
         "diagram": {"steps": ["दोषकालबलादीन् अवेक्ष्य", "कषाय", "आलेपन", "बन्ध", "आहार", "आचार"]},
         "letters": "पाँच विधानों के आरम्भिक अक्षर: क · आ · ब · आ · आ (कषाय, आलेपन, बन्ध, आहार, आचार)। यह मेरा बनाया सहारा है, पाठ का दावा नहीं।",
     },
     "38": {
         "frame": "निषेध: जल्दबाज़ी में भीतर दोष रहते भरना · कारण: थोड़ी भूल से भी (हि)।",
-        "chain": {"steps": ["न च एनम् त्वरमाणः", "सान्तर्दोषं रोपयेत्", "स हि अल्पेन अपि अपचारेण"]},
+        "chain": {"steps": ["पाठ: न च एनम् त्वरमाणः", "सान्तर्दोषं रोपयेत्", "स हि अल्पेन अपि अपचारेण"]},
         "sandhi": "च + एनम् = चैनम् (अ + ए = ऐ); सः + हि = स हि (विसर्ग लुप्त)।",
     },
     "39": {
         "frame": "पहले: भीतर-बाहर शुद्ध करके भरे · फिर: भर जाने पर भी इनसे बचे · सीमा: जब तक स्थिरता न आए।",
-        "chain": {"steps": ["भीतर और बाहर से सुशुद्ध", "घाव को भरे", "भर जाने पर भी अजीर्ण, व्यायाम, व्यवाय आदि से बचे",
-                            "हर्ष, क्रोध, भय से भी बचे", "यावत् स्थैर्य न आए"]},
+        "chain": {"steps": ["भीतर और बाहर से सुशुद्ध", "पाठ: घाव को भरे", "पाठ: भर जाने पर भी अजीर्ण, व्यायाम, व्यवाय आदि से बचे",
+                            "पाठ: हर्ष, क्रोध, भय से भी बचे", "यावत् स्थैर्य न आए"]},
         "sandhi": "तस्मात् + अन्तर् = तस्मादन्तर् (त् + स्वर = द्); अन्तर् + बहिः + च + एव = अन्तर्बहिश्चैव।",
     },
     "40": {
-        "frame": "छह ऋतुएँ, दो समूह: तीन दिन बाद और दो दिन बाद।",
+        "frame": "छह ऋतुएँ, दो समूह: तीन दिन बाद और दो दिन बाद (जोड़ी शब्द-क्रम से)।",
         "contrast": {"groups": [
             {"label": "तीन दिन बाद (त्र्यहात्)", "items": ["हेमन्त", "शिशिर", "वसन्त"]},
             {"label": "दो दिन बाद (द्व्यहात्)", "items": ["शरद्", "ग्रीष्म", "वर्षा"]}]},
@@ -818,8 +818,8 @@ AIDS = {
     },
     "41": {
         "frame": "रोग: शीघ्र बढ़ने वाले · यह विधि नहीं · जलते घर के समान शीघ्र प्रतिक्रिया।",
-        "chain": {"steps": ["अतिपाती रोगों में", "इस विधि को न चाहे",
-                            "जलते घर के समान शीघ्र प्रतिक्रिया करे"]},
+        "chain": {"steps": ["अतिपाती रोगों में", "पाठ: इस विधि को न चाहे",
+                            "पाठ: जलते घर के समान शीघ्र प्रतिक्रिया"]},
         "sandhi": "न + इच्छेत् = नेच्छेत् (अ + इ = ए); प्रदीप्त-आगार-वत् = प्रदीप्तागारवत् (अ + आ = आ)।",
     },
     "42": {
@@ -845,18 +845,18 @@ IMAGE_SPECS = {
     },
     ("35", "chain"): {
         "file": "ch5-bandha-35.svg",
-        "alt": "Three steps of the text: on the third day untie it, bind again in the same way with a cloth bandage, and do not hurry and release it on the next day.",
+        "alt": "The text states two steps: on the third day untie it and bind again in the same way with a cloth bandage. Joined by a dotted line, it also states a prohibition: do not hurry and release it on the next day.",
         "type": "mermaid",
         "code": ('flowchart TD\n'
-                 '  A["तीसरे दिन खोलकर"] --> B["उसी प्रकार<br/>वस्त्र-पट्टी से बाँधे"]\n'
-                 '  B --> C["अगले दिन जल्दबाज़ी में<br/>न खोले"]'),
+                 '  A["पाठ के अनुसार:<br/>तीसरे दिन खोलकर"] --> B["उसी प्रकार<br/>वस्त्र-पट्टी से बाँधे"]\n'
+                 '  B -.- C["पाठ: अगले दिन जल्दबाज़ी में<br/>न खोले"]'),
     },
     ("36", "chain"): {
         "file": "ch5-dvitiya-36.svg",
-        "alt": "From releasing on the second day follow three results: the wound is disturbed, it heals late, and it becomes severely painful.",
+        "alt": "From releasing on the second day follow three results: the wound is vigrathita (loosened or disturbed; sense varies), it heals late, and it becomes severely painful.",
         "type": "mermaid",
         "code": ('flowchart TD\n'
-                 '  A["दूसरे दिन खोलना"] --> B["घाव विचलित"]\n'
+                 '  A["दूसरे दिन खोलना"] --> B["घाव विग्रथित<br/>(अर्थ में विकल्प)"]\n'
                  '  A --> C["देर से भरता है"]\n'
                  '  A --> D["तीव्र पीड़ा वाला"]'),
     },
@@ -865,7 +865,7 @@ IMAGE_SPECS = {
         "alt": "Mind map: after considering the doshas, time and strength, the text lists five matters: decoctions, plasters, bandaging, diet and conduct.",
         "type": "mermaid",
         "code": ('mindmap\n'
-                 '  दोष-काल-बल देखकर विधान\n'
+                 '  दोष-काल-बल देखकर, पाठ की सूची\n'
                  '    काढ़े\n'
                  '    लेप\n'
                  '    पट्टी\n'
@@ -874,20 +874,20 @@ IMAGE_SPECS = {
     },
     ("40", "contrast"): {
         "file": "ch5-ritu-40.svg",
-        "alt": "Table of two groups of seasons: hemanta, shishira and vasanta with release after three days; sharad, grishma and varsha with release after two days.",
+        "alt": "Table of two groups of seasons, paired with the day counts by the order of the words: hemanta, shishira and vasanta with release after three days; sharad, grishma and varsha with release after two days.",
         "type": "table",
-        "title": "ऋतु और दिन",
+        "title": "ऋतु और दिन (शब्द-क्रम से)",
         "heads": ["ऋतुएँ", "कितने दिन बाद"],
         "rows": [["हेमन्त, शिशिर, वसन्त", "तीन दिन बाद"],
                  ["शरद्, ग्रीष्म, वर्षा", "दो दिन बाद"]],
     },
     ("41", "chain"): {
         "file": "ch5-atipati-41.svg",
-        "alt": "In rapidly advancing diseases the physician should not wish for this rule, and should act with quick counter-measures as for a burning house.",
+        "alt": "The text says that in rapidly advancing diseases the physician should not wish for this rule, and that there one should act quickly, as with a burning house.",
         "type": "mermaid",
         "code": ('flowchart TD\n'
-                 '  A["शीघ्र बढ़ने वाले रोग"] --> B["इस विधि को<br/>न चाहे"]\n'
-                 '  A --> C["जलते घर के समान<br/>शीघ्र प्रतिक्रिया करे"]'),
+                 '  A["शीघ्र बढ़ने वाले रोग"] --> B["पाठ: इस विधि को<br/>न चाहे"]\n'
+                 '  A --> C["पाठ: जलते घर के समान<br/>शीघ्र प्रतिक्रिया"]'),
     },
     ("42", "chain"): {
         "file": "ch5-vedana-42.svg",
@@ -899,3 +899,24 @@ IMAGE_SPECS = {
                  '  C --> D["शान्त हो जाती है"]'),
     },
 }
+
+# Vary which options of each multi question are keyed (new position -> old position).
+_MULTI_ORDER = {
+    "30": [2, 0, 3, 1], "31": [2, 0, 1, 3], "32": [0, 3, 1, 2], "33": [0, 2, 1, 3],
+    "34": [2, 3, 0, 1], "35": [0, 2, 3, 1], "36": [1, 2, 0, 3], "37": [1, 2, 3, 0],
+    "38": [2, 0, 1, 3], "39": [3, 0, 1, 2], "40": [0, 1, 3, 2], "41": [2, 3, 0, 1],
+}
+
+
+def _reorder_multi():
+    for n, perm in _MULTI_ORDER.items():
+        for q in AUTHORED[n]["questions"]:
+            if q["kind"] != "multi":
+                continue
+            old_answers = set(q["answers"])
+            q["options"] = [q["options"][i] for i in perm]
+            q["optionExplain"] = [q["optionExplain"][i] for i in perm]
+            q["answers"] = sorted(k for k, i in enumerate(perm) if i in old_answers)
+
+
+_reorder_multi()
