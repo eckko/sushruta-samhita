@@ -1,15 +1,152 @@
 {
-  "id": "sample-book",
-  "book": "Sample Book",
-  "summary": "A tiny sample bank that shows the shape of questions.json.",
-  "labels": {"unit": "Lesson", "units": "lessons", "topic": "Idea"},
-  "excluded": ["cover, copyright, preface, index"],
-  "chapters": [
-    {
-      "unit": "Lesson 1",
-      "unitTitle": "Wrapping around",
-      "unitSummary": "Numbers wrap around after n steps, so only the remainder matters.",
-      "concepts": ["remainders", "congruence"]
-    }
-  ]
+ "id": "sushruta-samhita",
+ "book": "Sushruta Samhita, Sutrasthana 1-5",
+ "summary": "The first five chapters of the Sutrasthana of the Sushruta Samhita, the classical Sanskrit text of surgery, studied unit by unit with word split, Hindi and English.",
+ "labels": {
+  "unit": "Chapter",
+  "units": "chapters",
+  "topic": "Unit"
+ },
+ "grouping": null,
+ "excluded": [
+  {
+   "what": "Sutrasthana chapters 6 onwards and all other sthanas",
+   "why": "outside the first part requested (chapters 1-5)"
+  },
+  {
+   "what": "Footnotes and variant readings of the SARIT apparatus",
+   "why": "kept as source notes for review, not tested"
+  },
+  {
+   "what": "Colophons and chapter titles' sandhi forms",
+   "why": "front/back matter of each chapter"
+  }
+ ],
+ "chapters": [
+  {
+   "unit": "Chapter 1",
+   "unitTitle": "Vedotpatti",
+   "unitSummary": "Origin of the Veda of life (Ayurveda), the eight branches of the science, and the lineage from Dhanvantari to Sushruta.",
+   "idPrefix": "su1",
+   "pages": 39.0,
+   "weight": 1.0,
+   "sections": [],
+   "sourceParts": [
+    "units/chapter1_units.json"
+   ],
+   "kind": "verse-study",
+   "kindConfidence": "high",
+   "kindReason": "Verse-numbered Sanskrit text (mostly prose sutra passages with some verse), learned unit by unit from a SARIT IAST edition.",
+   "modifiers": [
+    "sanskrit",
+    "canonical"
+   ],
+   "units": 52,
+   "verseUnits": 6,
+   "htrab": []
+  },
+  {
+   "unit": "Chapter 2",
+   "unitTitle": "Shishyopanayaniya",
+   "unitSummary": "How a student is chosen and initiated: eligibility, the teacher's duties and the rules of conduct.",
+   "idPrefix": "su2",
+   "pages": 7.5,
+   "weight": 1.0,
+   "sections": [],
+   "sourceParts": [
+    "units/chapter2_units.json"
+   ],
+   "kind": "verse-study",
+   "kindConfidence": "high",
+   "kindReason": "Verse-numbered Sanskrit text (mostly prose sutra passages with some verse), learned unit by unit from a SARIT IAST edition.",
+   "modifiers": [
+    "sanskrit",
+    "canonical"
+   ],
+   "units": 10,
+   "verseUnits": 2,
+   "htrab": []
+  },
+  {
+   "unit": "Chapter 3",
+   "unitTitle": "Adhyayanasampradaniya",
+   "unitSummary": "How the text is studied and handed on: the student's training, the parts of the science and what is taught.",
+   "idPrefix": "su3",
+   "pages": 42.0,
+   "weight": 1.0,
+   "sections": [],
+   "sourceParts": [
+    "units/chapter3_units.json"
+   ],
+   "kind": "verse-study",
+   "kindConfidence": "high",
+   "kindReason": "Verse-numbered Sanskrit text (mostly prose sutra passages with some verse), learned unit by unit from a SARIT IAST edition.",
+   "modifiers": [
+    "sanskrit",
+    "canonical"
+   ],
+   "units": 56,
+   "verseUnits": 51,
+   "htrab": []
+  },
+  {
+   "unit": "Chapter 4",
+   "unitTitle": "Prabhashaniya",
+   "unitSummary": "Methods of discussion and teaching: how a treatise is put together and argued, and the means of right knowledge.",
+   "idPrefix": "su4",
+   "pages": 6.8,
+   "weight": 1.0,
+   "sections": [],
+   "sourceParts": [
+    "units/chapter4_units.json"
+   ],
+   "kind": "verse-study",
+   "kindConfidence": "high",
+   "kindReason": "Verse-numbered Sanskrit text (mostly prose sutra passages with some verse), learned unit by unit from a SARIT IAST edition.",
+   "modifiers": [
+    "sanskrit",
+    "canonical"
+   ],
+   "units": 9,
+   "verseUnits": 4,
+   "htrab": []
+  },
+  {
+   "unit": "Chapter 5",
+   "unitTitle": "Agropaharaniya",
+   "unitSummary": "The offering made before the surgeon begins, and the preparations and conduct for surgical and instrument work.",
+   "idPrefix": "su5",
+   "pages": 31.5,
+   "weight": 1.0,
+   "sections": [],
+   "sourceParts": [
+    "units/chapter5_units.json"
+   ],
+   "kind": "verse-study",
+   "kindConfidence": "high",
+   "kindReason": "Verse-numbered Sanskrit text (mostly prose sutra passages with some verse), learned unit by unit from a SARIT IAST edition.",
+   "modifiers": [
+    "sanskrit",
+    "canonical"
+   ],
+   "units": 42,
+   "verseUnits": 22,
+   "htrab": []
+  },
+  {
+   "unit": "Reading the book as a whole",
+   "unitTitle": "Sutrasthana 1-5 together",
+   "unitSummary": "How the five opening chapters build one picture of the science, its teacher, student and method.",
+   "idPrefix": "whole",
+   "pages": 8,
+   "weight": 1.0,
+   "sections": [],
+   "sourceParts": [],
+   "kind": "expository",
+   "alsoKind": "verse-study",
+   "wholeHint": "The text's chapters in order and the verses that carry its main rules, lists and definitions.",
+   "modifiers": [],
+   "htrab": []
+  }
+ ]
 }
