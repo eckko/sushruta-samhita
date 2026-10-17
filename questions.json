@@ -1,0 +1,418 @@
+{
+  "id": "sample-book",
+  "book": "Sample Book",
+  "labels": {
+    "unit": "Lesson",
+    "units": "lessons",
+    "topic": "Idea",
+    "whole": "Whole course"
+  },
+  "concepts": [
+    {
+      "id": "remainders",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Remainders",
+      "title": "Remainders and the clock",
+      "requires": [],
+      "card": {
+        "paragraphs": [
+          "A clock face only has the numbers 1 to 12. When the hour hand passes 12 it does not go on to 13; it starts again. So the time 17:00 shows as 5 o'clock.",
+          "The reason is division with remainder. 17 hours is one full turn of 12 hours plus 5 more: \\(17 = 1 \\times 12 + 5\\). The full turns do not change where the hand points; only the 5 left over does.",
+          "We write \\(17 \\bmod 12 = 5\\), read '17 mod 12 is 5'. In general \\(a \\bmod n\\) is the remainder when a is divided by n. It is always one of 0, 1, 2, and so on up to \\(n - 1\\). On the clock, the top position 12 plays the part of remainder 0."
+        ],
+        "example": "Where does the hour hand point 29 hours after midnight? Divide by 12: \\(29 = 2 \\times 12 + 5\\). Two full turns change nothing, so the hand points to 5, and \\(29 \\bmod 12 = 5\\).",
+        "rule": "\\(a \\bmod n\\) is the remainder of a divided by n, a number from 0 to \\(n - 1\\).",
+        "limits": "It describes whole numbers divided by a positive whole number n. It says nothing about fractions, and the choice of n matters: 17 leaves 5 on a 12-hour clock but 3 on a 7-day week.",
+        "media": [
+          {
+            "id": "sample/fig-clock",
+            "type": "image/png",
+            "role": "figure",
+            "alt": "A clock face whose short hand points at 5 and long hand at 12: 17:00 shown as 5 o'clock."
+          }
+        ]
+      },
+      "question": "What is left over when a number wraps around a clock?",
+      "core": true
+    },
+    {
+      "id": "congruence",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Same remainder",
+      "title": "Congruence: same remainder",
+      "requires": [
+        "remainders"
+      ],
+      "card": {
+        "paragraphs": [
+          "Many numbers leave the same remainder: 5, 17 and 29 all leave remainder 5 when divided by 12. On a clock they all point to 5. Mathematicians give this a short name.",
+          "We write \\(a \\equiv b \\pmod{n}\\), read 'a is congruent to b mod n', when a and b leave the same remainder after division by n. For example \\(17 \\equiv 5 \\pmod{12}\\) and \\(29 \\equiv 17 \\pmod{12}\\).",
+          "There is a second test that needs no remainders. \\(a \\equiv b \\pmod{n}\\) exactly when n divides \\(a - b\\), meaning \\(a - b\\) is a whole multiple of n. For instance \\(29 - 17 = 12\\), and 12 is a multiple of 12, so \\(29 \\equiv 17 \\pmod{12}\\)."
+        ],
+        "example": "Is \\(40 \\equiv 16 \\pmod{12}\\)? Remainders: \\(40 = 3 \\times 12 + 4\\) and \\(16 = 12 + 4\\), both 4, so yes. Difference test: \\(40 - 16 = 24 = 2 \\times 12\\), also yes.",
+        "rule": "\\(a \\equiv b \\pmod{n}\\) means a and b leave the same remainder when divided by n; equivalently, \\(a - b\\) is a multiple of n.",
+        "limits": "Congruence is always relative to one chosen n. Two numbers can be congruent mod 12 and not congruent mod 5, so name n every time."
+      },
+      "question": "When do two numbers point to the same place on a clock?",
+      "core": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "remainders-p",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Remainders",
+      "concept": "remainders",
+      "role": "pretest",
+      "rung": 0,
+      "kind": "mcq",
+      "q": "A clock shows 9 o'clock. What time does it show 5 hours later?",
+      "options": [
+        "14 o'clock",
+        "2 o'clock",
+        "1 o'clock",
+        "5 o'clock"
+      ],
+      "answer": 1,
+      "explain": "Count on from 9: 10, 11, 12, 1, 2. After 12 the clock starts again, so 9 + 5 = 14 hours shows as 2 o'clock. The next card shows why this is a remainder.",
+      "optionExplain": [
+        "9 + 5 = 14 is the right sum, but a clock face stops at 12, so 14 o'clock is never shown.",
+        "Right: the hand passes 12 and goes on 2 more hours, since 14 is one turn of 12 plus 2.",
+        "This is one hour short, which happens if you count 9 itself as the first hour: 9, 10, 11, 12, 1.",
+        "5 is how many hours pass, not where the hand ends up; the count has to start from 9."
+      ],
+      "rule": "A clock starts again after 12."
+    },
+    {
+      "id": "remainders-1",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Remainders",
+      "concept": "remainders",
+      "role": "warmup",
+      "rung": 1,
+      "kind": "fill",
+      "q": "Fill in the remainder: \\(23 \\bmod 12 = \\) ____",
+      "accept": [
+        "11",
+        "eleven"
+      ],
+      "explain": "\\(23 = 1 \\times 12 + 11\\), so the remainder is 11. On a clock, 23:00 shows as 11 o'clock.",
+      "rule": "Take away whole twelves; what is left, from 0 to 11, is the answer."
+    },
+    {
+      "id": "remainders-2",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Remainders",
+      "concept": "remainders",
+      "role": "apply",
+      "rung": 2,
+      "kind": "mcq",
+      "q": "It is 10 o'clock now. A train journey takes 27 hours. What does a 12-hour clock show when the train arrives?",
+      "options": [
+        "3 o'clock",
+        "13 o'clock",
+        "1 o'clock",
+        "10 o'clock"
+      ],
+      "answer": 2,
+      "explain": "The arrival is 10 + 27 = 37 hours on from 12. Since \\(37 = 3 \\times 12 + 1\\), the clock shows 1 o'clock.",
+      "optionExplain": [
+        "3 is \\(27 \\bmod 12\\), the remainder of the journey alone. It forgets to start counting from 10 o'clock.",
+        "10 + 3 = 13 adds the right remainder but forgets to wrap around a second time: 13 o'clock is 1 o'clock.",
+        "Right: \\(10 + 27 = 37\\) and \\(37 = 3 \\times 12 + 1\\), so the hand points to 1.",
+        "27 hours feels like 'about a day', but only multiples of 12 bring the hand back; \\(27 = 2 \\times 12 + 3\\)."
+      ],
+      "hint": "Add the journey to the start time first, then remove whole twelves.",
+      "rule": "Add first, then wrap around as many times as needed."
+    },
+    {
+      "id": "remainders-3",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Remainders",
+      "concept": "remainders",
+      "role": "extend",
+      "rung": 3,
+      "kind": "multi",
+      "q": "Select every number that leaves remainder 5 when divided by 12.",
+      "options": [
+        "17",
+        "15",
+        "29",
+        "41",
+        "50",
+        "53"
+      ],
+      "answers": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "explain": "17, 29, 41 and 53 are \\(12 + 5\\), \\(2 \\times 12 + 5\\), \\(3 \\times 12 + 5\\) and \\(4 \\times 12 + 5\\). Each is 12 more than the one before, so they all point to 5 on the clock.",
+      "optionExplain": [
+        "Right: \\(17 = 12 + 5\\).",
+        "15 ends in 5, which is tempting, but \\(15 = 12 + 3\\), so its remainder is 3.",
+        "Right: \\(29 = 2 \\times 12 + 5\\).",
+        "Right: \\(41 = 3 \\times 12 + 5\\), one more full turn than 29.",
+        "50 is close to 53, but \\(50 = 4 \\times 12 + 2\\), so its remainder is 2.",
+        "Right: \\(53 = 4 \\times 12 + 5\\)."
+      ],
+      "rule": "Numbers with the same remainder mod 12 are 12 apart.",
+      "teaches": "The numbers with remainder 5 mod 12 form a list 5, 17, 29, 41, 53, ... in which each is 12 more than the last, because adding a full turn never moves the hand."
+    },
+    {
+      "id": "remainders-4",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Remainders",
+      "concept": "remainders",
+      "role": "discriminate",
+      "rung": 4,
+      "kind": "sort",
+      "q": "Each question is answered by one part of a division with remainder. Sort them: is the answer the quotient (number of full rounds) or the remainder (what is left over)?",
+      "items": [
+        {
+          "t": "How many full turns the hour hand makes in 29 hours",
+          "g": 0
+        },
+        {
+          "t": "Which number the hour hand points to after 29 hours",
+          "g": 1
+        },
+        {
+          "t": "How many full boxes 50 eggs fill, 12 to a box",
+          "g": 0
+        },
+        {
+          "t": "How many loose eggs remain after boxing 50 eggs, 12 to a box",
+          "g": 1
+        },
+        {
+          "t": "How many complete weeks there are in 45 days",
+          "g": 0
+        },
+        {
+          "t": "How many extra days there are beyond the complete weeks in 45 days",
+          "g": 1
+        }
+      ],
+      "groups": [
+        "The quotient (full rounds)",
+        "The remainder (left over)"
+      ],
+      "explain": "\\(29 = 2 \\times 12 + 5\\), \\(50 = 4 \\times 12 + 2\\) and \\(45 = 6 \\times 7 + 3\\). The quotients 2, 4 and 6 count full rounds; the remainders 5, 2 and 3 say where you end up.",
+      "rule": "The quotient counts full rounds; the remainder says where you land."
+    },
+    {
+      "id": "remainders-5",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Remainders",
+      "concept": "remainders",
+      "role": "transfer",
+      "rung": 5,
+      "kind": "mcq",
+      "q": "A kitchen timer's minute hand starts at 0 and runs for 175 minutes. Which minute mark does the minute hand point to at the end?",
+      "options": [
+        "55",
+        "7",
+        "2",
+        "75"
+      ],
+      "answer": 0,
+      "explain": "The minute hand goes round once every 60 minutes, so divide by 60: \\(175 = 2 \\times 60 + 55\\). It points to minute 55.",
+      "optionExplain": [
+        "Right: the cycle for minutes has length 60, and \\(175 = 2 \\times 60 + 55\\).",
+        "\\(175 \\bmod 12 = 7\\). Dividing by 12 is a habit from the hour hand, but the minute hand needs 60 minutes, not 12, to go round.",
+        "2 is the quotient: the number of full turns. It says how often the hand went round, not where it points.",
+        "175 minus 100 is 75, but a minute hand has no 75 mark; take away whole 60s until less than 60 is left."
+      ],
+      "hint": "How many minutes does the minute hand need to go all the way round?",
+      "rule": "Divide by the length of the cycle.",
+      "teaches": "The number you divide by (the modulus) is the length of the cycle, so the same method works for any cycle: 60 for minutes, 24 for a 24-hour clock, 12 for hours."
+    },
+    {
+      "id": "congruence-p",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Same remainder",
+      "concept": "congruence",
+      "role": "pretest",
+      "rung": 0,
+      "kind": "tf",
+      "q": "On a 12-hour clock, the hour hand points to the same number 3 hours after midnight and 15 hours after midnight.",
+      "answer": true,
+      "explain": "15 hours is one full turn of 12 hours plus 3, and a full turn leaves the hand where it was. The next card gives this 'same position' a name.",
+      "rule": "Numbers that differ by a full turn land in the same place."
+    },
+    {
+      "id": "congruence-1",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Same remainder",
+      "concept": "congruence",
+      "role": "warmup",
+      "rung": 1,
+      "kind": "mcq",
+      "q": "Which statement means the same as \\(38 \\equiv 14 \\pmod{12}\\)?",
+      "options": [
+        "38 divided by 12 gives 14",
+        "38 minus 14 is exactly 12",
+        "14 is the remainder of 38 divided by 12",
+        "38 and 14 leave the same remainder when divided by 12"
+      ],
+      "answer": 3,
+      "explain": "Congruence means equal remainders. Here both are 2: \\(38 = 3 \\times 12 + 2\\) and \\(14 = 12 + 2\\). Their difference 24 is a multiple of 12, as the second test needs.",
+      "optionExplain": [
+        "The symbol looks a bit like a division sum, but \\(38 \\div 12\\) is about 3.2, not 14.",
+        "The difference must be a multiple of 12, not 12 itself. Here 38 - 14 = 24, which is 2 x 12, and that is enough.",
+        "A remainder mod 12 is always below 12, so it cannot be 14; the remainder of 38 is 2.",
+        "Right: both leave remainder 2, which is exactly what \\(\\equiv\\) says."
+      ],
+      "rule": "\\(\\equiv\\) means 'same remainder', not 'equals the remainder'."
+    },
+    {
+      "id": "congruence-2",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Same remainder",
+      "concept": "congruence",
+      "role": "apply",
+      "rung": 2,
+      "kind": "multi",
+      "q": "Select every true statement.",
+      "options": [
+        "\\(29 \\equiv 5 \\pmod{12}\\)",
+        "\\(26 \\equiv 6 \\pmod{12}\\)",
+        "\\(40 \\equiv 4 \\pmod{12}\\)",
+        "\\(33 \\equiv 3 \\pmod{12}\\)",
+        "\\(50 \\equiv 2 \\pmod{12}\\)",
+        "\\(19 \\equiv 9 \\pmod{12}\\)"
+      ],
+      "answers": [
+        0,
+        2,
+        4
+      ],
+      "explain": "Use the difference test: is the difference a multiple of 12? 24, 36 and 48 are; 20, 30 and 10 are not.",
+      "optionExplain": [
+        "True: \\(29 - 5 = 24 = 2 \\times 12\\).",
+        "False: \\(26 - 6 = 20\\), not a multiple of 12. Both numbers end in 6, which is tempting, but \\(26 \\bmod 12 = 2\\).",
+        "True: \\(40 - 4 = 36 = 3 \\times 12\\).",
+        "False: both contain the digit 3, but \\(33 - 3 = 30\\) is not a multiple of 12; \\(33 \\bmod 12 = 9\\).",
+        "True: \\(50 - 2 = 48 = 4 \\times 12\\).",
+        "False: both end in 9, but \\(19 - 9 = 10\\), which is not a multiple of 12; \\(19 \\bmod 12 = 7\\)."
+      ],
+      "rule": "Subtract and ask: is the difference a multiple of n? Matching last digits prove nothing mod 12."
+    },
+    {
+      "id": "congruence-3",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Same remainder",
+      "concept": "congruence",
+      "role": "extend",
+      "rung": 3,
+      "kind": "fill",
+      "q": "\\(26 \\equiv 2 \\pmod{12}\\) is true. The largest n for which \\(26 \\equiv 2 \\pmod{n}\\) is also true is ____.",
+      "accept": [
+        "24",
+        "twenty-four",
+        "twenty four"
+      ],
+      "explain": "\\(26 \\equiv 2 \\pmod{n}\\) holds exactly when n divides \\(26 - 2 = 24\\). So it holds for n = 1, 2, 3, 4, 6, 8, 12 and 24, and the largest is 24.",
+      "hint": "Work out 26 - 2 first. Which numbers divide it?",
+      "rule": "\\(a \\equiv b \\pmod{n}\\) holds for exactly the n that divide \\(a - b\\).",
+      "teaches": "One subtraction answers the question for every modulus at once: \\(a \\equiv b\\) is true mod each divisor of \\(a - b\\) and false for every other n."
+    },
+    {
+      "id": "congruence-4",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Same remainder",
+      "concept": "congruence",
+      "role": "predict",
+      "rung": 4,
+      "kind": "tf",
+      "q": "Suppose you know that \\(a \\equiv b \\pmod{12}\\). Then \\(a \\equiv b \\pmod{6}\\) must also be true.",
+      "answer": true,
+      "explain": "If \\(a - b\\) is a multiple of 12, it is also a multiple of 6, since 12 = 2 x 6. The reverse fails: \\(8 \\equiv 2 \\pmod{6}\\) but not mod 12, because 6 is not a multiple of 12.",
+      "rule": "Congruent mod n means congruent mod every divisor of n, but not the other way round."
+    },
+    {
+      "id": "congruence-5",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Same remainder",
+      "concept": "congruence",
+      "role": "transfer",
+      "rung": 5,
+      "kind": "match",
+      "q": "Match each congruence with the everyday description of the whole number x that means the same thing.",
+      "pairs": [
+        [
+          "\\(x \\equiv 0 \\pmod{2}\\)",
+          "x is even"
+        ],
+        [
+          "\\(x \\equiv 1 \\pmod{2}\\)",
+          "x is odd"
+        ],
+        [
+          "\\(x \\equiv 0 \\pmod{5}\\)",
+          "x ends in the digit 0 or 5"
+        ],
+        [
+          "\\(x \\equiv 0 \\pmod{12}\\)",
+          "x eggs fill whole boxes of 12 exactly"
+        ]
+      ],
+      "explain": "Remainder 0 mod 2 means x splits into pairs: even. Remainder 1 mod 2 means one is left over: odd. The multiples of 5 are 5, 10, 15, 20, ..., which end in 5 or 0. Remainder 0 mod 12 means whole dozens with none left over.",
+      "rule": "'Even', 'odd' and 'a multiple of' are all congruence statements.",
+      "teaches": "Ideas you already knew are congruences in disguise: even means \\(x \\equiv 0 \\pmod 2\\), odd means \\(x \\equiv 1 \\pmod 2\\), and 'a multiple of k' means \\(x \\equiv 0 \\pmod k\\)."
+    },
+    {
+      "id": "congruence-6",
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "section": "Same remainder",
+      "concept": "congruence",
+      "role": "spot-error",
+      "rung": 6,
+      "kind": "mcq",
+      "q": "Sam checks whether \\(52 \\equiv 4 \\pmod{12}\\). Step 1: \\(52 - 4 = 48\\). Step 2: 48 is not 12, so 52 and 4 are not congruent mod 12. Which step is wrong?",
+      "options": [
+        "Step 1: the difference must be 4 - 52, not 52 - 4",
+        "Step 2: 48 only has to be a multiple of 12, and 48 = 4 x 12",
+        "Neither step: 52 and 4 really are not congruent mod 12",
+        "Step 1: you must divide by 12 first and never subtract"
+      ],
+      "answer": 1,
+      "explain": "The test asks whether \\(a - b\\) is a multiple of n, not whether it equals n. \\(48 = 4 \\times 12\\), so \\(52 \\equiv 4 \\pmod{12}\\); indeed \\(52 = 4 \\times 12 + 4\\).",
+      "optionExplain": [
+        "Order does not matter: 4 - 52 = -48 is a multiple of 12 exactly when 48 is.",
+        "Right: 'n divides a - b' means a - b is some multiple of n. Four full turns is as good as one.",
+        "Tempting if you trust Step 2, but \\(52 = 4 \\times 12 + 4\\) leaves remainder 4, the same as 4.",
+        "Both tests are valid; the difference test is often quicker. The mistake is in how Step 2 reads the result."
+      ],
+      "rule": "Multiple of n, not equal to n."
+    }
+  ],
+  "summary": "A tiny sample bank (two ideas, thirteen questions) that shows the shape of questions.json. Replace it with your own book.",
+  "unitSummaries": {
+    "Lesson 1": "Numbers wrap around after n steps, so only the remainder matters."
+  },
+  "cover": {
+    "id": "sample/cover",
+    "type": "image/png",
+    "role": "cover",
+    "alt": "Sample cover: a dark blue rectangle with a white border."
+  },
+  "mediaStore": "repo"
+}

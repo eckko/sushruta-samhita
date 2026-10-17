@@ -1,0 +1,15 @@
+{
+  "id": "sample-book",
+  "book": "Sample Book",
+  "summary": "A tiny sample bank that shows the shape of questions.json.",
+  "labels": {"unit": "Lesson", "units": "lessons", "topic": "Idea"},
+  "excluded": ["cover, copyright, preface, index"],
+  "chapters": [
+    {
+      "unit": "Lesson 1",
+      "unitTitle": "Wrapping around",
+      "unitSummary": "Numbers wrap around after n steps, so only the remainder matters.",
+      "concepts": ["remainders", "congruence"]
+    }
+  ]
+}
