@@ -757,8 +757,7 @@ AIDS = {
     },
     "40": {
         "frame": "क्या: १२० अध्यायों का बँटवारा · कैसे: विषय के अनुसार · कितने स्थान: पाँच · शेष: आगे के तन्त्र में।",
-        "diagram": {"steps": ["१२० अध्याय", "सूत्र", "निदान", "शारीर", "चिकित्सित", "कल्प",
-                              "शेष विषय: आगे के तन्त्र में"]},
+        "diagram": {"steps": ["१२० अध्याय", "सूत्र", "निदान", "शारीर", "चिकित्सित", "कल्प"]},
         "chunks": {"steps": ["तच्च सविंशमध्यायशतम्", "पञ्चसु स्थानेषु",
                              "सूत्रनिदानशारीरचिकित्सितकल्पेषु", "अर्थवशात् संविभज्य",
                              "उत्तरे तन्त्रे शेषानर्थान् व्याख्यास्यामः"]},
@@ -856,7 +855,7 @@ IMAGE_SPECS = {
     },
     ("40", "diagram"): {
         "file": "ch1-sthana-40.svg",
-        "alt": "Mind map: 120 chapters divided by subject matter into five sections, Sutra, Nidana, Sharira, Cikitsita and Kalpa; the remaining topics go to the later treatise.",
+        "alt": "Mind map: 120 chapters divided by subject matter into five sections, Sutra, Nidana, Sharira, Cikitsita and Kalpa.",
         "type": "mermaid",
         "code": ('mindmap\n'
                  '  १२० अध्याय\n'
@@ -864,8 +863,6 @@ IMAGE_SPECS = {
                  '    निदान\n'
                  '    शारीर\n'
                  '    चिकित्सित\n'
-                 '    कल्प\n'
-                 '    शेष विषय\n'
-                 '      आगे के तन्त्र में'),
+                 '    कल्प'),
     },
 }

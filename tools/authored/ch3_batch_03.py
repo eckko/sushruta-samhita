@@ -151,7 +151,7 @@ AUTHORED = {
                  ("To the forest.", "To would be वनम्.")],
                 "वने is locative singular of वन: in the forest.",
                 "-े (neuter a-noun) = in.",
-                teaches="The locative singular of a neuter a-noun ends in -े: in the ... "),
+                teaches="The locative singular of a neuter a-noun ends in -े, meaning in the ..."),
         ]},
     # ------------------------------------------------------------------ 32
     "32": {
@@ -159,7 +159,7 @@ AUTHORED = {
         "question": "Which four kinds of abhishyanda does the list ward off?",
         "rule": "वारणः = warding off; the genitives पैत्तस्य, श्लैष्मिकस्य, रौधिरस्य go with abhishyanda supplied from the first item.",
         "limits": "Chapter titles are listed; the verse does not say what any chapter contains. 'Abhishyanda' (flux) is supplied with the three genitives, and 'chapter' with the nominatives. No treatment or effect is stated here.",
-        "explain_hi": "इस अंश में दो अध्याय-शीर्षक आते हैं: चिकित्सा का विभाग, और अभिष्यन्द का निवारण। अभिष्यन्द के चार प्रकार गिनाए गए हैं: वातजन्य, फिर पित्तजन्य, कफजन्य और रक्तजन्य। पहले के बाद के तीनों शब्द षष्ठी में हैं और अभिष्यन्द पहले शब्द से जोड़ा जाता है। 'अध्याय' शब्द श्लोक में नहीं, अनुवाद में जोड़ा गया है।",
+        "explain_hi": "इस अंश में दो अध्याय-शीर्षक आते हैं: चिकित्सा का विभाग, और अभिष्यन्द का निवारण। अभिष्यन्द के चार प्रकार गिनाए गए हैं: वातजन्य, फिर पित्तजन्य, कफजन्य और रक्तजन्य। बाद के तीनों शब्द षष्ठी में हैं और अभिष्यन्द पहले शब्द से जोड़ा जाता है। 'अध्याय' शब्द श्लोक में नहीं, अनुवाद में जोड़ा गया है।",
         "hook": "अभिष्यन्द का निवारण: वात, पित्त, कफ और रक्त वाला।",
         "core": False,
         "questions": [
@@ -349,7 +349,7 @@ AUTHORED = {
         "title": "अपस्मारशकुन्योश्च",
         "question": "Which names does this unit list, and with what small words are they joined?",
         "rule": "-योः on a pair (शकुन्योः) is the dual: of the two; च = and, पुनः = again, पृथक् = separately.",
-        "limits": "The unit gives a string of names only. The last two names are in the nominative, so the construction shifts. The printed text leaves one join open (तथा + the next name), and the sense of that name is not given; no question rests on it. Nothing is said of what any name means.",
+        "limits": "The unit gives names only. The last two names are in the nominative, so the construction shifts. One printed join (तथा and the next name) is open and that name is left unexplained; no question rests on it.",
         "explain_hi": "यह अंश पिछले अंश के निषेधन से जुड़ा हुआ नामों का क्रम है: अपस्मार और शकुनी, रेवती, पूतना, फिर एक और नाम, फिर मण्डिका और शीतपूतना। अपस्मारशकुन्योः में दो नाम एक साथ द्विवचन में हैं। 'च', 'पुनः' और 'पृथक्' छोटे शब्द हैं जो सूची को जोड़ते हैं। अन्तिम दो नाम प्रथमा में हैं, इसलिए रचना वहाँ बदल जाती है।",
         "hook": "अपस्मार–शकुनी, रेवती, पूतना ...; मण्डिका; शीतपूतना।",
         "core": False,
@@ -663,7 +663,7 @@ AUTHORED = {
                    ["दोषभेदाः", "varieties of dosha"], ["तन्त्रभूषणाः", "ornaments of the treatise"]],
                   "Four terms of the verse.",
                   "भेदाः means varieties; वृत्तिः means regimen; भूषणाः means ornaments."),
-            fill(2, "The varieties of rasa and dosha: type the word for variety in Devanagari or in English letters (e.g. dharma).",
+            fill(2, "The ____ (varieties) of rasa and dosha. Type the word in Devanagari or in English letters (e.g. dharma).",
                  accepts("भेदाः", None, "भेद"),
                  "भेदाः is the second member of रसभेदाः and दोषभेदाः.",
                  "भेद = variety.",
@@ -719,7 +719,7 @@ AIDS = {
     "30": {
         "frame": "कारण: यस्मात् (क्योंकि) · क्या किया: उपद्रवों को विषय बनाकर रचा · तन्त्र: यह तन्त्र।",
         "chunks": {"steps": ["अधिकृत्य कृतम्", "यस्मात्", "तन्त्रम् एतत्", "उपद्रवान्"]},
-        "puns": "केवल सुनने की सहायता, पाठ का दावा नहीं: अधिकृत्य = ‘अधि’ (ऊपर, पर) + ‘कृत्य’; अधिकार में लेकर।",
+        "sandhi": "यस्मात् + तन्त्रम् = यस्मात्तन्त्रम्; एतत् + उपद्रवान् = एतदुपद्रवान् (त् स्वर से पहले द्)।",
     },
     "31": {
         "frame": "क्यों: संविज्ञान के लिए · किनका: रोगों का · कहाँ: पाँच स्थानों में · कितने: हर रोग का एक अध्याय।",
