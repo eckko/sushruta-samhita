@@ -821,20 +821,21 @@ AIDS = {
 IMAGE_SPECS = {
     ("15", "diagram"): {
         "file": "ch5-anyatha-15.svg",
-        "alt": "One start, otherwise, leads to four results: cutting of veins and sinews, excessive pain, healing of the wound after a long time, and appearance of fleshy growths.",
+        "alt": "Mind map: otherwise, with four results: cutting of veins and sinews, excessive pain, healing of the wound after a long time, and appearance of fleshy growths.",
         "type": "mermaid",
-        "code": ('flowchart TD\n'
-                 '  A["अन्यथा करने पर"] --> B["सिरा-स्नायु का कटना"]\n'
-                 '  A --> C["अत्यधिक पीड़ा"]\n'
-                 '  A --> D["व्रण का देर से भरना"]\n'
-                 '  A --> E["मांसकन्दी की उत्पत्ति"]'),
+        "code": ('mindmap\n'
+                 '  अन्यथा करने पर\n'
+                 '    सिरा-स्नायु का कटना\n'
+                 '    अत्यधिक पीड़ा\n'
+                 '    व्रण का देर से भरना\n'
+                 '    मांसकन्दी की उत्पत्ति'),
     },
     ("16", "diagram"): {
         "file": "ch5-abhukta-16.svg",
         "alt": "Mind map: the operation on one who has not eaten, with six conditions listed in the verse: obstructed foetus, udara, arshas, ashmari, bhagandara and mouth diseases.",
         "type": "mermaid",
         "code": ('mindmap\n'
-                 '  अभुक्त रोगी का कर्म\n'
+                 '  अभुक्त का कर्म\n'
                  '    मूढगर्भ\n'
                  '    उदर\n'
                  '    अर्श\n'
