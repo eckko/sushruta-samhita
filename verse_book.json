@@ -1,0 +1,79 @@
+{
+ "bank_id": "sushruta-samhita-sutra-1-5",
+ "title": "सुश्रुतसंहिता — सूत्रस्थान (अध्याय १–५)",
+ "genre": "संस्कृत श्लोक",
+ "summary": "The first five chapters of the Sutrasthana of the Sushruta Samhita, the classical Sanskrit text of surgery, studied passage by passage with word split, Hindi and English.",
+ "labels": {
+  "unit": "Chapter",
+  "units": "chapters",
+  "topic": "Unit",
+  "whole": "Whole chapter"
+ },
+ "ref_template": "सुश्रुतसंहिता · सूत्रस्थान · अध्याय {chapter} · {kind} {unit}।",
+ "source_disclaimer": "पाठ: SARIT (CC BY-SA 3.0), सुश्रुतसंहिता, मुंबई १९३१ संस्करण पर आधारित। हिन्दी और English: AI-रचित, AI-समीक्षित; विद्वान् से जाँच शेष।",
+ "kind_labels": {
+  "verse": "श्लोक",
+  "prose": "गद्य"
+ },
+ "verse_block_labels": {
+  "verse": "श्लोक",
+  "prose": "मूल पाठ"
+ },
+ "chapters": [
+  {
+   "number": 1,
+   "title": "वेदोत्पत्ति",
+   "prefix": "su1",
+   "unit": "Chapter 1",
+   "summary": "Origin of the science of life, its eight branches and the teaching lineage from Dhanvantari to Sushruta.",
+   "authored": [
+    "ch{N}_batch_*.py"
+   ],
+   "metre": "anustubh"
+  },
+  {
+   "number": 2,
+   "title": "शिष्योपनयनीय",
+   "prefix": "su2",
+   "unit": "Chapter 2",
+   "summary": "How a student is chosen and initiated: the teacher's duties and the rules of conduct.",
+   "authored": [
+    "ch{N}_batch_*.py"
+   ],
+   "metre": "anustubh"
+  },
+  {
+   "number": 3,
+   "title": "अध्ययनसम्प्रदानीय",
+   "prefix": "su3",
+   "unit": "Chapter 3",
+   "summary": "How the text is studied and handed on: the student's training and what is taught.",
+   "authored": [
+    "ch{N}_batch_*.py"
+   ],
+   "metre": "anustubh"
+  },
+  {
+   "number": 4,
+   "title": "प्रभाषणीय",
+   "prefix": "su4",
+   "unit": "Chapter 4",
+   "summary": "How a treatise is discussed and taught, and why it is studied word by word.",
+   "authored": [
+    "ch{N}_batch_*.py"
+   ],
+   "metre": "anustubh"
+  },
+  {
+   "number": 5,
+   "title": "अग्रोपहरणीय",
+   "prefix": "su5",
+   "unit": "Chapter 5",
+   "summary": "The offering before surgery and the preparations and conduct for surgical work.",
+   "authored": [
+    "ch{N}_batch_*.py"
+   ],
+   "metre": "anustubh"
+  }
+ ]
+}

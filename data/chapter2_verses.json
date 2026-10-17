@@ -1,0 +1,2080 @@
+[
+ {
+  "n": "1",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "athātaḥ",
+      "words": [
+       {
+        "w": "atha",
+        "gloss": "now",
+        "gram": "ind."
+       },
+       {
+        "w": "ataḥ",
+        "gloss": "therefore",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "śiṣyopanayanīyamadhyāyaṃ",
+      "words": [
+       {
+        "w": "śiṣya-upanayanīyam",
+        "gloss": "concerning the initiation of the pupil",
+        "gram": "tat-puruṣa, m. acc. sg."
+       },
+       {
+        "w": "adhyāyam",
+        "gloss": "chapter",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "vyākhyāsyāmaḥ",
+      "words": [
+       {
+        "w": "vyākhyāsyāmaḥ",
+        "gloss": "we shall expound",
+        "gram": "1 pl. fut. vi-ā-√khyā"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of passage",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "अब इसके बाद हम शिष्योपनयनीय अर्थात् शिष्य के उपनयन विषयक अध्याय की व्याख्या करेंगे।",
+  "english": "Now, therefore, we shall expound the chapter on the initiation of the pupil (śiṣyopanayanīya).",
+  "text_flags": [],
+  "notes": "",
+  "confidence": "high",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.2.1"
+  ],
+  "lines_deva": [
+   "अथातः शिष्योपनयनीयमध्यायं व्याख्यास्यामः ॥"
+  ],
+  "lines_iast": [
+   "athātaḥ śiṣyopanayanīyamadhyāyaṃ vyākhyāsyāmaḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "2",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "yathovāca",
+      "words": [
+       {
+        "w": "yathā",
+        "gloss": "as",
+        "gram": "ind."
+       },
+       {
+        "w": "uvāca",
+        "gloss": "said",
+        "gram": "3 sg. pf. √vac"
+       }
+      ]
+     },
+     {
+      "src": "bhagavān",
+      "words": [
+       {
+        "w": "bhagavān",
+        "gloss": "the revered one",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "dhanvantariḥ",
+      "words": [
+       {
+        "w": "dhanvantariḥ",
+        "gloss": "Dhanvantari",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of passage",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "जैसा भगवान् धन्वन्तरि ने कहा था।",
+  "english": "As the revered Dhanvantari said.",
+  "text_flags": [],
+  "notes": "Sentence closes the formula begun in unit 1; no variants.",
+  "confidence": "high",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.2.2"
+  ],
+  "lines_deva": [
+   "यथोवाच भगवान् धन्वन्तरिः ॥"
+  ],
+  "lines_iast": [
+   "yathovāca bhagavān dhanvantariḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "3",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "brāhmaṇakṣatriyavaiśyānāmanyatamamanvayavayaḥśīlaśauryaśaucācāravinayaśaktibalamedhādhṛtismṛtimatipratipattiyuktaṃ",
+      "words": [
+       {
+        "w": "brāhmaṇa-kṣatriya-vaiśyānām",
+        "gloss": "of brāhmaṇa, kṣatriya, vaiśya",
+        "gram": "dvandva, gen. pl."
+       },
+       {
+        "w": "anyatamam",
+        "gloss": "any one",
+        "gram": "m. acc. sg."
+       },
+       {
+        "w": "anvaya-vayaḥ-śīla-śaurya-śauca-ācāra-vinaya-śakti-bala-medhā-dhṛti-smṛti-mati-pratipatti-yuktam",
+        "gloss": "endowed with lineage, age, character, valour, purity, conduct, discipline, capacity, strength, intelligence, steadfastness, memory, understanding, grasp",
+        "gram": "dvandva + tat-puruṣa, m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "tanujihvauṣṭhadantākramṛjuvaktrākṣināsaṃprasannacittavākceṣṭaṃ",
+      "words": [
+       {
+        "w": "tanu-jihvā-oṣṭha-dantam",
+        "gloss": "having thin tongue, lips, teeth",
+        "gram": "bahuvrīhi, m. acc. sg."
+       },
+       {
+        "w": "ṛju-vaktra-akṣi-nāsam",
+        "gloss": "having straight face, eyes, nose",
+        "gram": "bahuvrīhi, m. acc. sg."
+       },
+       {
+        "w": "prasanna-citta-vāc-ceṣṭam",
+        "gloss": "with calm mind, speech, action",
+        "gram": "bahuvrīhi, m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "kleśasaḥaṃ",
+      "words": [
+       {
+        "w": "kleśa-saham",
+        "gloss": "enduring hardship",
+        "gram": "tat-puruṣa, m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "bhiṣak",
+      "words": [
+       {
+        "w": "bhiṣak",
+        "gloss": "physician",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "śiṣyamupanayet",
+      "words": [
+       {
+        "w": "śiṣyam",
+        "gloss": "pupil",
+        "gram": "m. acc. sg."
+       },
+       {
+        "w": "upanayet",
+        "gloss": "should initiate",
+        "gram": "3 sg. opt. upa-√nī"
+       }
+      ]
+     },
+     {
+      "src": "ato",
+      "words": [
+       {
+        "w": "ataḥ",
+        "gloss": "than this",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "viparītaguṇaṃ",
+      "words": [
+       {
+        "w": "viparīta-guṇam",
+        "gloss": "of opposite qualities",
+        "gram": "bahuvrīhi, m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "noapanayet",
+      "words": [
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       },
+       {
+        "w": "upanayet",
+        "gloss": "should initiate",
+        "gram": "3 sg. opt. upa-√nī"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of passage",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "वैद्य ब्राह्मण, क्षत्रिय और वैश्य में से किसी एक को, जो कुल, आयु, शील, शूरता, पवित्रता, आचार, विनय, सामर्थ्य, बल, मेधा, धैर्य, स्मृति, मति और ग्रहण करने की क्षमता से युक्त हो; जिसकी जीभ, ओठ और दाँत पतले हों, मुख, नेत्र और नासिका सीधे हों, जिसका चित्त, वाणी और चेष्टा प्रसन्न हों, और जो कष्ट सहन करने वाला हो, शिष्य के रूप में उपनीत करे। इससे विपरीत गुणों वाले का उपनयन न करे।",
+  "english": "A physician should initiate as a pupil any one of the brāhmaṇas, kṣatriyas or vaiśyas who is endowed with lineage, age, character, valour, purity, conduct, discipline, capacity, strength, intelligence, steadfastness, memory, understanding and grasp; who has a thin tongue, lips and teeth, a straight face, eyes and nose, a calm mind, speech and action, and who can endure hardship. He should not initiate one whose qualities are the opposite of these.",
+  "text_flags": [
+   {
+    "src": "tanujihvauṣṭhadantākramṛjuvaktrākṣināsaṃprasannacittavākceṣṭaṃ",
+    "suggest": "tanujihvauṣṭhadantam ṛjuvaktrākṣināsaṃ prasannacittavākceṣṭaṃ",
+    "why": "possible: 'ākra' is unintelligible in the sequence danta + ṛju; the reading assumed in the split is danta + (m) ṛju, with words also run together (nāsaṃ prasanna...)"
+   },
+   {
+    "src": "kleśasaḥaṃ",
+    "suggest": "kleśasahaṃ",
+    "why": "likely scan/transliteration error: 'saḥ' for 'sa'; the Devanagari reads सःअं; sense 'enduring hardship' needs sahaṃ"
+   },
+   {
+    "src": "noapanayet",
+    "suggest": "nopanayet",
+    "why": "possible: 'oa' for 'o'; sense requires na upanayet (not initiate); a literal na apanayet would mean 'not remove'"
+   }
+  ],
+  "notes": "Single long sentence in the Sanskrit; the compound members are glossed as one list in order. tanu is rendered 'thin' (could be 'delicate/small'). 'anvaya' taken as lineage. Words in the second compound follow the suggested reading, not the printed 'dantākram'. Pratipatti rendered 'grasp' (understanding/ready comprehension).",
+  "confidence": "medium",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.2.3"
+  ],
+  "lines_deva": [
+   "ब्राह्मणक्षत्रियवैश्यानामन्यतममन्वयवयःशीलशौर्यशौचाचारविनयशक्तिबलमेधाधृतिस्मृतिमतिप्रतिपत्तियुक्तं तनुजिह्वौष्ठदन्ताक्रमृजुवक्त्राक्षिनासंप्रसन्नचित्तवाक्चेष्टं क्लेशसःअं च भिषक् शिष्यमुपनयेत् अतो विपरीतगुणं नोअपनयेत् ॥"
+  ],
+  "lines_iast": [
+   "brāhmaṇakṣatriyavaiśyānāmanyatamamanvayavayaḥśīlaśauryaśaucācāravinayaśaktibalamedhādhṛtismṛtimatipratipattiyuktaṃ tanujihvauṣṭhadantākramṛjuvaktrākṣināsaṃprasannacittavākceṣṭaṃ kleśasaḥaṃ ca bhiṣak śiṣyamupanayet ato viparītaguṇaṃ noapanayet ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "4",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "upanayanīyaṃ",
+      "words": [
+       {
+        "w": "upanayanīyam",
+        "gloss": "one to be initiated",
+        "gram": "gdv. m. acc. sg. upa-√nī"
+       }
+      ]
+     },
+     {
+      "src": "tu",
+      "words": [
+       {
+        "w": "tu",
+        "gloss": "but, now",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "brāhmaṇaṃ",
+      "words": [
+       {
+        "w": "brāhmaṇam",
+        "gloss": "brāhmaṇa",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "praśasteṣu",
+      "words": [
+       {
+        "w": "praśasteṣu",
+        "gloss": "auspicious",
+        "gram": "n. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "tithikaraṇamuhūrtanakṣatreṣu",
+      "words": [
+       {
+        "w": "tithi-karaṇa-muhūrta-nakṣatreṣu",
+        "gloss": "lunar day, half-lunar-day, hour-span, lunar mansion",
+        "gram": "dvandva, loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "praśastāyāṃ",
+      "words": [
+       {
+        "w": "praśastāyām",
+        "gloss": "auspicious",
+        "gram": "f. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "diśi",
+      "words": [
+       {
+        "w": "diśi",
+        "gloss": "direction",
+        "gram": "f. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "śucau",
+      "words": [
+       {
+        "w": "śucau",
+        "gloss": "clean",
+        "gram": "m. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "same",
+      "words": [
+       {
+        "w": "same",
+        "gloss": "level",
+        "gram": "m. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "deśe",
+      "words": [
+       {
+        "w": "deśe",
+        "gloss": "place",
+        "gram": "m. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "caturhastaṃ",
+      "words": [
+       {
+        "w": "catur-hastam",
+        "gloss": "four cubits (in measure)",
+        "gram": "bahuvrīhi, m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "caturasraṃ",
+      "words": [
+       {
+        "w": "catur-asram",
+        "gloss": "four-cornered, square",
+        "gram": "bahuvrīhi, m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "sthaṇḍilamupalipya",
+      "words": [
+       {
+        "w": "sthaṇḍilam",
+        "gloss": "prepared ground-plot",
+        "gram": "m./n. acc. sg."
+       },
+       {
+        "w": "upalipya",
+        "gloss": "having smeared",
+        "gram": "abs. upa-√lip"
+       }
+      ]
+     },
+     {
+      "src": "gomayena",
+      "words": [
+       {
+        "w": "gomayena",
+        "gloss": "with cow dung",
+        "gram": "m. inst. sg."
+       }
+      ]
+     },
+     {
+      "src": "darbhaiḥ",
+      "words": [
+       {
+        "w": "darbhaiḥ",
+        "gloss": "with darbha grass",
+        "gram": "m. inst. pl."
+       }
+      ]
+     },
+     {
+      "src": "saṃstīrya",
+      "words": [
+       {
+        "w": "saṃstīrya",
+        "gloss": "having spread",
+        "gram": "abs. sam-√stṛ"
+       }
+      ]
+     },
+     {
+      "src": "puṣpairlājabhaktai",
+      "words": [
+       {
+        "w": "puṣpaiḥ",
+        "gloss": "with flowers",
+        "gram": "n. inst. pl."
+       },
+       {
+        "w": "lāja-bhaktaiḥ",
+        "gloss": "with parched grain and cooked rice",
+        "gram": "dvandva, inst. pl."
+       }
+      ]
+     },
+     {
+      "src": "ratnaiśca",
+      "words": [
+       {
+        "w": "ratnaiḥ",
+        "gloss": "with jewels",
+        "gram": "n. inst. pl."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "devatāḥ",
+      "words": [
+       {
+        "w": "devatāḥ",
+        "gloss": "deities",
+        "gram": "f. acc. pl."
+       }
+      ]
+     },
+     {
+      "src": "pūjayitvā",
+      "words": [
+       {
+        "w": "pūjayitvā",
+        "gloss": "having worshipped",
+        "gram": "abs. √pūj (10th cl.)"
+       }
+      ]
+     },
+     {
+      "src": "viprān",
+      "words": [
+       {
+        "w": "viprān",
+        "gloss": "brahmins",
+        "gram": "m. acc. pl."
+       }
+      ]
+     },
+     {
+      "src": "bhiṣajaśca",
+      "words": [
+       {
+        "w": "bhiṣajaḥ",
+        "gloss": "physicians",
+        "gram": "m. acc. pl."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "tatrollikhyābhyukṣya",
+      "words": [
+       {
+        "w": "tatra",
+        "gloss": "there",
+        "gram": "ind."
+       },
+       {
+        "w": "ullikhya",
+        "gloss": "having drawn lines",
+        "gram": "abs. ud-√likh"
+       },
+       {
+        "w": "abhyukṣya",
+        "gloss": "having sprinkled",
+        "gram": "abs. abhi-√ukṣ"
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "dakṣiṇato",
+      "words": [
+       {
+        "w": "dakṣiṇataḥ",
+        "gloss": "on the south",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "brahmāṇaṃ",
+      "words": [
+       {
+        "w": "brahmāṇam",
+        "gloss": "Brahman (priest or deity)",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "sthāpayitvāagnimupasamādhāya",
+      "words": [
+       {
+        "w": "sthāpayitvā",
+        "gloss": "having placed",
+        "gram": "abs. caus. √sthā"
+       },
+       {
+        "w": "agnim",
+        "gloss": "fire",
+        "gram": "m. acc. sg."
+       },
+       {
+        "w": "upasamādhāya",
+        "gloss": "having kindled",
+        "gram": "abs. upa-sam-ā-√dhā"
+       }
+      ]
+     },
+     {
+      "src": "khadirapalāśadevadārubilvānāṃ",
+      "words": [
+       {
+        "w": "khadira-palāśa-deva-dāru-bilvānām",
+        "gloss": "of khadira, palāśa, devadāru, bilva (tree names)",
+        "gram": "dvandva, gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "samidbhiścaturṇāṃ",
+      "words": [
+       {
+        "w": "samidbhiḥ",
+        "gloss": "with fuel sticks",
+        "gram": "f. inst. pl."
+       },
+       {
+        "w": "caturṇām",
+        "gloss": "of the four",
+        "gram": "gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "vā",
+      "words": [
+       {
+        "w": "vā",
+        "gloss": "or",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kṣīravṛkṣāṇāṃ",
+      "words": [
+       {
+        "w": "kṣīra-vṛkṣāṇām",
+        "gloss": "of the milk-trees",
+        "gram": "tat-puruṣa, m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "nyagrodhodumbarāśvatthamadhūkānāṃ",
+      "words": [
+       {
+        "w": "nyagrodha-udumbara-aśvattha-madhūkānām",
+        "gloss": "of nyagrodha, udumbara, aśvattha, madhūka (tree names)",
+        "gram": "dvandva, gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "dadhimadhughṛtāktābhirdārvīhaumikena",
+      "words": [
+       {
+        "w": "dadhi-madhu-ghṛta-aktābhiḥ",
+        "gloss": "smeared with curd, honey, ghee",
+        "gram": "tat-puruṣa, f. inst. pl."
+       },
+       {
+        "w": "dārvī-haumikena",
+        "gloss": "by the ladle-oblation (type)",
+        "gram": "tat-puruṣa, m. inst. sg."
+       }
+      ]
+     },
+     {
+      "src": "vidhinā",
+      "words": [
+       {
+        "w": "vidhinā",
+        "gloss": "by the rite",
+        "gram": "m. inst. sg."
+       }
+      ]
+     },
+     {
+      "src": "sruveṇājyāhutīrjuhuyāt",
+      "words": [
+       {
+        "w": "sruveṇa",
+        "gloss": "with the ladle",
+        "gram": "m. inst. sg."
+       },
+       {
+        "w": "ājya-āhutīḥ",
+        "gloss": "oblations of ghee",
+        "gram": "tat-puruṣa, f. acc. pl."
+       },
+       {
+        "w": "juhuyāt",
+        "gloss": "should offer",
+        "gram": "3 sg. opt. √hu"
+       }
+      ]
+     },
+     {
+      "src": "sapraṇavābhirmahāvyahṛtibhiḥ",
+      "words": [
+       {
+        "w": "sa-praṇavābhiḥ",
+        "gloss": "together with the praṇava",
+        "gram": "bahuvrīhi, f. inst. pl."
+       },
+       {
+        "w": "mahā-vyāhṛtibhiḥ",
+        "gloss": "with the great utterances",
+        "gram": "karmadhāraya, f. inst. pl."
+       }
+      ]
+     },
+     {
+      "src": "tataḥ",
+      "words": [
+       {
+        "w": "tataḥ",
+        "gloss": "then",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "pratidaivatamṛṣīṃśca",
+      "words": [
+       {
+        "w": "prati-daivatam",
+        "gloss": "for each deity",
+        "gram": "ind."
+       },
+       {
+        "w": "ṛṣīn",
+        "gloss": "sages",
+        "gram": "m. acc. pl."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "svāhākāraṃ",
+      "words": [
+       {
+        "w": "svāhā-kāram",
+        "gloss": "utterance of svāhā",
+        "gram": "tat-puruṣa, m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "kuryāt",
+      "words": [
+       {
+        "w": "kuryāt",
+        "gloss": "should make",
+        "gram": "3 sg. opt. √kṛ"
+       }
+      ]
+     },
+     {
+      "src": "śiṣyamapi",
+      "words": [
+       {
+        "w": "śiṣyam",
+        "gloss": "pupil",
+        "gram": "m. acc. sg."
+       },
+       {
+        "w": "api",
+        "gloss": "also",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kārayet",
+      "words": [
+       {
+        "w": "kārayet",
+        "gloss": "should cause to do",
+        "gram": "3 sg. opt. caus. √kṛ"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of passage",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "उपनयन के योग्य ब्राह्मण के विषय में — शुभ तिथि, करण, मुहूर्त और नक्षत्र में, शुभ दिशा में, पवित्र और समतल स्थान पर चार हाथ का चौकोर स्थण्डिल गोबर से लीपकर, कुशाएँ बिछाकर, फूल, लाजा, भात और रत्नों से देवताओं का, तथा ब्राह्मणों और वैद्यों का पूजन करके, वहाँ रेखाएँ खींचकर और जल छिड़ककर, दक्षिण में ब्रह्मा को स्थापित करके और अग्नि को प्रज्वलित करके, खदिर, पलाश, देवदारु और बिल्व की, अथवा चार क्षीरवृक्षों न्यग्रोध, उदुम्बर, अश्वत्थ और मधूक की, दही, मधु और घी से सनी समिधाओं से, दार्वीहौमिक विधि से स्रुवा द्वारा, प्रणव सहित महाव्याहृतियों के साथ घी की आहुतियाँ दे। फिर प्रत्येक देवता के लिए और ऋषियों के लिए स्वाहा का उच्चारण करे और शिष्य से भी करवाए।",
+  "english": "As for the brāhmaṇa to be initiated: on an auspicious lunar day, half-lunar-day (karaṇa), hour-span (muhūrta) and lunar mansion, in an auspicious direction, in a clean, level place, having smeared with cow dung a square plot of ground four cubits in measure and spread darbha grass over it, having worshipped the deities with flowers, parched grain, cooked rice and jewels, and also the brahmins and the physicians, having drawn lines there and sprinkled water, and having placed the Brahman to the south and kindled the fire, he should offer oblations of ghee with the ladle, by the dārvī-haumika rite (ladle oblation), with fuel sticks of khadira, palāśa, devadāru and bilva, or of the four milk-trees (kṣīravṛkṣa) nyagrodha, udumbara, aśvattha and madhūka, smeared with curd, honey and ghee, together with the praṇava and the great utterances. Then he should make the svāhā utterance for each deity and for the sages, and have the pupil do it as well.",
+  "text_flags": [
+   {
+    "src": "sapraṇavābhirmahāvyahṛtibhiḥ",
+    "suggest": "sapraṇavābhirmahāvyāhṛtibhiḥ",
+    "why": "possible: 'vyahṛti' with short a; the word is vyāhṛti"
+   }
+  ],
+  "notes": "The editor marks nyagrodhodumbarāśvatthamadhūkānāṃ as a doubtful reading; the split follows the printed word and the meaning of the list rests on it. 'upanayanīyaṃ ... brāhmaṇaṃ' is taken as the accusative 'the brāhmaṇa to be initiated' as a topic phrase; the finite verb juhuyāt has the physician as subject. 'brahmāṇam' is given as Brahman, the priest (or the deity Brahmā); the text does not say which. 'dārvīhaumikena vidhinā' is taken as 'by the rite of ladle offering'; commentators may differ. 'sapraṇavābhiḥ' and 'mahāvyāhṛtibhiḥ' are instrumentals of accompaniment with the offering (feminine plural, not agreeing with the accusative āhutīḥ); previously read as agreeing with samidbhiḥ/āhutīḥ loosely; both are rendered as accompanying the offering. 'sthāpayitvāagnim' has the '+' hint before agnim. Plant names are kept as names and not identified.",
+  "confidence": "medium",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.2.4"
+  ],
+  "lines_deva": [
+   "उपनयनीयं तु ब्राह्मणं प्रशस्तेषु तिथिकरणमुहूर्तनक्षत्रेषु प्रशस्तायां दिशि शुचौ समे देशे चतुर्हस्तं चतुरस्रं स्थण्डिलमुपलिप्य गोमयेन दर्भैः संस्तीर्य पुष्पैर्लाजभक्तै रत्नैश्च देवताः पूजयित्वा विप्रान् भिषजश्च तत्रोल्लिख्याभ्युक्ष्य च दक्षिणतो ब्रह्माणं स्थापयित्वाअग्निमुपसमाधाय खदिरपलाशदेवदारुबिल्वानां समिद्भिश्चतुर्णां वा क्षीरवृक्षाणां न्यग्रोधोदुम्बराश्वत्थमधूकानां दधिमधुघृताक्ताभिर्दार्वीहौमिकेन विधिना स्रुवेणाज्याहुतीर्जुहुयात् सप्रणवाभिर्महाव्यहृतिभिः ततः प्रतिदैवतमृषींश्च स्वाहाकारं कुर्यात् शिष्यमपि कारयेत् ॥"
+  ],
+  "lines_iast": [
+   "upanayanīyaṃ tu brāhmaṇaṃ praśasteṣu tithikaraṇamuhūrtanakṣatreṣu praśastāyāṃ diśi śucau same deśe caturhastaṃ caturasraṃ sthaṇḍilamupalipya gomayena darbhaiḥ saṃstīrya puṣpairlājabhaktai ratnaiśca devatāḥ pūjayitvā viprān bhiṣajaśca tatrollikhyābhyukṣya ca dakṣiṇato brahmāṇaṃ sthāpayitvāagnimupasamādhāya khadirapalāśadevadārubilvānāṃ samidbhiścaturṇāṃ vā kṣīravṛkṣāṇāṃ nyagrodhodumbarāśvatthamadhūkānāṃ dadhimadhughṛtāktābhirdārvīhaumikena vidhinā sruveṇājyāhutīrjuhuyāt sapraṇavābhirmahāvyahṛtibhiḥ tataḥ pratidaivatamṛṣīṃśca svāhākāraṃ kuryāt śiṣyamapi kārayet ||"
+  ],
+  "uncertain": [
+   {
+    "line": "Su.1.2.4",
+    "note": "the editor marks a doubtful reading: nyagrodhodumbarāśvatthamadhūkānāṃ"
+   }
+  ]
+ },
+ {
+  "n": "5",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "brāhmaṇastrayāṇāṃ",
+      "words": [
+       {
+        "w": "brāhmaṇaḥ",
+        "gloss": "brāhmaṇa",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "trayāṇām",
+        "gloss": "of the three",
+        "gram": "gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "varṇānāmupanayanaṃ",
+      "words": [
+       {
+        "w": "varṇānām",
+        "gloss": "of the classes",
+        "gram": "m. gen. pl."
+       },
+       {
+        "w": "upanayanam",
+        "gloss": "initiation",
+        "gram": "n. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "kartumarhati",
+      "words": [
+       {
+        "w": "kartum",
+        "gloss": "to perform",
+        "gram": "inf. √kṛ"
+       },
+       {
+        "w": "arhati",
+        "gloss": "is entitled",
+        "gram": "3 sg. pres. √arh"
+       }
+      ]
+     },
+     {
+      "src": "rājanyo",
+      "words": [
+       {
+        "w": "rājanyaḥ",
+        "gloss": "kṣatriya",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "dvayasya",
+      "words": [
+       {
+        "w": "dvayasya",
+        "gloss": "of the two",
+        "gram": "n. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "vaiśyo",
+      "words": [
+       {
+        "w": "vaiśyaḥ",
+        "gloss": "vaiśya",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "vaiśyasyaiveti",
+      "words": [
+       {
+        "w": "vaiśyasya",
+        "gloss": "of a vaiśya",
+        "gram": "m. gen. sg."
+       },
+       {
+        "w": "eva",
+        "gloss": "only",
+        "gram": "ind."
+       },
+       {
+        "w": "iti",
+        "gloss": "thus",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "śūdramapi",
+      "words": [
+       {
+        "w": "śūdram",
+        "gloss": "śūdra",
+        "gram": "m. acc. sg."
+       },
+       {
+        "w": "api",
+        "gloss": "even",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kulaguṇasaṃpannaṃ",
+      "words": [
+       {
+        "w": "kula-guṇa-saṃpannam",
+        "gloss": "endowed with family virtues",
+        "gram": "tat-puruṣa, m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "mantravarjamanupanītamadhyāpayedityeke",
+      "words": [
+       {
+        "w": "mantra-varjam",
+        "gloss": "excluding mantras",
+        "gram": "tat-puruṣa, ind."
+       },
+       {
+        "w": "anupanītam",
+        "gloss": "uninitiated",
+        "gram": "pp. m. acc. sg. an-upa-√nī"
+       },
+       {
+        "w": "adhyāpayet",
+        "gloss": "may teach",
+        "gram": "3 sg. opt. caus. adhi-√i"
+       },
+       {
+        "w": "iti",
+        "gloss": "thus",
+        "gram": "ind."
+       },
+       {
+        "w": "eke",
+        "gloss": "some",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of passage",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "ब्राह्मण तीनों वर्णों का उपनयन करने का अधिकारी है; क्षत्रिय दो का, और वैश्य केवल वैश्य का। कुछ लोग कहते हैं कि अच्छे कुल के गुणों से सम्पन्न शूद्र को भी, बिना उपनयन किए और मन्त्रों को छोड़कर, पढ़ाया जा सकता है।",
+  "english": "A brāhmaṇa is entitled to perform the initiation of the three classes; a rājanya (kṣatriya) of two; and a vaiśya only of a vaiśya. Some say that one may teach even a śūdra who is endowed with the virtues of the family, without initiating him and leaving out the mantras.",
+  "text_flags": [],
+  "notes": "'dvayasya' is taken as 'of the two' (kṣatriya and vaiśya); the text does not name them. 'mantravarjam' taken as 'excluding mantras' (adverbial). Subject of adhyāpayet is understood as the teacher; 'iti eke' marks the view as that of some.",
+  "confidence": "high",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.2.5"
+  ],
+  "lines_deva": [
+   "ब्राह्मणस्त्रयाणां वर्णानामुपनयनं कर्तुमर्हति राजन्यो द्वयस्य वैश्यो वैश्यस्यैवेति शूद्रमपि कुलगुणसंपन्नं मन्त्रवर्जमनुपनीतमध्यापयेदित्येके ॥"
+  ],
+  "lines_iast": [
+   "brāhmaṇastrayāṇāṃ varṇānāmupanayanaṃ kartumarhati rājanyo dvayasya vaiśyo vaiśyasyaiveti śūdramapi kulaguṇasaṃpannaṃ mantravarjamanupanītamadhyāpayedityeke ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "6",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "tato'gniṃ",
+      "words": [
+       {
+        "w": "tataḥ",
+        "gloss": "then",
+        "gram": "ind."
+       },
+       {
+        "w": "agnim",
+        "gloss": "fire",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "triḥ",
+      "words": [
+       {
+        "w": "triḥ",
+        "gloss": "thrice",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "pariṇīyāgnisākṣikaṃ",
+      "words": [
+       {
+        "w": "pariṇīya",
+        "gloss": "having led around",
+        "gram": "abs. pari-√nī"
+       },
+       {
+        "w": "agni-sākṣikam",
+        "gloss": "with fire as witness",
+        "gram": "bahuvrīhi, adj. (m. acc. sg. with śiṣyam, or adverbial)"
+       }
+      ]
+     },
+     {
+      "src": "śiṣyaṃ",
+      "words": [
+       {
+        "w": "śiṣyam",
+        "gloss": "pupil",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "brūyāt",
+      "words": [
+       {
+        "w": "brūyāt",
+        "gloss": "should say",
+        "gram": "3 sg. opt. √brū"
+       }
+      ]
+     },
+     {
+      "src": "kāmakrodhalobhamohamānāhaṇkārerṣyāpāruṣyapaiśunyānṛtālasyāyaśasyāni",
+      "words": [
+       {
+        "w": "kāma-krodha-lobha-moha-māna-ahaṇkāra-īrṣyā-pāruṣya-paiśunya-anṛta-ālasya-ayaśasyāni",
+        "gloss": "desire, anger, greed, delusion, pride, egoism, envy, harshness, slander, falsehood, laziness, what brings ill repute",
+        "gram": "dvandva, n. acc. pl."
+       }
+      ]
+     },
+     {
+      "src": "hitvā",
+      "words": [
+       {
+        "w": "hitvā",
+        "gloss": "having abandoned",
+        "gram": "abs. √hā"
+       }
+      ]
+     },
+     {
+      "src": "nīcanakharomṇā",
+      "words": [
+       {
+        "w": "nīca-nakha-romṇā",
+        "gloss": "with short nails and hair",
+        "gram": "bahuvrīhi, m. inst. sg."
+       }
+      ]
+     },
+     {
+      "src": "śucinā",
+      "words": [
+       {
+        "w": "śucinā",
+        "gloss": "clean",
+        "gram": "m. inst. sg."
+       }
+      ]
+     },
+     {
+      "src": "kaṣāyavāsasā",
+      "words": [
+       {
+        "w": "kaṣāya-vāsasā",
+        "gloss": "wearing a reddish-brown garment",
+        "gram": "bahuvrīhi, m. inst. sg."
+       }
+      ]
+     },
+     {
+      "src": "satyavratabrahmacaryābhivādanatatpareṇāavaśyaṃ",
+      "words": [
+       {
+        "w": "satya-vrata-brahmacarya-abhivādana-tat-pareṇa",
+        "gloss": "intent on truth, vow, celibacy, salutation",
+        "gram": "bahuvrīhi, m. inst. sg."
+       },
+       {
+        "w": "avaśyam",
+        "gloss": "necessarily",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "bhavitavyaṃ",
+      "words": [
+       {
+        "w": "bhavitavyam",
+        "gloss": "it must be",
+        "gram": "gdv. n. nom. sg. √bhū"
+       }
+      ]
+     },
+     {
+      "src": "madanumatasthānagamanaśayanāsanabhojanādhyayanapareṇa",
+      "words": [
+       {
+        "w": "mat-anumata-sthāna-gamana-śayana-āsana-bhojana-adhyayana-pareṇa",
+        "gloss": "intent on standing, going, lying, sitting, eating, studying as approved by me",
+        "gram": "tat-puruṣa + dvandva, m. inst. sg."
+       }
+      ]
+     },
+     {
+      "src": "bhūtvā",
+      "words": [
+       {
+        "w": "bhūtvā",
+        "gloss": "having become",
+        "gram": "abs. √bhū"
+       }
+      ]
+     },
+     {
+      "src": "matpriyahiteṣu",
+      "words": [
+       {
+        "w": "mat-priya-hiteṣu",
+        "gloss": "in what is dear and beneficial to me",
+        "gram": "dvandva, n. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "vartitavyaṃ",
+      "words": [
+       {
+        "w": "vartitavyam",
+        "gloss": "one must conduct oneself",
+        "gram": "gdv. n. nom. sg. √vṛt"
+       }
+      ]
+     },
+     {
+      "src": "ato'nyathā",
+      "words": [
+       {
+        "w": "ataḥ",
+        "gloss": "than this",
+        "gram": "ind."
+       },
+       {
+        "w": "anyathā",
+        "gloss": "otherwise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "te",
+      "words": [
+       {
+        "w": "te",
+        "gloss": "for you",
+        "gram": "gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "vartamānasyādharmo",
+      "words": [
+       {
+        "w": "vartamānasya",
+        "gloss": "behaving",
+        "gram": "pres. part. m. gen. sg. √vṛt"
+       },
+       {
+        "w": "adharmaḥ",
+        "gloss": "unrighteousness",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "bhavati",
+      "words": [
+       {
+        "w": "bhavati",
+        "gloss": "arises",
+        "gram": "3 sg. pres. √bhū"
+       }
+      ]
+     },
+     {
+      "src": "aphalā",
+      "words": [
+       {
+        "w": "aphalā",
+        "gloss": "fruitless",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "vidyā",
+      "words": [
+       {
+        "w": "vidyā",
+        "gloss": "learning",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "na",
+      "words": [
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "prākāśyaṃ",
+      "words": [
+       {
+        "w": "prākāśyam",
+        "gloss": "renown",
+        "gram": "n. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "prāpnoti",
+      "words": [
+       {
+        "w": "prāpnoti",
+        "gloss": "attains",
+        "gram": "3 sg. pres. pra-√āp"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of passage",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "तब अग्नि की तीन बार परिक्रमा करवाकर, अग्नि को साक्षी मानकर, शिष्य से कहे: काम, क्रोध, लोभ, मोह, मान, अहंकार, ईर्ष्या, कठोरता, चुगली, असत्य, आलस्य और अपयश करने वाली बातों को छोड़कर, छोटे नख और रोमों वाले, पवित्र, काषाय वस्त्र पहने हुए, सत्य, व्रत, ब्रह्मचर्य और अभिवादन में तत्पर तुम्हें अवश्य होना चाहिए; और मेरे अनुमोदित खड़े होने, चलने, सोने, बैठने, भोजन करने और अध्ययन में लगे रहकर मेरे प्रिय और हितकारी कार्यों में तुम्हें व्यवहार करना चाहिए। इससे अन्यथा आचरण करते हुए तुम्हें अधर्म होता है, विद्या निष्फल होती है और तुम प्रसिद्धि नहीं पाते।",
+  "english": "Then, having led him thrice around the fire, he should say to the pupil with the fire as witness: Abandoning desire, anger, greed, delusion, pride, egoism, envy, harshness, slander, falsehood, laziness and what brings ill repute, you must necessarily be one with short nails and hair, clean, wearing a reddish-brown garment, and intent on truth, vows, celibacy and salutation. Being intent on standing, going, lying, sitting, eating and studying as I approve, you must conduct yourself in what is dear and beneficial to me. If you behave otherwise than this, unrighteousness arises for you, your learning is fruitless, and you do not attain renown.",
+  "text_flags": [
+   {
+    "src": "kāmakrodhalobhamohamānāhaṇkārerṣyāpāruṣyapaiśunyānṛtālasyāyaśasyāni",
+    "suggest": "kāmakrodhalobhamohamānāhaṅkārerṣyāpāruṣyapaiśunyānṛtālasyāyaśasyāni",
+    "why": "possible: 'ahaṇkāra' with ṇ; the usual spelling is ahaṅkāra (ahaṃkāra)"
+   }
+  ],
+  "notes": "The '+' hints at tato+agniṃ, tatpareṇā+avaśyaṃ, ato+anyathā are followed. 'tatpareṇāavaśyaṃ' shows ā plus a (tatpareṇa avaśyam). Who is led around the fire is not stated; the pupil is understood. 'ayaśasyāni' is taken as 'things bringing ill-repute'. 'prākāśyam' taken as renown/fame. The subject of prāpnoti is not stated (the pupil, or the learning); the pupil is taken. Bhavitavyam and vartitavyam are impersonal gerundives governing the instrumental/locative, rendered 'you must'. Alternative: vidyā may be the subject of both clauses ('learning is fruitless and does not gain renown'), as in unit 8.",
+  "confidence": "medium",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.2.6"
+  ],
+  "lines_deva": [
+   "ततोऽग्निं त्रिः परिणीयाग्निसाक्षिकं शिष्यं ब्रूयात् कामक्रोधलोभमोहमानाहण्कारेर्ष्यापारुष्यपैशुन्यानृतालस्यायशस्यानि हित्वा नीचनखरोम्णा शुचिना कषायवाससा सत्यव्रतब्रह्मचर्याभिवादनतत्परेणाअवश्यं भवितव्यं मदनुमतस्थानगमनशयनासनभोजनाध्ययनपरेण भूत्वा मत्प्रियहितेषु वर्तितव्यं अतोऽन्यथा ते वर्तमानस्याधर्मो भवति अफला च विद्या न च प्राकाश्यं प्राप्नोति ॥"
+  ],
+  "lines_iast": [
+   "tato'gniṃ triḥ pariṇīyāgnisākṣikaṃ śiṣyaṃ brūyāt kāmakrodhalobhamohamānāhaṇkārerṣyāpāruṣyapaiśunyānṛtālasyāyaśasyāni hitvā nīcanakharomṇā śucinā kaṣāyavāsasā satyavratabrahmacaryābhivādanatatpareṇāavaśyaṃ bhavitavyaṃ madanumatasthānagamanaśayanāsanabhojanādhyayanapareṇa bhūtvā matpriyahiteṣu vartitavyaṃ ato'nyathā te vartamānasyādharmo bhavati aphalā ca vidyā na ca prākāśyaṃ prāpnoti ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "7",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "ahaṃ",
+      "words": [
+       {
+        "w": "aham",
+        "gloss": "I",
+        "gram": "nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "vā",
+      "words": [
+       {
+        "w": "vā",
+        "gloss": "or",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "tvayi",
+      "words": [
+       {
+        "w": "tvayi",
+        "gloss": "in you",
+        "gram": "loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "samyagvartamāne",
+      "words": [
+       {
+        "w": "samyak",
+        "gloss": "rightly",
+        "gram": "ind."
+       },
+       {
+        "w": "vartamāne",
+        "gloss": "behaving",
+        "gram": "pres. part. m. loc. sg. √vṛt"
+       }
+      ]
+     },
+     {
+      "src": "yadyanyathādarśī",
+      "words": [
+       {
+        "w": "yadi",
+        "gloss": "if",
+        "gram": "ind."
+       },
+       {
+        "w": "anyathā-darśī",
+        "gloss": "seeing or treating otherwise",
+        "gram": "tat-puruṣa, m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "syāmenobhāgbhaveyamaphalavidyaśca",
+      "words": [
+       {
+        "w": "syām",
+        "gloss": "I should be",
+        "gram": "1 sg. opt. √as"
+       },
+       {
+        "w": "enaḥ-bhāk",
+        "gloss": "sharer in sin",
+        "gram": "tat-puruṣa, m. nom. sg."
+       },
+       {
+        "w": "bhaveyam",
+        "gloss": "may I become",
+        "gram": "1 sg. opt. √bhū"
+       },
+       {
+        "w": "aphala-vidyaḥ",
+        "gloss": "with fruitless learning",
+        "gram": "bahuvrīhi, m. nom. sg."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of passage",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "और यदि मैं, तुम्हारे ठीक आचरण करते रहने पर, अन्यथा देखने वाला होऊँ, तो मैं पाप का भागी और निष्फल विद्या वाला हो जाऊँ।",
+  "english": "And if I should be one who sees otherwise (anyathādarśin) while you conduct yourself rightly, may I become a sharer in sin and one whose learning is fruitless.",
+  "text_flags": [],
+  "notes": "'anyathādarśī' (literally 'seeing otherwise') is taken as 'regarding or treating you otherwise than he should'; the sense is not spelled out in the Sanskrit. 'vā' is rendered 'and ... on my part'. Continuation of the teacher's address begun in unit 6.",
+  "confidence": "medium",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.2.7"
+  ],
+  "lines_deva": [
+   "अहं वा त्वयि सम्यग्वर्तमाने यद्यन्यथादर्शी स्यामेनोभाग्भवेयमफलविद्यश्च ॥"
+  ],
+  "lines_iast": [
+   "ahaṃ vā tvayi samyagvartamāne yadyanyathādarśī syāmenobhāgbhaveyamaphalavidyaśca ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "8",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "dvijagurudaridramitrapravrajitopanatasādhvanāthābhyupagatānāṃ",
+      "words": [
+       {
+        "w": "dvija-guru-daridra-mitra-pravrajita-upanata-sādhu-anātha-abhyupagatānām",
+        "gloss": "of brahmins, teachers, poor, friends, renunciants, suppliants, good people, helpless, those who came for refuge",
+        "gram": "dvandva, m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "cātmabāndhavānāmiva",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "ātma-bāndhavānām",
+        "gloss": "of one's own kinsmen",
+        "gram": "tat-puruṣa, m. gen. pl."
+       },
+       {
+        "w": "iva",
+        "gloss": "like",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "svabhaiṣajaiḥ",
+      "words": [
+       {
+        "w": "sva-bhaiṣajaiḥ",
+        "gloss": "with one's own medicines",
+        "gram": "tat-puruṣa, n. inst. pl."
+       }
+      ]
+     },
+     {
+      "src": "pratikartavyamevaṃ",
+      "words": [
+       {
+        "w": "pratikartavyam",
+        "gloss": "remedy is to be done",
+        "gram": "gdv. n. nom. sg. prati-√kṛ"
+       },
+       {
+        "w": "evam",
+        "gloss": "thus",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "sādhu",
+      "words": [
+       {
+        "w": "sādhu",
+        "gloss": "good",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "bhavati",
+      "words": [
+       {
+        "w": "bhavati",
+        "gloss": "it is",
+        "gram": "3 sg. pres. √bhū"
+       }
+      ]
+     },
+     {
+      "src": "vyādhaśākunikapatitapāpakāriṇāṃ",
+      "words": [
+       {
+        "w": "vyādha-śākunika-patita-pāpa-kāriṇām",
+        "gloss": "of hunters, fowlers, fallen, evildoers",
+        "gram": "dvandva, m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "na",
+      "words": [
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "pratikartavyaṃ",
+      "words": [
+       {
+        "w": "pratikartavyam",
+        "gloss": "remedy is to be done",
+        "gram": "gdv. n. nom. sg. prati-√kṛ"
+       }
+      ]
+     },
+     {
+      "src": "evaṃ",
+      "words": [
+       {
+        "w": "evam",
+        "gloss": "thus",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "vidyā",
+      "words": [
+       {
+        "w": "vidyā",
+        "gloss": "learning",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "prakāśate",
+      "words": [
+       {
+        "w": "prakāśate",
+        "gloss": "shines",
+        "gram": "3 sg. pres. pra-√kāś"
+       }
+      ]
+     },
+     {
+      "src": "mitrayaśodharmārthakāmāṃśca",
+      "words": [
+       {
+        "w": "mitra-yaśaḥ-dharma-artha-kāmān",
+        "gloss": "friends, fame, dharma, artha, kāma",
+        "gram": "dvandva, m. acc. pl."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "prāpnoti",
+      "words": [
+       {
+        "w": "prāpnoti",
+        "gloss": "attains",
+        "gram": "3 sg. pres. pra-√āp"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of passage",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "द्विजों, गुरुओं, दरिद्रों, मित्रों, संन्यासियों, शरण में आए हुए, साधुओं, अनाथों और आश्रय पाने के लिए आए हुओं का अपने सम्बन्धियों की तरह अपनी ओषधियों से उपचार करना चाहिए; ऐसा करना अच्छा होता है। परन्तु व्याध, चिड़ीमार, पतित और पापकर्म करने वालों का उपचार नहीं करना चाहिए। ऐसा करने से विद्या प्रकाशित होती है और वह मित्र, यश, धर्म, अर्थ और काम को प्राप्त करता है।",
+  "english": "For brahmins, teachers, the poor, friends, renunciants, suppliants, good people, the helpless, and those who have come for refuge, a remedy should be provided with one's own medicines, as for one's own kinsmen; that is good. But for hunters, fowlers, outcastes and evildoers a remedy should not be provided. In this way learning shines, and one gains friends, fame, dharma, artha and kāma.",
+  "text_flags": [],
+  "notes": "The split of the first compound is a guess at the member boundaries: 'sādhvanātha' is taken as sādhu + anātha (the good, the helpless); it could also be read as a single 'helpless good people'. 'upanata' and 'abhyupagata' are rendered 'suppliant' and 'come for refuge' (both mean approached). 'pratikartavyam' is taken as providing a remedy (treatment). 'patita' is rendered 'outcaste' (literally fallen). 'mitra-yaśaḥ...' is taken as a list of five objects.",
+  "confidence": "medium",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.2.8"
+  ],
+  "lines_deva": [
+   "द्विजगुरुदरिद्रमित्रप्रव्रजितोपनतसाध्वनाथाभ्युपगतानां चात्मबान्धवानामिव स्वभैषजैः प्रतिकर्तव्यमेवं साधु भवति व्याधशाकुनिकपतितपापकारिणां च न प्रतिकर्तव्यं एवं विद्या प्रकाशते मित्रयशोधर्मार्थकामांश्च प्राप्नोति ॥"
+  ],
+  "lines_iast": [
+   "dvijagurudaridramitrapravrajitopanatasādhvanāthābhyupagatānāṃ cātmabāndhavānāmiva svabhaiṣajaiḥ pratikartavyamevaṃ sādhu bhavati vyādhaśākunikapatitapāpakāriṇāṃ ca na pratikartavyaṃ evaṃ vidyā prakāśate mitrayaśodharmārthakāmāṃśca prāpnoti ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "9",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "kṛṣṇe'ṣṭamī",
+      "words": [
+       {
+        "w": "kṛṣṇe",
+        "gloss": "in the dark (fortnight)",
+        "gram": "m. loc. sg."
+       },
+       {
+        "w": "aṣṭamī",
+        "gloss": "eighth (day)",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "tannidhane'hanī",
+      "words": [
+       {
+        "w": "tat-nidhane",
+        "gloss": "at its end",
+        "gram": "tat-puruṣa, n. loc. sg."
+       },
+       {
+        "w": "ahanī",
+        "gloss": "days",
+        "gram": "n. nom. du."
+       }
+      ]
+     },
+     {
+      "src": "dve",
+      "words": [
+       {
+        "w": "dve",
+        "gloss": "two",
+        "gram": "n. nom. du."
+       }
+      ]
+     },
+     {
+      "src": "śukle",
+      "words": [
+       {
+        "w": "śukle",
+        "gloss": "in the bright (fortnight)",
+        "gram": "m. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "tathāapyevamahardvisandhyam",
+      "words": [
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       },
+       {
+        "w": "api",
+        "gloss": "also",
+        "gram": "ind."
+       },
+       {
+        "w": "evam",
+        "gloss": "thus",
+        "gram": "ind."
+       },
+       {
+        "w": "ahar-dvi-sandhyam",
+        "gloss": "the day and the two twilights",
+        "gram": "dvandva, n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse stop",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "akālavidyutstanayitnughoṣe",
+      "words": [
+       {
+        "w": "akāla-vidyut-stanayitnu-ghoṣe",
+        "gloss": "at unseasonal lightning and thunder-sound",
+        "gram": "tat-puruṣa, m. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "svatantrarāṣṭrakṣitipavyathāsu",
+      "words": [
+       {
+        "w": "svatantra-rāṣṭra-kṣitipa-vyathāsu",
+        "gloss": "in the distresses of the king of an independent realm",
+        "gram": "tat-puruṣa, f. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of passage",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "lead_in_tokens": [
+   {
+    "src": "bhavataścātra",
+    "words": [
+     {
+      "w": "bhavataḥ",
+      "gloss": "there are (two verses)",
+      "gram": "3 du. pres. √bhū"
+     },
+     {
+      "w": "ca",
+      "gloss": "and",
+      "gram": "ind."
+     },
+     {
+      "w": "atra",
+      "gloss": "here",
+      "gram": "ind."
+     }
+    ]
+   },
+   {
+    "src": "|",
+    "words": [
+     {
+      "w": "|",
+      "gloss": "half-verse stop",
+      "gram": "punct."
+     }
+    ]
+   }
+  ],
+  "lead_in_hindi": "और इस विषय में ये दो श्लोक हैं।",
+  "lead_in_english": "And on this point there are two verses.",
+  "hindi": "कृष्ण पक्ष में अष्टमी और उसके अन्त के दो दिन; उसी प्रकार शुक्ल पक्ष में भी; इसी प्रकार दिन और दोनों सन्ध्याएँ; असमय बिजली चमकने और बादल गरजने पर; और स्वतन्त्र राष्ट्र के राजा के संकटों में —",
+  "english": "In the dark fortnight the eighth day and the two days at its end; likewise also in the bright fortnight; likewise the day and the two twilights; at unseasonal lightning and thunder; and in the distresses of the king of an independent realm —",
+  "text_flags": [],
+  "notes": "GROUPING: units 9 and 10 form one sentence; unit 9 lists the times and occasions and the verb 'nādhyeyam' (should not be studied) comes in unit 10. 'ahar-dvi-sandhyam' is the least certain item: taken as a neuter collective 'day and two twilights' (literally); the text states no more, and commentators may read it differently (for example as the day-junctures). 'tannidhane' is taken as 'at its end' (of the dark fortnight), with 'ahanī dve' the two days. The same is understood for the bright fortnight. 'kṛṣṇe'ṣṭamī' and 'tannidhane'hanī' follow the '+' hints. Printed 'tathāapi' shows the a-vowels unresolved. The lead-in 'bhavataścātra' is read literally as printed; see text_flags. The compound ahar-dvisandhyam is the least certain part of this unit: 'the day and the two twilights' is a literal reading only. svatantra-rāṣṭra-kṣitipa has no number marked, so 'king' (sg.) is an assumption.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.2.9",
+   "Su.1.2.9ab",
+   "Su.1.2.9cd"
+  ],
+  "lines_deva": [
+   "कृष्णेऽष्टमी तन्निधनेऽहनी द्वे शुक्ले तथाअप्येवमहर्द्विसन्ध्यम् ।",
+   "अकालविद्युत्स्तनयित्नुघोषे स्वतन्त्रराष्ट्रक्षितिपव्यथासु ॥"
+  ],
+  "lines_iast": [
+   "kṛṣṇe'ṣṭamī tannidhane'hanī dve śukle tathāapyevamahardvisandhyam |",
+   "akālavidyutstanayitnughoṣe svatantrarāṣṭrakṣitipavyathāsu ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "10",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "śmaśānayānādyatanāhaveṣu",
+      "words": [
+       {
+        "w": "śmaśāna-yāna-āyatana-āhaveṣu",
+        "gloss": "at cremation ground, vehicle, abode, battle",
+        "gram": "dvandva, m. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "mahotsavautpātikadarśaneṣu",
+      "words": [
+       {
+        "w": "mahā-utsava-autpātika-darśaneṣu",
+        "gloss": "at sights of great festival and portents",
+        "gram": "tat-puruṣa, n. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse stop",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "nādhyeyamanyeṣu",
+      "words": [
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       },
+       {
+        "w": "adhyeyam",
+        "gloss": "to be studied",
+        "gram": "gdv. n. nom. sg. adhi-√i"
+       },
+       {
+        "w": "anyeṣu",
+        "gloss": "in other (times)",
+        "gram": "n. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "yeṣu",
+      "words": [
+       {
+        "w": "yeṣu",
+        "gloss": "on which",
+        "gram": "n. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "vaprā",
+      "words": [
+       {
+        "w": "viprāḥ",
+        "gloss": "brahmins",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "nādhīyate",
+      "words": [
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       },
+       {
+        "w": "adhīyate",
+        "gloss": "study",
+        "gram": "3 pl. pres. mid. adhi-√i"
+       }
+      ]
+     },
+     {
+      "src": "nāśucinā",
+      "words": [
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       },
+       {
+        "w": "aśucinā",
+        "gloss": "by one impure",
+        "gram": "m. inst. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "nityam",
+      "words": [
+       {
+        "w": "nityam",
+        "gloss": "always",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "end of passage",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "श्मशान में, यान में, आयतन में और युद्ध में; बड़े उत्सव या उत्पातों के दर्शन होने पर; तथा उन अन्य अवसरों में जिनमें ब्राह्मण अध्ययन नहीं करते, अध्ययन नहीं करना चाहिए; और अपवित्र व्यक्ति को भी कभी अध्ययन नहीं करना चाहिए।",
+  "english": "Study should not be done at the cremation ground, in a vehicle, in an abode (āyatana) or in battle, at the sight of a great festival or of portents, and on other occasions when brahmins do not study; and it should never be done by one who is impure.",
+  "text_flags": [
+   {
+    "src": "vaprā",
+    "suggest": "viprā",
+    "why": "possible: 'vaprā' is not a fitting word here; 'viprāḥ' (brahmins) fits sense and the plural verb adhīyate"
+   },
+   {
+    "src": "śmaśānayānādyatanāhaveṣu",
+    "suggest": "śmaśānayānāyatanāhaveṣu",
+    "why": "possible: 'yānādyatana' for yāna-āyatana (the 'd' looks like an intrusion)"
+   }
+  ],
+  "notes": "GROUPING: continues unit 9; the two units together are one sentence (times listed in unit 9, prohibition 'nādhyeyam' here). 'āyatana' is rendered 'abode' (dwelling/sacred place); 'yāna' as 'vehicle/conveyance'. 'mahotsava-autpātika-darśaneṣu' is read as 'at the sight of great festival and portents', with darśana the final member. 'adhīyate' taken as 3 pl. of adhi-√i, middle. Words follow the suggested readings for the two flagged items.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.2.10ab",
+   "Su.1.2.10cd"
+  ],
+  "lines_deva": [
+   "श्मशानयानाद्यतनाहवेषु महोत्सवौत्पातिकदर्शनेषु ।",
+   "नाध्येयमन्येषु च येषु वप्रा नाधीयते नाशुचिना च नित्यम् ॥"
+  ],
+  "lines_iast": [
+   "śmaśānayānādyatanāhaveṣu mahotsavautpātikadarśaneṣu |",
+   "nādhyeyamanyeṣu ca yeṣu vaprā nādhīyate nāśucinā ca nityam ||"
+  ],
+  "uncertain": []
+ }
+]

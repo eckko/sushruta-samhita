@@ -1,0 +1,1818 @@
+[
+ {
+  "n": "1",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "athātaḥ",
+      "words": [
+       {
+        "w": "atha",
+        "gloss": "now",
+        "gram": "ind."
+       },
+       {
+        "w": "ataḥ",
+        "gloss": "therefore",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "prabhāṣaṇīyamadhyāyaṃ",
+      "words": [
+       {
+        "w": "prabhāṣaṇīyam",
+        "gloss": "to be discussed (chapter title)",
+        "gram": "ger. m. acc. sg. (agrees with adhyāyam)"
+       },
+       {
+        "w": "adhyāyam",
+        "gloss": "chapter",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "vyākhyāsyāmaḥ",
+      "words": [
+       {
+        "w": "vyākhyāsyāmaḥ",
+        "gloss": "we shall explain",
+        "gram": "1 pl. fut. vi-ā-√khyā"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "अब इसके बाद हम 'प्रभाषणीय' नामक अध्याय की व्याख्या करेंगे।",
+  "english": "Now, therefore, we shall explain the chapter called Prabhāṣaṇīya (\"that which is to be discussed\").",
+  "text_flags": [],
+  "notes": "Standard opening formula (atha-ataḥ). prabhāṣaṇīya is the chapter title; its literal sense 'to be spoken/discussed' is a gloss, not a claim about its intended meaning.",
+  "confidence": "high",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.4.1"
+  ],
+  "lines_deva": [
+   "अथातः प्रभाषणीयमध्यायं व्याख्यास्यामः ॥"
+  ],
+  "lines_iast": [
+   "athātaḥ prabhāṣaṇīyamadhyāyaṃ vyākhyāsyāmaḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "2",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "yāthovāca",
+      "words": [
+       {
+        "w": "yathā",
+        "gloss": "as",
+        "gram": "ind."
+       },
+       {
+        "w": "uvāca",
+        "gloss": "said",
+        "gram": "3 sg. pf. √vac"
+       }
+      ]
+     },
+     {
+      "src": "bhagavān",
+      "words": [
+       {
+        "w": "bhagavān",
+        "gloss": "revered, blessed",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "dhanvantariḥ",
+      "words": [
+       {
+        "w": "dhanvantariḥ",
+        "gloss": "Dhanvantari",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "जैसा भगवान् धन्वन्तरि ने कहा।",
+  "english": "As the revered Dhanvantari said.",
+  "text_flags": [
+   {
+    "src": "yāthovāca",
+    "suggest": "yathovāca",
+    "why": "yathā + uvāca gives yathovāca (ā+u > o); the long ā in the first syllable is a likely misprint"
+   }
+  ],
+  "notes": "The sentence continues into the next unit (the speech of Dhanvantari). Joined forms: yathā + uvāca = yathovāca.",
+  "confidence": "high",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.4.2"
+  ],
+  "lines_deva": [
+   "याथोवाच भगवान् धन्वन्तरिः ॥"
+  ],
+  "lines_iast": [
+   "yāthovāca bhagavān dhanvantariḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "3",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "adhigatamapyadhyayanamaprabhāṣitamarthataḥ",
+      "words": [
+       {
+        "w": "adhigatam",
+        "gloss": "learned, mastered",
+        "gram": "p.p.p. n. nom. sg. adhi-√gam"
+       },
+       {
+        "w": "api",
+        "gloss": "even",
+        "gram": "ind."
+       },
+       {
+        "w": "adhyayanam",
+        "gloss": "study",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "a-",
+        "gloss": "not",
+        "gram": "neg. prefix"
+       },
+       {
+        "w": "prabhāṣitam",
+        "gloss": "expounded",
+        "gram": "p.p.p. n. nom. sg."
+       },
+       {
+        "w": "arthataḥ",
+        "gloss": "in meaning",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kharasya",
+      "words": [
+       {
+        "w": "kharasya",
+        "gloss": "of a donkey",
+        "gram": "m. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "candanabhāra",
+      "words": [
+       {
+        "w": "candana-",
+        "gloss": "sandal(wood)",
+        "gram": "tat-puruṣa"
+       },
+       {
+        "w": "bhāraḥ",
+        "gloss": "load",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "iva",
+      "words": [
+       {
+        "w": "iva",
+        "gloss": "like",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kevalaṃ",
+      "words": [
+       {
+        "w": "kevalam",
+        "gloss": "merely",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "pariśramakaraṃ",
+      "words": [
+       {
+        "w": "pariśrama-",
+        "gloss": "toil",
+        "gram": "tat-puruṣa"
+       },
+       {
+        "w": "karam",
+        "gloss": "causing",
+        "gram": "n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "bhavati",
+      "words": [
+       {
+        "w": "bhavati",
+        "gloss": "is",
+        "gram": "3 sg. pres. √bhū"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "पढ़ा हुआ अध्ययन भी, यदि उसके अर्थ का प्रवचन न किया गया हो, तो गधे पर लदे चन्दन के भार के समान केवल परिश्रम कराने वाला होता है।",
+  "english": "Even study that has been mastered, if not expounded in its meaning, only causes toil, like a load of sandal for a donkey.",
+  "text_flags": [],
+  "notes": "aprabhāṣitam arthataḥ: 'not spoken out/expounded as to its meaning'. 'Mastered' renders adhigata (literally 'gone through/obtained').",
+  "confidence": "high",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.4.3"
+  ],
+  "lines_deva": [
+   "अधिगतमप्यध्ययनमप्रभाषितमर्थतः खरस्य चन्दनभार इव केवलं परिश्रमकरं भवति ॥"
+  ],
+  "lines_iast": [
+   "adhigatamapyadhyayanamaprabhāṣitamarthataḥ kharasya candanabhāra iva kevalaṃ pariśramakaraṃ bhavati ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "4",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "yathā",
+      "words": [
+       {
+        "w": "yathā",
+        "gloss": "as",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kharaścandanabhāravāhī",
+      "words": [
+       {
+        "w": "kharaḥ",
+        "gloss": "donkey",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "candana-",
+        "gloss": "sandal(wood)",
+        "gram": "upapada tat-puruṣa"
+       },
+       {
+        "w": "bhāra-",
+        "gloss": "load",
+        "gram": "m."
+       },
+       {
+        "w": "vāhī",
+        "gloss": "carrying",
+        "gram": "m. nom. sg. (vāhin)"
+       }
+      ]
+     },
+     {
+      "src": "bhārasya",
+      "words": [
+       {
+        "w": "bhārasya",
+        "gloss": "of the load",
+        "gram": "m. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "vettā",
+      "words": [
+       {
+        "w": "vettā",
+        "gloss": "knower",
+        "gram": "m. nom. sg. (agent noun √vid)"
+       }
+      ]
+     },
+     {
+      "src": "na",
+      "words": [
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "tu",
+      "words": [
+       {
+        "w": "tu",
+        "gloss": "but",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "candanasya",
+      "words": [
+       {
+        "w": "candanasya",
+        "gloss": "of the sandal",
+        "gram": "n. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "evaṃ",
+      "words": [
+       {
+        "w": "evam",
+        "gloss": "so, thus",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "hi",
+      "words": [
+       {
+        "w": "hi",
+        "gloss": "indeed",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "śāstrāṇi",
+      "words": [
+       {
+        "w": "śāstrāṇi",
+        "gloss": "treatises",
+        "gram": "n. acc. pl."
+       }
+      ]
+     },
+     {
+      "src": "baḥūnyadhītya",
+      "words": [
+       {
+        "w": "bahūni",
+        "gloss": "many",
+        "gram": "n. acc. pl."
+       },
+       {
+        "w": "adhītya",
+        "gloss": "having studied",
+        "gram": "abs. adhi-√i"
+       }
+      ]
+     },
+     {
+      "src": "cārtheṣu",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "artheṣu",
+        "gloss": "in the meanings",
+        "gram": "m. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "mūḍhāḥ",
+      "words": [
+       {
+        "w": "mūḍhāḥ",
+        "gloss": "deluded, confused",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "kharavadvahanti",
+      "words": [
+       {
+        "w": "khara-",
+        "gloss": "donkey",
+        "gram": "tat-puruṣa"
+       },
+       {
+        "w": "vat",
+        "gloss": "like",
+        "gram": "ind. (-vat)"
+       },
+       {
+        "w": "vahanti",
+        "gloss": "carry",
+        "gram": "3 pl. pres. √vah"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "lead_in_tokens": [
+   {
+    "src": "bhavati",
+    "words": [
+     {
+      "w": "bhavati",
+      "gloss": "is, there is",
+      "gram": "3 sg. pres. √bhū"
+     }
+    ]
+   },
+   {
+    "src": "cātra",
+    "words": [
+     {
+      "w": "ca",
+      "gloss": "and",
+      "gram": "ind."
+     },
+     {
+      "w": "atra",
+      "gloss": "here, on this point",
+      "gram": "ind."
+     }
+    ]
+   },
+   {
+    "src": "|",
+    "words": [
+     {
+      "w": "|",
+      "gloss": "half-verse end",
+      "gram": "punct."
+     }
+    ]
+   }
+  ],
+  "lead_in_hindi": "और इस विषय में यह है।",
+  "lead_in_english": "And on this point there is this.",
+  "hindi": "जैसे चन्दन का भार ढोने वाला गधा भार को ही जानता है, चन्दन को नहीं, वैसे ही बहुत से शास्त्रों को पढ़कर भी उनके अर्थों में मूढ़ लोग गधे के समान उन्हें ढोते हैं।",
+  "english": "Just as the donkey carrying a load of sandal knows the load but not the sandal, so too those who have studied many treatises but are deluded about their meanings carry them like donkeys.",
+  "text_flags": [
+   {
+    "src": "baḥūnyadhītya",
+    "suggest": "bahūnyadhītya",
+    "why": "stray visarga: baḥūni is not a form; bahūni (n. acc. pl. of bahu) is meant; metre is unaffected"
+   }
+  ],
+  "notes": "Both lines scan as 22 syllables (upajāti type). 'ca' joins 'having studied many treatises' with 'deluded in meanings'. The Hindi adds (उन्हें) only for the unexpressed object 'them' (śāstrāṇi).",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.4.4",
+   "Su.1.4.4ab",
+   "Su.1.4.4cd"
+  ],
+  "lines_deva": [
+   "यथा खरश्चन्दनभारवाही भारस्य वेत्ता न तु चन्दनस्य ।",
+   "एवं हि शास्त्राणि बःऊन्यधीत्य चार्थेषु मूढाः खरवद्वहन्ति ॥"
+  ],
+  "lines_iast": [
+   "yathā kharaścandanabhāravāhī bhārasya vettā na tu candanasya |",
+   "evaṃ hi śāstrāṇi baḥūnyadhītya cārtheṣu mūḍhāḥ kharavadvahanti ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "5",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "tasmāt",
+      "words": [
+       {
+        "w": "tasmāt",
+        "gloss": "therefore",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "saviṃśamadhyāyaśatamanupadapādaślokamanuvarṇayitavyamanuśrotavyaṃ",
+      "words": [
+       {
+        "w": "sa-",
+        "gloss": "with",
+        "gram": "bahuvrīhi"
+       },
+       {
+        "w": "viṃśam",
+        "gloss": "twenty",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "adhyāya-",
+        "gloss": "chapter",
+        "gram": "tat-puruṣa"
+       },
+       {
+        "w": "śatam",
+        "gloss": "hundred",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "anupada-",
+        "gloss": "word by word",
+        "gram": "avyayībhāva"
+       },
+       {
+        "w": "pāda-",
+        "gloss": "quarter-verse (line)",
+        "gram": "m."
+       },
+       {
+        "w": "ślokam",
+        "gloss": "verse",
+        "gram": "ind. (avyayībhāva, adverbial)"
+       },
+       {
+        "w": "anuvarṇayitavyam",
+        "gloss": "to be recounted",
+        "gram": "ger. n. nom. sg. anu-√varṇ"
+       },
+       {
+        "w": "anuśrotavyam",
+        "gloss": "to be listened to",
+        "gram": "ger. n. nom. sg. anu-√śru"
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kasmāt",
+      "words": [
+       {
+        "w": "kasmāt",
+        "gloss": "why",
+        "gram": "ind. (interrog.)"
+       }
+      ]
+     },
+     {
+      "src": "sūkṣmā",
+      "words": [
+       {
+        "w": "sūkṣmāḥ",
+        "gloss": "subtle, fine",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "hi",
+      "words": [
+       {
+        "w": "hi",
+        "gloss": "for, because",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "dravyarasaguṇavīryavipākadoṣadhātumalāśayamarmasirāsnāyusandhyasthigarbhasaṃbhavadravyasamūhavibhāgāstathā",
+      "words": [
+       {
+        "w": "dravya-",
+        "gloss": "substance",
+        "gram": "dvandva"
+       },
+       {
+        "w": "rasa-",
+        "gloss": "taste (rasa)",
+        "gram": "m."
+       },
+       {
+        "w": "guṇa-",
+        "gloss": "quality",
+        "gram": "m."
+       },
+       {
+        "w": "vīrya-",
+        "gloss": "potency (vīrya)",
+        "gram": "n."
+       },
+       {
+        "w": "vipāka-",
+        "gloss": "post-digestive change (vipāka)",
+        "gram": "m."
+       },
+       {
+        "w": "doṣa-",
+        "gloss": "doṣa",
+        "gram": "m."
+       },
+       {
+        "w": "dhātu-",
+        "gloss": "dhātu",
+        "gram": "m."
+       },
+       {
+        "w": "mala-",
+        "gloss": "waste",
+        "gram": "n."
+       },
+       {
+        "w": "āśaya-",
+        "gloss": "receptacle, seat",
+        "gram": "m."
+       },
+       {
+        "w": "marma-",
+        "gloss": "vital spot",
+        "gram": "n."
+       },
+       {
+        "w": "sirā-",
+        "gloss": "vessel",
+        "gram": "f."
+       },
+       {
+        "w": "snāyu-",
+        "gloss": "sinew, ligament",
+        "gram": "m."
+       },
+       {
+        "w": "sandhi-",
+        "gloss": "joint",
+        "gram": "m."
+       },
+       {
+        "w": "asthi-",
+        "gloss": "bone",
+        "gram": "n."
+       },
+       {
+        "w": "garbha-",
+        "gloss": "embryo",
+        "gram": "m."
+       },
+       {
+        "w": "saṃbhava-",
+        "gloss": "origin, formation",
+        "gram": "m."
+       },
+       {
+        "w": "dravya-",
+        "gloss": "substance",
+        "gram": "n."
+       },
+       {
+        "w": "samūha-",
+        "gloss": "group",
+        "gram": "m."
+       },
+       {
+        "w": "vibhāgāḥ",
+        "gloss": "divisions",
+        "gram": "m. nom. pl."
+       },
+       {
+        "w": "tathā",
+        "gloss": "likewise",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "pranaṣṭaśalyoddharaṇavraṇaviniścayabhagnavikalpāḥ",
+      "words": [
+       {
+        "w": "pranaṣṭa-",
+        "gloss": "lost, hidden",
+        "gram": "p.p.p."
+       },
+       {
+        "w": "śalya-",
+        "gloss": "foreign body (śalya)",
+        "gram": "n."
+       },
+       {
+        "w": "uddharaṇa-",
+        "gloss": "extraction",
+        "gram": "n."
+       },
+       {
+        "w": "vraṇa-",
+        "gloss": "wound, ulcer (vraṇa)",
+        "gram": "m."
+       },
+       {
+        "w": "viniścaya-",
+        "gloss": "ascertainment",
+        "gram": "m."
+       },
+       {
+        "w": "bhagna-",
+        "gloss": "broken, fractured",
+        "gram": "p.p.p."
+       },
+       {
+        "w": "vikalpāḥ",
+        "gloss": "varieties",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "sādhyayāpyapratyākhyeyatā",
+      "words": [
+       {
+        "w": "sādhya-",
+        "gloss": "curable",
+        "gram": "ger."
+       },
+       {
+        "w": "yāpya-",
+        "gloss": "manageable (yāpya)",
+        "gram": "ger."
+       },
+       {
+        "w": "pratyākhyeya-",
+        "gloss": "to be declined",
+        "gram": "ger."
+       },
+       {
+        "w": "tā",
+        "gloss": "-ness, state",
+        "gram": "f. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "vikārāṇāmevamādayaścānye",
+      "words": [
+       {
+        "w": "vikārāṇām",
+        "gloss": "of disorders",
+        "gram": "m. gen. pl."
+       },
+       {
+        "w": "evam-",
+        "gloss": "thus, such",
+        "gram": "ind."
+       },
+       {
+        "w": "ādayaḥ",
+        "gloss": "beginning with",
+        "gram": "m. nom. pl."
+       },
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "anye",
+        "gloss": "other",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "sahasraśo",
+      "words": [
+       {
+        "w": "sahasraśaḥ",
+        "gloss": "by thousands",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "viśeṣā",
+      "words": [
+       {
+        "w": "viśeṣāḥ",
+        "gloss": "particulars",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "ye",
+      "words": [
+       {
+        "w": "ye",
+        "gloss": "which",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "vicintyamānā",
+      "words": [
+       {
+        "w": "vicintyamānāḥ",
+        "gloss": "being considered",
+        "gram": "pres. pass. part. vi-√cint, m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "vimalavipulabuddherapi",
+      "words": [
+       {
+        "w": "vimala-",
+        "gloss": "clear, spotless",
+        "gram": "bahuvrīhi"
+       },
+       {
+        "w": "vipula-",
+        "gloss": "vast",
+        "gram": "bahuvrīhi"
+       },
+       {
+        "w": "buddheḥ",
+        "gloss": "of one whose intellect",
+        "gram": "m. gen. sg."
+       },
+       {
+        "w": "api",
+        "gloss": "even",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "buddhimākulīkuryuḥ",
+      "words": [
+       {
+        "w": "buddhim",
+        "gloss": "mind, intellect",
+        "gram": "f. acc. sg."
+       },
+       {
+        "w": "ākulī-",
+        "gloss": "confused (cvi)",
+        "gram": "ind."
+       },
+       {
+        "w": "kuryuḥ",
+        "gloss": "they would make",
+        "gram": "3 pl. opt. √kṛ"
+       }
+      ]
+     },
+     {
+      "src": "kiṃ",
+      "words": [
+       {
+        "w": "kim",
+        "gloss": "how",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "punaralpabuddheḥ",
+      "words": [
+       {
+        "w": "punaḥ",
+        "gloss": "more, again",
+        "gram": "ind."
+       },
+       {
+        "w": "alpa-",
+        "gloss": "little",
+        "gram": "bahuvrīhi"
+       },
+       {
+        "w": "buddheḥ",
+        "gloss": "of one whose intellect",
+        "gram": "m. gen. sg."
+       }
+      ]
+     },
+     {
+      "src": "tasmādavaśyamanupadapādaślokamanuvarṇayitavyamanuśrotavyaṃ",
+      "words": [
+       {
+        "w": "tasmāt",
+        "gloss": "therefore",
+        "gram": "ind."
+       },
+       {
+        "w": "avaśyam",
+        "gloss": "necessarily",
+        "gram": "ind."
+       },
+       {
+        "w": "anupada-",
+        "gloss": "word by word",
+        "gram": "avyayībhāva"
+       },
+       {
+        "w": "pāda-",
+        "gloss": "quarter-verse (line)",
+        "gram": "m."
+       },
+       {
+        "w": "ślokam",
+        "gloss": "verse",
+        "gram": "ind. (avyayībhāva, adverbial)"
+       },
+       {
+        "w": "anuvarṇayitavyam",
+        "gloss": "to be recounted",
+        "gram": "ger. n. nom. sg."
+       },
+       {
+        "w": "anuśrotavyam",
+        "gloss": "to be listened to",
+        "gram": "ger. n. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "इसलिए एक सौ बीस अध्यायों का प्रत्येक पद, प्रत्येक पाद और प्रत्येक श्लोक करके वर्णन किया जाना और सुना जाना चाहिए। क्यों? क्योंकि द्रव्य, रस, गुण, वीर्य, विपाक, दोष, धातु, मल, आशय, मर्म, सिरा, स्नायु, सन्धि, अस्थि, गर्भ की उत्पत्ति और द्रव्यों के समूहों के विभाग सूक्ष्म हैं; तथा खोए हुए शल्य को निकालना, व्रण का निश्चय और भग्न के भेद सूक्ष्म हैं; रोगों की साध्यता, याप्यता और प्रत्याख्येयता भी सूक्ष्म है; और इसी प्रकार के अन्य हज़ारों विशेष विषय हैं, जो विचार करने पर निर्मल और विशाल बुद्धि वाले की भी बुद्धि को व्याकुल कर दें, तो अल्प बुद्धि वाले का तो कहना ही क्या! इसलिए अवश्य ही प्रत्येक पद, प्रत्येक पाद और प्रत्येक श्लोक करके उनका वर्णन किया जाना और सुना जाना चाहिए।",
+  "english": "Therefore the hundred and twenty chapters should be recounted and listened to word by word, quarter-verse by quarter-verse and verse by verse. Why? Because subtle are the substances (dravya), tastes (rasa), qualities (guṇa), potencies (vīrya), post-digestive changes (vipāka), doṣas, dhātus, wastes, receptacles, vital spots, vessels, sinews, joints, bones, the origin of the embryo, and the divisions of groups of substances; likewise the extraction of lost foreign bodies, the ascertainment of wounds, and the varieties of fractures; and the curable, manageable and to-be-declined nature of disorders; and thousands of other such particulars, which, when pondered, would confuse the mind even of one of clear and vast intellect, how much more that of one of little intellect. Therefore they must necessarily be recounted and listened to word by word, quarter-verse by quarter-verse and verse by verse.",
+  "text_flags": [],
+  "notes": "Very long compound; the grouping of members is a judgement. (1) dravya ... garbhasaṃbhava is read as one dvandva list, with dravyasamūha-vibhāgāḥ ('divisions of groups of substances') as the final member; the repeated dravya could also mean the list is two parallel sets. (2) pranaṣṭaśalyoddharaṇa-vraṇaviniścaya-bhagnavikalpāḥ: vikalpāḥ may govern only 'bhagna' (varieties of fracture) or all three members; the first reading is used. (3) anupada-pāda-śloka-m is read as 'word by word, quarter-verse by quarter-verse, verse by verse' (adverbial, acc.); it could also be read as 'each word, each quarter-verse, each verse'. (4) saviṃśam adhyāyaśatam = a hundred chapters plus twenty = 120, as the text says. (5) 'sūkṣmāḥ' agrees with the plural vibhāgāḥ, vikalpāḥ, viśeṣāḥ; sādhyayāpyapratyākhyeyatā is singular, so 'subtle' is applied to it loosely in the translation. The technical terms are glossed by their plain sense only.",
+  "confidence": "medium",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.4.5"
+  ],
+  "lines_deva": [
+   "तस्मात् सविंशमध्यायशतमनुपदपादश्लोकमनुवर्णयितव्यमनुश्रोतव्यं च कस्मात् सूक्ष्मा हि द्रव्यरसगुणवीर्यविपाकदोषधातुमलाशयमर्मसिरास्नायुसन्ध्यस्थिगर्भसंभवद्रव्यसमूहविभागास्तथा प्रनष्टशल्योद्धरणव्रणविनिश्चयभग्नविकल्पाः साध्ययाप्यप्रत्याख्येयता च विकाराणामेवमादयश्चान्ये सहस्रशो विशेषा ये विचिन्त्यमाना विमलविपुलबुद्धेरपि बुद्धिमाकुलीकुर्युः किं पुनरल्पबुद्धेः तस्मादवश्यमनुपदपादश्लोकमनुवर्णयितव्यमनुश्रोतव्यं च ॥"
+  ],
+  "lines_iast": [
+   "tasmāt saviṃśamadhyāyaśatamanupadapādaślokamanuvarṇayitavyamanuśrotavyaṃ ca kasmāt sūkṣmā hi dravyarasaguṇavīryavipākadoṣadhātumalāśayamarmasirāsnāyusandhyasthigarbhasaṃbhavadravyasamūhavibhāgāstathā pranaṣṭaśalyoddharaṇavraṇaviniścayabhagnavikalpāḥ sādhyayāpyapratyākhyeyatā ca vikārāṇāmevamādayaścānye sahasraśo viśeṣā ye vicintyamānā vimalavipulabuddherapi buddhimākulīkuryuḥ kiṃ punaralpabuddheḥ tasmādavaśyamanupadapādaślokamanuvarṇayitavyamanuśrotavyaṃ ca ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "6",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "anyaśāstropapannānāṃ",
+      "words": [
+       {
+        "w": "anya-",
+        "gloss": "other",
+        "gram": "tat-puruṣa"
+       },
+       {
+        "w": "śāstra-",
+        "gloss": "treatise",
+        "gram": "n."
+       },
+       {
+        "w": "upapannānām",
+        "gloss": "found, contained",
+        "gram": "p.p.p. gen. pl. upa-√pad"
+       }
+      ]
+     },
+     {
+      "src": "cārthānāmihopanītānāmarthavaśātteṣāṃ",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "arthānām",
+        "gloss": "of matters",
+        "gram": "m. gen. pl."
+       },
+       {
+        "w": "iha",
+        "gloss": "here",
+        "gram": "ind."
+       },
+       {
+        "w": "upanītānām",
+        "gloss": "brought in, introduced",
+        "gram": "p.p.p. gen. pl. upa-√nī"
+       },
+       {
+        "w": "artha-",
+        "gloss": "need, purpose",
+        "gram": "m."
+       },
+       {
+        "w": "vaśāt",
+        "gloss": "by force of",
+        "gram": "m. abl. sg."
+       },
+       {
+        "w": "teṣām",
+        "gloss": "of them",
+        "gram": "m. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "tadvidyebhya",
+      "words": [
+       {
+        "w": "tad-",
+        "gloss": "that",
+        "gram": "tat-puruṣa"
+       },
+       {
+        "w": "vidyebhyaḥ",
+        "gloss": "from those who know",
+        "gram": "m. abl. pl."
+       }
+      ]
+     },
+     {
+      "src": "eva",
+      "words": [
+       {
+        "w": "eva",
+        "gloss": "only, alone",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "vyākhyānamanuśrotavyaṃ",
+      "words": [
+       {
+        "w": "vyākhyānam",
+        "gloss": "explanation",
+        "gram": "n. nom. sg."
+       },
+       {
+        "w": "anuśrotavyam",
+        "gloss": "to be heard",
+        "gram": "ger. n. nom. sg. anu-√śru"
+       }
+      ]
+     },
+     {
+      "src": "kasmāt",
+      "words": [
+       {
+        "w": "kasmāt",
+        "gloss": "why",
+        "gram": "ind. (interrog.)"
+       }
+      ]
+     },
+     {
+      "src": "nahyekasmin",
+      "words": [
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       },
+       {
+        "w": "hi",
+        "gloss": "for",
+        "gram": "ind."
+       },
+       {
+        "w": "ekasmin",
+        "gloss": "in one",
+        "gram": "n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "śāstre",
+      "words": [
+       {
+        "w": "śāstre",
+        "gloss": "in a treatise",
+        "gram": "n. loc. sg."
+       }
+      ]
+     },
+     {
+      "src": "śakyaḥ",
+      "words": [
+       {
+        "w": "śakyaḥ",
+        "gloss": "possible",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "sarvaśāstrāṇāmavarodhaḥ",
+      "words": [
+       {
+        "w": "sarva-",
+        "gloss": "all",
+        "gram": "tat-puruṣa"
+       },
+       {
+        "w": "śāstrāṇām",
+        "gloss": "of treatises",
+        "gram": "n. gen. pl."
+       },
+       {
+        "w": "avarodhaḥ",
+        "gloss": "inclusion, comprising",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "kartum",
+      "words": [
+       {
+        "w": "kartum",
+        "gloss": "to do",
+        "gram": "inf. √kṛ"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "और अन्य शास्त्रों में प्राप्त जो विषय प्रसंगवश यहाँ लाए गए हैं, उनकी व्याख्या उन्हीं शास्त्रों के जानकारों से सुननी चाहिए। क्यों? क्योंकि एक ही शास्त्र में सभी शास्त्रों का समावेश करना सम्भव नहीं है।",
+  "english": "And as for the matters found in other treatises that have been brought in here as the subject requires, their explanation should be heard only from those who know those treatises. Why? Because it is not possible to comprise all treatises in a single treatise.",
+  "text_flags": [],
+  "notes": "arthavaśāt = 'by the force of the subject/need' (as the topic requires). tadvidya = 'knowers of that', i.e. those versed in the treatises concerned; the text does not name them. 'vidyebhyaḥ' is read as the ablative plural of tad-vidya.",
+  "confidence": "medium",
+  "type": "prose",
+  "line_ids": [
+   "Su.1.4.6"
+  ],
+  "lines_deva": [
+   "अन्यशास्त्रोपपन्नानां चार्थानामिहोपनीतानामर्थवशात्तेषां तद्विद्येभ्य एव व्याख्यानमनुश्रोतव्यं कस्मात् नह्येकस्मिन् शास्त्रे शक्यः सर्वशास्त्राणामवरोधः कर्तुम् ॥"
+  ],
+  "lines_iast": [
+   "anyaśāstropapannānāṃ cārthānāmihopanītānāmarthavaśātteṣāṃ tadvidyebhya eva vyākhyānamanuśrotavyaṃ kasmāt nahyekasmin śāstre śakyaḥ sarvaśāstrāṇāmavarodhaḥ kartum ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "7",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "ekaṃ",
+      "words": [
+       {
+        "w": "ekam",
+        "gloss": "one",
+        "gram": "n. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "śāstramadhīyāno",
+      "words": [
+       {
+        "w": "śāstram",
+        "gloss": "treatise",
+        "gram": "n. acc. sg."
+       },
+       {
+        "w": "adhīyānaḥ",
+        "gloss": "studying",
+        "gram": "pres. part. adhi-√i, m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "na",
+      "words": [
+       {
+        "w": "na",
+        "gloss": "not",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "vidyācchāstraniścayam",
+      "words": [
+       {
+        "w": "vidyāt",
+        "gloss": "would know",
+        "gram": "3 sg. opt. √vid"
+       },
+       {
+        "w": "śāstra-",
+        "gloss": "treatise",
+        "gram": "tat-puruṣa"
+       },
+       {
+        "w": "niścayam",
+        "gloss": "settled conclusion",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "tasmādbahuśrutaḥ",
+      "words": [
+       {
+        "w": "tasmāt",
+        "gloss": "therefore",
+        "gram": "ind."
+       },
+       {
+        "w": "bahu-",
+        "gloss": "much, many",
+        "gram": "bahuvrīhi"
+       },
+       {
+        "w": "śrutaḥ",
+        "gloss": "learned, heard",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "śāstraṃ",
+      "words": [
+       {
+        "w": "śāstram",
+        "gloss": "treatise",
+        "gram": "n. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "vijānīyāccikitsakaḥ",
+      "words": [
+       {
+        "w": "vijānīyāt",
+        "gloss": "should know thoroughly",
+        "gram": "3 sg. opt. vi-√jñā"
+       },
+       {
+        "w": "cikitsakaḥ",
+        "gloss": "physician",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "lead_in_tokens": [
+   {
+    "src": "bhavanti",
+    "words": [
+     {
+      "w": "bhavanti",
+      "gloss": "there are",
+      "gram": "3 pl. pres. √bhū"
+     }
+    ]
+   },
+   {
+    "src": "cātra",
+    "words": [
+     {
+      "w": "ca",
+      "gloss": "and",
+      "gram": "ind."
+     },
+     {
+      "w": "atra",
+      "gloss": "here, on this point",
+      "gram": "ind."
+     }
+    ]
+   },
+   {
+    "src": "|",
+    "words": [
+     {
+      "w": "|",
+      "gloss": "half-verse end",
+      "gram": "punct."
+     }
+    ]
+   }
+  ],
+  "lead_in_hindi": "और इस विषय में ये हैं।",
+  "lead_in_english": "And on this point there are these.",
+  "hindi": "एक ही शास्त्र को पढ़ने वाला शास्त्र के निश्चय को नहीं जान सकता; इसलिए बहुश्रुत चिकित्सक को शास्त्र को भली-भाँति जानना चाहिए।",
+  "english": "One who studies a single treatise would not know the settled conclusion of a treatise; therefore the physician who has learned much should know the treatise thoroughly.",
+  "text_flags": [],
+  "notes": "Both lines scan as 16 syllables (anuṣṭubh). bahuśruta, literally 'much heard', is rendered 'learned in many (treatises)' following the sense of the verse; vidyāt/vijānīyāt are optatives, rendered 'would know' and 'should know'.",
+  "confidence": "high",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.4.7",
+   "Su.1.4.7ab",
+   "Su.1.4.7cd"
+  ],
+  "lines_deva": [
+   "एकं शास्त्रमधीयानो न विद्याच्छास्त्रनिश्चयम् ।",
+   "तस्माद्बहुश्रुतः शास्त्रं विजानीयाच्चिकित्सकः ॥"
+  ],
+  "lines_iast": [
+   "ekaṃ śāstramadhīyāno na vidyācchāstraniścayam |",
+   "tasmādbahuśrutaḥ śāstraṃ vijānīyāccikitsakaḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "8",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "śāstraṃ",
+      "words": [
+       {
+        "w": "śāstram",
+        "gloss": "treatise",
+        "gram": "n. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "gurumukhodbīrṇamādāyopāsya",
+      "words": [
+       {
+        "w": "guru-",
+        "gloss": "teacher",
+        "gram": "tat-puruṣa"
+       },
+       {
+        "w": "mukha-",
+        "gloss": "mouth",
+        "gram": "n."
+       },
+       {
+        "w": "udgīrṇam",
+        "gloss": "uttered, spoken forth",
+        "gram": "p.p.p. n. acc. sg. ud-√gṝ"
+       },
+       {
+        "w": "ādāya",
+        "gloss": "having taken up",
+        "gram": "abs. ā-√dā"
+       },
+       {
+        "w": "upāsya",
+        "gloss": "having attended on, cultivated",
+        "gram": "abs. upa-√ās"
+       }
+      ]
+     },
+     {
+      "src": "cāsakṛt",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       },
+       {
+        "w": "asakṛt",
+        "gloss": "repeatedly",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "yaḥ",
+      "words": [
+       {
+        "w": "yaḥ",
+        "gloss": "who",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "karmakurute",
+      "words": [
+       {
+        "w": "karma",
+        "gloss": "work",
+        "gram": "n. acc. sg."
+       },
+       {
+        "w": "kurute",
+        "gloss": "does, performs",
+        "gram": "3 sg. pres. mid. √kṛ"
+       }
+      ]
+     },
+     {
+      "src": "vaiyaḥ",
+      "words": [
+       {
+        "w": "vaidyaḥ",
+        "gloss": "physician",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "sa",
+      "words": [
+       {
+        "w": "saḥ",
+        "gloss": "he",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "vaidyo'nye",
+      "words": [
+       {
+        "w": "vaidyaḥ",
+        "gloss": "physician",
+        "gram": "m. nom. sg."
+       },
+       {
+        "w": "anye",
+        "gloss": "others",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "tu",
+      "words": [
+       {
+        "w": "tu",
+        "gloss": "but",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "taskarāḥ",
+      "words": [
+       {
+        "w": "taskarāḥ",
+        "gloss": "thieves",
+        "gram": "m. nom. pl."
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "जो वैद्य शास्त्र को गुरु के मुख से निकला हुआ ग्रहण करके और बार-बार उसकी उपासना करके कर्म करता है, वही वैद्य है; दूसरे तो चोर हैं।",
+  "english": "The physician who, having taken the treatise uttered from the teacher's mouth and having attended to it repeatedly, performs his work: he is a physician; the others are thieves.",
+  "text_flags": [
+   {
+    "src": "gurumukhodbīrṇamādāyopāsya",
+    "suggest": "gurumukhodgīrṇamādāyopāsya",
+    "why": "possible misprint: udbīrṇa is not a known word; udgīrṇa ('uttered') fits the sense and the metre is unaffected"
+   },
+   {
+    "src": "vaiyaḥ",
+    "suggest": "vaidyaḥ",
+    "why": "misprint: vaiyaḥ is not a word; the next half-line and the sense require vaidyaḥ"
+   }
+  ],
+  "notes": "Both lines scan as 16 syllables (anuṣṭubh). karma kurute: 'does the work', i.e. carries out his (medical) work; the object is left general in the Sanskrit. upāsya: 'having attended on / cultivated' (practised); the literal sense is kept.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.4.8ab",
+   "Su.1.4.8cd"
+  ],
+  "lines_deva": [
+   "शास्त्रं गुरुमुखोद्बीर्णमादायोपास्य चासकृत् ।",
+   "यः कर्मकुरुते वैयः स वैद्योऽन्ये तु तस्कराः ॥"
+  ],
+  "lines_iast": [
+   "śāstraṃ gurumukhodbīrṇamādāyopāsya cāsakṛt |",
+   "yaḥ karmakurute vaiyaḥ sa vaidyo'nye tu taskarāḥ ||"
+  ],
+  "uncertain": []
+ },
+ {
+  "n": "9",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "aupadhenavamaurabhraṃ",
+      "words": [
+       {
+        "w": "aupadhenavam",
+        "gloss": "(work) of Aupadhenava",
+        "gram": "n. nom./acc. sg. (taddhita)"
+       },
+       {
+        "w": "aurabhram",
+        "gloss": "(work) of Aurabhra",
+        "gram": "n. nom./acc. sg. (taddhita)"
+       }
+      ]
+     },
+     {
+      "src": "sauśrutaṃ",
+      "words": [
+       {
+        "w": "sauśrutam",
+        "gloss": "(work) of Suśruta",
+        "gram": "n. nom./acc. sg. (taddhita)"
+       }
+      ]
+     },
+     {
+      "src": "pauṣkalāvatam",
+      "words": [
+       {
+        "w": "pauṣkalāvatam",
+        "gloss": "(work) of Puṣkalāvata",
+        "gram": "n. nom./acc. sg. (taddhita)"
+       }
+      ]
+     },
+     {
+      "src": "|",
+      "words": [
+       {
+        "w": "|",
+        "gloss": "half-verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "śeṣāṇāṃ",
+      "words": [
+       {
+        "w": "śeṣāṇām",
+        "gloss": "of the remaining",
+        "gram": "n. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "śalyatantrāṇāṃ",
+      "words": [
+       {
+        "w": "śalya-",
+        "gloss": "surgery (śalya)",
+        "gram": "tat-puruṣa"
+       },
+       {
+        "w": "tantrāṇām",
+        "gloss": "of treatises",
+        "gram": "n. gen. pl."
+       }
+      ]
+     },
+     {
+      "src": "mūlānyetāni",
+      "words": [
+       {
+        "w": "mūlāni",
+        "gloss": "roots, sources",
+        "gram": "n. acc. pl."
+       },
+       {
+        "w": "etāni",
+        "gloss": "these",
+        "gram": "n. acc. pl."
+       }
+      ]
+     },
+     {
+      "src": "nirdiśet",
+      "words": [
+       {
+        "w": "nirdiśet",
+        "gloss": "one should indicate",
+        "gram": "3 sg. opt. nir-√diś"
+       }
+      ]
+     },
+     {
+      "src": "||",
+      "words": [
+       {
+        "w": "||",
+        "gloss": "verse end",
+        "gram": "punct."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "औपधेनव, औरभ्र, सौश्रुत और पौष्कलावत — इन्हें शेष शल्यतन्त्रों के मूल बताना चाहिए।",
+  "english": "The Aupadhenava, the Aurabhra, the Sauśruta and the Pauṣkalāvata: one should indicate these as the roots of the remaining surgical treatises (śalya-tantra).",
+  "text_flags": [],
+  "notes": "Both lines scan as 16 syllables (anuṣṭubh). The four names are adjectives of origin ('of Aupadhenava' etc.) and a noun such as 'treatise' is understood; they are read as the object of nirdiśet together with etāni mūlāni. The case of the four (nom. or acc.) is not marked in the listing. Nothing is assumed about the content of these works.",
+  "confidence": "medium",
+  "type": "verse",
+  "line_ids": [
+   "Su.1.4.9ab",
+   "Su.1.4.9cd"
+  ],
+  "lines_deva": [
+   "औपधेनवमौरभ्रं सौश्रुतं पौष्कलावतम् ।",
+   "शेषाणां शल्यतन्त्राणां मूलान्येतानि निर्दिशेत् ॥"
+  ],
+  "lines_iast": [
+   "aupadhenavamaurabhraṃ sauśrutaṃ pauṣkalāvatam |",
+   "śeṣāṇāṃ śalyatantrāṇāṃ mūlānyetāni nirdiśet ||"
+  ],
+  "uncertain": []
+ }
+]
