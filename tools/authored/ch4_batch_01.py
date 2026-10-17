@@ -60,9 +60,9 @@ AUTHORED = {
         "questions": [
             mcq("pretest", 0, "What does this short unit do?",
                 ("It names the speaker whose words follow.", "The unit holds only the speaker, and the sentence goes on."),
-                [("It gives a rule of surgery.", "No subject-matter of that kind appears here."),
-                 ("It lists the chapters of the work.", "No list appears in this unit."),
-                 ("It names the students addressed.", "Only the speaker is named.")],
+                [("It gives a rule of surgery for pupils.", "No subject-matter of that kind appears here."),
+                 ("It lists the chapters of the whole work.", "No list appears in this unit."),
+                 ("It names the students who are addressed.", "Only the speaker is named.")],
                 "The unit names Dhanvantari as the speaker; his words come in the next unit.",
                 "A speaker line precedes the speech."),
             match(1, "Match each word to its meaning.",
@@ -83,9 +83,9 @@ AUTHORED = {
                   [0, 1],
                   "Both भगवान् and धन्वन्तरिः are marked m. nom. sg.",
                   "Nominative = the doer."),
-            order(4, "Put these words in the order in which they stand after the joined opening.",
-                  ["उवाच", "भगवान्", "धन्वन्तरिः"],
-                  "The verb comes first (inside the joined opening), then the title, then the name.",
+            order(4, "Put these words of the line in the order of the text (the joined opening opened into यथा and उवाच).",
+                  ["यथा", "उवाच", "भगवान्", "धन्वन्तरिः"],
+                  "As, said, the revered one, Dhanvantari.",
                   "Order of the text.", role="apply"),
             mcq("transfer", 5, "By the sandhi in यथा + उवाच = यथोवाच, what does सदा + उवाच give?",
                 ("सदोवाच", "आ + उ becomes ओ, as in यथोवाच."),
@@ -107,7 +107,7 @@ AUTHORED = {
         "core": False,
         "questions": [
             mcq("pretest", 0, "The text compares unexpounded study to what?",
-                ("A load of sandal on a donkey.", "खरस्य चन्दनभार इव."),
+                ("A donkey's load of sandal.", "खरस्य चन्दनभार इव."),
                 [("A lamp in a closed room.", "No lamp is mentioned."),
                  ("A river reaching the sea.", "No river is mentioned."),
                  ("A seed sown in good soil.", "No seed is mentioned.")],
@@ -118,16 +118,16 @@ AUTHORED = {
                    ["चन्दनभारः", "load of sandal"], ["परिश्रमकरम्", "causing toil"]],
                   "Four words of the line.",
                   "खरस्य is genitive singular; परिश्रमकरम् is a compound meaning causing toil."),
-            fill(2, "Study without meaning causes ____ toil: type केवलम् (only, alone) in Devanagari or in English letters (e.g. dharma).",
+            fill(2, "Mastered study, if not expounded, causes ____ toil (the word meaning only, alone). Type it in Devanagari or in English letters (e.g. dharma).",
                  accepts("केवलम्"),
                  "केवलम् is the indeclinable: only, alone.",
                  "केवलम् = only.",
                  "केवलम् limits the result to toil alone."),
             mcq("discriminate", 3, "Under what condition does mastered study only cause toil?",
                 ("When it is not expounded as to its meaning.", "अप्रभाषितम् अर्थतः says exactly this."),
-                [("When it has not been learned by heart.", "The study is already mastered (अधिगतम्)."),
-                 ("When it has been learned only once.", "Nothing about the number of times."),
-                 ("When it is not written in a book.", "Nothing about writing is said.")],
+                [("When it has not been learned by heart at all.", "The study is already mastered (अधिगतम्)."),
+                 ("When it has been learned only a single time.", "Nothing about the number of times."),
+                 ("When it is not written down in any book.", "Nothing about writing is said.")],
                 "The condition is that the meaning is not expounded.",
                 "अप्रभाषितम् अर्थतः = not expounded in meaning."),
             order(4, "Put these phrases of the line in the order of the text.",
@@ -166,7 +166,7 @@ AUTHORED = {
                    ["चन्दनस्य", "of the sandal"], ["मूढाः", "deluded"]],
                   "Five words of the verse.",
                   "भारस्य and चन्दनस्य are genitive singular; मूढाः is nominative plural."),
-            fill(2, "The deluded carry treatises ____ a donkey. Type the word for like a donkey in Devanagari or in English letters (e.g. dharma).",
+            fill(2, "The deluded carry treatises ____ (like a donkey). Type the word in Devanagari or in English letters (e.g. dharma).",
                  accepts("खरवत्", None, "खरवद्"),
                  "खरवत् is खर + वत् (like); the printed text shows it as खरवद् before वहन्ति.",
                  "-वत् = like.",
@@ -204,12 +204,13 @@ AUTHORED = {
         "questions": [
             mcq("pretest", 0, "How should the chapters be taken up, according to the text?",
                 ("Recounted and listened to word by word and verse by verse.", "अनुपदपादश्लोकम् अनुवर्णयितव्यम् अनुश्रोतव्यं च."),
-                [("Summarised in brief, leaving the details.", "The text asks for the opposite."),
-                 ("Read silently by the student alone.", "The text says recounted and listened to."),
-                 ("Recited quickly without pausing on words.", "The text says word by word.")],
+                [("Summarised in brief, leaving out the many fine details.", "The text asks for the opposite."),
+                 ("Read silently and alone by the student, without any hearing.", "The text says recounted and listened to."),
+                 ("Recited quickly in one go, without pausing on any of the words.", "The text says word by word.")],
                 "Both recounting and listening are asked for, in fine steps.",
-                "अनु- = step by step."),
-            order(1, "Put these listed matters in the order in which the text names them.",
+                "अनुपद- = word by word (avyayībhāva); अनु- here means each, along.",
+                hint="अनुपद = word by word."),
+            order(1, "Put the first five listed matters in the order in which the text names them.",
                   ["द्रव्य", "रस", "गुण", "वीर्य", "विपाक"],
                   "The list begins: substance, taste, quality, potency, post-digestive change.",
                   "Order of the text."),
@@ -235,13 +236,13 @@ AUTHORED = {
                   "Conclusion, reason, strong case, stronger case, conclusion again.",
                   "Order of the text.", role="apply"),
             mcq("transfer", 5, "In the invented पण्डितोऽपि मुह्येत् किं पुनर्बालः, what does किं पुनः add?",
-                ("An even stronger case: how much more the child.", "किं पुनः = how much more, as in किं पुनरल्पबुद्धेः."),
+                ("An even clearer case: how much more the child.", "किं पुनः = how much more, as in किं पुनरल्पबुद्धेः."),
                 [("A denial that the child is confused.", "किं पुनः does not deny."),
                  ("A question about who the child is.", "It is not asking for an identity."),
                  ("A repeat of the first statement.", "It extends the point to a weaker case.")],
                 "अपि sets the hard case; किं पुनः carries it further.",
                 "अपि ... किं पुनः = even ... how much more.",
-                teaches="किं पुनः argues from a strong case to a weaker one."),
+                teaches="किं पुनः argues a fortiori: if the strong case holds, much more the weak one."),
         ]},
     # ------------------------------------------------------------------ 6
     "6": {
@@ -294,17 +295,17 @@ AUTHORED = {
                 [("From one village.", "That would be the ablative."),
                  ("Of one village.", "That would be the genitive."),
                  ("One village (as subject).", "That would be the nominative.")],
-                "-स्मिन् marks in, as in एकस्मिन् शास्त्रे.",
-                "Locative singular -स्मिन् = in.",
-                teaches="The locative -स्मिन् says in or at."),
+                "-स्मिन् and -े both mark in.",
+                "Locative singular = in (एकस्मिन्, शास्त्रे).",
+                teaches="Locative singular: -स्मिन् on pronominal words like एक, -े on a-stem nouns (शास्त्रे, ग्रामे): in."),
         ]},
     # ------------------------------------------------------------------ 7
     "7": {
         "title": "एकं शास्त्रमधीयानः",
-        "question": "Why should the physician be learned in many treatises?",
+        "question": "Why does the verse say the learned physician should know the treatise thoroughly?",
         "rule": "विद्यात् and विजानीयात् are optatives (would know, should know thoroughly).",
         "limits": "The verse does not say how many treatises, nor which. बहुश्रुत is rendered by its sense (learned in many), as the note explains.",
-        "explain_hi": "श्लोक कहता है कि एक ही शास्त्र पढ़ने वाला शास्त्र के निश्चय को नहीं जानेगा। इसलिए बहुश्रुत चिकित्सक को शास्त्र को भली-भाँति जानना चाहिए। विद्यात् और विजानीयात् दोनों विधिलिङ् के रूप हैं, एक सम्भावना बताता है, दूसरा कर्तव्य।",
+        "explain_hi": "श्लोक कहता है कि एक ही शास्त्र पढ़ने वाला शास्त्र के निश्चय को नहीं जान सकता। इसलिए बहुश्रुत चिकित्सक को शास्त्र को भली-भाँति जानना चाहिए। विद्यात् और विजानीयात् दोनों विधिलिङ् के रूप हैं, एक सम्भावना बताता है, दूसरा कर्तव्य।",
         "hook": "एक शास्त्र से निश्चय नहीं; इसलिए बहुश्रुत चिकित्सक।",
         "core": True,
         "questions": [
@@ -335,11 +336,11 @@ AUTHORED = {
                   [0, 1],
                   "The card labels both as opt.",
                   "Optative ends in -यात् / -एत्."),
-            mcq("apply", 4, "Why, by the verse, should the physician be learned in many treatises?",
-                ("A single treatise gives no settled conclusion.", "Because of तस्मात् after the claim."),
-                [("Treatises are all very short.", "Length is not mentioned."),
-                 ("A single treatise is forbidden.", "The verse does not forbid it."),
-                 ("The physician must write a book.", "Writing is not mentioned.")],
+            mcq("apply", 4, "What does तस्मात् (therefore) in the second line rest on?",
+                ("One who studies a single treatise would not know the conclusion.", "Because of तस्मात् after the claim."),
+                [("The earlier claim that every treatise is short.", "Length is not mentioned."),
+                 ("Studying one single treatise is strictly forbidden to every physician.", "The verse does not forbid it."),
+                 ("The physician must compose a new treatise of his own.", "Writing is not mentioned.")],
                 "तस्मात् (therefore) links the second line to the first.",
                 "तस्मात् = therefore."),
             mcq("transfer", 5, "In the invented स गच्छेत्, what does गच्छेत् mean?",
@@ -357,11 +358,11 @@ AUTHORED = {
         "question": "Who does the verse call a physician, and who a thief?",
         "rule": "आदाय and उपास्य are absolutives (-य after a prefix): having taken, having attended.",
         "limits": "Two printed words are probably misprints (the word for uttered and the first word for physician); no question rests on them. The verse does not say how the treatise is attended on.",
-        "explain_hi": "श्लोक के अनुसार जो चिकित्सक शास्त्र को ग्रहण करके और बार-बार उसकी उपासना करके कर्म करता है, वही वैद्य है; दूसरे तो चोर हैं। आदाय और उपास्य उपसर्ग वाली धातुओं के पूर्वकालिक रूप हैं, इसलिए यहाँ -त्वा नहीं बल्कि -य लगा है। दो छपे शब्दों में भूल की सम्भावना है, नोट देखें।",
+        "explain_hi": "श्लोक के अनुसार जो चिकित्सक शास्त्र को, जो गुरु के मुख से कहा गया (शब्द पर नोट देखें), ग्रहण करके और बार-बार उसकी उपासना करके कर्म करता है, वही वैद्य है; दूसरे तो चोर हैं। आदाय और उपास्य उपसर्ग वाली धातुओं के पूर्वकालिक रूप हैं, इसलिए यहाँ -त्वा नहीं बल्कि -य लगा है। दो छपे शब्दों में भूल की सम्भावना है, नोट देखें।",
         "hook": "ग्रहण, बार-बार उपासना, फिर कर्म = वैद्य; बाकी चोर।",
         "core": True,
         "questions": [
-            mcq("pretest", 0, "What does the verse call the others, who do not do this?",
+            mcq("pretest", 0, "The verse calls one who works by the treatise a physician. What does it call the others?",
                 ("Thieves.", "अन्ये तु तस्कराः."),
                 [("Students.", "The word is तस्कराः, not students."),
                  ("Teachers.", "The word is तस्कराः, not teachers."),
@@ -438,20 +439,20 @@ AUTHORED = {
                  ("A place named after Sushruta.", "No place is mentioned.")],
                 "The card glosses it as (work) of Sushruta.",
                 "Taddhita: of that person."),
-            mcq("apply", 4, "What does the verse say of the work of Sushruta among the four?",
-                ("It is one of four named roots.", "It is listed third of four."),
-                [("It is the only root of the others.", "Four are named, not one."),
-                 ("It is listed first of the four.", "It stands third."),
-                 ("It is one of the remaining treatises.", "It is named a root, not a remainder.")],
-                "सौश्रुतम् stands third among four named roots.",
-                "Read the list exactly."),
+            mcq("apply", 4, "Which word in the second line gives the verb of the sentence?",
+                ("निर्दिशेत्, one should indicate.", "It is the optative verb of the line."),
+                [("शेषाणाम्, of the remaining.", "A genitive plural, not a verb."),
+                 ("मूलानि, the roots.", "A noun, not a verb."),
+                 ("शल्यतन्त्राणाम्, of surgical treatises.", "A genitive plural, not a verb.")],
+                "निर्दिशेत् is the verb: one should indicate.",
+                "The optative ends in -एत्."),
             mcq("transfer", 5, "Following the pattern of सुश्रुत → सौश्रुतम्, what is the form for of Kapila?",
-                ("कापिलम्", "The first vowel lengthens (वृद्धि): क → का, as सु → सौ."),
+                ("कापिलम्", "The first vowel is strengthened (वृद्धि): अ→आ, उ→औ; so क→का, as सु→सौ."),
                 [("कपिलम्", "The first vowel is unchanged here."),
                  ("कैपिलम्", "अ lengthens to आ, not to ऐ."),
                  ("कौपिलम्", "औ is the grade of उ, not of अ.")],
                 "The pattern strengthens the first vowel: सु → सौ, पु → पौ, क → का.",
-                "Vriddhi of the first vowel.",
+                "पहला स्वर वृद्धि पाता है (सु→सौ, पु→पौ).",
                 teaches="Names of works strengthen the first vowel (वृद्धि)."),
         ]},
 }
@@ -459,7 +460,7 @@ AUTHORED = {
 NOTES_HI = {
     "1": "‘अथातः’ में अथ + अतः मिले हैं (अ + अ = आ)। ‘प्रभाषणीयमध्यायं’ में प्रभाषणीयम् + अध्यायम् का म् आगे के अ से जुड़ा है। ‘प्रभाषणीय’ अध्याय का नाम है; उसका शाब्दिक अर्थ ‘जो कहा जाना है’ केवल शब्दार्थ है, पाठ का दावा नहीं।",
     "2": "छपे रूप ‘याथोवाच’ में पहला दीर्घ ‘या’ सम्भवतः छापे की भूल है; यथा + उवाच = यथोवाच (आ + उ = ओ) होना चाहिए। पाठ-संकेत में यही सुझाव है। वाक्य अगले अंश में चलता है।",
-    "3": "‘अप्रभाषितमर्थतः’ का अर्थ है अर्थ की दृष्टि से जिसका प्रवचन नहीं हुआ। ‘अधिगत’ का शब्दार्थ ‘पाया हुआ’ है, अनुवाद में ‘आत्मसात्’ लिया गया है। ‘चन्दनभार इव’ में चन्दनभारः + इव का विसर्ग लुप्त है।",
+    "3": "‘अप्रभाषितमर्थतः’ का अर्थ है अर्थ की दृष्टि से जिसका प्रवचन नहीं हुआ। ‘अधिगत’ का शब्दार्थ ‘पाया हुआ’ है; हिन्दी अनुवाद में ‘पढ़ा हुआ’ और अंग्रेज़ी में ‘mastered’ लिया गया है। ‘चन्दनभार इव’ में चन्दनभारः + इव का विसर्ग लुप्त है।",
     "4": "छपे रूप ‘बःऊन्यधीत्य’ में अतिरिक्त विसर्ग है; सुझाया शुद्ध रूप ‘बहूनि अधीत्य’ है और छन्द पर इसका असर नहीं है। ‘च’ बहुत शास्त्र पढ़ने को अर्थों में मूढ़ता से जोड़ता है। हिन्दी में ‘उन्हें’ केवल अव्यक्त कर्म ‘शास्त्राणि’ के लिए जोड़ा गया है। इस अंश पर कोई प्रश्न बहूनि शब्द पर आधारित नहीं है।",
     "5": "बहुत लम्बा समास है; सदस्यों का समूह बनाना व्याख्या का निर्णय है। (१) द्रव्य से गर्भसम्भव तक एक द्वन्द्व-सूची मानी गई है, अन्त में ‘द्रव्यसमूहविभागाः’; दोहराया ‘द्रव्य’ दो समानान्तर सूचियाँ भी सूचित कर सकता है। (२) ‘विकल्पाः’ केवल ‘भग्न’ से जुड़ सकता है या तीनों से; पहला पक्ष लिया गया है। (३) ‘अनुपदपादश्लोकम्’ को क्रिया-विशेषण (पद-पद, पाद-पाद, श्लोक-श्लोक) माना है; ‘प्रत्येक पद, पाद, श्लोक’ भी सम्भव है। (४) ‘सविंशमध्यायशतम्’ = सौ और बीस = १२०। (५) ‘सूक्ष्माः’ बहुवचन है जबकि ‘साध्ययाप्यप्रत्याख्येयता’ एकवचन है; अनुवाद में ‘सूक्ष्म’ ढीले रूप से लगाया गया है। पारिभाषिक शब्द केवल सामान्य अर्थ में दिए गए हैं।",
     "6": "‘अर्थवशात्’ = विषय की आवश्यकता से। ‘तद्विद्य’ = उसे जानने वाले, यानी सम्बन्धित शास्त्रों के जानकार; पाठ उनके नाम नहीं देता। ‘विद्येभ्यः’ को तद्विद्य का पञ्चमी बहुवचन माना गया है। ‘नह्येकस्मिन्’ में न + हि + एकस्मिन् मिले हैं।",
@@ -479,7 +480,7 @@ AIDS.update({
     "2": {
         "frame": "कौन बोला: भगवान् धन्वन्तरिः · क्रिया: उवाच (कहा) · आगे: उसका कथन।",
         "sandhi": "यथा + उवाच = यथोवाच (आ + उ = ओ)। छपे रूप में पहला ‘या’ दीर्घ है, सम्भवतः भूल; नोट देखें।",
-        "chunks": {"steps": ["उवाच", "भगवान्", "धन्वन्तरिः"]},
+        "chunks": {"steps": ["यथा उवाच", "भगवान्", "धन्वन्तरिः"]},
     },
     "3": {
         "frame": "क्या: पढ़ा हुआ अध्ययन · शर्त: अर्थ का प्रवचन नहीं · फल: केवल परिश्रम।",
@@ -502,25 +503,25 @@ AIDS.update({
                             "विचार करने पर निर्मल और विशाल बुद्धि भी व्याकुल",
                             "किं पुनः अल्पबुद्धेः",
                             "तस्मात् अवश्यम् वही"]},
-        "letters": "सूची के पहले पाँच शब्दों के आरम्भिक अक्षर: द · र · गु · वी · वि (द्रव्य, रस, गुण, वीर्य, विपाक)। यह मेरा बनाया सहारा है, पाठ का दावा नहीं।",
+        "letters": "सूची के पहले पाँच शब्दों के आरम्भिक अक्षर: द्र · र · गु · वी · वि (द्रव्य, रस, गुण, वीर्य, विपाक)। यह मेरा बनाया सहारा है, पाठ का दावा नहीं।",
     },
     "6": {
         "frame": "विषय: दूसरे शास्त्रों के, प्रसंग से यहाँ आए · सुनना: उन्हीं के जानकारों से · कारण: एक शास्त्र में सब नहीं समाता।",
         "chain": {"steps": ["अन्य शास्त्रों के विषय इह उपनीत", "उनकी व्याख्या तद्विद्यों से ही सुनें",
                             "कस्मात्? एक शास्त्र में सब शास्त्रों का समावेश सम्भव नहीं"]},
-        "chunks": {"steps": ["अन्यशास्त्रोपपन्नानाम् अर्थानाम्", "इह उपनीतानाम्",
+        "chunks": {"steps": ["अन्यशास्त्रोपपन्नानाम् अर्थानाम्", "इह उपनीतानाम्", "अर्थवशात् तेषाम्",
                              "तद्विद्येभ्य एव व्याख्यानम् अनुश्रोतव्यम्", "कस्मात्",
                              "न हि एकस्मिन् शास्त्रे शक्यः सर्वशास्त्राणाम् अवरोधः कर्तुम्"]},
     },
     "7": {
         "frame": "पहली पंक्ति: एक शास्त्र → निश्चय नहीं · दूसरी पंक्ति: इसलिए बहुश्रुत चिकित्सक → भली-भाँति जाने।",
-        "chain": {"steps": ["एक शास्त्र पढ़ने वाला", "शास्त्र का निश्चय नहीं जानेगा",
+        "chain": {"steps": ["एक शास्त्र पढ़ने वाला", "शास्त्र का निश्चय नहीं जान सकता",
                             "तस्मात् बहुश्रुत चिकित्सक", "शास्त्र को भली-भाँति जाने"]},
         "seesaw": "एक शास्त्र पढ़ने वाला ⇄ बहुश्रुत चिकित्सक (श्लोक में दोनों आते हैं)।",
     },
     "8": {
         "frame": "शर्तें: शास्त्र ग्रहण, बार-बार उपासना, कर्म · फल: वही वैद्य; दूसरे चोर।",
-        "chain": {"steps": ["शास्त्र को ग्रहण करके", "बार-बार उपासना करके",
+        "chain": {"steps": ["गुरु के मुख से कहा शास्त्र ग्रहण करके", "बार-बार उपासना करके",
                             "कर्म करता है", "वही वैद्य है"]},
         "seesaw": "वैद्य ⇄ तस्कर: श्लोक की अन्तिम पंक्ति में दोनों आते हैं।",
     },
@@ -535,7 +536,7 @@ AIDS.update({
 IMAGE_SPECS = {
     ("4", "contrast"): {
         "file": "ch4-khara-04.svg",
-        "alt": "Two parallel chains: the donkey carrying sandal knows the load but not the sandal; so too those deluded about meanings carry treatises like donkeys.",
+        "alt": "The donkey carrying sandal knows the load but not the sandal; a dotted link 'so too' leads to those who studied many treatises, are deluded about meanings and carry them like donkeys.",
         "type": "mermaid",
         "code": ('flowchart TD\n'
                  '  A["चन्दनभार ढोता गधा"] --> B["भार को जानता है"]\n'
@@ -549,29 +550,28 @@ IMAGE_SPECS = {
         "alt": "Chain of four steps: one who studies a single treatise, does not know its settled conclusion, therefore the learned physician, should know the treatise thoroughly.",
         "type": "mermaid",
         "code": ('flowchart TD\n'
-                 '  A["एक शास्त्र पढ़ने वाला"] --> B["शास्त्र का निश्चय<br/>नहीं जानेगा"]\n'
+                 '  A["एक शास्त्र पढ़ने वाला"] --> B["शास्त्र का निश्चय<br/>नहीं जान सकता"]\n'
                  '  B --> C["इसलिए बहुश्रुत चिकित्सक"]\n'
                  '  C --> D["शास्त्र को भली-भाँति जाने"]'),
     },
     ("8", "chain"): {
         "file": "ch4-vaidya-08.svg",
-        "alt": "Four steps lead to he is a physician: taking up the treatise, attending on it repeatedly, doing the work; the others are thieves.",
+        "alt": "Chain: taking up the treatise, attending on it repeatedly, doing the work, he is a physician; separate: the others are thieves.",
         "type": "mermaid",
         "code": ('flowchart TD\n'
-                 '  A["शास्त्र को ग्रहण करके"] --> B["बार-बार उपासना करके"]\n'
+                 '  A["गुरु के मुख से कहा<br/>शास्त्र ग्रहण करके"] --> B["बार-बार उपासना करके"]\n'
                  '  B --> C["कर्म करता है"]\n'
                  '  C --> D["वही वैद्य है"]\n'
                  '  E["दूसरे"] --> F["चोर हैं"]'),
     },
     ("9", "diagram"): {
         "file": "ch4-mula-09.svg",
-        "alt": "Mind map: four works, Aupadhenava, Aurabhra, Sushruta's and Paushkalavata, are the roots of the remaining surgical treatises.",
+        "alt": "Flow in a row: the four works Aupadhenava, Aurabhra, Sushruta's and Paushkalavata lead to the roots of the remaining (शेष) surgical treatises.",
         "type": "mermaid",
-        "code": ('mindmap\n'
-                 '  शल्यतन्त्रों के मूल\n'
-                 '    औपधेनव\n'
-                 '    औरभ्र\n'
-                 '    सौश्रुत\n'
-                 '    पौष्कलावत'),
+        "code": ('flowchart LR\n'
+                 '  A["औपधेनवम्"] --> B["औरभ्रम्"]\n'
+                 '  B --> C["सौश्रुतम्"]\n'
+                 '  C --> D["पौष्कलावतम्"]\n'
+                 '  D --> E["शेष शल्यतन्त्रों के मूल"]'),
     },
 }
