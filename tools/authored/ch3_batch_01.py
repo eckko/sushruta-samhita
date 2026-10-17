@@ -106,7 +106,7 @@ AUTHORED = {
     "3": {
         "title": "प्रागभिहितं सविंशमध्यायशतम्",
         "question": "How many chapters were stated earlier, and how are they spread over the sections?",
-        "rule": "सविंशम् (bahuvrihi) = with twenty added, so a hundred with twenty = 120; the counts are given section by section.",
+        "rule": "सविंशम् (bahuvrihi) = with twenty added, so a hundred with twenty = 120; स- + noun = with that; the counts are given section by section.",
         "limits": "The grammar is loose and two printed number-words (sixteen, sixty-six) are probably misprints, so no question rests on them or on the Uttara. The unit says five sections but names six; the text does not explain this.",
         "explain_hi": "यह गद्य अंश पहले कहे गए एक सौ बीस अध्यायों का स्थानों में बँटवारा देता है: ‘सविंश शत’ यानी सौ और बीस। पाठ पाँच स्थान कहता है और फिर गिनाता है: सूत्रस्थान के छियालीस, निदान, शारीर के दस, चिकित्सित के चालीस, कल्प के आठ, और उसके बाद उत्तर। व्याकरण ढीला है और दो संख्या-शब्दों में छपाई की भूल सम्भव है, इसलिए नोट देखें।",
         "hook": "सौ और बीस अध्याय → सूत्र ४६ · शारीर १० · चिकित्सित ४० · कल्प ८।",
@@ -135,7 +135,7 @@ AUTHORED = {
                  ("A hundred chapters, of which twenty are lost.", "Nothing is said of loss."),
                  ("Twenty groups of a hundred chapters each.", "The sense is a hundred plus twenty.")],
                 "सविंशम् is a bahuvrihi: with twenty added to the hundred.",
-                "स- + number = with that number added."),
+                "सविंशम् = with twenty added."),
             mcq("apply", 4, "By the unit's counts, how many chapters do the Sutrasthana and the Chikitsitas have together?",
                 ("Eighty-six.", "46 + 40 = 86."),
                 [("Fifty-six.", "That is 46 + 10, using the Sharira."),
@@ -143,14 +143,14 @@ AUTHORED = {
                  ("Fifty.", "That is 10 + 40, leaving out the Sutrasthana.")],
                 "Forty-six and forty make eighty-six.",
                 "Read the counts from the unit."),
-            mcq("transfer", 5, "By the same pattern, what does the invented सपञ्चं शतम् denote?",
-                ("A hundred with five added: 105.", "सपञ्चम् = with five added, as सविंशम् = with twenty added."),
-                [("A hundred with five taken away: 95.", "स- adds."),
-                 ("Five hundred.", "It is not five times a hundred."),
-                 ("A hundred and fifteen.", "Five is added, not fifteen.")],
-                "स- + number gives a number with that added: सपञ्चं शतम् = 105.",
-                "स- + number = with that number added.",
-                teaches="A bahuvrihi with स- and a number means with that number added."),
+            mcq("transfer", 5, "By the same स- pattern, what does the invented सपुत्रो राजा mean?",
+                ("A king with his son.", "स- + noun = with that: सपुत्र = with a son."),
+                [("A king without a son.", "स- means with, not without."),
+                 ("A son of the king.", "The compound describes the king, it does not name the son alone."),
+                 ("A king who is a son.", "सपुत्र does not mean being a son.")],
+                "स- + noun = with that: सपुत्रो राजा is a king with his son.",
+                "स- + noun = with that.",
+                teaches="A bahuvrihi with स- and a noun means with that noun."),
         ]},
     # ------------------------------------------------------------------ 4
     "4": {
@@ -159,7 +159,7 @@ AUTHORED = {
         "rule": "A list of titles joined by तथा and अथ; a compound's gender and case come from its last member (वेदोत्पत्तिः f., शिष्यनयः m.).",
         "limits": "The verse only lists titles; it does not say what each chapter teaches. The printed text has doubtful junctions (tathā and adhyayana left unjoined; the link between prabhāṣaṇa, agraharaṇa and ṛtucaryā), so no question rests on them.",
         "explain_hi": "यह श्लोक सूत्रस्थान के अध्यायों के नामों की सूची शुरू करता है: वेद की उत्पत्ति, शिष्य का नयन, अध्ययन-दान सम्बन्धी, फिर प्रभाषण, अग्रहरण, ऋतुचर्या और यन्त्र सम्बन्धी। नाम केवल गिनाए गए हैं, उनकी विषय-वस्तु नहीं बताई गई। पहली पंक्ति में तथा और दूसरी में अथ सूची के जोड़ हैं। छपे पाठ में दो जगह जोड़ पर शंका है, नोट देखें।",
-        "hook": "वेदोत्पत्ति → शिष्यनय → अध्ययनदान → प्रभाषण … ऋतुचर्या → यान्त्रिक।",
+        "hook": "वेदोत्पत्ति → शिष्यनय → अध्ययनदान → … → यान्त्रिक।",
         "core": True,
         "questions": [
             mcq("pretest", 0, "What does this verse give?",
@@ -171,12 +171,12 @@ AUTHORED = {
                 "A list of titles."),
             match(1, "Match each title to its meaning.",
                   [["वेदोत्पत्तिः", "origin of the Veda"], ["शिष्यनयः", "leading of the pupil"],
-                   ["ऋतुचर्या", "regimen of the seasons"], ["यान्त्रिकः", "concerning instruments"]],
+                   ["अध्ययनदानिकः", "concerning giving of study"], ["यान्त्रिकः", "concerning instruments"]],
                   "Four of the titles in the verse.",
                   "वेदोत्पत्तिः and शिष्यनयः are tat-purusha compounds; यान्त्रिकः is an adjective of instruments."),
             order(2, "Put these titles in the order of the verse.",
-                  ["वेदोत्पत्तिः", "शिष्यनयः", "अध्ययनदानिकः", "प्रभाषण", "ऋतुचर्या", "यान्त्रिकः"],
-                  "Origin of the Veda, leading of the pupil, giving of study, speech, regimen of the seasons, instruments.",
+                  ["वेदोत्पत्तिः", "शिष्यनयः", "अध्ययनदानिकः", "यान्त्रिकः"],
+                  "Origin of the Veda, leading of the pupil, giving of study, then instruments (the titles between are left out).",
                   "Order of the text.", role="extend",
                   teaches="The order of the first titles of the list."),
             mcq("discriminate", 3, "Which of these titles does the card mark as feminine?",
@@ -226,7 +226,7 @@ AUTHORED = {
                   "क्षारकल्पनम् and रक्तवर्णनम् are tat-purusha compounds."),
             order(2, "Put these titles in the order of the verse.",
                   ["क्षारकल्पनम्", "अग्निकर्म", "जलौका", "रक्तवर्णनम्"],
-                  "Alkali, fire-work, leech, description of blood (the titles between are left out).",
+                  "Alkali, fire-work, leech, description of blood (the first three titles of the verse are left out).",
                   "Order of the text.", role="extend",
                   teaches="The order of these four titles in the verse."),
             mcq("discriminate", 3, "What does the dual अध्यायौ tell us about अग्निकर्म and जलौका?",
@@ -286,7 +286,7 @@ AUTHORED = {
                  ("Ablative plural: from the dhatus.", "-आनाम् is the genitive plural.")],
                 "-आनाम् is the genitive plural: of these and the rest.",
                 "-आनाम् = of several."),
-            mcq("apply", 4, "In विज्ञान + अध्यायः = विज्ञानाध्यायः, what does अ + अ give?",
+            mcq("apply", 4, "In joining विज्ञान and अध्यायः, what do the two अ become?",
                 ("आ", "Two short अ join into long आ."),
                 [("ए", "ए comes from अ + इ."),
                  ("ओ", "ओ comes from अ + उ."),
@@ -386,10 +386,10 @@ AUTHORED = {
                 ("शल्य + उद्धृतिः", "अ + उ joins into ओ."),
                 [("शल्यु + उद्धृतिः", "The card gives शल्य, ending in अ."),
                  ("शल्ये + उद्धृतिः", "ए before उ does not give ओ."),
-                 ("शल्यो + उद्धृतिः", "ओ before उ would not give a plain ओ.")],
+                 ("शल्यो + उद्धृतिः", "ओ before उ would give अव्, not ओ.")],
                 "शल्य + उद्धृतिः joins as शल्योद्धृतिः.",
                 "अ + उ = ओ."),
-            mcq("apply", 4, "Which of these titles does the card mark as neuter singular?",
+            mcq("apply", 4, "Which of these words does the card mark as neuter singular?",
                 ("व्रणज्ञानम्", "n. nom. sg."),
                 [("विनिश्चयः", "m. nom. sg."),
                  ("शल्योद्धृतिः", "f. nom. sg."),
@@ -410,7 +410,7 @@ AUTHORED = {
         "title": "पञ्चेन्द्रियं तथा छाया",
         "question": "Which plainly read titles stand at the start of this verse?",
         "rule": "पञ्च + इन्द्रियम् joins as पञ्चेन्द्रियम् (अ + इ = ए); -आत् marks the ablative singular (from).",
-        "limits": "This is the least firm unit of its group. The words वारण (warding off), युक्तसेनीय and the last title (भूनिक, possibly भूमिक) are uncertain in sense or spelling; no question rests on them or on the last two lines' sense. Only the first three titles are asked.",
+        "limits": "Least firm unit of its group. वारण, युक्तसेनीय and the last title (भूनिक, possibly भूमिक) are uncertain; no question rests on them or on the last two lines. Only the first three titles are asked. छाया is printed without the doubled छ after तथा; spelling only.",
         "explain_hi": "यह श्लोक सबसे अनिश्चित अंशों में है। पहले तीन शीर्षक साफ़ पढ़े जाते हैं: पाँच इन्द्रियाँ, छाया, और स्वभाव से विकार। वारण, युक्तसेनीय और रोगी का क्रम तथा भूनिक नामक दो अध्यायों का अर्थ या पाठ पक्का नहीं है, इसलिए प्रश्न उन पर नहीं टिके हैं। पञ्चेन्द्रियम् में पञ्च और इन्द्रियम् अ + इ = ए से मिले हैं।",
         "hook": "पाँच इन्द्रियाँ · छाया · स्वभाव से विकार (आगे के शीर्ष अनिश्चित)।",
         "core": False,
@@ -489,7 +489,7 @@ AUTHORED = {
                  ("Ablative singular: from purification, from pacification.", "The card marks both loc. sg.")],
                 "Both are locative singular: in.",
                 "Locative = in."),
-            mcq("apply", 4, "In मिश्रक + आख्यः = मिश्रकाख्यः, which vowels join into आ?",
+            mcq("apply", 4, "Which two vowels meet when मिश्रक and आख्यः are joined?",
                 ("अ + आ", "The last अ of मिश्रक and the आ of आख्यः."),
                 [("इ + आ", "मिश्रक ends in अ."),
                  ("उ + आ", "मिश्रक ends in अ."),
@@ -509,7 +509,7 @@ AUTHORED = {
     "11": {
         "title": "रसज्ञानं वमनार्थम्",
         "question": "Which five chapter titles does this verse list?",
-        "rule": "-आय marks the dative (for); a final त् before a voiced sound becomes द् (द्रवत् + द्रव्य = द्रवद्द्रव्य).",
+        "rule": "-आय marks the dative (for); a final त् before a voiced sound or a vowel becomes द् (द्रवत् + द्रव्य = द्रवद्द्रव्य).",
         "limits": "The verse lists titles only; it does not say what emesis (vamana) or purging (recana) are, or what the chapters teach. One word अध्यायः is read as serving both 'for emesis' and 'for purging'.",
         "explain_hi": "यह श्लोक शीर्ष गिनाता है: रसों का ज्ञान, वमन के लिए अध्याय और विरेचन के लिए भी, बहने वाले द्रव्यों का विधान, और अन्न-पान का विधान। एक ही अध्यायः शब्द वमन और विरेचन दोनों के साथ पढ़ा जाता है। रेचनाय चतुर्थी है। द्रवत् और द्रव्य मिलकर द्रवद्द्रव्य बने हैं। श्लोक इन विषयों की विधि नहीं बताता।",
         "hook": "रसज्ञान · वमन के लिए · विरेचन के लिए · द्रव द्रव्यों का विधान · अन्न-पान का विधान।",
@@ -582,12 +582,12 @@ AUTHORED = {
                   "Indicating, stringing together, bringing forth.",
                   "Order of the text.", role="extend",
                   teaches="The three grounds for the name, in the verse's order."),
-            mcq("discriminate", 3, "In सवनात् + च = सवनाच्च, what does the final त् become before च?",
+            mcq("discriminate", 3, "When सवनात् meets च, what does the final त् become?",
                 ("च्", "त् + च joins as च्च."),
                 [("द्", "द् is the result before a soft sound like द or ग."),
-                 ("ज्", "ज् is not what the verse prints."),
-                 ("त् (unchanged)", "The print shows सवनाच्च.")],
-                "The verse prints सवनाच्च: the त् becomes च्.",
+                 ("ज्", "ज् is the result before ज, not च."),
+                 ("त् (unchanged)", "त् before च assimilates to च्.")],
+                "त् before च becomes च्, so the verse has सवनाच्च.",
                 "त् + च = च्च."),
             multi("apply", 4, "Which of these are grounds the verse gives for the name?",
                   [("It indicates.", "सूचनात्."),
@@ -634,7 +634,7 @@ AUTHORED = {
                   "Vata ailments, arshas, bhagandara, then kushtha, meha and udara (other names between are left out).",
                   "Order of the text.", role="extend",
                   teaches="The order of these names in the verse."),
-            mcq("discriminate", 3, "In मेह + उदराः = मेहोदराः, what does अ + उ give?",
+            mcq("discriminate", 3, "When मेह meets उदराः, what does अ + उ give?",
                 ("ओ", "अ + उ joins into ओ."),
                 [("औ", "औ is the grade of उ, not the result here."),
                  ("ऊ", "ऊ comes from उ + उ."),
@@ -663,7 +663,7 @@ AUTHORED = {
         "question": "How many Nidanas does the verse give, and why are they so called?",
         "rule": "निर्देशात् (ablative) gives the reason; इ + इ joins as ई (निदानानि + इति = निदानानीति).",
         "limits": "The verse says they are called Nidanas because they indicate cause and signs and that they are sixteen. The printed भक्ना is read as भग्नाः and क्षुद्र and शूक are taken as names; no question rests on them.",
-        "explain_hi": "यह श्लोक निदान-अध्यायों के अन्तिम नाम गिनाता है: ग्रन्थि, वृद्धि, क्षुद्र, शूक, भग्न और मुखरोग सम्बन्धी। फिर कारण बताता है कि हेतु और लक्षण का निर्देश करने से ये निदान कहलाते हैं, और इनकी संख्या सोलह है। निर्देशात् पञ्चमी में कारण बताता है। छपे भक्ना में भग्नाः की शंका है, इसलिए प्रश्न उस पर नहीं हैं।",
+        "explain_hi": "यह श्लोक निदान-अध्यायों के अन्तिम नाम गिनाता है: ग्रन्थि, वृद्धि, क्षुद्र, शूक, भग्न (छपा भक्ना) और मुखरोग सम्बन्धी। फिर कारण बताता है कि हेतु और लक्षण का निर्देश करने से ये निदान कहलाते हैं, और इनकी संख्या सोलह है। निर्देशात् पञ्चमी में कारण बताता है। छपे भक्ना में भग्नाः की शंका है, इसलिए प्रश्न उस पर नहीं हैं।",
         "hook": "हेतु और लक्षण का निर्देश → ये सोलह निदान।",
         "core": True,
         "questions": [
@@ -691,7 +691,7 @@ AUTHORED = {
                  ("Because they are taught to the pupils first.", "No such reason is mentioned.")],
                 "The reason is the indicating of cause and signs.",
                 "-आत् = because of."),
-            mcq("apply", 4, "In निदानानि + इति = निदानानीति, what does इ + इ give?",
+            mcq("apply", 4, "When निदानानि meets इति, what do the two इ become?",
                 ("ई", "Two short इ join into long ई."),
                 [("ए", "ए comes from अ + इ."),
                  ("ऐ", "ऐ is not the result of इ + इ."),
@@ -728,7 +728,7 @@ NOTES_HI = {
 
 AIDS = {
     "1": {
-        "frame": "कौन: हम (वक्ता) · क्या: अध्ययनसंप्रदानीय अध्याय की व्याख्या · कब: अब, इसके बाद।",
+        "frame": "कौन: हम (वक्ता) · क्या: अध्ययनसंप्रदानीय अध्याय की व्याख्या · कब: अब (नया विषय आरम्भ)।",
         "sandhi": "अथ + अतः = अथातः (अ + अ = आ); अतः + अध्ययन = अतोऽध्ययन (अः + अ = ओऽ)।",
         "chunks": {"steps": ["अथातः", "अध्ययनसंप्रदानीयम् अध्यायम्", "व्याख्यास्यामः"]},
     },
@@ -739,16 +739,16 @@ AIDS = {
     },
     "3": {
         "frame": "कुल: सौ और बीस अध्याय · बँटे: पाँच स्थानों में · हर स्थान की गिनती साथ में।",
-        "diagram": {"steps": ["पहले कहे १२० अध्याय पाँच स्थानों में", "सूत्रस्थान: ४६", "निदान: १६",
-                              "शारीर: १०", "चिकित्सित: ४०", "कल्प: ८", "उसके बाद उत्तर: ६६"]},
+        "diagram": {"steps": ["पहले कहे १२० अध्याय पाँच स्थानों में", "सूत्रस्थान: ४६", "निदान (संख्या संदिग्ध)",
+                              "शारीर: १०", "चिकित्सित: ४०", "कल्प: ८", "उसके बाद उत्तर (संख्या संदिग्ध)"]},
         "chunks": {"steps": ["प्रागभिहितं सविंशमध्यायशतम्", "पञ्चसु स्थानेषु",
                              "तत्र सूत्रस्थानम् अध्यायाः षट्चत्वारिंशत्",
-                             "शारीराणि दश", "चिकित्सितानि चत्वारिंशत्", "कल्पाः अष्टौ"]},
+                             "दश शारीराणि", "चत्वारिंशत् चिकित्सितानि", "अष्टौ कल्पाः"]},
     },
     "4": {
         "frame": "सूची: सूत्रस्थान के अध्यायों के नाम, जोड़: तथा, अथ · पहले नाम से अन्तिम तक क्रम से।",
-        "diagram": {"steps": ["वेदोत्पत्ति", "शिष्यनय", "अध्ययनदानिक", "प्रभाषण", "अग्रहरण",
-                              "ऋतुचर्या", "यान्त्रिक"]},
+        "diagram": {"steps": ["वेदोत्पत्ति", "शिष्यनय", "अध्ययनदानिक", "प्रभाषण (पाठ संदिग्ध)", "अग्रहरण (पाठ संदिग्ध)",
+                              "ऋतुचर्या (पाठ संदिग्ध)", "यान्त्रिक"]},
         "sandhi": "वेद + उत्पत्तिः = वेदोत्पत्तिः (अ + उ = ओ)।",
     },
     "5": {
@@ -792,7 +792,7 @@ AIDS = {
     "12": {
         "frame": "कारण: सूचन, सूत्रण, सवन · फल: छियालीस अध्याय वाला स्थान ‘सूत्रस्थान’ कहलाता है।",
         "chain": {"steps": ["सूचनात्: सूचित करने से", "सूत्रणात्: सूत्र में पिरोने से", "सवनात्: उत्पन्न करने से",
-                            "अर्थ की निरन्तरता", "छियालीस अध्याय वाला सूत्रस्थान"]},
+                            "छियालीस अध्याय वाला सूत्रस्थान"]},
         "sandhi": "सवनात् + च = सवनाच्च (त् + च = च्च)।",
     },
     "13": {
@@ -811,62 +811,47 @@ AIDS = {
 IMAGE_SPECS = {
     ("3", "diagram"): {
         "file": "ch3-sthana-03.svg",
-        "alt": "A hundred and twenty chapters stated earlier in five sections: Sutrasthana 46, Nidana 16, Sharira 10, Chikitsita 40, Kalpa 8; after that the Uttara 66 (two printed counts are doubtful).",
-        "type": "mermaid",
-        "code": ('flowchart TD\n'
-                 '  A["पहले कहे १२० अध्याय<br/>पाँच स्थानों में"] --> B["सूत्रस्थान: ४६"]\n'
-                 '  A --> C["निदान: १६"]\n'
-                 '  A --> D["शारीर: १०"]\n'
-                 '  A --> E["चिकित्सित: ४०"]\n'
-                 '  A --> F["कल्प: ८"]\n'
-                 '  A -. "उसके बाद" .-> G["उत्तर: ६६"]'),
+        "alt": "Table of the sections in the unit's order with their chapter counts: Sutrasthana 46, Nidana (printed count doubtful), Sharira 10, Chikitsita 40, Kalpa 8, then the Uttara (printed count doubtful).",
+        "type": "table",
+        "title": "पहले कहे १२० अध्याय",
+        "heads": ["स्थान", "अध्याय"],
+        "rows": [["१ सूत्रस्थान", "४६"],
+                 ["२ निदान", "संख्या संदिग्ध"],
+                 ["३ शारीर", "१०"],
+                 ["४ चिकित्सित", "४०"],
+                 ["५ कल्प", "८"],
+                 ["उसके बाद उत्तर", "संख्या संदिग्ध"]],
     },
     ("4", "diagram"): {
         "file": "ch3-sutra-titles-04.svg",
-        "alt": "Mind map of seven chapter titles in the verse's order: origin of the Veda, leading of the pupil, concerning giving of study, speech, agraharana, regimen of the seasons, concerning instruments.",
-        "type": "mermaid",
-        "code": ('mindmap\n'
-                 '  अध्यायों के नाम\n'
-                 '    वेदोत्पत्ति\n'
-                 '    शिष्यनय\n'
-                 '    अध्ययनदानिक\n'
-                 '    प्रभाषण\n'
-                 '    अग्रहरण\n'
-                 '    ऋतुचर्या\n'
-                 '    यान्त्रिक'),
+        "alt": "Numbered chain of seven chapter titles in the verse's order: origin of the Veda, leading of the pupil, concerning giving of study, speech, agraharana, regimen of the seasons (these three marked as doubtful readings), concerning instruments.",
+        "type": "chain",
+        "title": "अध्यायों के नाम, क्रम से",
+        "steps": ["१ वेदोत्पत्ति", "२ शिष्यनय", "३ अध्ययनदानिक", "४ प्रभाषण (पाठ संदिग्ध)",
+                  "५ अग्रहरण (पाठ संदिग्ध)", "६ ऋतुचर्या (पाठ संदिग्ध)", "७ यान्त्रिक"],
     },
     ("7", "diagram"): {
         "file": "ch3-vrana-titles-07.svg",
-        "alt": "Mind map of five chapter titles in the verse's order: beneficial and harmful, question about wounds, wound-discharge, rule of what to do and not do, summary of diseases.",
-        "type": "mermaid",
-        "code": ('mindmap\n'
-                 '  अध्यायों के नाम\n'
-                 '    हिताहित\n'
-                 '    व्रणप्रश्न\n'
-                 '    व्रणास्राव\n'
-                 '    कृत्याकृत्यविधि\n'
-                 '    व्याधिसमुद्देशीय'),
+        "alt": "Numbered chain of five chapter titles in the verse's order: beneficial and harmful, question about wounds, wound-discharge, rule of what to do and not do, summary of diseases.",
+        "type": "chain",
+        "title": "पाँच शीर्ष, क्रम से",
+        "steps": ["१ हिताहित", "२ व्रणप्रश्न", "३ व्रणास्राव", "४ कृत्याकृत्यविधि", "५ व्याधिसमुद्देशीय"],
     },
     ("10", "diagram"): {
         "file": "ch3-mishraka-10.svg",
         "alt": "The group of substances called mishraka stands in purification and in pacification; separately the knowledge of substances and the rest.",
         "type": "mermaid",
         "code": ('flowchart TD\n'
-                 '  A["मिश्रक नामक<br/>द्रव्यगण"] --> B["संशुद्धि में"]\n'
-                 '  A --> C["शमन में"]\n'
+                 '  A["मिश्रक नामक<br/>द्रव्यगण"] -->|में| B["संशुद्धि"]\n'
+                 '  A -->|में| C["शमन"]\n'
                  '  D["द्रव्य आदि का ज्ञान"]'),
     },
     ("11", "diagram"): {
         "file": "ch3-titles-11.svg",
-        "alt": "Mind map of five chapter titles in the verse's order: knowledge of tastes, a chapter for emesis, for purging, rule for liquid substances, rule for food and drink.",
-        "type": "mermaid",
-        "code": ('mindmap\n'
-                 '  अध्यायों के नाम\n'
-                 '    रसज्ञान\n'
-                 '    वमन के लिए\n'
-                 '    विरेचन के लिए\n'
-                 '    द्रव द्रव्यों का विधान\n'
-                 '    अन्न-पान का विधान'),
+        "alt": "Numbered chain of five chapter titles in the verse's order: knowledge of tastes, a chapter for emesis, for purging, rule for liquid substances, rule for food and drink.",
+        "type": "chain",
+        "title": "पाँच शीर्ष, क्रम से",
+        "steps": ["१ रसज्ञान", "२ वमन के लिए", "३ विरेचन के लिए", "४ द्रव द्रव्यों का विधान", "५ अन्न-पान का विधान"],
     },
     ("12", "chain"): {
         "file": "ch3-sutrasthana-12.svg",

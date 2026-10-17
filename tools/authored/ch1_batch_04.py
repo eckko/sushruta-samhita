@@ -64,7 +64,7 @@ AUTHORED = {
         "questions": [
             mcq("pretest", 0, "Which creatures does the text place among the egg-born?",
                 ("Birds, snakes and creeping creatures", "खगसर्पसरीसृपप्रभृतयोऽण्डजाः."),
-                [("Beasts, humans and beasts of prey", "These stand under the womb-born."),
+                [("Beasts, humans and the like", "These stand under the womb-born."),
                  ("Worms, insects and ants and the like", "These stand under the sweat-born."),
                  ("Indragopas, frogs and the like", "These stand under the sprout-born.")],
                 "The egg-born (अण्डज) are birds, snakes, creeping creatures and the like.",
@@ -93,7 +93,7 @@ AUTHORED = {
                  ("Worms and snakes", "Worms are sweat-born, snakes egg-born.")],
                 "खग and सर्प both stand in the egg-born list.",
                 "Each list names its own creatures."),
-            mcq("transfer", 5, "On the pattern of स्वेदजाः (sweat-born), what does the invented word जलजाः mean?",
+            mcq("transfer", 5, "On the pattern of स्वेदजाः (sweat-born), what does जलजाः mean?",
                 ("Born of water", "जल (water) + ज (born)."),
                 [("Born of earth", "जल is water, not earth."),
                  ("Given to water", "The ending is born, not given."),
@@ -137,12 +137,12 @@ AUTHORED = {
                   [0, 1],
                   "Hide and hair stand in the moving list; root and fruit in the stationary list.",
                   "Check which list each word stands in."),
-            mcq("apply", 4, "स्थावरेभ्यः means from the stationary ones. Which word means from the moving ones?",
-                ("जङ्गमेभ्यः", "The same ending -एभ्यः: from."),
+            mcq("apply", 4, "Which word of the verse means from the moving ones?",
+                ("जङ्गमेभ्यः", "It has the ending that means from."),
                 [("जङ्गमाः", "This is the plain plural, not from."),
                  ("जङ्गमानाम्", "This is the genitive: of."),
                  ("जङ्गमेषु", "This is the locative: among.")],
-                "The verse itself has जङ्गमेभ्यः beside स्थावरेभ्यः.",
+                "The verse names the moving ones with the word that means from them.",
                 "-एभ्यः = from (plural)."),
             mcq("transfer", 5, "On the pattern of स्थावरेभ्यः (from the stationary ones), what does वृक्षेभ्यः mean?",
                 ("From the trees", "The ending -एभ्यः means from."),
@@ -159,14 +159,14 @@ AUTHORED = {
         "question": "Which substances does the text list as earthy?",
         "rule": "पार्थिवाः are the earthy ones. The list ends with आदयः (and so on), so it is open. A list compound joins its members with and.",
         "limits": "The text only names the earthy substances; it states no use. Whether मृत्कपाल is one item (earthen potsherd) or two (clay; potsherd) is open, so no question rests on it. मनःशिला is a mineral name and is kept as a name.",
-        "explain_hi": "तीसरा वर्ग पार्थिव है, यानी पृथ्वी से जुड़े द्रव्य। पाठ गिनाता है: सुवर्ण, रजत, मणि, मुक्ता, मनःशिला, मृत् और कपाल, और अन्त में आदि जोड़ देता है, इसलिए सूची बन्द नहीं है। सूची एक लम्बे समास में लिखी है जिसके सब सदस्य और से जुड़े हैं। मृत्कपाल एक वस्तु है या दो, यह निश्चित नहीं।",
-        "hook": "पार्थिव: सुवर्ण, रजत, मणि, मुक्ता, मनःशिला, मृत्, कपाल आदि।",
+        "explain_hi": "यहाँ पार्थिव वर्ग गिनाया गया है, यानी पृथ्वी से जुड़े द्रव्य। पाठ गिनाता है: सुवर्ण, रजत, मणि, मुक्ता, मनःशिला, मृत् और कपाल, और अन्त में आदि जोड़ देता है, इसलिए सूची बन्द नहीं है। सूची एक लम्बे समास में लिखी है जिसके सब सदस्य और से जुड़े हैं। मृत्कपाल एक वस्तु है या दो, यह निश्चित नहीं।",
+        "hook": "पार्थिव: सुवर्ण, रजत, मणि, मुक्ता, मनःशिला, मृत्कपाल आदि।",
         "core": False,
         "questions": [
             mcq("pretest", 0, "What does the word पार्थिवाः call the things listed?",
                 ("The earthy ones", "पार्थिवाः: earthy ones."),
                 [("The stationary ones", "That was the name in the earlier units."),
-                 ("The time-made ones", "That is a different class of things."),
+                 ("The bodily ones", "Not what पार्थिवाः says."),
                  ("The moving ones", "That is a different class of things.")],
                 "पार्थिवाः is glossed earthy ones: things of the earth.",
                 "पार्थिव = earthy."),
@@ -194,7 +194,7 @@ AUTHORED = {
                   [0, 1],
                   "Gold and gem are in this list; nails and cold belong to other lists.",
                   "Check each against the list in this unit."),
-            mcq("transfer", 5, "In the list compound सुवर्णरजतमणि, the members mean gold and silver and gem. What does the invented compound मुक्तारजतसुवर्णाः mean?",
+            mcq("transfer", 5, "In the list compound सुवर्णरजतमणिमुक्ता (gold and silver and gem and pearl) the members are joined by and. What does the invented compound मुक्तारजतसुवर्णानि mean?",
                 ("Pearls, silver and gold", "A list compound joins members with and, in any order."),
                 [("Pearls of silver and gold", "The members are joined by and, not of."),
                  ("Golden silver pearls", "No member describes another."),
@@ -209,7 +209,7 @@ AUTHORED = {
         "question": "What does the text list as made by time?",
         "rule": "कालकृताः are the time-made ones: light, weather and the divisions of time. शीत + उष्ण joins as शीतोष्ण (अ + उ = ओ).",
         "limits": "The text lists the items; it states no effect of any of them. The word वर्षा could mean rain or year, so no question rests on it. The closing words संवत्सरविशेषाः are read as covering the list, which is a reading, not a certainty (medium confidence).",
-        "explain_hi": "चौथा वर्ग कालकृत है, यानी काल से बने भाव। सूची में हवादार और हवारहित स्थिति, धूप, छाया, चाँदनी, अन्धकार, शीत, उष्ण और वर्षा के साथ अहोरात्र, पक्ष, मास, ऋतु और अयन आते हैं। अन्त में संवत्सरविशेषाः आता है, जिसे पूरी सूची के साथ पढ़ा गया है, पर यह पढ़ना निश्चित नहीं। वर्षा का अर्थ वर्षा या वर्ष दोनों हो सकता है।",
+        "explain_hi": "यहाँ कालकृत वर्ग गिनाया गया है, यानी काल से बने भाव। सूची में हवादार और हवारहित स्थिति, धूप, छाया, चाँदनी, अन्धकार, शीत, उष्ण और वर्षा के साथ अहोरात्र, पक्ष, मास, ऋतु और अयन आते हैं। अन्त में संवत्सरविशेषाः आता है, जिसे पूरी सूची के साथ पढ़ा गया है, पर यह पढ़ना निश्चित नहीं। वर्षा का अर्थ वर्षा या वर्ष दोनों हो सकता है।",
         "hook": "प्रकाश-छाया, शीत-उष्ण, फिर अहोरात्र से अयन तक काल के भाग।",
         "core": False,
         "questions": [
@@ -257,10 +257,10 @@ AUTHORED = {
     # ------------------------------------------------------------------ 34
     "34": {
         "title": "त एते स्वभावत एव",
-        "question": "Of what does the text say these four groups are causes, and how?",
-        "rule": "The four groups are, by their own nature, causes of four things regarding the doshas: accumulation, aggravation, pacification, counteraction. -वन्तः means having.",
+        "question": "Of what does the text say these are causes, and how?",
+        "rule": "These are, by their own nature, causes of four things regarding the doshas: accumulation, aggravation, pacification, counteraction. -वन्तः means having.",
         "limits": "The text states the four terms and the nature of the groups; it does not define the terms or give any treatment. It says by nature, not by anyone's choice.",
-        "explain_hi": "पिछली इकाइयों में गिनाए गए ये सब द्रव्य और भाव स्वभाव से ही दोषों के संचय, प्रकोप, प्रशमन और प्रतीकार के हेतु हैं, और प्रयोजन वाले हैं। चार शब्दों का क्रम पाठ का है: संचय, प्रकोप, प्रशम, प्रतीकार। स्वभावतः का अर्थ है अपने स्वभाव से। प्रयोजनवन्तः में -वन्तः का अर्थ है वाले। यहाँ केवल कारण बताया गया है, किसी उपचार की बात नहीं।",
+        "explain_hi": "पिछली इकाइयों में गिनाए गए ये सब स्वभाव से ही दोषों के संचय, प्रकोप, प्रशमन और प्रतीकार के हेतु हैं, और प्रयोजन वाले हैं। चार शब्दों का क्रम पाठ का है: संचय, प्रकोप, प्रशम, प्रतीकार। स्वभावतः का अर्थ है अपने स्वभाव से। प्रयोजनवन्तः में -वन्तः का अर्थ है वाले। यहाँ केवल कारण बताया गया है, किसी उपचार की बात नहीं।",
         "hook": "स्वभाव से ही दोषों के संचय, प्रकोप, प्रशम और प्रतीकार के हेतु।",
         "core": False,
         "questions": [
@@ -275,7 +275,7 @@ AUTHORED = {
                   [["सञ्चय", "accumulation"], ["प्रकोप", "aggravation"],
                    ["प्रशम", "pacification"], ["प्रतीकार", "counteraction"]],
                   "The four words of the compound.",
-                  "Each is the first member of the long list in the verse."),
+                  "Each is a member of the long compound in the verse."),
             order(2, "Put the four terms in the order in which the verse names them.",
                   ["सञ्चय", "प्रकोप", "प्रशम", "प्रतीकार"],
                   "The verse reads: accumulation, aggravation, pacification, counteraction.",
@@ -464,7 +464,7 @@ AUTHORED = {
         "question": "Which four things does the text say were explained in brief, and what does each mention cover?",
         "rule": "The text names purusha, disease, medicinal substance and time of action as a set, then says what each mention covers. ग्रहणात् (ablative) means by the mention of.",
         "limits": "The text states only what each mention covers; it gives no treatment and no dose. Two printed words look like slips and the count of four against five mentions is left open; no question rests on these points (medium confidence).",
-        "explain_hi": "यह अंश अब तक कहे हुए का सार देता है: पुरुष, व्याधि, औषध और क्रियाकाल, यह चतुष्टय संक्षेप में कहा गया। फिर हर शब्द के ग्रहण से क्या आ गया, यह बताया जाता है: पुरुष से उसके उत्पत्ति-द्रव्य, अंग और प्रत्यंग; व्याधि से वात, पित्त, कफ और रक्त की विषमता वाले रोग; औषध से द्रव्य, रस, गुण, वीर्य और विपाक; क्रिया से छेद्य आदि और स्नेह आदि कर्म। ग्रहणात् का अर्थ है उल्लेख से। पाठ में दो शब्द सम्भवतः छापे की भूल हैं, और गिनती का प्रश्न खुला है।",
+        "explain_hi": "यह अंश अब तक कहे हुए का सार देता है: पुरुष, व्याधि, औषध और क्रियाकाल, यह चतुष्टय संक्षेप में कहा गया। फिर हर शब्द के ग्रहण से क्या आ गया, यह बताया जाता है: पुरुष से उसके उत्पत्ति-द्रव्य, अंग और प्रत्यंग; व्याधि से वात, पित्त, कफ और रक्त की विषमता वाले रोग; औषध से द्रव्य, रस, गुण, वीर्य और विपाक; क्रिया से छेद्य आदि और स्नेह आदि कर्म; काल के ग्रहण से सब क्रियाओं के कालों का निर्देश है। ग्रहणात् का अर्थ है उल्लेख से। पाठ में दो शब्द सम्भवतः छापे की भूल हैं, और गिनती का प्रश्न खुला है।",
         "hook": "पुरुष-व्याधि-औषध-क्रियाकाल: चारों का सार, हर ग्रहण से अपना क्षेत्र।",
         "core": True,
         "questions": [
@@ -475,9 +475,9 @@ AUTHORED = {
                  ("Womb-born, egg-born, sweat-born, sprout-born", "These are the kinds of moving things.")],
                 "The set is पुरुष, व्याधि, औषध and क्रियाकाल.",
                 "चतुष्टयम् = a fourfold set."),
-            match(1, "Match each mention in the text to what it covers.",
+            match(1, "Match each of these four mentions to what it covers.",
                   [["पुरुष", "substances he arises from, limbs, divisions"],
-                   ["व्याधि", "diseases from imbalance of vata, pitta, kapha, blood"],
+                   ["व्याधि", "diseases from imbalance of vata, pitta, kapha, blood and their combination"],
                    ["औषध", "substances, tastes, qualities, virya, vipaka"],
                    ["क्रिया", "procedures beginning with chedya and sneha"]],
                   "The first four mentions and what each brings in.",
@@ -487,13 +487,13 @@ AUTHORED = {
                   "The list runs: द्रव्य, रस, गुण, वीर्य, विपाक.",
                   "Order of the text.", role="extend",
                   teaches="The list given under the mention of औषध, in the order of the text."),
-            multi("discriminate", 3, "Which are named as the imbalances behind all diseases in this passage?",
+            multi("discriminate", 3, "Which are named as the things whose imbalance causes the diseases?",
                   [("वात", "Named first."),
                    ("शोणित", "Blood: named in the list."),
-                   ("द्रव्य", "A term under औषध, not a cause of disease."),
-                   ("विपाक", "A term under औषध, not a cause of disease.")],
+                   ("द्रव्य", "A term listed under औषध, not under disease."),
+                   ("विपाक", "A term listed under औषध, not under disease.")],
                   [0, 1],
-                  "वात, पित्त, कफ and शोणित are the named imbalances; द्रव्य and विपाक belong to औषध.",
+                  "वात, पित्त, कफ and शोणित are the named things; द्रव्य and विपाक belong to औषध.",
                   "Read the sentence on व्याधि."),
             mcq("apply", 4, "In ओषधग्रहणात्, what does the ending -ग्रहणात् say?",
                 ("By the mention of", "The card glosses it: by the mention of."),
@@ -529,12 +529,12 @@ AUTHORED = {
                 "एतत् points to what was just proclaimed in brief.",
                 "बीजम् = seed."),
             match(1, "Match each word to its meaning.",
-                  [["बीजम्", "seed"], ["चिकित्सितम्", "therapeutics"], ["समासेन", "in brief"],
+                  [["बीजम्", "seed"], ["चिकित्सितस्य", "of therapeutics"], ["समासेन", "in brief"],
                    ["प्रकीर्तितम्", "proclaimed"], ["व्याख्या", "exposition"]],
                   "Five words of the verse.",
                   "These are words of the verse in their forms."),
             fill(2, "This is the ____ (seed) of therapeutics. Type it in Devanagari or in English letters (e.g. dharma).",
-                 accepts("बीजम्"),
+                 accepts("बीजम्", None, "बीज", "bija"),
                  "बीजम् is the word the verse uses for the seed.",
                  "बीजम् = seed.",
                  "The brief statement is named the seed."),
@@ -557,7 +557,7 @@ AUTHORED = {
                  ("A thousand less twenty", "सविंश adds, not subtracts.")],
                 "सविंश adds twenty to the number named.",
                 "सविंश = with twenty added.",
-                teaches="सविंश before a number means that number with twenty added."),
+                teaches="सविंशं शतम् = a hundred with twenty added; the same word added to another number adds twenty."),
         ]},
     # ------------------------------------------------------------------ 40
     "40": {
@@ -572,7 +572,7 @@ AUTHORED = {
             mcq("pretest", 0, "What does the text say it does with the 120 chapters?",
                 ("Divides them by subject matter into five sections", "पञ्चसु स्थानेषु ... संविभज्य."),
                 [("Reads them aloud to the students", "No reading aloud is stated."),
-                 ("Leaves them undivided in one book", "The text says it divides them."),
+                 ("Keeps them together in one book without any division", "The text says it divides them."),
                  ("Divides them into two sections", "The text names five, not two.")],
                 "संविभज्य is having divided; पञ्चसु स्थानेषु is into five sections.",
                 "संविभज्य = having divided."),
@@ -589,21 +589,21 @@ AUTHORED = {
                   teaches="The five sections of the work, in the order of the text."),
             mcq("discriminate", 3, "Why does संविभज्य end in -य and not in -त्वा?",
                 ("The root has the prefixes सम् and वि", "A prefixed root takes -य for having done."),
-                [("The word is in the future tense", "-य does not mark the future."),
-                 ("The word is in the plural", "-य does not mark the plural."),
-                 ("The word is in the locative", "-य does not mark the locative.")],
+                [("The word is a verb in the future tense", "-य does not mark the future."),
+                 ("The word is a noun in the plural number", "-य does not mark the plural."),
+                 ("The word is a noun in the locative case", "-य does not mark the locative.")],
                 "The card lists √भज् with सम्-वि; prefixed roots take -य.",
                 "Absolutive: -त्वा without prefix, -य with prefix."),
             mcq("apply", 4, "Where does the text say the remaining topics will be explained?",
                 ("In the later treatise", "उत्तरे तन्त्रे शेषानर्थान् व्याख्यास्यामः."),
                 [("In the Sutra section", "The Sutra section is one of the five."),
                  ("In the Kalpa section", "The Kalpa section is one of the five."),
-                 ("In a sixth section", "Only five sections are named.")],
+                 ("In a sixth section added after Kalpa", "Only five sections are named.")],
                 "The remaining topics go to the later treatise (उत्तरे तन्त्रे).",
                 "उत्तरे तन्त्रे = in the later treatise."),
             mcq("transfer", 5, "On the pattern of संविभज्य (having divided), what does the invented संगृह्य mean?",
                 ("Having gathered", "सम् + √ग्रह + -य: an absolutive."),
-                [("We shall gather", "A future verb would end in -स्यामः."),
+                [("We shall gather", "A future verb would end in -ष्यामः or -स्यामः."),
                  ("Having been gathered", "The ending -य is active, not passive."),
                  ("A gathering", "The word is a verb form, not a noun.")],
                 "A prefixed root with -य means having done.",
@@ -669,7 +669,7 @@ NOTES_HI = {
     "29": "यह अंश मध्यम विश्वास का है। ‘प्रतानवत्यः स्तम्बिन्यश्च’ को वीरुध के दो रूप (फैलने वाली लताएँ और झाड़ी बनाने वाली) माना गया है; इन्हें एक ही वर्ग का एक वर्णन भी पढ़ा जा सकता है। ‘अपुष्पाः फलवन्तः’ का अर्थ शब्दशः बिना पुष्प के फल वाले है। ‘फलपाकनिष्ठाः’ = जिनका अन्त फल के पकने पर होता है। चार वर्गों के नाम संस्कृत में ही रखे गए हैं। कोई प्रश्न किसी अनिश्चित पढ़त पर आधारित नहीं है।",
     "30": "छपा ‘चतुविधाः’ सम्भवतः ‘चतुर्विधाः’ है (र् छूटा); देवनागरी में भी यही है और यही वर्तनी ३५ में दोहरती है। इस पर कोई प्रश्न आधारित नहीं। ‘व्याल’ को हिंस्र पशु माना गया है, पर वह सर्प भी हो सकता है; ‘इन्द्रगोप’ को केवल प्राणी का नाम माना गया है, पहचान नहीं दी गई। ‘सरीसृप’ = रेंगने वाला प्राणी। ‘खल्वपि’ = खलु + अपि। यह अंश मध्यम विश्वास का है।",
     "31": "‘त्वक्’ का अर्थ छाल या त्वचा हो सकता है; वनस्पतियों के लिए छाल लिया गया है। क्रिया अध्याहार्य है: ‘जङ्गमेभ्यः … आदयः’ = जंगमों से चर्म आदि प्रयोजन वाले हैं। ‘स्थावरेभ्यस्त्वक्…’ में स्थावरेभ्यः + त्वक् मिले हैं। कोई वर्तन-भेद या पाठ-संकेत नहीं।",
-    "32": "‘मनःशिला’ एक खनिज द्रव्य का नाम है, अनूदित नहीं किया गया। ‘मृत्कपाल’ एक पद (मिट्टी का खपरा) या दो (मृत्; कपाल) हो सकता है; दो में विभाजित किया गया है, और इस पर कोई प्रश्न आधारित नहीं। ‘सुवर्णरजतमणि…’ एक लम्बा द्वन्द्व-समास है, सब सदस्य और से जुड़े हैं। ‘पार्थिवाः’ में कोई क्रिया नहीं, ‘हैं’ अध्याहार्य है।",
+    "32": "‘मनःशिला’ एक खनिज द्रव्य का नाम है, अनूदित नहीं किया गया। ‘मृत्कपाल’ एक पद (मिट्टी का खपरा) या दो (मृत्; कपाल) हो सकता है; यह खुला रखा गया है, और इस पर कोई प्रश्न आधारित नहीं। ‘सुवर्णरजतमणि…’ एक लम्बा द्वन्द्व-समास है, सब सदस्य और से जुड़े हैं। ‘पार्थिवाः’ में कोई क्रिया नहीं, ‘हैं’ अध्याहार्य है।",
     "33": "यह अंश मध्यम विश्वास का है। ‘वर्षा’ को वर्षा (बारिश) पढ़ा गया है, पर वह ‘वर्ष’ भी हो सकता है; इसलिए इस पर प्रश्न नहीं। ‘अयन’ = सूर्य की उत्तर या दक्षिण गति, यानी आधा वर्ष। ‘संवत्सरविशेषाः’ को पूरी सूची का समानाधिकरण माना गया है; यह एक पढ़त है, निश्चय नहीं। ‘शीतोष्ण’ में शीत + उष्ण का अ + उ = ओ है।",
     "34": "‘त एते’ = ते + एते (ए + स्वर में ए का अय् बनकर य् का लोप होता है)। ‘स्वभावत एव’ = स्वभावतः + एव (अ के बाद विसर्ग, अ से भिन्न स्वर से पहले, लुप्त)। ‘सञ्चयप्रकोपप्रशमप्रतीकारहेतवः’ एक समास है; चार शब्दों का क्रम पाठ का है। कोई पाठ-संकेत या अनिश्चित पढ़त नहीं।",
     "35": "‘एष वर्गः’ का सम्बन्ध स्थावर, जंगम, पार्थिव और कालकृत समूह से लिया गया है; श्लोक स्वयं उन्हें नहीं गिनाता। छपा ‘चतुविधः’ सम्भवतः ‘चतुर्विधः’ है (र् छूटा); यही वर्तनी ३० में भी है। छन्द दोनों रूपों में नियमित (१६ अक्षर) रहता है। ‘हेतुरुक्तः’ = हेतुः + उक्तः (उ के बाद विसर्ग स्वर से पहले र्)। ‘चैव’ = च + एव।",
@@ -687,8 +687,8 @@ AIDS = {
         "diagram": {"steps": ["स्थावर", "वनस्पति: फल, पुष्प नहीं", "वृक्ष: पुष्प और फल",
                               "वीरुध: लताएँ और झाड़ी", "ओषधि: फल पकने पर अन्त"]},
         "chunks": {"steps": ["तासां स्थावराश्चतुर्विधाः", "वनस्पतयो वृक्षा वीरुध ओषधय इति",
-                             "अपुष्पाः फलवन्तो वनस्पतयः", "पुष्पफलवन्तो वृक्षाः",
-                             "प्रतानवत्यः स्तम्बिन्यश्च वीरुधः", "फलपाकनिष्ठा ओषधयः"]},
+                             "तासु अपुष्पाः फलवन्तो वनस्पतयः", "पुष्पफलवन्तो वृक्षाः",
+                             "प्रतानवत्यः स्तम्बिन्यश्च वीरुधः", "फलपाकनिष्ठा ओषधय इति"]},
     },
     "30": {
         "frame": "विषय: जंगम के चार जन्म-प्रकार · क्रम: जरायु, अण्ड, स्वेद, उद्भिद् · हर प्रकार के नीचे उदाहरण और आदि।",
@@ -717,7 +717,7 @@ AIDS = {
     },
     "34": {
         "frame": "विषय: ये सब · कैसे: स्वभाव से · किसके हेतु: दोषों के संचय, प्रकोप, प्रशम, प्रतीकार · और: प्रयोजन वाले।",
-        "chain": {"steps": ["ये सब द्रव्य और भाव", "स्वभाव से ही", "दोषों के संचय के हेतु",
+        "chain": {"steps": ["ये सब", "स्वभाव से ही", "दोषों के संचय के हेतु",
                             "प्रकोप के हेतु", "प्रशम के हेतु", "प्रतीकार के हेतु"]},
         "chunks": {"steps": ["त एते", "स्वभावत एव", "दोषाणां सञ्चयप्रकोपप्रशमप्रतीकारहेतवः",
                              "प्रयोजनवन्तश्च"]},
@@ -804,21 +804,20 @@ IMAGE_SPECS = {
     },
     ("31", "contrast"): {
         "file": "ch1-prayojana-31.svg",
-        "alt": "Tree: useful parts from the stationary ones (bark, leaf, flower, fruit; root, bulb, exudate, expressed juice) and from the moving ones (hide, nails, hair, blood).",
+        "alt": "Tree: useful parts from the stationary ones (bark, leaf, flower, fruit, root, bulb, exudate, expressed juice and so on) and from the moving ones (hide, nails, hair, blood and so on).",
         "type": "mermaid",
         "code": ('flowchart TD\n'
                  '  R["प्रयोजन वाले"] --> S["स्थावरों से"]\n'
                  '  R --> J["जंगमों से"]\n'
-                 '  S --> S1["त्वक्, पत्र, पुष्प, फल"]\n'
-                 '  S --> S2["मूल, कन्द,<br/>निर्यास, स्वरस"]\n'
-                 '  J --> J1["चर्म, नख, रोम, रुधिर"]'),
+                 '  S --> S1["त्वक्, पत्र, पुष्प, फल, मूल,<br/>कन्द, निर्यास, स्वरस आदि"]\n'
+                 '  J --> J1["चर्म, नख, रोम, रुधिर आदि"]'),
     },
     ("34", "chain"): {
         "file": "ch1-hetu-34.svg",
         "alt": "Flow: these, by their own nature, are causes of the accumulation, aggravation, pacification and counteraction of the doshas.",
         "type": "mermaid",
         "code": ('flowchart TD\n'
-                 '  A["ये सब द्रव्य और भाव"] --> B["स्वभाव से ही"]\n'
+                 '  A["ये सब"] --> B["स्वभाव से ही"]\n'
                  '  B --> C["दोषों के हेतु"]\n'
                  '  C --> D["संचय"]\n'
                  '  C --> E["प्रकोप"]\n'
@@ -837,7 +836,7 @@ IMAGE_SPECS = {
     },
     ("38", "diagram"): {
         "file": "ch1-chatushtaya-38.svg",
-        "alt": "Mind map: the fourfold set purusha, disease, medicinal substance, time of action, with what each mention covers: substances he arises from and limbs; imbalance of vata, pitta, kapha and blood; substances, tastes, qualities, virya, vipaka; procedures beginning with chedya and sneha.",
+        "alt": "Mind map: the fourfold set purusha, disease, medicinal substance, time of action, with what each mention covers: substances he arises from and limbs; imbalance of vata, pitta, kapha and blood; substances, tastes, qualities, virya, vipaka; procedures beginning with chedya and sneha (by the mention of kriya).",
         "type": "mermaid",
         "code": ('mindmap\n'
                  '  चतुष्टय\n'
@@ -845,24 +844,23 @@ IMAGE_SPECS = {
                  '      द्रव्यसमूह, भूत आदि\n'
                  '      अंग, प्रत्यंग\n'
                  '    व्याधि\n'
-                 '      वात, पित्त, कफ, रक्त\n'
+                 '      वात, पित्त, कफ, रक्त की विषमता\n'
                  '    औषध\n'
                  '      द्रव्य, रस, गुण\n'
                  '      वीर्य, विपाक\n'
-                 '    क्रियाकाल\n'
+                 '    क्रिया\n'
                  '      छेद्य आदि कर्म\n'
                  '      स्नेह आदि कर्म'),
     },
     ("40", "diagram"): {
         "file": "ch1-sthana-40.svg",
-        "alt": "Mind map: 120 chapters divided by subject matter into five sections, Sutra, Nidana, Sharira, Cikitsita and Kalpa.",
+        "alt": "Flow: 120 chapters divided by subject matter into five sections in order: Sutra, Nidana, Sharira, Cikitsita, Kalpa.",
         "type": "mermaid",
-        "code": ('mindmap\n'
-                 '  १२० अध्याय\n'
-                 '    सूत्र\n'
-                 '    निदान\n'
-                 '    शारीर\n'
-                 '    चिकित्सित\n'
-                 '    कल्प'),
+        "code": ('flowchart LR\n'
+                 '  A["१२० अध्याय"] --> B["सूत्र"]\n'
+                 '  B --> C["निदान"]\n'
+                 '  C --> D["शारीर"]\n'
+                 '  D --> E["चिकित्सित"]\n'
+                 '  E --> F["कल्प"]'),
     },
 }
