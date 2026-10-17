@@ -28,13 +28,13 @@ AUTHORED = {
                  "अध्यायम् is the accusative: the thing to be explained.",
                  "अध्यायम् = chapter, the object of the explaining.",
                  "-म् marks the object here."),
-            multi("discriminate", 3, "Which of these words are indeclinables (marked ind. on the card)?",
-                  [("अथ", "ind.: now."), ("अतः", "ind.: therefore."),
+            multi("discriminate", 3, "Which of these words are indeclinables (अव्यय on the card)?",
+                  [("अथ", "अव्यय: now."), ("अतः", "अव्यय: therefore."),
                    ("अध्यायम्", "A noun in the accusative."),
                    ("व्याख्यास्यामः", "A verb form.")],
                   [0, 1],
-                  "The card marks अथ and अतः as ind.; the other two change with case or person.",
-                  "Indeclinable = ind. on the card."),
+                  "The card marks अथ and अतः as अव्यय; the other two change with case or person.",
+                  "Indeclinable = अव्यय on the card."),
             order(4, "Put the words of the line in the order of the text.",
                   ["अथ", "अतः", "अग्रोपहरणीयम्", "अध्यायम्", "व्याख्यास्यामः"],
                   "The line runs: now, therefore, the Agropaharaniya, chapter, we shall explain.",
@@ -118,7 +118,7 @@ AUTHORED = {
                    ["प्रधानकर्म", "principal procedure"], ["पश्चात्कर्म", "after-procedure"]],
                   "Each name is a compound of an adjective-like first member and कर्म.",
                   "पूर्व = before, प्रधान = principal, पश्चात् = after."),
-            fill(2, "The third kind is the after-procedure: type ____ (पश्चात्-कर्म) in Devanagari or in English letters (e.g. dharma).",
+            fill(2, "The third kind listed is the one done after the principal procedure: type its name in Devanagari or in English letters (e.g. dharma). ____",
                  accepts("पश्चात्कर्म"),
                  "पश्चात्कर्म joins पश्चात् (after) and कर्म (procedure).",
                  "पश्चात्कर्म = after-procedure, listed third.",
@@ -148,17 +148,17 @@ AUTHORED = {
     "4": {
         "title": "शस्त्रकर्म तावत् पूर्वम्",
         "question": "What will the text teach first, together with what?",
-        "rule": "तावत् and पूर्वम् both mean first; -ान् (m. acc. pl.) marks the things to be taught.",
+        "rule": "तावत् and पूर्वम् both mean first; -आन् (m. acc. pl.) marks the things to be taught.",
         "limits": "The reason given for the order (primacy of surgical operation) stands in a word with two likely scan errors (see the note), so no question rests on that word. The line states a plan only; it describes no operation.",
         "explain_hi": "इस अंश में कहा गया है कि इस शास्त्र में सबसे पहले शस्त्रकर्म का उपदेश होगा और उसकी सामग्री का भी। तावत् और पूर्वम् दोनों का भाव पहले है। तत्सम्भारान् द्वितीया बहुवचन है, यानी उसके साधन भी उपदेश की वस्तु हैं। क्रम का कारण देने वाला शब्द छपाई में बिगड़ा है, इसलिए उस पर प्रश्न नहीं है।",
         "hook": "पहले शस्त्रकर्म, और उसके साधन भी।",
         "core": False,
         "questions": [
-            mcq("pretest", 0, "What does the text say it will teach along with the main subject?",
+            mcq("pretest", 0, "Along with the operation itself, what will the text teach?",
                 ("Its requisites.", "तत्सम्भारान् च: and its requisites."),
-                [("Its failures.", "No such object appears."),
-                 ("Its critics.", "No such object appears."),
-                 ("Its rewards.", "No such object appears.")],
+                [("Its rivals.", "No such object appears."),
+                 ("Its history.", "No such object appears."),
+                 ("Its disputes.", "No such object appears.")],
                 "The last phrase adds the requisites of the operation.",
                 "तत्सम्भाराः = its requisites."),
             match(1, "Match each word to its meaning on the card.",
@@ -318,19 +318,19 @@ AUTHORED = {
                   "Five of the six names the physician is said to avoid.",
                   "The six words are a list in the accusative plural."),
             fill(2, "The instrument is withdrawn ____ (once), says the text. Type it in Devanagari or in English letters (e.g. dharma).",
-                 accepts("सकृत्", None, "सकृद्"),
+                 accepts("सकृत्", None, "सकृद्", "सकृदेव"),
                  "सकृत् is once; with एव it reads सकृदेव, only once.",
                  "सकृत् = once.",
                  "सकृत् limits the withdrawing to a single time."),
             multi("discriminate", 3, "Which of these words are absolutives (having done)?",
-                  [("अर्चयित्वा", "abs.: having honoured."),
-                   ("उपवेश्य", "abs.: having seated."),
-                   ("यन्त्रयित्वा", "abs.: having restrained."),
+                  [("अर्चयित्वा", "क्त्वा: having honoured."),
+                   ("उपवेश्य", "ल्यप्: having seated."),
+                   ("यन्त्रयित्वा", "क्त्वा: having restrained."),
                    ("निदध्यात्", "An optative: should set in."),
                    ("अपहरेत्", "An optative: should withdraw.")],
                   [0, 1, 2],
-                  "The card marks three words abs.; the two optatives are the main verbs.",
-                  "Absolutive = having done, marked abs."),
+                  "The card marks them क्त्वा or ल्यप् (having done); the two optatives are the main verbs.",
+                  "Absolutive = having done, marked क्त्वा or ल्यप्."),
             order(4, "Put these five verb forms in the order in which the text states them.",
                   ["अर्चयित्वा", "उपवेश्य", "यन्त्रयित्वा", "निदध्यात्", "अपहरेत्"],
                   "The text runs: having honoured, having seated, having restrained, should set in, should withdraw.",
@@ -402,15 +402,15 @@ AUTHORED = {
         "question": "What wound does the verse say is praised in the operation?",
         "rule": "शस्यते (passive) = is praised; the praised wound has the listed qualities and is also made when the time has come.",
         "limits": "The verse says what is praised; it does not define the qualities or say how to make a wound. The lead-in words printed before the verse are a likely scan error and are not part of the verse proper.",
-        "explain_hi": "श्लोक कहता है कि शस्त्रकर्म में वह व्रण प्रशंसित है जो आयत, विशाल, सुविभक्त और निराश्रय हो, और जो प्राप्त काल में किया गया हो। शस्यते कर्मवाच्य है, यानी प्रशंसा की जाती है। पहला चरण गुण गिनाता है, दूसरा समय की शर्त जोड़कर बात पूरी करता है। श्लोक अनुष्टुप् में है।",
+        "explain_hi": "श्लोक कहता है कि शस्त्रकर्म में वह व्रण प्रशंसित है जो आयत, विशाल, सुविभक्त और निराश्रय हो, और जो प्राप्त काल में किया गया हो। शस्यते कर्मवाच्य है, यानी प्रशंसा की जाती है। पहला अर्धश्लोक (पूर्वार्ध) गुण गिनाता है, दूसरा (उत्तरार्ध) समय की शर्त जोड़कर बात पूरी करता है। श्लोक अनुष्टुप् में है।",
         "hook": "आयत, विशाल, सुविभक्त, निराश्रय और समय पर किया हुआ व्रण प्रशंसित।",
         "core": True,
         "questions": [
             mcq("pretest", 0, "What does the verse say is praised in the operation?",
-                ("A wound with those qualities, made on time.", "व्रणः कर्मणि शस्यते."),
-                [("A wound kept open as long as possible.", "The verse names a wound made when the time has come."),
-                 ("An instrument with those qualities.", "The qualities belong to the wound, not an instrument."),
-                 ("A physician with those qualities.", "The qualities belong to the wound.")],
+                ("A long, broad, well-defined wound made on time.", "व्रणः कर्मणि शस्यते."),
+                [("A wound kept open for as long as possible.", "The verse names a wound made when the time has come."),
+                 ("An instrument that is long and well-defined.", "The qualities belong to the wound, not an instrument."),
+                 ("A physician who is bold and well-trained.", "The qualities belong to the wound.")],
                 "The verse praises the wound that has these qualities and is made in time.",
                 "व्रणः ... शस्यते: the wound is praised."),
             match(1, "Match each word to its meaning on the card.",
@@ -418,7 +418,7 @@ AUTHORED = {
                    ["निराश्रयः", "without lodgement"], ["शस्यते", "is praised"]],
                   "Five words of the verse.",
                   "The four qualities are nominative; शस्यते is a passive verb."),
-            fill(2, "The wound is ____ (is praised) in the operation. Type it in Devanagari or in English letters (e.g. dharma).",
+            fill(2, "In the operation the wound ____ (is praised). Type it in Devanagari or in English letters (e.g. dharma).",
                  accepts("शस्यते"),
                  "शस्यते is the passive of the root शंस्: is praised.",
                  "शस्यते = is praised.",
@@ -450,7 +450,7 @@ AUTHORED = {
         "rule": "वैद्यस्य शस्त्रकर्मणि शस्यते: the listed qualities are praised in the physician's surgical operation.",
         "limits": "The verse lists praised qualities and gives no method. One item (absence of sweating and trembling) is printed without its final sign (see the note), so no question rests on it.",
         "explain_hi": "श्लोक शस्त्रकर्म में वैद्य के गुण गिनाता है जो प्रशंसित हैं: शौर्य, आशुक्रिया (शीघ्रता से क्रिया), शस्त्र की तीक्ष्णता, पसीना और कम्पन का न होना, और असंमोह यानी भ्रम का न होना। शस्यते का अर्थ है प्रशंसित होता है। छपे रूप में अस्वेदवेपथु के अन्त का चिह्न छूटा है, इसलिए उस पद पर प्रश्न नहीं रखा गया।",
-        "hook": "शौर्य, शीघ्र क्रिया, तीक्ष्ण शस्त्र, स्थिरता, असंमोह।",
+        "hook": "शौर्य, शीघ्र क्रिया, तीक्ष्ण शस्त्र, न पसीना न कम्पन, असंमोह।",
         "core": False,
         "questions": [
             mcq("pretest", 0, "What does the verse say is praised in the physician's surgical operation?",
@@ -557,7 +557,7 @@ AUTHORED = {
         "hook": "जहाँ-जहाँ गति या उत्सङ्ग, वहाँ-वहाँ व्रण — ताकि दोष न टिके।",
         "core": True,
         "questions": [
-            mcq("pretest", 0, "What does the verse say to know wherever it is found?",
+            mcq("pretest", 0, "What two things does the verse tie the making of the wound to?",
                 ("The track and the pocket.", "गतिं विद्यात् and उत्सङ्गो यत्र यत्र."),
                 [("The pulse and the breath.", "Neither is named in the verse."),
                  ("The season and the hour.", "Neither is named in the verse."),
@@ -602,7 +602,7 @@ AUTHORED = {
         "title": "भ्रूगण्डशङ्खललाट",
         "question": "In which places does the text list a cut?",
         "rule": "The list is a dvandva ending in -एषु (locative plural): the case ending belongs to every member.",
-        "limits": "The editor's text has an unmatched opening bracket and a query mark here, so the source marks the sentence as doubtful. The word for the kind of cut has a letter missing, so no question rests on it. The card only names places.",
+        "limits": "The editor's text has an unmatched opening bracket and a query mark here, so the source marks the sentence as doubtful. The word for the kind of cut has a letter missing, so no question rests on it. The card only names places. The questions test only the listed place names, not that the passage is genuine.",
         "explain_hi": "इस अंश में एक लम्बी सूची है: भौंह, गाल, कनपटी, ललाट, पलक, ओठ, मसूढ़े, कक्ष, कुक्षि और वंक्षण, जिनमें एक प्रकार का छेदन कहा गया है। सूची द्वन्द्व समास है और अन्तिम पद में सप्तमी बहुवचन -एषु लगा है, जो सब सदस्यों पर लागू होता है। सम्पादक ने यहाँ कोष्ठक खोला है और प्रश्नचिह्न लगाया है, इसलिए पाठ पर सम्पादकीय संशय है।",
         "hook": "भ्रू, गण्ड, शङ्ख, ललाट … वंक्षण — इन स्थानों की सूची।",
         "core": False,
@@ -654,7 +654,7 @@ AUTHORED = {
         "title": "चन्द्रमण्डलवच्छेदान्",
         "question": "Which shape of cut does the verse link with the hands and feet, and which with the anus and penis?",
         "rule": "-वत् = like (चन्द्रमण्डलवत्); आकृति at the end of a compound = shaped like (अर्धचन्द्राकृतीन्).",
-        "limits": "The verse states shapes and places only; it gives no method. The editor's closing bracket stands in this verse with no opening partner here (it pairs with the previous unit), so the passage may be set apart in the source. The verse names parts of the body as names only.",
+        "limits": "The verse states shapes and places only; it gives no method. The editor's closing bracket stands in this verse with no opening partner here (it pairs with the previous unit), so the passage may be set apart in the source. The verse names parts of the body as names only. The questions test word meaning only.",
         "explain_hi": "श्लोक कहता है कि बुद्धिमान् वैद्य हाथ-पैरों में चन्द्रमण्डल के समान छेद करवाए और गुदा तथा मेढ्र में अर्धचन्द्र के आकार के छेद करे। चन्द्रमण्डलवत् में वत् का अर्थ है समान। अर्धचन्द्राकृतीन् बहुव्रीहि है, यानी अर्धचन्द्र की आकृति वाले। सम्पादक का एक कोष्ठक पिछले अंश में खुलता है और यहाँ बन्द होता है। श्लोक अनुष्टुप् में है।",
         "hook": "हाथ-पैर में चन्द्रमण्डल जैसे, गुदा और मेढ्र में अर्धचन्द्र जैसे।",
         "core": False,
@@ -675,7 +675,7 @@ AUTHORED = {
             mcq("extend", 2, "In चन्द्रमण्डलवत्, what does the ending -वत् mean?",
                 ("Like, as.", "-वत् added to a noun means like that noun."),
                 [("Without.", "That would be निर्-."),
-                 ("Full of.", "That would be -वान् in a different sense."),
+                 ("In place of.", "-वत् does not mean in place of."),
                  ("Because of.", "-वत् does not give a reason.")],
                 "-वत् makes a word of likeness: like a moon-disc.",
                 "-वत् = like.",
@@ -691,11 +691,11 @@ AUTHORED = {
                   ["चन्द्रमण्डलवत् छेदान्", "पाणिपादेषु", "कारयेत्", "अर्धचन्द्राकृतीन्", "गुदे", "मेढ्रे"],
                   "The verse runs: moon-disc cuts, hands and feet, should have made, half-moon-shaped, anus, penis.",
                   "Order of the text.", role="apply"),
-            mcq("transfer", 5, "By the pattern of अर्धचन्द्राकृतीन्, what does the invented कमलाकृतिः mean?",
-                ("Shaped like a lotus.", "आकृति at the end of a compound gives the shape of the first member."),
-                [("The lotus of a shape.", "The shape is the head, not the lotus."),
-                 ("Without a lotus.", "आकृति does not negate."),
-                 ("Full of lotuses.", "आकृति does not mean full.")],
+            mcq("transfer", 5, "By the pattern of अर्धचन्द्राकृतीन्, what does the invented कमलाकृतयः (as in कमलाकृतयः छेदाः) mean?",
+                ("Cuts shaped like lotuses.", "आकृति at the end of a compound gives the shape of the first member."),
+                [("Cuts that bear a lotus.", "The compound gives a shape, not what the cuts bear."),
+                 ("Cuts without a lotus.", "आकृति does not negate."),
+                 ("Cuts full of lotuses.", "आकृति does not mean full.")],
                 "कमल + आकृति = shape of a lotus, as in अर्धचन्द्र + आकृति.",
                 "-आकृति = shaped like.",
                 teaches="A compound ending in आकृति means shaped like the first member."),
@@ -737,7 +737,7 @@ AIDS = {
     },
     "4": {
         "frame": "कहाँ: इस शास्त्र में · पहले क्या: शस्त्रकर्म · साथ में: उसकी सामग्री · क्रिया: उपदेक्ष्यामः।",
-        "chunks": {"steps": ["अस्मिन् शास्त्रे", "शस्त्रकर्म एव तावत्", "पूर्वम् उपदेक्ष्यामः", "तत्सम्भारान् च"]},
+        "chunks": {"steps": ["अस्मिन् शास्त्रे", "… शस्त्रकर्म एव तावत्", "पूर्वम् उपदेक्ष्यामः", "तत्सम्भारान् च"]},
         "anchors": {"groups": [{"label": "पहले उपदेश की वस्तुएँ", "items": ["शस्त्रकर्म", "उसके साधन (सम्भार)"]}]},
     },
     "5": {
@@ -763,11 +763,11 @@ AIDS = {
     },
     "8": {
         "frame": "विषय: व्रण के गुण · सूची: आयत, विशाल, सम, सुविभक्त, निराश्रय · अन्त में: इति व्रणगुणाः।",
-        "chunks": {"steps": ["तत्र आयतः", "समः", "सुविभक्तः", "निराश्रयः", "इति व्रणगुणाः"]},
+        "chunks": {"steps": ["तत्र आयतः", "विषालः (संदिग्ध)", "समः", "सुविभक्तः", "निराश्रयः", "इति व्रणगुणाः"]},
         "sandhi": "तत्र + आयतः = तत्रायतः (अ + आ = आ)।",
     },
     "9": {
-        "frame": "पहला चरण: आकार के गुण · दूसरा चरण: समय की शर्त + निष्कर्ष (प्रशंसित)।",
+        "frame": "पूर्वार्ध: आकार के गुण · उत्तरार्ध: समय की शर्त + निष्कर्ष (प्रशंसित)।",
         "diagram": {"steps": ["आयतः", "विशालः", "सुविभक्तः", "निराश्रयः", "प्राप्तकालकृतः", "व्रणः", "शस्यते"]},
         "sandhi": "प्राप्तकालकृतः + च + अपि = प्राप्तकालकृतश्चापि (विसर्ग + च → श्; अ + अ = आ)।",
     },
@@ -788,7 +788,7 @@ AIDS = {
                             "वहाँ-वहाँ व्रण करे", "जिससे दोष टिका न रहे"]},
         "chunks": {"steps": ["यतो यतो गतिं विद्यात्", "उत्सङ्गो यत्र यत्र च",
                              "तत्र तत्र व्रणं कुर्यात्", "यथा दोषो न निष्ठति"]},
-        "sandhi": "विद्यात् + उत्सङ्गः = विद्यादुत्सङ्गो (त् → द् स्वर से पहले; अः → ओ); कुर्यात् + यथा = कुर्याद्यथा।",
+        "sandhi": "विद्यात् + उत्सङ्गः = विद्यादुत्सङ्गो (त् → द् घोष ध्वनि से पहले; अः → ओ घोष ध्वनि से पहले); कुर्यात् + यथा = कुर्याद्यथा (त् → द् य् से पहले)।",
     },
     "13": {
         "frame": "विषय: स्थानों की सूची · अन्त में: -एषु (सप्तमी बहुवचन), सब पर लागू · सम्पादकीय संशय: कोष्ठक और ?।",
@@ -819,18 +819,18 @@ IMAGE_SPECS = {
     },
     ("5", "diagram"): {
         "file": "ch5-ashtavidha-05.svg",
-        "alt": "Mind map: the eightfold surgical operation with eight branches: excising, incising, scraping, puncturing, probing, extracting, draining and suturing.",
+        "alt": "Mind map: the eightfold surgical operation with eight branches named as in the verse: chedya, bhedya, lekhya, vedhya, eshya, aharya, visravya and sivya.",
         "type": "mermaid",
         "code": ('mindmap\n'
                  '  अष्टविध शस्त्रकर्म\n'
-                 '    छेदन\n'
-                 '    भेदन\n'
-                 '    लेखन\n'
-                 '    वेधन\n'
-                 '    एषण\n'
-                 '    आहरण\n'
-                 '    विस्राव्रण\n'
-                 '    सीवन'),
+                 '    छेद्य\n'
+                 '    भेद्य\n'
+                 '    लेख्य\n'
+                 '    वेध्य\n'
+                 '    एष्य\n'
+                 '    आहार्य\n'
+                 '    विस्राव्य\n'
+                 '    सीव्य'),
     },
     ("7", "chain"): {
         "file": "ch5-krama-07.svg",
@@ -856,7 +856,7 @@ IMAGE_SPECS = {
     },
     ("12", "chain"): {
         "file": "ch5-gati-12.svg",
-        "alt": "Where the track is known and where there is a pocket, there the wound is made, so that the doshas do not remain.",
+        "alt": "Flowchart: where the track is known and where there is a pocket, there the wound is made, so that the doṣa does not remain.",
         "type": "mermaid",
         "code": ('flowchart TD\n'
                  '  A["जहाँ-जहाँ गति<br/>जानी जाए"] --> C["वहाँ-वहाँ व्रण करे"]\n'
@@ -868,11 +868,8 @@ IMAGE_SPECS = {
         "alt": "Mind map: moon-disc-like cuts go with the hands and feet; half-moon-shaped cuts go with the anus and penis.",
         "type": "mermaid",
         "code": ('mindmap\n'
-                 '  छेद के आकार\n'
-                 '    चन्द्रमण्डल जैसे\n'
-                 '      हाथ-पैर\n'
-                 '    अर्धचन्द्र के आकार के\n'
-                 '      गुदा\n'
-                 '      मेढ्र'),
+                 '  छेद\n'
+                 '    चन्द्र जैसे: हाथ-पैर\n'
+                 '    अर्धचन्द्र: गुदा, मेढ्र'),
     },
 }

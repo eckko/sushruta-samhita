@@ -33,7 +33,7 @@ AUTHORED = {
                   [("स्वर्ग्यम्", "Glossed conducive to heaven."),
                    ("आयुष्यम्", "Glossed conducive to long life."),
                    ("शाश्वतम्", "Glossed eternal, not conducive to anything."),
-                   ("वृत्तिकरम्", "Glossed providing livelihood: a compound with the doer -कर.")],
+                   ("वृत्तिकरम्", "Glossed providing livelihood, not conducive to anything.")],
                   [0, 1],
                   "The card gives conducive to for स्वर्ग्यम्, यशस्यम् and आयुष्यम्; the other two are glossed differently.",
                   "Conducive to is the gloss of -य words here."),
@@ -65,7 +65,7 @@ AUTHORED = {
         "questions": [
             mcq("pretest", 0, "Who is the first in the chain to have declared it?",
                 ("Brahma.", "ब्रह्मा प्रोवाच: Brahma declared it."),
-                [("Indra.", "Indra is the last name of the chain."),
+                [("Indra.", "Indra comes fourth, after the two Ashvins."),
                  ("Prajapati.", "Prajapati learned it from Brahma."),
                  ("The two Ashvins.", "The Ashvins come third.")],
                 "The line opens with ब्रह्मा प्रोवाच: Brahma declared.",
@@ -101,7 +101,7 @@ AUTHORED = {
                 [("From Devadatta himself.", "The subject is Devadatta, not the source."),
                  ("From the lesson.", "पाठम् is the object, the thing learned."),
                  ("From no one.", "The ablative names a source.")],
-                "The ablative यज्ञदत्तात् names the source, as तस्मात् names Brahma in the text.",
+                "The ablative यज्ञदत्तात् names the source, as तस्मात् names Prajapati in the text.",
                 "Ablative = from whom.",
                 teaches="The ablative case names the one from whom something is learned."),
         ]},
@@ -170,8 +170,8 @@ AUTHORED = {
         "core": True,
         "questions": [
             mcq("pretest", 0, "What is called puruṣa in this treatise?",
-                ("The union of embodied beings made of the five great elements.", "पञ्चमहाभूतशरीरिसमवायः पुरुष इत्युच्यते."),
-                [("A single sage who composed the treatise.", "No author is named in the passage."),
+                ("Beings made of the five great elements, together.", "पञ्चमहाभूतशरीरिसमवायः पुरुष इत्युच्यते."),
+                [("A single sage who composed all of this treatise.", "No author is named in the passage."),
                  ("The stationary world apart from moving beings.", "The passage does not say this."),
                  ("The five elements taken apart from any being.", "It speaks of beings made of them.")],
                 "The first sentence defines puruṣa as the union of beings made of the five great elements.",
@@ -186,7 +186,7 @@ AUTHORED = {
                   "The two pairs of the twofold world, with the glosses on the card.",
                   "Each pair is said of the world; the text calls the world twofold in both ways.",
                   role="extend", teaches="The two pairs by which the world is called twofold."),
-            mcq("discriminate", 3, "Among the beings the text names, which does it call प्रधान (chief)?",
+            mcq("discriminate", 3, "Among the things the text mentions here, which does it call प्रधान (chief)?",
                 ("The puruṣa.", "तत्र पुरुषः प्रधानम्."),
                 [("His instrument.", "The text calls this the other, not the chief."),
                  ("The stationary class.", "It is never called chief."),
@@ -213,7 +213,7 @@ AUTHORED = {
     "23": {
         "title": "तद्दुःखसंयोगा व्याधयः",
         "question": "What does the text call व्याधि?",
-        "rule": "In a compound the parts keep their order: तत् (his) + दुःख (suffering) + संयोग (conjunction). Final त् becomes द् before a voiced consonant.",
+        "rule": "In a compound the parts keep their order: तत् (that) + दुःख (suffering) + संयोग (conjunction). Final त् becomes द् before a voiced consonant.",
         "limits": "तत् is taken as the puruṣa of the previous unit, but the compound can also be read as those conditions that are conjoined with suffering. The text defines nothing beyond this: it does not list the diseases or their causes here.",
         "explain_hi": "यह छोटा सूत्र व्याधि की परिभाषा देता है: उस पुरुष के दुःख से जो संयोग होते हैं, वे व्याधि कहलाते हैं। तद्दुःखसंयोगाः में तत्, दुःख और संयोग तीन भाग हैं, और तत् + दुःख में त् आगे के द् के कारण द् बन जाता है। समास का दूसरा अर्थ यह भी हो सकता है कि जो अवस्थाएँ दुःख से जुड़ी हों, वे व्याधि हैं।",
         "hook": "दुःख से संयोग = व्याधि (उच्यन्ते)।",
@@ -228,7 +228,7 @@ AUTHORED = {
                 "संयोग = conjunction; दुःख = suffering."),
             order(1, "Put the parts of the sentence in the order of the text.",
                   ["तद्", "दुःख", "संयोगाः", "व्याधयः", "उच्यन्ते"],
-                  "His, suffering, conjunctions, diseases, are called.",
+                  "That, suffering, conjunctions, diseases, are called.",
                   "Order of the text."),
             match(2, "Match each word to its meaning.",
                   [["दुःख", "suffering"], ["संयोग", "conjunction"],
@@ -236,11 +236,11 @@ AUTHORED = {
                   "Four words of the sentence with their glosses on the card.",
                   "उच्यन्ते is a passive plural verb: they are called.", role="extend",
                   teaches="The key words of the sentence."),
-            mcq("discriminate", 3, "Which rendering of the sentence is right?",
-                ("The conjunctions with his suffering are called diseases.", "It follows तद्दुःखसंयोगाः व्याधयः उच्यन्ते."),
-                [("The separations from his suffering are called diseases.", "संयोग means conjunction, not separation."),
-                 ("The conjunctions with his pleasure are called diseases.", "The word is दुःख, not pleasure."),
-                 ("The conjunctions with his suffering are called remedies.", "The word is व्याधि, not remedy.")],
+            mcq("discriminate", 3, "Which rendering keeps all four words right, leaving aside whose suffering?",
+                ("The conjunctions with suffering are called diseases.", "It follows तद्दुःखसंयोगाः व्याधयः उच्यन्ते."),
+                [("The separations from suffering are called diseases.", "संयोग means conjunction, not separation."),
+                 ("The conjunctions with pleasure are called diseases.", "The word is दुःख, not pleasure."),
+                 ("The conjunctions with suffering are called remedies.", "The word is व्याधि, not remedy.")],
                 "Only the first rendering keeps all four words right.",
                 "Check each word against the card."),
             mcq("apply", 4, "Why is the first word written तद्दुःख and not तत्दुःख?",
@@ -353,7 +353,7 @@ AUTHORED = {
                 "अः + अ = ओऽ."),
             mcq("transfer", 5, "By the pattern of अभिघातनिमित्ताः (caused by injury), what does शोकनिमित्ताः mean?",
                 ("Caused by grief.", "X-निमित्त means caused by X."),
-                [("Causing grief.", "The pattern names the cause, not the effect."),
+                [("Beyond grief.", "निमित्त does not mean beyond."),
                  ("Free from grief.", "निमित्त does not mean free from."),
                  ("Together with grief.", "निमित्त does not mean together with.")],
                 "The first part names the cause: शोक + निमित्त = caused by grief.",
@@ -367,7 +367,7 @@ AUTHORED = {
         "rule": "शारीराः + तु joins into शारीरास्तु (visarga before त becomes स्). अन्नपानमूलाः is a bahuvrihi: having food and drink as root.",
         "limits": "The text names the root and a list of imbalances; it does not explain these terms or how they act. Whether संनिपात is a separate item or the last member of the list is open, so no question uses it. वैषम्य is taken as unevenness, imbalance.",
         "explain_hi": "यह सूत्र शारीरिक रोगों के बारे में कहता है कि वे अन्न और पान में मूल वाले हैं और वात, पित्त, कफ, रक्त तथा सन्निपात की विषमता के कारण होते हैं। शारीराः + तु मिलकर शारीरास्तु बनता है। सन्निपात को अलग सदस्य माना जाए या सूची का अन्तिम सदस्य, यह स्पष्ट नहीं है, इसलिए नीचे के प्रश्न केवल पहले चार नामों पर टिके हैं।",
-        "hook": "शारीरिक: अन्न-पान मूल; वात-पित्त-कफ-रक्त (आदि) की विषमता कारण।",
+        "hook": "शारीरिक: अन्न-पान मूल; वात, पित्त, कफ, रक्त और सन्निपात की विषमता कारण (सन्निपात का स्थान खुला है)।",
         "core": False,
         "questions": [
             mcq("pretest", 0, "Where does the text say the bodily diseases are rooted?",
@@ -377,7 +377,7 @@ AUTHORED = {
                  ("In sleep and hunger.", "These are not named in this unit.")],
                 "अन्नपानमूलाः means rooted in food and drink.",
                 "मूल = root."),
-            order(1, "Put the first four items of the list of imbalances in the order of the text.",
+            order(1, "Put the first four items of the list that is said to be out of balance in the order of the text.",
                   ["वात", "पित्त", "कफ", "शोणित"],
                   "Vata, Pitta, Kapha, blood.",
                   "Order of the text."),
@@ -387,7 +387,7 @@ AUTHORED = {
                   "Words of the sentence with their meaning on the card.",
                   "वैषम्य is taken as unevenness, imbalance.", role="extend",
                   teaches="Key words of the sentence."),
-            multi("discriminate", 3, "Which of these are named in the list of imbalances?",
+            multi("discriminate", 3, "Which of these are named in the list of things whose imbalance is spoken of?",
                   [("वात", "Named first."),
                    ("कफ", "Named third."),
                    ("मज्जा", "Not named in the list."),
@@ -515,9 +515,9 @@ AUTHORED = {
     "26": {
         "title": "त एते मनःशरीराधिष्ठानाः",
         "question": "What does the text give as the seat of these diseases?",
-        "rule": "A final ए before a vowel becomes अ, and the vowel stays: ते + एते = त एते. मनःशरीराधिष्ठानाः means having mind and body as their seat.",
+        "rule": "A final ए before a vowel other than अ becomes अ and the vowel stays: ते + एते = त एते. मनःशरीराधिष्ठानाः means having mind and body as their seat.",
         "limits": "These refers to the diseases of the four kinds. The unit names the seat only; it does not say how any kind is related to mind or body.",
-        "explain_hi": "यह सूत्र कहता है कि ये सब रोग मन और शरीर में स्थित होते हैं, यानी इनका अधिष्ठान मन और शरीर है। त एते में ते + एते मिले हैं: ए आगे के स्वर से पहले अ हो जाता है। मनःशरीराधिष्ठानाः एक द्वन्द्व-बहुव्रीहि है।",
+        "explain_hi": "यह सूत्र कहता है कि ये सब रोग मन और शरीर में स्थित होते हैं, यानी इनका अधिष्ठान मन और शरीर है। त एते में ते + एते मिले हैं: ए अ के अलावा किसी स्वर से पहले अ हो जाता है। मनःशरीराधिष्ठानाः एक द्वन्द्व-बहुव्रीहि है।",
         "hook": "इन रोगों का अधिष्ठान = मन और शरीर।",
         "core": False,
         "questions": [
@@ -542,8 +542,8 @@ AUTHORED = {
                 [("तः + एते", "The word is ते, not तः."),
                  ("ता + एते", "The word is ते, not ता."),
                  ("त + एते", "त is not a word on the card.")],
-                "ते + एते joins as त एते: the ए of ते becomes अ before a vowel.",
-                "Final ए + vowel gives अ + vowel."),
+                "ते + एते joins as त एते: the ए of ते becomes अ before a vowel other than अ.",
+                "Final ए + a vowel other than अ gives अ + that vowel."),
             mcq("apply", 4, "In the compound, which part means seat?",
                 ("अधिष्ठान", "The card glosses it as seat."),
                 [("मनः", "The card glosses it as mind."),
@@ -552,13 +552,13 @@ AUTHORED = {
                 "अधिष्ठान is the last member and means seat.",
                 "अधिष्ठान = seat."),
             mcq("transfer", 5, "By the rule of ते + एते = त एते, what does ते + इह give?",
-                ("त इह", "A final ए before a vowel becomes अ."),
+                ("त इह", "A final ए before a vowel other than अ becomes अ."),
                 [("तेह", "The vowels do not merge into ए."),
                  ("तीह", "ए does not become ई here."),
                  ("तैह", "ए does not become ऐ here.")],
                 "As in त एते, the final ए of ते becomes अ before the vowel इ.",
-                "Final ए + vowel gives अ + vowel.",
-                teaches="A final ए before a vowel becomes अ."),
+                "Final ए + a vowel other than अ gives अ + that vowel.",
+                teaches="A final ए before a vowel other than अ becomes अ."),
         ]},
     # ------------------------------------------------------------------ 27
     "27": {
@@ -570,13 +570,13 @@ AUTHORED = {
         "hook": "संशोधन · संशमन · आहार · आचार, सम्यक् प्रयुक्त = निग्रह के हेतु।",
         "core": True,
         "questions": [
-            mcq("pretest", 0, "What does the text say these four are, when properly applied?",
+            mcq("pretest", 0, "What does the text say these four are?",
                 ("Means of checking these diseases.", "निग्रहहेतवः."),
                 [("Causes of these diseases.", "The text calls them means of checking."),
                  ("Signs of these diseases.", "The text calls them means of checking."),
                  ("Seats of these diseases.", "The seat is mind and body, in the previous unit.")],
                 "निग्रहहेतवः: means of checking.",
-                "हेतु = means, cause."),
+                "हेतु = means (in निग्रहहेतवः: means of checking)."),
             order(1, "Put the four means in the order in which the text names them.",
                   ["संशोधन", "संशमन", "आहार", "आचार"],
                   "Purification, pacification, diet, conduct.",
@@ -677,7 +677,7 @@ NOTES_HI = {
     "25.2": "विश्वास मध्यम। ‘सन्निपात’ को सूची का अलग सदस्य या वात-पित्त-कफ-रक्त की सूची का पाँचवाँ सदस्य, दोनों रूप से पढ़ा जा सकता है; अनुवाद में ‘संयोग’ अर्थ रखकर सदस्य माना गया है, इसलिए प्रश्न केवल पहले चार नामों पर हैं। ‘वैषम्य’ = असमानता, विषमता। ‘शारीरास्त्वन्नपानमूलाः’ = शारीराः + तु + अन्नपानमूलाः (विसर्ग → स् त से पहले; उ + अ = व)। कोई पाठ-संकेत नहीं।",
     "25.3": "विश्वास मध्यम। भावों के अंग्रेज़ी अर्थ सामान्य कोश-अर्थ हैं (ईर्ष्या जलन, अभ्यसूया द्वेषपूर्ण असन्तोष, दैन्य दीनता, मात्सर्य डाह); इसलिए प्रश्न केवल क्रोध, शोक, भय, हर्ष, विषाद, ईर्ष्या के क्रम और क्रोध-शोक-भय-लोभ के सरल अर्थ पर हैं। ‘भवन्ति’ का अर्थ ‘होते हैं’ या ‘हैं’ दोनों सम्भव; प्रश्न केवल ‘इच्छा और द्वेष के भेदों’ से सम्बन्ध पर हैं। ‘इच्छाद्वेषभेदैर्भवन्ति’ में भेदैः + भवन्ति (विसर्ग → र् घोष से पहले)। कोई पाठ-संकेत नहीं।",
     "25.4": "विश्वास मध्यम। अन्तिम सदस्य ‘प्रकृति’ को ‘आदि’ के अर्थ में लिया गया है, जैसे पिछले अंश में ‘प्रभृति’; दूसरा अर्थ ‘जिनकी प्रकृति ये हों’ भी सम्भव है। ‘स्वाभाविकास्तु’ = स्वाभाविकाः + तु (विसर्ग → स् त से पहले)। ‘क्षुत्पिपासा…’ द्वन्द्व-बहुव्रीहि है। कोई पाठ-संकेत नहीं।",
-    "26": "‘त एते’ में ते + एते मिले हैं (ए → अ स्वर से पहले)। ‘मनःशरीराधिष्ठानाः’ = मनः + शरीर + अधिष्ठानाः (शरीर + अधिष्ठान = शरीराधिष्ठान), द्वन्द्व-बहुव्रीहि। ‘ये’ का सन्दर्भ पिछली व्याधियाँ हैं। विश्वास उच्च; कोई पाठ-संकेत नहीं।",
+    "26": "‘त एते’ में ते + एते मिले हैं (ए → अ, अ के अलावा स्वर से पहले)। ‘मनःशरीराधिष्ठानाः’ = मनः + शरीर + अधिष्ठानाः (शरीर + अधिष्ठान = शरीराधिष्ठान), द्वन्द्व-बहुव्रीहि। ‘ये’ का सन्दर्भ पिछली व्याधियाँ हैं। विश्वास उच्च; कोई पाठ-संकेत नहीं।",
     "27": "‘संशोधनसंशमनाहाराचाराः’ = संशोधन + संशमन + आहार + आचाराः (अ + आ = आ)। ‘सम्यक्प्रयुक्ताः’ = सम्यक् + प्रयुक्ताः। ‘निग्रहहेतवः’ तत्पुरुष: निग्रह के हेतु। अनुवाद ‘दमन’ शब्दार्थ है, उपचार का दावा नहीं। विश्वास उच्च; कोई पाठ-संकेत नहीं।",
     "28": "‘ओषधि’ यहाँ सामान्यतः औषधीय द्रव्यों के लिए है (स्थावर और जङ्गम दोनों), अगले अंश के संकुचित अर्थ से भिन्न। ‘रस’ = स्वाद। ‘तास्तु’ स्त्रीलिङ्ग बहुवचन है, ओषधयः के साथ। ‘रसेष्वायत्तः’ = रसेषु + आयत्तः (उ → व् स्वर से पहले)। ‘जङ्गमाश्च’ = जङ्गमाः + च। विश्वास उच्च; कोई पाठ-संकेत नहीं।",
 }
@@ -694,9 +694,9 @@ AIDS = {
         "frame": "परम्परा: ब्रह्मा → प्रजापति → अश्विनौ → इन्द्र · फिर: इच्छुकों को, प्राणियों के हित के लिए।",
         "chain": {"steps": ["ब्रह्मा ने कहा", "उनसे प्रजापति ने पढ़ा", "उनसे दोनों अश्विनों ने",
                             "अश्विनों से इन्द्र ने",
-                            "आगे: इच्छुकों को दिया जाना, प्राणियों के हित के लिए"]},
+                            "आगे: मेरे द्वारा इच्छुकों को देना, प्राणियों के हित के लिए"]},
         "chunks": {"steps": ["ब्रह्मा प्रोवाच", "ततः प्रजापतिः अधिजगे", "तस्मात् अश्विनौ",
-                             "अश्विभ्याम् इन्द्रः", "प्रदेयम् अर्थिभ्यः प्रजाहितहेतोः"]},
+                             "अश्विभ्याम् इन्द्रः", "मया तु इह प्रदेयम् अर्थिभ्यः प्रजाहितहेतोः"]},
     },
     "21": {
         "frame": "कौन: आदिदेव धन्वन्तरि · क्या: जरा-रोग-मृत्यु को हरने वाला (देवताओं के लिए) · प्रयोजन: शल्य-अंग और अन्य अंगों का उपदेश · कहाँ: पृथ्वी पर, यहाँ · कब: फिर।",
@@ -714,7 +714,7 @@ AIDS = {
         "seesaw": "स्थावर ⇄ जङ्गम: इसी अंश में लोक के दोनों प्रकार आते हैं।",
     },
     "23": {
-        "frame": "क्या कहलाता है: व्याधि · किसे: दुःख से संयोगों को।",
+        "frame": "क्या: व्याधि कहलाते हैं · कौन: दुःख से संयोग (संयोगाः)।",
         "chunks": {"steps": ["तद्दुःखसंयोगाः", "व्याधयः", "उच्यन्ते"]},
         "sandhi": "तत् + दुःख = तद्दुःख (त् → द् घोष व्यंजन से पहले)।",
     },
@@ -730,7 +730,7 @@ AIDS = {
         "sandhi": "तेषाम् + आगन्तवः + अभिघातनिमित्ताः = तेषामागन्तवोऽभिघातनिमित्ताः (म् + आ; अः + अ = ओऽ)।",
     },
     "25.2": {
-        "frame": "कौन: शारीरिक रोग · मूल: अन्न और पान · कारण: वात, पित्त, कफ, रक्त (आदि) की विषमता।",
+        "frame": "कौन: शारीरिक रोग · मूल: अन्न और पान · कारण: वात, पित्त, कफ, रक्त और सन्निपात की विषमता (सन्निपात का स्थान खुला है)।",
         "chunks": {"steps": ["शारीराः तु", "अन्नपानमूलाः",
                              "वातपित्तकफशोणितसन्निपातवैषम्यनिमित्ताः"]},
         "sandhi": "शारीराः + तु = शारीरास्तु (विसर्ग → स् त से पहले); तु + अन्न = त्वन्न (उ → व्)।",
@@ -749,7 +749,7 @@ AIDS = {
     "26": {
         "frame": "कौन: ये सब रोग · अधिष्ठान: मन और शरीर।",
         "chunks": {"steps": ["ते एते", "मनः शरीर अधिष्ठानाः"]},
-        "sandhi": "ते + एते = त एते (ए → अ स्वर से पहले); शरीर + अधिष्ठानाः = शरीराधिष्ठानाः (अ + अ = आ)।",
+        "sandhi": "ते + एते = त एते (ए → अ, अ के अलावा स्वर से पहले); शरीर + अधिष्ठानाः = शरीराधिष्ठानाः (अ + अ = आ)।",
     },
     "27": {
         "frame": "किसके: इन रोगों के · क्या: निग्रह के हेतु · कौन-कौन: संशोधन, संशमन, आहार, आचार · शर्त: सम्यक् प्रयुक्त।",
@@ -769,7 +769,7 @@ AIDS = {
 IMAGE_SPECS = {
     ("19", "diagram"): {
         "file": "ch1-guna-19.svg",
-        "alt": "Mind map with the head 'this' (तदिदम्) and its six qualities in the order of the line: eternal, meritorious, conducive to heaven, to fame, to long life, providing livelihood.",
+        "alt": "Mind map with the head 'this' (तदिदम्) and its six qualities: eternal, meritorious, conducive to heaven, to fame, to long life, providing livelihood.",
         "type": "mermaid",
         "code": ('mindmap\n'
                  '  तदिदम्\n'
@@ -782,31 +782,24 @@ IMAGE_SPECS = {
     },
     ("20", "chain"): {
         "file": "ch1-parampara-20.svg",
-        "alt": "Chain of four teachers in order: Brahma declared, Prajapati learned, the two Ashvins, Indra; then a dotted link to the purpose, to be given to seekers for the welfare of beings.",
+        "alt": "Chain of four teachers in order: Brahma declared, Prajapati learned, the two Ashvins, Indra; then the speaker ('by me'), and a dotted link to the purpose, to be given by the speaker to seekers for the welfare of beings.",
         "type": "mermaid",
         "code": ('flowchart TD\n'
                  '  A["ब्रह्मा ने कहा"] --> B["प्रजापति ने पढ़ा"]\n'
                  '  B --> C["दोनों अश्विनों ने"]\n'
                  '  C --> D["इन्द्र ने"]\n'
-                 '  D -.-> E["आगे: इच्छुकों को देना<br/>प्राणियों के हित के लिए"]'),
+                 '  D --> S["इन्द्र से मैं (वक्ता)"]\n'
+                 '  S -.-> E["मेरे द्वारा इच्छुकों को देना<br/>प्राणियों के हित के लिए"]'),
     },
     ("22", "diagram"): {
         "file": "ch1-purusha-22.svg",
-        "alt": "Mind map of the passage: the world is twofold (stationary and moving), twofold in nature (fiery and lunar), and the multitude of beings is fourfold (sweat-born, womb-born, egg-born, sprout-born).",
-        "type": "mermaid",
-        "code": ('mindmap\n'
-                 '  लोक और भूतग्राम\n'
-                 '    लोक द्विविध\n'
-                 '      स्थावर\n'
-                 '      जङ्गम\n'
-                 '    द्विविधात्मक\n'
-                 '      आग्नेय\n'
-                 '      सौम्य\n'
-                 '    भूतग्राम चतुर्विध\n'
-                 '      संस्वेदज\n'
-                 '      जरायुज\n'
-                 '      अण्डज\n'
-                 '      उद्भिज्ज'),
+        "alt": "Table of the passage: the world is twofold (stationary, moving), twofold in nature (fiery, lunar), and the multitude of beings is fourfold (sweat-born, womb-born, egg-born, sprout-born).",
+        "type": "table",
+        "title": "लोक और भूतग्राम",
+        "heads": ["विभाजन", "भेद"],
+        "rows": [["लोक द्विविध", "स्थावर, जङ्गम"],
+                 ["द्विविधात्मक", "आग्नेय, सौम्य"],
+                 ["भूतग्राम चतुर्विध", "संस्वेदज, जरायुज, अण्डज, उद्भिज्ज"]],
     },
     ("24", "diagram"): {
         "file": "ch1-chaturvidha-24.svg",
@@ -821,15 +814,13 @@ IMAGE_SPECS = {
     },
     ("27", "diagram"): {
         "file": "ch1-nigraha-27.svg",
-        "alt": "Mind map: properly applied, the four means of checking these diseases are purification, pacification, diet and conduct.",
+        "alt": "Diagram: the means of checking these diseases, under the condition 'properly applied', are four: purification, pacification, diet and conduct.",
         "type": "mermaid",
-        "code": ('mindmap\n'
-                 '  निग्रहहेतवः\n'
-                 '    संशोधन\n'
-                 '    संशमन\n'
-                 '    आहार\n'
-                 '    आचार\n'
-                 '    सम्यक्प्रयुक्ताः'),
+        "code": ('flowchart TD\n'
+                 '  H["निग्रहहेतवः<br/>(सम्यक्प्रयुक्ताः)"] --> A["संशोधन"]\n'
+                 '  H --> B["संशमन"]\n'
+                 '  H --> C["आहार"]\n'
+                 '  H --> D["आचार"]'),
     },
     ("28", "chain"): {
         "file": "ch1-ahara-28.svg",
@@ -838,7 +829,7 @@ IMAGE_SPECS = {
         "code": ('flowchart TD\n'
                  '  A["प्राणियों का मूल आहार<br/>बल, वर्ण, ओज का भी"] --> B["छह रसों पर आश्रित"]\n'
                  '  B --> C["रस द्रव्यों में आश्रित"]\n'
-                 '  C --> D["द्रव्य ही ओषधियाँ"]\n'
+                 '  C --> D["द्रव्य फिर ओषधियाँ"]\n'
                  '  D --> E["दो प्रकार की"]\n'
                  '  E --> F["स्थावर"]\n'
                  '  E --> G["जङ्गम"]'),
